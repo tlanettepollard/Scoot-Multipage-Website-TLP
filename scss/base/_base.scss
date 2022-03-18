@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 1px solid black;
+}
+
+html {
+    font: 62.5%;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
