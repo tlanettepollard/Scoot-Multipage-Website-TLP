@@ -1,6 +1,10 @@
 ### 03/18/2022
 
-Today I am starting the a new project-- Scoot Website with 4 pages. My overall goal is to work on this project in a timely manner. I am thinking of using Bootstrap for this site in addition to Sass.
+Today I am starting the a new project-- Scoot Website with 4 pages. My overall goal is to work on this project in a timely manner. I am thinking of using Bootstrap for this site in addition to Sass. I changed my mind. I got frustrated that the offcanvas menu didn't work in Bootstrap, so I went back to Vanilla JS. I also looked up mor info about the best breakpoints to use. It said you should choose the breakpoint based on your design. Think about if your design changes from one column to two columns based on your device size.
+
+Resources:
+
+- [Media Query Breakpoints](https://coder-coder.com/media-query-breakpoints/)
 
 ---
 
@@ -115,3 +119,7 @@ font-size: 2.400em;
 line-height: 2.8rem;
 letter-spacing: -1.07;
 }
+
+688px = 43em / 68.8em
+992px = 62em/ 99.2em
+1312px = 82em/ 131.2em

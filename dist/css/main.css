@@ -34,27 +34,39 @@ h4 {
 }
 
 h1 {
-  font-size: 5.6em;
   line-height: 5.6rem;
   letter-spacing: -2.5;
 }
 
 h2 {
-  font-size: 4.6em;
   line-height: 4.8rem;
   letter-spacing: -2.14;
 }
 
 h3 {
-  font-size: 4em;
   line-height: 4.8rem;
   letter-spacing: -1.79;
 }
 
 h4 {
-  font-size: 2.4em;
   line-height: 2.8rem;
   letter-spacing: -1.07;
+}
+
+@media (max-width: 43em) {
+  .header .top__navbar {
+    display: none;
+  }
+}
+@media (min-width: 44em) {
+  .header .top__navbar {
+    display: block;
+  }
+}
+@media (min-width: 44em) {
+  .header .side__navbar {
+    display: none;
+  }
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
