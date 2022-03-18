@@ -1,5 +1,5 @@
 .header {
-    .top_navbar {
+    .top__navbar {
        @media (max-width: 43em) {
            display: none;
        }
@@ -8,11 +8,11 @@
        }
     }
 
-    .side_navbar {
+    .side__navbar {
         @media (min-width: 44em) {
             display: none;
         }
-        
+
     }
 
 
