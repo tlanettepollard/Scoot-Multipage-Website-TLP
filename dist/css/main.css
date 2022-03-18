@@ -57,6 +57,22 @@ h4 {
   letter-spacing: -1.07;
 }
 
+@media (max-width: 43em) {
+  .header .top_navbar {
+    display: none;
+  }
+}
+@media (min-width: 44em) {
+  .header .top_navbar {
+    display: block;
+  }
+}
+@media (min-width: 44em) {
+  .header .side_navbar {
+    display: none;
+  }
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
