@@ -1,1 +1,39 @@
-@import '../node_modules/bootstrap/scss/bootstrap.scss'
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Space+Mono:wght@700&display=swap');
+
+// Variables
+$yellow: hsl(40, 97%, 58%);
+$dk-navy: hsl(216, 17%, 35%);
+$dim-grey: hsl(217, 12%, 62%);
+$lt-grey: hsl(212, 41%, 93%);
+$snow-grey: hsl(214, 37%, 96%);
+$lt-yellow: hsl(39, 100%, 94%);
+$heading-font: 'Space Mono',
+monospace;
+$text-font: 'Lexend Deca',
+sans-serif;
+
+//Theme
+
+
+
+
+// Base styles
+*, 
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 1px solid black;
+}
+
+html {
+    font: 62.5%; 
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
