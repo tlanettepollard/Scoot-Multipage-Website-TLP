@@ -32,4 +32,14 @@ body {
     max-height: 5.3rem;
     width: 100%;
     padding: 2rem 1rem;
+    font-family: $heading-font;
+    background-color: $button-bg;
+    color: $button-text;
+    
+    &:hover {
+        background-color: transparent;
+        color: $button-hover-text;
+        border: 2px solid $button-hover-border;
+    }
+    
 }

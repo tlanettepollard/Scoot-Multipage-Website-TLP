@@ -34,6 +34,14 @@ body {
   max-height: 5.3rem;
   width: 100%;
   padding: 2rem 1rem;
+  font-family: "Space Mono", monospace;
+  background-color: #fcb72c;
+  color: white;
+}
+.btn:hover {
+  background-color: transparent;
+  color: #fcb72c;
+  border: 2px solid #fcb72c;
 }
 
 body {
