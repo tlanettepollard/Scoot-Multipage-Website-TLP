@@ -1,10 +1,11 @@
 ### 03/18/2022
 
-Today I am starting the a new project-- Scoot Website with 4 pages. My overall goal is to work on this project in a timely manner. I am thinking of using Bootstrap for this site in addition to Sass. I changed my mind. I got frustrated that the offcanvas menu didn't work in Bootstrap, so I went back to Vanilla JS. I also looked up mor info about the best breakpoints to use. It said you should choose the breakpoint based on your design. Think about if your design changes from one column to two columns based on your device size.
+Today I am starting the a new project-- Scoot Website with 4 pages. My overall goal is to work on this project in a timely manner. I am thinking of using Bootstrap for this site in addition to Sass. I changed my mind. I got frustrated that the offcanvas menu didn't work in Bootstrap, so I went back to Vanilla JS. I also looked up mor info about the best breakpoints to use. It said you should choose the breakpoint based on your design. Think about if your design changes from one column to two columns based on your device size. So, I was able to add all of the structure to the four html pages. I started some styling.
 
 Resources:
 
-- [Media Query Breakpoints](https://coder-coder.com/media-query-breakpoints/)
+- [What Media Query Breakpoints Should You Use? 2021](https://coder-coder.com/media-query-breakpoints/)
+- [5 Steps to Implement Maintainable and Scalable Sass Theming in Complex Projects](https://medium.com/javascript-in-plain-english/5-steps-to-implement-maintainable-and-scalable-sass-theming-in-complex-projects-76bb6da0a8e6): very good article about how to organize your folder structure for Sass.
 
 ---
 
