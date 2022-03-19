@@ -19,6 +19,31 @@ body {
   padding: 0;
 }
 
+/* Main Styling */
+.wrapper {
+  max-width: 148rem;
+  min-height: 100vh;
+  overflow-x: hidden;
+  margin: auto;
+  position: relative;
+}
+
+.btn {
+  display: inline-block;
+  max-width: 19.2rem;
+  max-height: 5.3rem;
+  width: 100%;
+  padding: 2rem 1rem;
+  font-family: "Space Mono", monospace;
+  background-color: #fcb72c;
+  color: white;
+}
+.btn:hover {
+  background-color: transparent;
+  color: #fcb72c;
+  border: 2px solid #fcb72c;
+}
+
 body {
   font-family: "Lexend Deca", sans-serif;
   font-size: 1.5em;

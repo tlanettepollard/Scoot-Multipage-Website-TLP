@@ -17,3 +17,29 @@ body {
     padding: 0;
 }
 
+/* Main Styling */
+.wrapper {
+    max-width: 148rem;
+    min-height: 100vh;
+    overflow-x: hidden;
+    margin: auto;
+    position: relative;
+}
+
+.btn {
+    display: inline-block;
+    max-width: 19.2rem;
+    max-height: 5.3rem;
+    width: 100%;
+    padding: 2rem 1rem;
+    font-family: $heading-font;
+    background-color: $button-bg;
+    color: $button-text;
+    
+    &:hover {
+        background-color: transparent;
+        color: $button-hover-text;
+        border: 2px solid $button-hover-border;
+    }
+    
+}
