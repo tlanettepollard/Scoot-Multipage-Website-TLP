@@ -4,86 +4,280 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="stylesheet" type="text/css" href="/dist/css/main.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <title>Frontend Mentor | Scoot</title>
+  <title>Scoot Careers</title>
 </head>
 <body>
+  <div class="wrapper">
+    <!-- Navbar/Sidebar -->
+    <header class="header"> 
+      <nav class="top__navbar container">
+        <div class="navbar-brand">
+          <a href="/index.html">
+            <img src="./assets/logo.svg" alt="company-logo" class="logo" />
+          </a>
+        </div>
+        <div class="top__navbar-menu">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="/about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="/locations.html" class="nav-link">Location</a>
+            </li>
+            <li class="nav-item">
+              <a href="/careers.html" class="nav-link">Careers</a>
+            </li>
+          </ul>
+          <a href="#scoot">
+            <button class="nav-item btn-cta" type="button">
+              Get Scootin
+            </button>
+          </a>
+        </div>
+      </nav>
+      <!-- Mobile Sidebar -->
+      <div id="mobileSideNav" class="side__navbar container">
+        <img src="/assets/icons/hamburger.svg" alt="open sidebar" class="hamburger"/>
+        <div class="logo">
+          <a href="/index.html">
+            <img src="./assets/logo.svg" alt="company-logo" class="logo" />
+          </a>
+        </div>
+        <div class="side__navbar-menu">
+          <div class="close">
+            <img src="./assets/icons/close.svg" alt="close-menu">
+          </div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="/about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="/locations.html" class="nav-link">Location</a>
+            </li>
+            <li class="nav-item">
+              <a href="/careers.html" class="nav-link">Careers</a>
+            </li>
+          </ul>
+          <a href="#scoot">
+            <button class="nav-item btn-cta" type="button">
+              Get Scootin
+            </button>
+          </a>
+        </div>
+      </div>
+    </header> 
+    <!-- End Header -->
 
-  About
-  Location
-  Careers
+    <section class="hero">
+      <div class="hero__container">
+        <h1>Careers</h1>
+      </div>
+    </section>
+    <!-- End Hero Section -->
 
-  Get Scootin
+    <section class="career">
+      <div class="career__container">
+        <article class="feature">
+          <div class="feature-image fi-1">
+            <img class="feature-picture" src="./assets/images/join-us.jpg" alt="article feature">
+          </div>
+          <div class="feature-text ft-1">
+            <h2>Care to join our mission?</h2>
+            <p>We’re always looking for ambitious individuals to help us on our journey. If you’re 
+            passionate about our mission to provide clean, accessible transport to improve urban 
+            living we want to hear from you!</p>
+          </div>
+          <a href="#">
+            <button class="careers-btn btn" type="button">
+              Say Hello
+            </button>
+          </a>
+        </article>
+      </div>
+    </section>
+    <!-- End Careers Section -->
 
+    <section class="careers values">
+      <div class="values__header">
+        <h2>Why join us?</h2>
+      </div>
+      <div class="values__container">
+        <article class="value-feature">
+          <div class="value-image">
+            <img src="./assets/images/our-tech.jpg" alt="article feature">
+            <div class="number">
+              <h4>01</h4>
+            </div>
+          </div>
+          <div class="value-text">
+            <h4>Our tech</h4>
+            <p>We’re using cutting edge technology to drive accessible urban transportation forward. Our fully electric scooters are a joy to ride!</p>
+          </div>
+        </article>
 
+        <article class="value-feature">
+          <div class="value-image">
+            <img src="./assets/images/our-integrity.jpg" alt="article feature">
+            <div class="number">
+              <h4>02</h4>
+            </div>
+          </div>
+          <div class="value-text">
+            <h4>Our integrity</h4>
+            <p>We are fully committed to deliver a great yet safe, sustainable micro-mobility experience 
+            in every city we serve.</p>
+          </div>
+        </article>
 
-  Careers
+        <article class="value-feature">
+          <div class="value-image">
+            <img src="./assets/images/our-community.jpg" alt="article feature">
+            <div class="number">
+              <h4>03</h4>
+            </div>
+          </div>
+          <div class="value-text">
+            <h4>Our community</h4>
+            <p>We support every community we serve. All workers are paid a living wage based on their 
+            location and are Scoot employees.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- End Career Values Section -->
 
+    <section class="jobs">
+      <div class="jobs__container">
+        <ul class="job-positions">
+          <li class="jobPosition">
+            <div class="position-text">
+              <h4>General Manager</h4>
+              <p>Jakarta, Indonesia</p>
+              <div class="message">
+                <a href="#">
+                  <button class="message-btn" type="button">Apply</button>
+                </a>
+              </div>
+            </div>
+          </li>
 
+          <li class="jobPosition">
+            <div class="position-text">
+              <h4>UI/UX Designer</h4>
+              <p>Yokohama, Japan</p>
+              <div class="message">
+                <a href="#">
+                  <button class="message-btn" type="button">Apply</button>
+                </a>
+              </div>
+            </div>
+          </li>
 
-  Care to join our mission?
+          <li class="jobPosition">
+            <div class="position-text">
+              <h4>Blog Content Copywriter</h4>
+              <p>New York, United States</p>
+              <div class="message">
+                <a href="#">
+                  <button class="message-btn" type="button">Apply</button>
+                </a>
+              </div>
+            </div>
+          </li>
 
-  We’re always looking for ambitious individuals to help us on our journey. If you’re 
-  passionate about our mission to provide clean, accessible transport to improve urban 
-  living we want to hear from you!
+          <li class="jobPosition">
+            <div class="position-text">
+              <h4>Graphic Designer</h4>
+              <p>New York, United States</p>
+              <div class="message">
+                <a href="#">
+                  <button class="message-btn" type="button">Apply</button>
+                </a>
+              </div>
+            </div>
+          </li>
 
-  Say Hello
+          <li class="jobPosition">
+            <div class="position-text">
+              <h4>Fleet Supervisor</h4>
+              <p>Jakarta, Indonesia</p>
+              <div class="message">
+                <a href="#">
+                  <button class="message-btn" type="button">Apply</button>
+                </a>
+              </div>
+            </div>
+          </li>
 
+          <li class="jobPosition">
+            <div class="position-text">
+              <h4>UX Analyst</h4>
+              <p>London, United Kingdom</p>
+              <div class="message">
+                <a href="#">
+                  <button class="message-btn" type="button">Apply</button>
+                </a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
 
+    <section class="call-to-action" id="scoot">
+      <div class="cta__container">
+        <h2>Sign up and Scoot off today</h2>
+        <div class="app-stores">
+          <div class="store apple">
+            <img src="/assets/icons/app-store.svg" alt="app-store">
+          </div>
+          <div class="store google">
+            <img src="/assets/icons/google-play.svg" alt="google-play">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End CTA Section -->
 
-  Why join us?
-
-  01
-  Our tech
-  We’re using cutting edge technology to drive accessible urban transportation forward. 
-  Our fully electric scooters are a joy to ride!
-
-  02
-  Our integrity
-  We are fully committed to deliver a great yet safe, sustainable micro-mobility experience 
-  in every city we serve.
-
-  03
-  Our community
-  We support every community we serve. All workers are paid a living wage based on their 
-  location and are Scoot employees.
-
-  
-
-  General Manager
-  Jakarta, Indonesia
-  Apply
-
-  UI/UX Designer
-  Yokohama, Japan
-  Apply
-
-  Blog Content Copywriter
-  New York, United States
-  Apply
-
-  Graphic Designer
-  New York, United States
-  Apply
-
-  Fleet Supervisor
-  Jakarta, Indonesia
-  Apply
-
-  UX Analyst
-  London, United Kingdom
-  Apply
-
-  
-
-  Sign up and Scoot off today
-
-
-
-  About
-  Location
-  Careers
-
+    <footer>
+      <div class="footer__container">
+        <div class="footer-logo">
+          <a href="index.html">
+            <img src="./assets/logo.svg" alt="company logo">
+          </a>
+        </div>
+        <ul class="footer-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="locations.html">Location</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="locations.html">Careers</a>
+        </ul>
+        <div class="social-icons">
+          <a href="#" class="social-icons-link">
+            <img src="./assets/icons/facebook.svg" alt="facebook">
+          </a>
+          <a href="#" class="social-icons-link">
+            <img src="./assets/icons/twitter.svg" alt="twitter">
+          </a>
+          <a href="#" class="social-icons-link">
+            <img src="./assets/icons/instagram.svg" alt="instagram">
+          </a>
+        </div>
+      </div>
+      <div class="attribution">
+          <p>Challenge by &nbsp;<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.Coded by &nbsp;<a href="https://github.com/tlanettepollard">T.Lanette</a>
+      </div>
+    </footer>
+  </div><!-- Wrapper -->
+ 
+  <!-- My JS -->
+  <script src="/main.js"></script>
 </body>
 </html>
