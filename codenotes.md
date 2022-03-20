@@ -7,6 +7,9 @@ Resources:
 - [What Media Query Breakpoints Should You Use? 2021](https://coder-coder.com/media-query-breakpoints/)
 - [5 Steps to Implement Maintainable and Scalable Sass Theming in Complex Projects](https://medium.com/javascript-in-plain-english/5-steps-to-implement-maintainable-and-scalable-sass-theming-in-complex-projects-76bb6da0a8e6): very good article about how to organize your folder structure for Sass.
 
+### 03/20/2022
+Hi. Happy Sunday! 
+
 ---
 
 font-family: 'Lexend Deca', sans-serif;

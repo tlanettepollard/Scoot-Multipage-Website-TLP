@@ -1,18 +1,77 @@
 .header {
-    .top__navbar {
+    .top_navbar-container {
        @media (max-width: 43em) {
            display: none;
        }
        @media (min-width: 44em) {
-           display: block;
+           display: flex;
+           align-items: center;
+       }
+
+       .top_navbar-menu {
+           @media (min-width: 44em) {
+               width: 100%;
+               display: flex;
+               justify-content: space-between;
+               align-items: center;
+           }
+           .navbar-nav {
+                @media (min-width: 44em) {
+                    display: flex;
+                }
+            }
        }
     }
 
-    .side__navbar {
+    .side_navbar-container {
+        position: fixed;
+        top: 0;
+        text-align: center;
+        background: $white;
+        display: block;
+        height: 7rem; 
+        width: 100%;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
         @media (min-width: 44em) {
             display: none;
         }
 
+        .side_navbar-menu {
+            height: calc(100% - 70%); 
+            width: 0px;
+            position: fixed;
+            top: 7rem;
+            float: left;
+            text-align: left;
+            z-index: 1;
+            background-color: $sidebar-bg;
+            overflow: hidden;
+            padding-top: -2rem;
+            transition: 0.5s;
+        }
+        .logo-container {
+            padding: 1rem;
+            margin: auto;
+            .logo {
+                width: 7.5rem;
+                height: 2rem;
+                
+            }
+        }
+
+        .hamburger {
+            padding: 3rem;
+        }
+
+        .close {
+            position: absolute;
+            top: 2%;
+            right: 5%;
+        }
     }
 
 
