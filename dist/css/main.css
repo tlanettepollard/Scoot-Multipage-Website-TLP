@@ -128,6 +128,19 @@ h4 {
   background-image: url("../../assets/images/home-hero-mobile.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  max-height: 65rem;
+  width: 100%;
+}
+@media (min-width: 47.938em) and (max-width: 63.938em) {
+  .hero {
+    background-image: url("../../assets/images/home-hero-tablet.jpg");
+  }
+}
+@media (min-width: 64em) {
+  .hero {
+    background-image: url("../../assets/images/home-hero-desktop.jpg");
+  }
 }
 @media (max-width: 62em) {
   .hero .line .hero-line {
