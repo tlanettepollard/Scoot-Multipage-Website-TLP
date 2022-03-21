@@ -1,78 +1,51 @@
-.header {
+.header-container {
     .top_navbar-container {
-       @media (max-width: 43em) {
-           display: none;
-       }
-       @media (min-width: 44em) {
-           display: flex;
-           align-items: center;
-       }
-
-       .top_navbar-menu {
-           @media (min-width: 44em) {
-               width: 100%;
-               display: flex;
-               justify-content: space-between;
-               align-items: center;
-           }
-           .navbar-nav {
-                @media (min-width: 44em) {
-                    display: flex;
-                }
-            }
-       }
-    }
-
-    .side_navbar-container {
-        position: fixed;
-        top: 0;
-        text-align: center;
-        background: $white;
-        display: block;
-        height: 7rem; 
-        width: 100%;
-        z-index: 1;
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-
-        @media (min-width: 44em) {
+        @media (max-width: 48em) {
             display: none;
         }
 
-        .side_navbar-menu {
-            height: calc(100% - 70%); 
-            width: 0px;
-            position: fixed;
-            top: 7rem;
-            float: left;
-            text-align: left;
-            z-index: 1;
-            background-color: $sidebar-bg;
-            overflow: hidden;
-            padding-top: -2rem;
-            transition: 0.5s;
+        @media (min-width: 49em){
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 9.6rem;
         }
-        .logo-container {
-            padding: 1rem;
-            margin: auto;
-            .logo {
-                width: 7.5rem;
-                height: 2rem;
-                
+        .navbar-brand {
+            .top-logo {
+                width: 10.7rem;
+                height: 2.85rem;
+                margin-left: 2rem;
             }
         }
+        .top_navbar-menu {
+            @media (min-width: 49em) {
+                display: flex;
+                align-items: center;
+                width: 70%;
+            }
 
-        .hamburger {
-            padding: 3rem;
-        }
+            .navbar-nav {
+                @media (min-width: 49em) {
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                }
+            }
 
-        .close {
-            position: absolute;
-            top: 2%;
-            right: 5%;
+            .top-navbar-btn {
+                width: 18rem;
+                height: 5.3rem;
+                margin-right: 2rem;
+            }
         }
     }
 
+    .sidebar-container {
+        @media (min-width: 49em) {
+            display: none;
+        }
 
+        
+    }
 }
+    

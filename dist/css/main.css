@@ -25,7 +25,7 @@ ul {
 
 /* Main Styling */
 .wrapper {
-  max-width: 148rem;
+  max-width: 144rem;
   min-height: 100vh;
   overflow-x: hidden;
   margin: auto;
@@ -82,82 +82,58 @@ h4 {
   letter-spacing: -1.07;
 }
 
-@media (max-width: 43em) {
-  .header .top_navbar-container {
+@media (max-width: 48em) {
+  .header-container .top_navbar-container {
     display: none;
   }
 }
-@media (min-width: 44em) {
-  .header .top_navbar-container {
+@media (min-width: 49em) {
+  .header-container .top_navbar-container {
     display: flex;
     align-items: center;
-  }
-}
-@media (min-width: 44em) {
-  .header .top_navbar-container .top_navbar-menu {
-    width: 100%;
-    display: flex;
     justify-content: space-between;
-    align-items: center;
+    height: 9.6rem;
   }
 }
-@media (min-width: 44em) {
-  .header .top_navbar-container .top_navbar-menu .navbar-nav {
+.header-container .top_navbar-container .navbar-brand .top-logo {
+  width: 10.7rem;
+  height: 2.85rem;
+  margin-left: 2rem;
+}
+@media (min-width: 49em) {
+  .header-container .top_navbar-container .top_navbar-menu {
     display: flex;
+    align-items: center;
+    width: 70%;
   }
 }
-.header .side_navbar-container {
-  position: fixed;
-  top: 0;
-  text-align: center;
-  background: white;
-  display: block;
-  height: 7rem;
-  width: 100%;
-  z-index: 1;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
+@media (min-width: 49em) {
+  .header-container .top_navbar-container .top_navbar-menu .navbar-nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
 }
-@media (min-width: 44em) {
-  .header .side_navbar-container {
+.header-container .top_navbar-container .top_navbar-menu .top-navbar-btn {
+  width: 18rem;
+  height: 5.3rem;
+  margin-right: 2rem;
+}
+@media (min-width: 49em) {
+  .header-container .sidebar-container {
     display: none;
   }
-}
-.header .side_navbar-container .side_navbar-menu {
-  height: 30%;
-  width: 0px;
-  position: fixed;
-  top: 7rem;
-  float: left;
-  text-align: left;
-  z-index: 1;
-  background-color: #323943;
-  overflow: hidden;
-  padding-top: -2rem;
-  transition: 0.5s;
-}
-.header .side_navbar-container .logo-container {
-  padding: 1rem;
-  margin: auto;
-}
-.header .side_navbar-container .logo-container .logo {
-  width: 7.5rem;
-  height: 2rem;
-}
-.header .side_navbar-container .hamburger {
-  padding: 3rem;
-}
-.header .side_navbar-container .close {
-  position: absolute;
-  top: 2%;
-  right: 5%;
 }
 
 .hero {
   background-image: url("../../assets/images/home-hero-mobile.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+@media (max-width: 62em) {
+  .hero .line .hero-line {
+    display: none;
+  }
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */

@@ -12,11 +12,11 @@
 <body>
   <div class="wrapper">
     <!-- Navbar/Sidebar -->
-    <header class="header"> 
+    <header class="header-container"> 
       <nav class="top_navbar-container">
         <div class="navbar-brand">
           <a href="/index.html">
-            <img src="./assets/logo.svg" alt="company-logo" class="logo" />
+            <img src="./assets/logo.svg" alt="company-logo" class="top-logo" />
           </a>
         </div>
         <div class="top_navbar-menu">
@@ -32,25 +32,25 @@
             </li>
           </ul>
           <a href="#scoot">
-            <button class="nav-item btn btn-cta" type="button">
+            <button class="btn top-navbar-btn" type="button">
               Get Scootin
             </button>
           </a>
         </div>
       </nav>
       <!-- Mobile Sidebar -->
-      <div id="mobileSideNav" class="side_navbar-container">
-        <img src="/assets/icons/hamburger.svg" alt="open sidebar" id="hamburger" class="hamburger"/>
+      <div id="mobileSideNav" class="sidebar-container">
+        <img src="/assets/icons/hamburger.svg" alt="open sidebar" class="hamburger" onclick="openNav()">
         <div class="logo-container">
           <a href="/index.html">
             <img src="./assets/logo.svg" alt="company-logo" class="logo" />
           </a>
         </div>
-        <div class="side_navbar-menu">
+        <div class="sidebar-menu">
           <div class="close">
-            <img src="./assets/icons/close.svg" alt="close-menu">
+            <img src="./assets/icons/close.svg" alt="close-menu" onclick="closeNav()">
           </div>
-          <ul class="navbar-nav">
+          <ul class="navbar-nav sidebar-nav">
             <li class="nav-item">
               <a href="/about.html" class="nav-link">About</a>
             </li>
@@ -62,7 +62,7 @@
             </li>
           </ul>
           <a href="#scoot">
-            <button class="btn btn-cta" type="button">
+            <button class="btn navbar-btn" type="button">
               Get Scootin
             </button>
           </a>

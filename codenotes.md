@@ -125,5 +125,6 @@ letter-spacing: -1.07;
 }
 
 688px = 43em / 68.8em
+768px = 48em/ 76.8em
 992px = 62em/ 99.2em
 1312px = 82em/ 131.2em

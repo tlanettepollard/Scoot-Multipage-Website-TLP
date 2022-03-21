@@ -2,4 +2,12 @@
     background-image: url('../../assets/images/home-hero-mobile.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+
+    .line {
+        .hero-line {
+            @media (max-width: 62em){
+                display: none;
+            }
+        }
+    }
 }
