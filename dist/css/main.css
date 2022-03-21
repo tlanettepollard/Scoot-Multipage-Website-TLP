@@ -94,30 +94,29 @@ h4 {
     justify-content: space-between;
     height: 9.6rem;
   }
-}
-.header-container .top_navbar-container .navbar-brand .top-logo {
-  width: 10.7rem;
-  height: 2.85rem;
-  margin-left: 2rem;
-}
-@media (min-width: 49em) {
+  .header-container .top_navbar-container .navbar-brand .top-logo {
+    width: 10.7rem;
+    height: 2.85rem;
+    margin-left: 2rem;
+  }
   .header-container .top_navbar-container .top_navbar-menu {
     display: flex;
     align-items: center;
     width: 70%;
   }
-}
-@media (min-width: 49em) {
   .header-container .top_navbar-container .top_navbar-menu .navbar-nav {
     display: flex;
     align-items: center;
     width: 100%;
   }
-}
-.header-container .top_navbar-container .top_navbar-menu .top-navbar-btn {
-  width: 18rem;
-  height: 5.3rem;
-  margin-right: 2rem;
+  .header-container .top_navbar-container .top_navbar-menu .navbar-nav .nav-item {
+    padding: 1rem;
+  }
+  .header-container .top_navbar-container .top_navbar-menu .top-navbar-btn {
+    width: 18rem;
+    height: 5.3rem;
+    margin-right: 2rem;
+  }
 }
 @media (min-width: 49em) {
   .header-container .sidebar-container {
