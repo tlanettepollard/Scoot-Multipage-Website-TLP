@@ -125,11 +125,15 @@ h4 {
 }
 
 .hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-image: url("../../assets/images/home-hero-mobile.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  max-height: 65rem;
+  height: 65rem;
   width: 100%;
 }
 @media (min-width: 47.938em) and (max-width: 63.938em) {
@@ -142,10 +146,9 @@ h4 {
     background-image: url("../../assets/images/home-hero-desktop.jpg");
   }
 }
-@media (max-width: 62em) {
-  .hero .line .hero-line {
-    display: none;
-  }
+.hero .hero-container {
+  height: 100%;
+  margin: auto;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
