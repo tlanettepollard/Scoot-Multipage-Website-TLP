@@ -1,19 +1,54 @@
-.header {
-    .top__navbar {
-       @media (max-width: 43em) {
-           display: none;
-       }
-       @media (min-width: 44em) {
-           display: block;
-       }
+.header-container {
+    .top_navbar-container {
+        @media (max-width: 48em) {
+            display: none;
+        }// Max-width 768px
+
+        @media (min-width: 49em){
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 9.6rem;
+        
+            .navbar-brand {
+                .top-logo {
+                    width: 10.7rem;
+                    height: 2.85rem;
+                    margin-left: 2rem;
+                }
+            }
+            .top_navbar-menu {
+                
+                display: flex;
+                align-items: center;
+                width: 70%;
+                
+                .navbar-nav {
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+
+                    .nav-item {
+                        padding: 1rem;
+                    }
+                    
+                }
+                .top-navbar-btn {
+                    width: 18rem;
+                    height: 5.3rem;
+                    margin-right: 2rem;
+                }
+            }   
+            
+        } // Min-width 784px   
     }
 
-    .side__navbar {
-        @media (min-width: 44em) {
+    .sidebar-container {
+        @media (min-width: 49em) {
             display: none;
         }
 
+        
     }
-
-
 }
+    

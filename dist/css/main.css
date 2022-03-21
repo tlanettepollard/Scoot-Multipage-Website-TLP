@@ -19,9 +19,13 @@ body {
   padding: 0;
 }
 
+ul {
+  list-style-type: none;
+}
+
 /* Main Styling */
 .wrapper {
-  max-width: 148rem;
+  max-width: 144rem;
   min-height: 100vh;
   overflow-x: hidden;
   margin: auto;
@@ -78,20 +82,73 @@ h4 {
   letter-spacing: -1.07;
 }
 
-@media (max-width: 43em) {
-  .header .top__navbar {
+@media (max-width: 48em) {
+  .header-container .top_navbar-container {
     display: none;
   }
 }
-@media (min-width: 44em) {
-  .header .top__navbar {
-    display: block;
+@media (min-width: 49em) {
+  .header-container .top_navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 9.6rem;
+  }
+  .header-container .top_navbar-container .navbar-brand .top-logo {
+    width: 10.7rem;
+    height: 2.85rem;
+    margin-left: 2rem;
+  }
+  .header-container .top_navbar-container .top_navbar-menu {
+    display: flex;
+    align-items: center;
+    width: 70%;
+  }
+  .header-container .top_navbar-container .top_navbar-menu .navbar-nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  .header-container .top_navbar-container .top_navbar-menu .navbar-nav .nav-item {
+    padding: 1rem;
+  }
+  .header-container .top_navbar-container .top_navbar-menu .top-navbar-btn {
+    width: 18rem;
+    height: 5.3rem;
+    margin-right: 2rem;
   }
 }
-@media (min-width: 44em) {
-  .header .side__navbar {
+@media (min-width: 49em) {
+  .header-container .sidebar-container {
     display: none;
   }
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../assets/images/home-hero-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 65rem;
+  width: 100%;
+}
+@media (min-width: 47.938em) and (max-width: 63.938em) {
+  .hero {
+    background-image: url("../../assets/images/home-hero-tablet.jpg");
+  }
+}
+@media (min-width: 64em) {
+  .hero {
+    background-image: url("../../assets/images/home-hero-desktop.jpg");
+  }
+}
+.hero .hero-container {
+  height: 100%;
+  margin: auto;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
