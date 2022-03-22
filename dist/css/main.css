@@ -82,45 +82,41 @@ h4 {
   letter-spacing: -1.07;
 }
 
-@media (max-width: 48em) {
-  .header-container .top_navbar-container {
-    display: none;
+.navbar {
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: white;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media (min-width: 62em) {
+  .navbar {
+    flex-direction: row;
   }
 }
-@media (min-width: 49em) {
-  .header-container .top_navbar-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 9.6rem;
-  }
-  .header-container .top_navbar-container .navbar-brand .top-logo {
-    width: 10.7rem;
-    height: 2.85rem;
-    margin-left: 2rem;
-  }
-  .header-container .top_navbar-container .top_navbar-menu {
-    display: flex;
-    align-items: center;
-    width: 70%;
-  }
-  .header-container .top_navbar-container .top_navbar-menu .navbar-nav {
-    display: flex;
-    align-items: center;
-    width: 100%;
-  }
-  .header-container .top_navbar-container .top_navbar-menu .navbar-nav .nav-item {
-    padding: 1rem;
-  }
-  .header-container .top_navbar-container .top_navbar-menu .top-navbar-btn {
-    width: 18rem;
-    height: 5.3rem;
-    margin-right: 2rem;
-  }
+.navbar .navbar-section {
+  display: flex;
+  align-items: center;
+  height: 6.4rem;
 }
-@media (min-width: 49em) {
-  .header-container .sidebar-container {
-    display: none;
+.navbar .navbar-collapse {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 62em) {
+  .navbar .navbar-collapse {
+    width: 90%;
+    flex-direction: row;
+    align-items: center;
+  }
+  .navbar .navbar-collapse .nav-items {
+    display: flex;
   }
 }
 
