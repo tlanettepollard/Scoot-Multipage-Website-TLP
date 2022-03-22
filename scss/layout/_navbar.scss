@@ -33,17 +33,14 @@
 
             }
 
-            .close-icon {
-                display: none;
-                cursor: pointer;
-            }
-
             @media (min-width: 62em){
                 .open-icon {
                     display: none;
 
                 }
             }
+
+            
         }
 
     }
@@ -94,10 +91,20 @@
             height: 5.3rem;
             margin-right: 2rem;
         }
+
+        
     }
 
     .show {
         transform: translateX(0);
+    }
+
+    .close-icon {
+        display: none;
+        cursor: pointer;
+        position: absolute;
+        top: 2%;
+        right: 5%;
     }
 }
     

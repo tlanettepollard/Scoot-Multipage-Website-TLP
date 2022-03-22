@@ -13,7 +13,7 @@ Hi. Happy Sunday! Did some work on styling my header.
 
 ### 03/21/2022
 
-Happy Monday! I realized that I had a perfect page to refer to for making the sidebar-- My portfolio page. I also found an article about using floating elements to help with the extra designs for this page.
+Happy Monday! I realized that I had a perfect page to refer to for making the sidebar-- My portfolio page. I also found an article about using floating elements to help with the extra designs for this page. I got my sidebar to work. It opens, but now it isn't closing. Will try to work that out tomorrow. 
 
 Resources:
 
