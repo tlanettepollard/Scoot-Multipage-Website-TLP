@@ -117,10 +117,6 @@ h4 {
   font-size: 2rem;
   background-color: transparent;
 }
-.navbar .navbar-section .mobile-menu-icons .close-icon {
-  display: none;
-  cursor: pointer;
-}
 @media (min-width: 62em) {
   .navbar .navbar-section .mobile-menu-icons .open-icon {
     display: none;
@@ -173,6 +169,13 @@ h4 {
 }
 .navbar .show {
   transform: translateX(0);
+}
+.navbar .close-icon {
+  display: none;
+  cursor: pointer;
+  position: absolute;
+  top: 2%;
+  right: 5%;
 }
 
 .hero {
