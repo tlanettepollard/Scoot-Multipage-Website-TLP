@@ -11,65 +11,37 @@
 </head>
 <body>
   <div class="wrapper">
-    <!-- Navbar/Sidebar -->
-    <header class="header-container"> 
-      <nav class="top_navbar-container">
+    <!-- Navbar-->
+      <nav class="navbar">
         <div class="navbar-brand">
           <a href="/index.html">
             <img src="./assets/logo.svg" alt="company-logo" class="top-logo" />
           </a>
         </div>
-        <div class="top_navbar-menu">
-          <ul class="navbar-nav">
-            <li class="nav-item">
+        <div class="navbar-collapse">
+          <ul class="nav-items">
+            <li>
               <a href="/about.html" class="nav-link">About</a>
             </li>
-            <li class="nav-item">
+            <li>
               <a href="/locations.html" class="nav-link">Location</a>
             </li>
-            <li class="nav-item">
+            <li>
               <a href="/careers.html" class="nav-link">Careers</a>
             </li>
           </ul>
           <a href="#scoot">
-            <button class="btn- top-navbar-btn" type="button">
+            <button class="btn top-navbar-btn" type="button">
               Get Scootin
             </button>
           </a>
         </div>
+        <button class="mobile-menu" id="mobile-menu">
+          <img class="menu-icon"  src="./assets/icons/hamburger.svg" alt="open-menu">
+          <img class="close-icon" src="./assets/icons/close.svg" alt="close-menu">
+        </button>
       </nav>
-      <!-- Mobile Sidebar -->
-      <div id="mobileSideNav" class="sidebar-container">
-        <img src="/assets/icons/hamburger.svg" alt="open sidebar" class="hamburger"/>
-        <div class="logo">
-          <a href="/index.html">
-            <img src="./assets/logo.svg" alt="company-logo" class="sidebar-logo" />
-          </a>
-        </div>
-        <div class="sidebar-menu">
-          <div class="close">
-            <img src="./assets/icons/close.svg" alt="close-menu">
-          </div>
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a href="/about.html" class="nav-link">About</a>
-            </li>
-            <li class="nav-item">
-              <a href="/locations.html" class="nav-link">Location</a>
-            </li>
-            <li class="nav-item">
-              <a href="/careers.html" class="nav-link">Careers</a>
-            </li>
-          </ul>
-          <a href="#scoot">
-            <button class="btn side-navbar-btn" type="button">
-              Get Scootin
-            </button>
-          </a>
-        </div>
-      </div>
-    </header> 
-    <!-- End Header -->
+    <!-- End Navbar -->
 
     <section class="hero">
       <div class="hero__container">

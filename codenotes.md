@@ -8,7 +8,16 @@ Resources:
 - [5 Steps to Implement Maintainable and Scalable Sass Theming in Complex Projects](https://medium.com/javascript-in-plain-english/5-steps-to-implement-maintainable-and-scalable-sass-theming-in-complex-projects-76bb6da0a8e6): very good article about how to organize your folder structure for Sass.
 
 ### 03/20/2022
-Hi. Happy Sunday! 
+
+Hi. Happy Sunday! Did some work on styling my header.
+
+### 03/21/2022
+
+Happy Monday! I realized that I had a perfect page to refer to for making the sidebar-- My portfolio page. I also found an article about using floating elements to help with the extra designs for this page.
+
+Resources:
+
+- [How to Use Floating Elements to Improve Your Web Design](https://adwebstudiouae015.medium.com/how-to-use-floating-elements-to-improve-your-web-design-2393d1d4fd66)
 
 ---
 
