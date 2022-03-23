@@ -1,10 +1,10 @@
 .navbar {
     width: 100%;
-    height: 6.4rem;
-    position: sticky;
+    //height: 6.4rem;
+    //position: sticky;
     background-color: $white;
-    top: 0;
-    left: 0;
+    //top: 0;
+    //left: 0;
     z-index: 1;
     display: flex;
     flex-direction: column;
@@ -15,20 +15,30 @@
         height: 9.6rem;
     }
 
-    .navbar-section {
+    .main-navbar {
+        position: relative;
+        margin: 0 auto;
+        padding: 1.3rem 0;
         display: flex;
+        justify-content: center;
         align-items: center;
         height: 6.4rem;
+        width: 100%;
 
         @media (min-width: 62em) {
+            width: 20%;
             height: 9.6rem;
+            justify-content: flex-start;
         }
 
         .mobile-menu-icons {
             .open-icon {
+                position: absolute;
                 cursor: pointer;
-                border: 0;
-                font-size: 2rem;
+                border-style: none;
+                margin: auto;
+                top: 2.4rem;
+                left: 3.2rem;
                 background-color: transparent;
 
             }
@@ -40,10 +50,28 @@
                 }
             }
 
+            .close-icon {
+                display: none;
+                cursor: pointer;
+                border: 0;
+                position: absolute;
+                margin: auto;
+                top: 2.4rem;
+                left: 3.2rem;
+            }
             
         }
 
-    }
+        .top-navbar-logo {
+            @media (max-width: 61em){
+                margin: auto;
+                width: 7.55rem;   
+            }
+            width: 10.782rem;
+            
+        }
+
+    } //navbar-section
 
     .navbar-collapse {
         width: 100%;
@@ -90,8 +118,7 @@
             width: 18rem;
             height: 5.3rem;
             margin-right: 2rem;
-        }
-
+        } 
         
     }
 
@@ -99,12 +126,5 @@
         transform: translateX(0);
     }
 
-    .close-icon {
-        display: none;
-        cursor: pointer;
-        position: absolute;
-        top: 2%;
-        right: 5%;
-    }
 }
     

@@ -19,6 +19,9 @@ Resources:
 
 - [How to Use Floating Elements to Improve Your Web Design](https://adwebstudiouae015.medium.com/how-to-use-floating-elements-to-improve-your-web-design-2393d1d4fd66)
 
+### 03/22/2022
+Hi, I'm back. I will be home for awhile, so that means more coding time for me. Today I want to figure out this issue with the close button. 
+
 ---
 
 font-family: 'Lexend Deca', sans-serif;
