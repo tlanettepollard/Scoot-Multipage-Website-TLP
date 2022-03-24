@@ -22,6 +22,9 @@ Resources:
 ### 03/22/2022
 Hi, I'm back. I will be home for awhile, so that means more coding time for me. Today I want to figure out this issue with the close button. 
 
+### 03/22/2022
+Hi. I'm reviewing my code to see if I could clean it up and organize it. I need to make it more structured and organized. 
+
 ---
 
 font-family: 'Lexend Deca', sans-serif;
