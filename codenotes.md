@@ -13,20 +13,27 @@ Hi. Happy Sunday! Did some work on styling my header.
 
 ### 03/21/2022
 
-Happy Monday! I realized that I had a perfect page to refer to for making the sidebar-- My portfolio page. I also found an article about using floating elements to help with the extra designs for this page. I got my sidebar to work. It opens, but now it isn't closing. Will try to work that out tomorrow. 
+Happy Monday! I realized that I had a perfect page to refer to for making the sidebar-- My portfolio page. I also found an article about using floating elements to help with the extra designs for this page. I got my sidebar to work. It opens, but now it isn't closing. Will try to work that out tomorrow.
 
 Resources:
 
 - [How to Use Floating Elements to Improve Your Web Design](https://adwebstudiouae015.medium.com/how-to-use-floating-elements-to-improve-your-web-design-2393d1d4fd66)
 
 ### 03/22/2022
-Hi, I'm back. I will be home for awhile, so that means more coding time for me. Today I want to figure out this issue with the close button. 
+
+Hi, I'm back. I will be home for awhile, so that means more coding time for me. Today I want to figure out this issue with the close button.
 
 ### 03/22/2022
-Hi. I'm reviewing my code to see if I could clean it up and organize it. I need to make it more structured and organized. 
+
+Hi. I'm reviewing my code to see if I could clean it up and organize it. I need to make it more structured and organized.
 
 Acknowledgement:
+
 - [Simon Hernandez](https://github.com/simonhernandez/scootMultiPage): I like how he structured his HTML code.
+
+Resources:
+
+- [Build an Accordion Menu Using HTML, CSS, and JavaScript](https://www.freecodecamp.org/news/build-an-accordion-menu-using-html-css-and-javascript/)
 
 ---
 
