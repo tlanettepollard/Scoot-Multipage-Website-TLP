@@ -25,6 +25,9 @@ Hi, I'm back. I will be home for awhile, so that means more coding time for me. 
 ### 03/22/2022
 Hi. I'm reviewing my code to see if I could clean it up and organize it. I need to make it more structured and organized. 
 
+Acknowledgement:
+- [Simon Hernandez](https://github.com/simonhernandez/scootMultiPage): I like how he structured his HTML code.
+
 ---
 
 font-family: 'Lexend Deca', sans-serif;
