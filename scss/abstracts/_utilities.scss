@@ -1,0 +1,18 @@
+.hide-small {
+    @include bp-sm {
+        display: none;
+    }
+}
+
+.hide-medium {
+    @include bp-md {
+        display: none;
+    }
+}
+
+.hide-large {
+   @include bp-lg {
+       display: none;
+   } 
+}
+

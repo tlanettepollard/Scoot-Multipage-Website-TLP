@@ -7,10 +7,10 @@
     outline: 1px solid black;
 }
 
-html {
-    font: 62.5%;
-}
 
+html {
+    font: 100%;
+}
 html,
 body {
     margin: 0;
@@ -30,21 +30,5 @@ ul {
     position: relative;
 }
 
-.btn {
-    display: inline-block;
-    max-width: 19.2rem;
-    max-height: 5.3rem;
-    width: 100%;
-    padding: 2rem 1rem;
-    font-family: $heading-font;
-    background-color: $button-bg;
-    color: $button-text;
-    
-    &:hover {
-        background-color: transparent;
-        color: $button-hover-text;
-        border: 2px solid $button-hover-border;
-    }
-    
-}
+
 

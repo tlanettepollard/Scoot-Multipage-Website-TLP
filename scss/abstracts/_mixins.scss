@@ -1,0 +1,27 @@
+// 687px
+@mixin bp-sm {
+    @media screen and (max-width: 42.938em) {
+        @content;
+    }
+}
+
+// 688px
+@mixin bp-md {
+    @media screen and (min-width: 43em) {
+        @content;
+    } 
+}
+
+// 992px
+@mixin bp-lg {
+    @media screen and (min-width: 62em) {
+        @content;
+    }
+}
+
+// 1312px
+@mixin bp-xl {
+    @media screen and (min-width: 82em) {
+        @content;
+    }
+}

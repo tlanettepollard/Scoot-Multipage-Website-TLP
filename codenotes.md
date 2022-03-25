@@ -149,9 +149,11 @@ line-height: 2.8rem;
 letter-spacing: -1.07;
 }
 
+687px = 42.938em
 688px = 43em / 68.8em
 767px = 47.938em/ 76.7em
 768px = 48em/ 76.8em
+769px = 48.063em
 992px = 62em/ 99.2em
 1023px = 63.938em/102.3em
 1024px = 64em/102.4em
