@@ -1,7 +1,19 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Space+Mono:wght@700&display=swap");
+@media screen and (max-width: 42.938em) {
+  .hide-small {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 43em) {
-  .hide-tablet-up {
+  .hide-medium {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 62em) {
+  .hide-large {
     display: none;
   }
 }
