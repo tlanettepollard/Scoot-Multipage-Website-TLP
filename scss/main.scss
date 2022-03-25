@@ -1,6 +1,7 @@
 
 // Abstracts
 @import './abstracts/mixins';
+@import './abstracts/utilities';
 @import './abstracts/variables';
 
 // Base 
@@ -8,10 +9,19 @@
 @import './base/fonts';
 @import './base/typography';
 
+// Components
+@import './components/button';
+
 // Layout 
-@import './layout/cta';
+@import './layout/container';
+@import './layout/directions';
+@import './layout/faqs';
 @import './layout/footer';
+@import './layout/hero';
 @import './layout/navbar';
+@import './layout/section';
+@import './layout/signup';
+@import './layout/values';
 
 // Pages 
 @import './pages/about';

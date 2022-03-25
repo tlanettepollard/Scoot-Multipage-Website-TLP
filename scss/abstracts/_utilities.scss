@@ -1,0 +1,6 @@
+
+.hide-tablet-up {
+   @include bp-tablet {
+       display: none;
+   } 
+}

@@ -1,0 +1,28 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../assets/images/home-hero-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 65rem;
+    width: 100%;
+
+    @media (min-width: 47.938em) and (max-width: 63.938em) {
+        background-image: url('../../assets/images/home-hero-tablet.jpg');
+    }
+
+    @media (min-width: 64em) {
+        background-image: url('../../assets/images/home-hero-desktop.jpg');
+    }
+
+    .hero-container {
+        height: 100%;
+        margin: auto;
+
+    }
+
+
+}
