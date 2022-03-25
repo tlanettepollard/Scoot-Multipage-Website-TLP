@@ -107,7 +107,22 @@ h4 {
   border: 2px solid #fcb72c;
 }
 
-.hero {
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  flex-direction: inherit;
+  grid-template-columns: inherit;
+  grid-template-rows: inherit;
+  -moz-column-gap: inherit;
+       column-gap: inherit;
+  row-gap: inherit;
+}
+
+.hero-home {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -120,18 +135,14 @@ h4 {
   width: 100%;
 }
 @media (min-width: 47.938em) and (max-width: 63.938em) {
-  .hero {
+  .hero-home {
     background-image: url("../../assets/images/home-hero-tablet.jpg");
   }
 }
 @media (min-width: 64em) {
-  .hero {
+  .hero-home {
     background-image: url("../../assets/images/home-hero-desktop.jpg");
   }
-}
-.hero .hero-container {
-  height: 100%;
-  margin: auto;
 }
 
 .navbar .navbar-btn {
@@ -141,6 +152,21 @@ h4 {
 }
 .navbar .show {
   transform: translateX(0);
+}
+
+.signup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20rem;
+}
+@media screen and (min-width: 62em) {
+  .signup {
+    flex-direction: row;
+    height: 24.75rem;
+  }
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */

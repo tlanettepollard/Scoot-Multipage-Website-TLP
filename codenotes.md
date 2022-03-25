@@ -25,7 +25,7 @@ Hi, I'm back. I will be home for awhile, so that means more coding time for me. 
 
 ### 03/22/2022
 
-Hi. I'm reviewing my code to see if I could clean it up and organize it. I need to make it more structured and organized.
+Hi. I'm reviewing my code to see if I could clean it up and organize it. I need to make it more structured and organized. I renamed the classes to make them more usable across the pages. I added more layout scss files based on my restructuring. One I set up was the container. Hernandez set up generic styles for the container (wrapper). 
 
 Acknowledgement:
 
