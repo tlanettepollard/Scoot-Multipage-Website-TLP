@@ -1,17 +1,26 @@
 .signup {
+    
+    width: 100vw;
+    height: 320px;
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 20rem;
+    background: $dk-navy;
+    background-image: url('../../assets/patterns/semi-circles.svg');
+    background-repeat: no-repeat;
+    background-position: bottom right;
     
     
+
 
     @include bp-lg {
         flex-direction: row;
         height: 24.75rem;
     }
 
+
+    
     
 }
