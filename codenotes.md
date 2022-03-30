@@ -25,7 +25,7 @@ Hi, I'm back. I will be home for awhile, so that means more coding time for me. 
 
 ### 03/22/2022
 
-Hi. I'm reviewing my code to see if I could clean it up and organize it. I need to make it more structured and organized. I renamed the classes to make them more usable across the pages. I added more layout scss files based on my restructuring. One I set up was the container. Hernandez set up generic styles for the container (wrapper). I was having problem with background images. I will have to check to see why this is happening tomorrow. 
+Hi. I'm reviewing my code to see if I could clean it up and organize it. I need to make it more structured and organized. I renamed the classes to make them more usable across the pages. I added more layout scss files based on my restructuring. One I set up was the container. Hernandez set up generic styles for the container (wrapper). I was having problem with background images. I will have to check to see why this is happening tomorrow.
 
 Acknowledgement:
 
@@ -34,6 +34,10 @@ Acknowledgement:
 Resources:
 
 - [Build an Accordion Menu Using HTML, CSS, and JavaScript](https://www.freecodecamp.org/news/build-an-accordion-menu-using-html-css-and-javascript/)
+
+### 03/30/2022
+
+Hi. I'm back. I was working on another project. My goal is to get the page organized in the first level of styling and the navbar menu.
 
 ---
 
