@@ -11,68 +11,62 @@
 </head>
 <body>
   <div class="wrapper">
-    <!-- Navbar-->
-    <nav class="navbar navbar__header">
-      <button class="navbar__toggle hide-medium" id="navbarToggle"></button>
-
-      <!-- Navbar Logo -->
-      <a href="/index.html" class="navbar__brand">
-        <img src="./assets/logo.svg" alt="company-logo" class="navbar-logo" />
-      </a>
-
-      <!-- Navbar Menu -->
-
-      <ul class="navbar__list" id="navbarMenu">
-        <li class="navbar__item">
-          <a href="/about.html" class="nav-link">About</a>
-        </li>
-        <li class="navbar__item">
-          <a href="/locations.html" class="nav-link">Location</a>
-        </li>
-        <li class="navbar__item">
-          <a href="/careers.html" class="nav-link">Careers</a>
-        </li>
-      </ul>
-      <a href="#scoot">
-        <button class="btn btn-primary" type="button">
-          Get Scootin
-        </button>
-      </a>
-    </nav>
-    <!-- End Navbar -->
-
-    <!-- Hero Banner -->
-    <main class="main main-careers">
-      <section class="hero-careers-banner">
-        <div class="container">
-          <h1 class="heading heading-1">Careers</h1>
-          <div class="shape shape--circles hide-small"></div>
+    <header>
+      <!-- Navbar-->
+      <nav class="navbar navbar-header hide-small">
+        <!-- Navbar Logo -->
+        <div class="navbar-item logo">
+          <a href="/index.html">
+            <img src="./assets/logo.svg" alt="company-logo"/>
+          </a>
         </div>
-      </section>
-      <!-- End Hero Section -->
 
-      <!-- Section -->
-      <section class="section section--right">
-        <div class="container">
-          <article class="text-container">
-            <h2 class="heading heading-2">Care to join our mission?</h2>
-            <p class="paragraph">We’re always looking for ambitious individuals to help us on our journey. If you’re passionate about our mission to provide clean, accessible transport to improve urban living we want to hear from you!</p>
-            <a href="#">
-              <button class="btn btn-primary" type="button">
-                Say Hello
-              </button>
+        <ul class="navbar__list" id="navbarMenu">
+          <li class="navbar__item">
+            <a href="/about.html" class="nav-link">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/locations.html" class="nav-link">Location</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/careers.html" class="nav-link">Careers</a>
+          </li>
+        </ul>
+        <a href="#scoot">
+          <button class="btn btn-primary" type="button">
+            Get Scootin
+          </button>
+        </a>
+      </nav>
+      <!-- End Tablet/Desktop Navbar -->
+      
+      <div class="sidebar-container hide-medium">
+        <div class="sidebar-header">
+          <div class="logo">
+            <a href="/index.html">
+              <img src="./assets/logo.svg" alt="company-logo"/>
             </a>
-          </article>
-
-          <div class="image-container">
-              <img class="feature-picture" src="./assets/images/join-us.jpg" alt="article feature">
-              <div class="shape shape--arrow"></div>
           </div>
-
-          <div class="shape shape--circle hide-small"></div>
+          <img id="hamburger" src="assets/icons/hamburger.svg" alt="open menu">
+        </div><!-- sidebar-header -->
+        <div id="mobileSidebar" class="sidebar">
+          <div class="close">
+            <img src="assets/icons/close.svg" alt="close menu">
+          </div>
+          <div class="sidebar-links">
+            <a href="about.html">About</a>
+            <a href="locations.html">Locations</a>
+            <a href="careers.html">Careers</a>
+          </div>
+          <a href="#scoot">
+            <button class="btn btn-primary" type="button">
+              Get Scootin
+            </button>
+          </a>
         </div>
-      </section>
-      <!-- End Section -->
+      </div><!-- sidebar-container -->
+    </header>
+    <!-- End Header -->
 
       <!-- Section-Values -->
       <section class="values">
@@ -198,7 +192,6 @@
             <img src="/assets/icons/app-store.svg" alt="app-store" class="app-store-img">
             <img src="/assets/icons/google-play.svg" alt="google-play" class="app-store-img"> 
           </div>
-          <div class="shape shape--circles"></div>
         </div>
       </section>
       <!-- End Sign Up Section -->
