@@ -145,10 +145,16 @@ h4 {
   }
 }
 
-.navbar .navbar-btn {
-  width: 18rem;
-  height: 5.3rem;
-  margin-right: 2rem;
+.navbar {
+  background-color: white;
+  color: #929baa;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.navbar__toggle {
+  width: 0.7813rem;
+  height: 0.625rem;
 }
 .navbar .show {
   transform: translateX(0);
