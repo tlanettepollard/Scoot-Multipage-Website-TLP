@@ -11,35 +11,62 @@
 </head>
 <body>
   <div class="wrapper">
-    <!-- Navbar-->
-    <nav class="navbar navbar__header">
-      <button class="navbar__toggle hide-medium" id="navbarToggle"></button>
+    <header>
+      <!-- Navbar-->
+      <nav class="navbar navbar-header hide-small">
+        <!-- Navbar Logo -->
+        <div class="navbar-item logo">
+          <a href="/index.html">
+            <img src="./assets/logo.svg" alt="company-logo"/>
+          </a>
+        </div>
 
-      <!-- Navbar Logo -->
-      <a href="/index.html" class="navbar__brand">
-        <img src="./assets/logo.svg" alt="company-logo" class="navbar-logo" />
-      </a>
-
-      <!-- Navbar Menu -->
-
-      <ul class="navbar__list" id="navbarMenu">
-        <li class="navbar__item">
-          <a href="/about.html" class="nav-link">About</a>
-        </li>
-        <li class="navbar__item">
-          <a href="/locations.html" class="nav-link">Location</a>
-        </li>
-        <li class="navbar__item">
-          <a href="/careers.html" class="nav-link">Careers</a>
-        </li>
-      </ul>
-      <a href="#scoot">
-        <button class="btn btn-primary" type="button">
-          Get Scootin
-        </button>
-      </a>
-    </nav>
-    <!-- End Navbar -->
+        <ul class="navbar__list" id="navbarMenu">
+          <li class="navbar__item">
+            <a href="/about.html" class="nav-link">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/locations.html" class="nav-link">Location</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/careers.html" class="nav-link">Careers</a>
+          </li>
+        </ul>
+        <a href="#scoot">
+          <button class="btn btn-primary" type="button">
+            Get Scootin
+          </button>
+        </a>
+      </nav>
+      <!-- End Tablet/Desktop Navbar -->
+      
+      <div class="sidebar-container hide-medium">
+        <div class="sidebar-header">
+          <div class="logo">
+            <a href="/index.html">
+              <img src="./assets/logo.svg" alt="company-logo"/>
+            </a>
+          </div>
+          <img id="hamburger" src="assets/icons/hamburger.svg" alt="open menu">
+        </div><!-- sidebar-header -->
+        <div id="mobileSidebar" class="sidebar">
+          <div class="close">
+            <img src="assets/icons/close.svg" alt="close menu">
+          </div>
+          <div class="sidebar-links">
+            <a href="about.html">About</a>
+            <a href="locations.html">Locations</a>
+            <a href="careers.html">Careers</a>
+          </div>
+          <a href="#scoot">
+            <button class="btn btn-primary" type="button">
+              Get Scootin
+            </button>
+          </a>
+        </div>
+      </div><!-- sidebar-container -->
+    </header>
+    <!-- End Header -->
 
     <main class="main main-home">
     <!-- Begin Hero -->
