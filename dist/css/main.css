@@ -122,6 +122,21 @@ h4 {
   row-gap: inherit;
 }
 
+header .navbar {
+  background-color: white;
+  color: #929baa;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+header .navbar__toggle {
+  width: 0.7813rem;
+  height: 0.625rem;
+}
+header .navbar .show {
+  transform: translateX(0);
+}
+
 .hero-home {
   display: flex;
   flex-direction: column;
@@ -143,21 +158,6 @@ h4 {
   .hero-home {
     background-image: url("../../assets/images/home-hero-desktop.jpg");
   }
-}
-
-.navbar {
-  background-color: white;
-  color: #929baa;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
-.navbar__toggle {
-  width: 0.7813rem;
-  height: 0.625rem;
-}
-.navbar .show {
-  transform: translateX(0);
 }
 
 .signup {
