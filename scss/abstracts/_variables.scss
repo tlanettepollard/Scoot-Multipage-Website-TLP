@@ -43,7 +43,14 @@ $button-hover-border: $yellow;
 $button-hover-text: $yellow;
 $social-icon-bg: $yellow;
 
-// Min-width breakpoints
-$bp-small: 688px;
-$bp-medium: 992px;
-$bp-large: 1312px;
+//  Breakpoints
+$bp-mobile-start: 320px;
+$bp-mobile-end: 480px;
+$bp-tablet-start: 481px;
+$bp-tablet-end: 767px;
+$bp-sm-screen-start: 769px;
+$bp-sm-screen-end: 1024px;
+$bp-desktop-start: 1025px;
+$bp-desktop-end: 1200px;
+$bp-xl-screen-start: 1201px;
+

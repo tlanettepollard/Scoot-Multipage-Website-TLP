@@ -1,17 +1,17 @@
-.hide-small {
-    @include bp-sm {
+.hide-mobile {
+    @include bp-mobile {
         display: none;
     }
 }
 
-.hide-medium {
-    @include bp-md {
+.hide-tablet {
+    @include bp-tablet {
         display: none;
     }
 }
 
-.hide-large {
-   @include bp-lg {
+.hide-desktop-up {
+   @include bp-desktop-up {
        display: none;
    } 
 }

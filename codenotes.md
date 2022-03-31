@@ -39,7 +39,9 @@ Resources:
 
 Hi. I'm back. I was working on another project. My goal is to get the page organized in the first level of styling and the navbar menu.
 
----
+### 03/31/2022
+
+## Good afternoon. I'm working on the header today. I want to get this sidebar done.
 
 font-family: 'Lexend Deca', sans-serif;
 font-family: 'Space Mono', monospace;
@@ -152,13 +154,3 @@ font-size: 2.400em;
 line-height: 2.8rem;
 letter-spacing: -1.07;
 }
-
-687px = 42.938em
-688px = 43em / 68.8em
-767px = 47.938em/ 76.7em
-768px = 48em/ 76.8em
-769px = 48.063em
-992px = 62em/ 99.2em
-1023px = 63.938em/102.3em
-1024px = 64em/102.4em
-1312px = 82em/ 131.2em
