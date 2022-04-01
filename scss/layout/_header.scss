@@ -35,6 +35,39 @@
                 overflow: hidden;
                 padding-top: -1.25rem;
 
+                .close {
+                    position: absolute; 
+                    top: 2%;
+                    right: 5%;
+                }
+
+                a {
+                    color: $sidenav-link-color;
+                }
+
+                a:hover {
+                    color: $sidenav-link-hover;
+                    text-decoration: none;
+                }
+
+                .sidebar-links {
+                    padding-top: .75rem;
+                    padding-left: 2.5rem;
+                    font-size: 65%;
+                    margin: .3125rem;
+                    padding-right: .5rem;
+
+                }
+
+                .scoot {
+                    position: absolute;
+                    bottom: 0;
+                    height: 3.3125rem;
+                    width: 10rem;
+                    text-align: center;
+                    
+                }
+
             }
 
         }
