@@ -41,7 +41,9 @@ Hi. I'm back. I was working on another project. My goal is to get the page organ
 
 ### 03/31/2022
 
-## Good afternoon. I'm working on the header today. I want to get this sidebar done.
+Good afternoon. I'm working on the header today. I want to get this sidebar done. I was able to get the sidebar set up and styled. I will finish tomorrow.
+
+---
 
 font-family: 'Lexend Deca', sans-serif;
 font-family: 'Space Mono', monospace;

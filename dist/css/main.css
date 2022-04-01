@@ -143,6 +143,7 @@ h4 {
   header .sidebar-container .sidebar-header .hamburger {
     position: absolute;
     left: 2rem;
+    cursor: pointer;
   }
   header .sidebar-container .sidebar {
     height: calc(100% - 70px);
@@ -152,6 +153,33 @@ h4 {
     background-color: #323943;
     overflow: hidden;
     padding-top: -1.25rem;
+  }
+  header .sidebar-container .sidebar .close {
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    cursor: pointer;
+  }
+  header .sidebar-container .sidebar a {
+    color: #e6edf4;
+  }
+  header .sidebar-container .sidebar a:hover {
+    color: #fcb72c;
+    text-decoration: none;
+  }
+  header .sidebar-container .sidebar .sidebar-links {
+    padding-top: 0.75rem;
+    padding-left: 2.5rem;
+    font-size: 65%;
+    margin: 0.3125rem;
+    padding-right: 0.5rem;
+  }
+  header .sidebar-container .sidebar .scoot {
+    position: absolute;
+    bottom: 0;
+    height: 3.3125rem;
+    width: 10rem;
+    text-align: center;
   }
 }
 
