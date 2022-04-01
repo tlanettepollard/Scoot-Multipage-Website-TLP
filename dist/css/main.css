@@ -168,18 +168,25 @@ h4 {
     text-decoration: none;
   }
   header .sidebar-container .sidebar .sidebar-links {
-    padding-top: 0.75rem;
-    padding-left: 2.5rem;
-    font-size: 65%;
-    margin: 0.3125rem;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 18.75rem;
+    padding: 1.25rem;
+    font-size: 1.125rem;
+    margin: 4rem 0.3125rem;
     padding-right: 0.5rem;
+    text-align: left;
   }
   header .sidebar-container .sidebar .scoot {
     position: absolute;
+    left: 0;
     bottom: 0;
+    margin: auto;
     height: 3.3125rem;
-    width: 10rem;
+    width: 12rem;
     text-align: center;
+    font-size: 65%;
   }
 }
 
