@@ -1,11 +1,11 @@
 .hide-mobile {
-    @include bp-mobile {
+    @include bp-mobile-down {
         display: none;
     }
 }
 
-.hide-tablet {
-    @include bp-tablet {
+.hide-tablet-up {
+    @include bp-tablet-up {
         display: none;
     }
 }

@@ -1,13 +1,13 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Space+Mono:wght@700&display=swap");
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .hide-mobile {
     display: none;
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 767px) {
-  .hide-tablet {
+@media screen and (min-width: 768px) {
+  .hide-tablet-up {
     display: none;
   }
 }
@@ -120,6 +120,39 @@ h4 {
   -moz-column-gap: inherit;
        column-gap: inherit;
   row-gap: inherit;
+}
+
+@media screen and (max-width: 767px) {
+  header .sidebar-container {
+    position: fixed;
+    top: 0;
+    text-align: center;
+    background: white;
+    display: block;
+    width: 100%;
+    height: 4.375rem;
+  }
+  header .sidebar-container .sidebar-header {
+    display: flex;
+    align-items: center;
+  }
+  header .sidebar-container .sidebar-header .logo {
+    margin: auto;
+    padding: 0.625rem;
+  }
+  header .sidebar-container .sidebar-header .hamburger {
+    position: absolute;
+    left: 2rem;
+  }
+  header .sidebar-container .sidebar {
+    height: calc(100% - 70px);
+    width: 0px;
+    position: fixed;
+    top: 4.375rem;
+    background-color: #323943;
+    overflow: hidden;
+    padding-top: -1.25rem;
+  }
 }
 
 .hero-home {
