@@ -1,0 +1,42 @@
+
+  header {
+      .sidebar-container {
+          @include bp-mobile-down {
+            position: fixed;
+            top: 0;
+            text-align: center;
+            background: $white;
+            display: block;
+            width: 100%;
+            height: 4.375rem;
+
+            .sidebar-header {
+                display: flex;
+                align-items: center;
+
+                .logo {
+                    margin: auto;
+                    padding: .625rem;
+                } 
+
+                .hamburger {
+                   position: absolute;
+                   left: 2rem;
+                   
+                }
+
+            }
+                .sidebar {
+                height: calc(100% - 70px);
+                width: 0px;
+                position: fixed;
+                top: 4.375rem;
+                background-color: $sidebar-bg;
+                overflow: hidden;
+                padding-top: -1.25rem;
+
+            }
+
+        }
+    }
+}  
