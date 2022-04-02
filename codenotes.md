@@ -43,6 +43,18 @@ Hi. I'm back. I was working on another project. My goal is to get the page organ
 
 Good afternoon. I'm working on the header today. I want to get this sidebar done. I was able to get the sidebar set up and styled. I will finish tomorrow.
 
+Resources:
+
+- [How To: Side Navigation](https://www.w3schools.com/howto/howto_js_sidenav.asp)
+
+### 04/01/2022
+
+Hi! I'm back again working on my page. I got my sidebar to work and styled. I did spend some unsure time about whether I should use jQuery or JS when I wanted to add page overlay. Left that alone. Then I got stuck on why my button text wouldn't center. Found the solution: padding, 0px.
+
+Resources:
+
+-[Simple CSS Text Won't Center in a Button](https://stackoverflow.com/questions/2883373/simple-css-text-wont-center-in-a-button)
+
 ---
 
 font-family: 'Lexend Deca', sans-serif;

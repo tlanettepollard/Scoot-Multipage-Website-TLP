@@ -1,7 +1,60 @@
 
   header {
-      .sidebar-container {
-          @include bp-mobile-down {
+    nav {
+        width: 100%;
+        margin: 0;
+        padding: 1.375rem 0;
+
+         @include bp-tablet-up {
+            display: flex;
+            justify-content: space-between;
+
+            .navbar__container {
+                width: 80%;
+                display: flex;
+                align-items: center;
+
+                .logo {
+                    margin-left: 2.5rem; 
+                    margin-right: 3.75rem;
+                    @include bp-desktop-up {
+                        margin-left: 10.3125rem;
+                    }
+                }
+
+                .navbar__list {
+                    width: 15.625rem;
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+
+            .nav-scoot-btn{
+                width: 11.25rem;
+                height: 3.3125rem;
+                padding: 0;
+                margin-right: 2.5rem;
+
+                @include bp-desktop-up {
+                        margin-right: 10.3125rem;
+                }
+            }
+            .nav-scoot-btn a {
+                color: $button-text;
+                font-size: .9375rem;
+                
+            }
+
+            .nav-scoot-btn a:hover {
+                color: $button-hover-text;
+            }
+            
+        }
+
+    }
+
+    .sidebar-container {
+        @include bp-mobile-down {
             position: fixed;
             top: 0;
             text-align: center;
@@ -9,25 +62,26 @@
             display: block;
             width: 100%;
             height: 4.375rem;
+            z-index: 9999;
 
             .sidebar-header {
                 display: flex;
                 align-items: center;
 
-                .logo {
-                    margin: auto;
-                    padding: .625rem;
-                } 
+            .logo {
+                margin: auto;
+                padding: .625rem;
+            } 
 
-                .hamburger {
-                   position: absolute;
-                   left: 2rem;
-                   cursor: pointer;
-                   
-                }
-
+            .hamburger {
+                position: absolute;
+                left: 2rem;
+                cursor: pointer;
+                
             }
-                .sidebar {
+
+        }
+            .sidebar {
                 height: calc(100% - 70px);
                 width: 0px;
                 position: fixed;
@@ -35,6 +89,7 @@
                 background-color: $sidebar-bg;
                 overflow: hidden;
                 padding-top: -1.25rem;
+                transition: 0.5s ease-in-out;
 
                 .close {
                     position: absolute; 
@@ -67,17 +122,20 @@
 
                 .scoot {
                     position: absolute;
-                    left: 0;
-                    bottom: 0;
-                    margin: auto;
-                    height: 3.3125rem;
+                    display: inline-block;
+                    left: 2rem;
+                    bottom: 3.125rem;
+                    padding: 0px;
                     width: 12rem;
-                    text-align: center;
+                    height: 3.125rem;
                     font-size: 65%;
-
+                    font-weight: $weight-bold;
+                    
                 }
 
             }
+
+             
 
         }
     }
