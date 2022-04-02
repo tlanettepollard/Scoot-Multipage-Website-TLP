@@ -15,34 +15,37 @@
       <!-- Navbar-->
       <nav class="hide-mobile">
         <!-- Navbar Logo -->
-        <div class="logo">
-          <a href="/index.html">
-            <img src="./assets/logo.svg" alt="company-logo"/>
-          </a>
-        </div>
+        <div class="navbar__container">
+          <div class="logo">
+            <a href="/index.html">
+              <img src="./assets/logo.svg" alt="company-logo"/>
+            </a>
+          </div>
 
-        <ul class="navbar__list" id="navbarMenu">
-          <li class="navbar__item">
-            <a href="/about.html" class="navbar-link">About</a>
-          </li>
-          <li class="navbar__item">
-            <a href="/locations.html" class="navbar-link">Location</a>
-          </li>
-          <li class="navbar__item">
-            <a href="/careers.html" class="navbar-link">Careers</a>
-          </li>
-        </ul>
-        <a href="#scoot">
-          <button class="btn btn-primary" type="button">
-            Get Scootin
-          </button>
-        </a>
+          <ul class="navbar__list" id="navbarMenu">
+            <li class="navbar__item">
+              <a href="/about.html" class="navbar-link">About</a>
+            </li>
+            <li class="navbar__item">
+              <a href="/locations.html" class="navbar-link">Location</a>
+            </li>
+            <li class="navbar__item">
+              <a href="/careers.html" class="navbar-link">Careers</a>
+            </li>
+          </ul>
+        </div> <!-- navbar__container -->
+
+        <button class="btn btn-primary nav-scoot-btn" type="button">
+          <a href="#scoot">Get Scootin</a>
+        </button>
+       
       </nav>
       <!-- End Tablet/Desktop Navbar -->
       
       <div class="sidebar-container hide-tablet-up">
         <div class="sidebar-header">
-          <img id="hamburger" class="hamburger" src="assets/icons/hamburger.svg" alt="open menu" onclick="openNav()">
+          <img id="hamburger" class="hamburger nav_handle" src="assets/icons/hamburger.svg" onclick="openNav()" alt="open menu">
+          
           <div class="logo">
             <a href="/index.html">
               <img src="./assets/logo.svg" alt="company-logo"/>
@@ -58,17 +61,18 @@
             <a href="locations.html">Locations</a>
             <a href="careers.html">Careers</a>
           </div>
-          <a href="#scoot">
-            <button class="btn btn-primary scoot" type="button">
-              Get Scootin
-            </button>
-          </a>
+          <button class="btn btn-primary scoot" type="button">
+            <a href="#scoot">
+            Get Scootin</a>
+          </button>
+          
+          
         </div>
       </div><!-- sidebar-container -->
     </header>
     <!-- End Header -->
 
-    <main class="main main-home">
+    <main id='main' class="main-home overlay-content">
     <!-- Begin Hero -->
       <section class="hero-home">
         <div class="container">
@@ -183,7 +187,7 @@
 
       
       <!-- Sign Up Section-->
-      <section class="signup">
+      <section id="scoot" class="signup">
         <div class="container">
           <article class="text-container">
           <h2 class="heading heading-2">Sign up and Scoot off today</h2>
