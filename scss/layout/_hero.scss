@@ -1,12 +1,14 @@
 .hero-home {
+    position: relative;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     background-image: url('../../assets/images/home-hero-mobile.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    text-align: center;
     height: 65rem;
     width: 100%;
 
@@ -16,7 +18,14 @@
 
     @media (min-width: 64em) {
         background-image: url('../../assets/images/home-hero-desktop.jpg');
+        background-position: right center;
+        text-align: initial;
     }
+        
+    .hero-text {
+        color: $hero-heading;
 
+    }
+    
 }
 

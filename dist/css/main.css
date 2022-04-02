@@ -50,20 +50,14 @@ ul {
   position: relative;
 }
 
-.overlay {
-  display: none;
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.7);
-  z-index: 998;
-  opacity: 0;
-  transition: all 0.5s ease-in-out;
+.container {
+  width: 100%;
+  padding: 2rem;
 }
-
-.overlay.active {
-  display: block;
-  opacity: 1;
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    padding: 6.0625rem;
+  }
 }
 
 body {
@@ -78,6 +72,10 @@ h3,
 h4 {
   font-family: "Space Mono", monospace;
   font-weight: 700;
+}
+
+.heading {
+  color: hsl(216deg, 17%, 35%);
 }
 
 .heading-1 {
@@ -102,6 +100,10 @@ h4 {
   font-size: 1.5rem;
   line-height: 1.75rem;
   letter-spacing: -1.07;
+}
+
+.paragraph {
+  color: hsl(217deg, 12%, 62%);
 }
 
 .btn {
@@ -273,14 +275,16 @@ header nav {
 }
 
 .hero-home {
+  position: relative;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   background-image: url("../../assets/images/home-hero-mobile.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  text-align: center;
   height: 65rem;
   width: 100%;
 }
@@ -292,7 +296,12 @@ header nav {
 @media (min-width: 64em) {
   .hero-home {
     background-image: url("../../assets/images/home-hero-desktop.jpg");
+    background-position: right center;
+    text-align: initial;
   }
+}
+.hero-home .hero-text {
+  color: hsl(0deg, 0%, 100%);
 }
 
 .signup {
