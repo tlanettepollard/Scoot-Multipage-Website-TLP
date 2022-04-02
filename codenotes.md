@@ -49,7 +49,7 @@ Resources:
 
 ### 04/01/2022
 
-Hi! I'm back again working on my page. I got my sidebar to work and styled. I did spend some unsure time about whether I should use jQuery or JS when I wanted to add page overlay. Left that alone. Then I got stuck on why my button text wouldn't center. Found the solution: padding, 0px.
+Hi! I'm back again working on my page. I got my sidebar to work and styled. I did spend some unsure time about whether I should use jQuery or JS when I wanted to add page overlay. Left that alone. Then I got stuck on why my button text wouldn't center. Found the solution: padding, 0px. I was able to get the styling done for the tablet and desktop navbar. I may need to readjust some of the media queries tomorrow.
 
 Resources:
 

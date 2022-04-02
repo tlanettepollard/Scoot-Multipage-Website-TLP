@@ -17,15 +17,19 @@
                 .logo {
                     margin-left: 2.5rem; 
                     margin-right: 3.75rem;
-                    @include bp-desktop-up {
-                        margin-left: 10.3125rem;
-                    }
                 }
 
                 .navbar__list {
-                    width: 15.625rem;
+                    width: 60%;
                     display: flex;
-                    justify-content: space-between;
+
+                    .navbar__item {
+                        padding: 0 .625rem;
+                        @include bp-desktop-up {
+                            padding: 0 2rem;
+                        }
+                    }
+                    
                 }
             }
 
@@ -49,6 +53,14 @@
                 color: $button-hover-text;
             }
             
+        }
+
+        .logo {
+            @include bp-desktop-up {
+                width: 6.7387rem;
+                height: 1.785rem;
+                margin-left: 10.3125rem;
+            }
         }
 
     }
