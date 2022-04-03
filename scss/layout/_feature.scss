@@ -1,0 +1,39 @@
+/****************************
+Home and About section Styles
+****************************/ 
+.feature {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    .container {
+        padding: 6.25rem 2rem;
+        
+        .text-container {
+            order: 2;
+            max-width: 38.75rem;
+
+            .feature-heading {
+                padding: 1.875rem;
+            }
+
+            .paragraph {
+                padding: 1.25rem;
+            }
+        }
+
+        .image-container {
+            position: relative;
+            order: 1;
+            max-width: 27.8125rem;
+
+            .feature-image {
+                width: 80%;
+                border-radius: 50%;
+            }
+        }
+
+    }
+}
