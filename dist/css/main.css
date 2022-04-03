@@ -37,6 +37,7 @@ body {
   padding: 0;
 }
 
+ol,
 ul {
   list-style-type: none;
 }
@@ -116,6 +117,7 @@ h4 {
 }
 
 .container {
+  position: relative;
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
@@ -128,6 +130,33 @@ h4 {
   -moz-column-gap: inherit;
        column-gap: inherit;
   row-gap: inherit;
+}
+
+/* *****************
+   Home Page Directions Styles
+********************/
+.directions {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.directions .container {
+  padding: 7.5rem 2rem;
+}
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .directions .container {
+    padding: 7.8125rem 6rem;
+  }
+}
+.directions .container .directions__list {
+  text-align: center;
+}
+@media screen and (min-width: 1025px) {
+  .directions .container .directions__list {
+    text-align: initial;
+  }
 }
 
 header nav {
