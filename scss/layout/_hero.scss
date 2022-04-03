@@ -12,20 +12,160 @@
     height: 65rem;
     width: 100%;
 
-    @media (min-width: 47.938em) and (max-width: 63.938em) {
+    @include bp-small-screen {
         background-image: url('../../assets/images/home-hero-tablet.jpg');
     }
 
-    @media (min-width: 64em) {
+    @include bp-desktop-up {
         background-image: url('../../assets/images/home-hero-desktop.jpg');
         background-position: right center;
         text-align: initial;
     }
         
-    .hero-text {
+    .hero-text-container {
         color: $hero-heading;
 
     }
     
+}
+
+// About page 
+.hero-about {
+    position: relative;
+    overflow: hidden;
+    max-height: 12.5rem;
+    height: 10rem;
+    top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('../../assets/images/about-hero-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    @include bp-small-screen  {
+        background-image: url('../../assets/images/about-hero-tablet.jpg');
+        height: 12.5rem;
+        top: 0;
+    }
+
+    @include bp-desktop-up {
+        background-image: url('../../assets/images/about-hero-desktop.jpg');
+        background-position: right center;
+        text-align: initial;
+        height: 12.5rem;
+        top: 0;
+    }
+
+    .container {
+        
+        .hero-text-container {
+            max-width: 35.8125rem;
+            width: 100%;
+
+            .about-heading {
+                color: $hero-heading;
+            }
+
+        }
+
+    }
+}
+
+
+// Locations page 
+.hero-locations {
+    position: relative;
+    overflow: hidden;
+    max-height: 12.5rem;
+    height: 10rem;
+    top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('../../assets/images/careers-location-hero-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    @include bp-small-screen  {
+        background-image: url('../../assets/images/careers-locations-hero-tablet.jpg');
+        height: 12.5rem;
+        top: 0;
+    }
+
+    @include bp-desktop-up {
+        background-image: url('../../assets/images/careers-locations-hero-desktop.jpg');
+        background-position: right center;
+        text-align: initial;
+        height: 12.5rem;
+        top: 0;
+    }
+
+    .container {
+        
+        .hero-text-container {
+            max-width: 35.8125rem;
+            width: 100%;
+
+            .locations-heading {
+                color: $hero-heading;
+            }
+
+        }
+
+    }
+
+}
+
+// Careers page
+.hero-careers {
+    position: relative;
+    overflow: hidden;
+    max-height: 12.5rem;
+    height: 10rem;
+    top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('../../assets/images/careers-location-hero-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    @include bp-small-screen  {
+        background-image: url('../../assets/images/careers-locations-hero-tablet.jpg');
+        height: 12.5rem;
+        top: 0;
+    }
+
+    @include bp-desktop-up {
+        background-image: url('../../assets/images/careers-locations-hero-desktop.jpg');
+        background-position: right center;
+        text-align: initial;
+        height: 12.5rem;
+        top: 0;
+    }
+
+    .container {
+        
+        .hero-text-container {
+            max-width: 35.8125rem;
+            width: 100%;
+
+            .careers-heading {
+                color: $hero-heading;
+            }
+
+        }
+
+    }
 }
 
