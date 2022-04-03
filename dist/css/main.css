@@ -50,16 +50,6 @@ ul {
   position: relative;
 }
 
-.container {
-  width: 100%;
-  padding: 2rem;
-}
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .container {
-    padding: 6.0625rem;
-  }
-}
-
 body {
   font-family: "Lexend Deca", sans-serif;
   font-size: 1.5em;

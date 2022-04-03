@@ -22,6 +22,8 @@ ul {
 }
 
 /* Main Styling */
+
+// Page Wrapper
 .wrapper {
     max-width: 144rem;
     min-height: 100vh;
@@ -30,12 +32,6 @@ ul {
     position: relative;
 }
 
-.container {
-    width: 100%;
-    padding: 2rem;
-    @include bp-small-screen {
-        padding: 6.0625rem;
-    }
-}
+
 
 
