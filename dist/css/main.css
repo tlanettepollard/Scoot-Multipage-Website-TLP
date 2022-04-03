@@ -244,6 +244,54 @@ Home and About section Styles
   border-radius: 50%;
 }
 
+.footer {
+  background-color: hsl(215deg, 14%, 23%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.footer .container {
+  padding: 4rem 0 5.5rem;
+}
+.footer .container .footer-navbar .navbar-logo {
+  display: block;
+  max-width: 6.6875rem;
+  margin: 0 auto;
+  padding-bottom: 1.875rem;
+}
+.footer .container .footer-navbar .navbar-list .navbar-item {
+  margin-bottom: 1rem;
+}
+.footer .container .footer-navbar .navbar-list .navbar-item .navbar-link {
+  color: hsl(217deg, 12%, 62%);
+  text-decoration: none;
+}
+.footer .container .footer-navbar .navbar-list .navbar-item .navbar-link:hover {
+  color: hsl(40deg, 97%, 58%);
+}
+.footer .container .social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .container .social .social__item {
+  padding: 1.25rem;
+}
+.footer .container .attribution {
+  margin-top: 2.5rem;
+}
+.footer .container .attribution p {
+  font-size: 14px;
+  color: hsl(0deg, 0%, 100%);
+}
+.footer .container .attribution p a {
+  color: hsl(217deg, 12%, 62%);
+}
+.footer .container .attribution p a:hover {
+  color: hsl(40deg, 97%, 58%);
+}
+
 header nav {
   width: 100%;
   margin: 0;
@@ -541,11 +589,34 @@ header nav {
   background-repeat: no-repeat;
   background-position: bottom right;
 }
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .signup {
+    height: 25rem;
+  }
+}
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
   .signup {
     flex-direction: row;
     height: 24.75rem;
   }
+}
+.signup .container {
+  text-align: center;
+  padding: 5.5rem 2rem;
+}
+.signup .container .text-container {
+  margin-bottom: 2.5rem;
+}
+.signup .container .text-container .scoot-heading {
+  color: hsl(0deg, 0%, 100%);
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .signup .container .text-container .scoot-heading {
+    font-size: 1.75em;
+  }
+}
+.signup .container .image-container .app-store-img {
+  padding: 0.3125rem;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */

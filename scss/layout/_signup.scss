@@ -1,5 +1,4 @@
 .signup {
-    
     width: 100vw;
     height: 320px;
     position: relative;
@@ -11,15 +10,36 @@
     background-image: url('../../assets/patterns/semi-circles.svg');
     background-repeat: no-repeat;
     background-position: bottom right;
-    
-    
-
+  
+    @include bp-sm-mobile {
+        height: 25rem;
+    }
 
     @include bp-desktop {
         flex-direction: row;
         height: 24.75rem;
     }
+    .container {
+        text-align: center;
+        padding: 5.5rem 2rem;
 
+        .text-container {
+            margin-bottom: 2.5rem;
+
+            .scoot-heading {
+                color: $white;
+                @include bp-sm-mobile {
+                    font-size: 1.75em;
+                }
+            }
+        }
+
+        .image-container {
+            .app-store-img {
+                padding: .3125rem;
+            }
+        }
+    }
 
     
     
