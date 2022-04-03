@@ -144,8 +144,70 @@ h4 {
   align-items: center;
   text-align: center;
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .directions {
+    text-align: initial;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .directions {
+    text-align: left;
+  }
+}
 .directions .container {
   padding: 7.5rem 2rem;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .directions .container {
+    padding: 7.5rem 4rem;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .directions .container {
+    padding: 7.5rem 9.5625rem;
+  }
+}
+.directions .container .directions__list {
+  width: 100%;
+}
+@media screen and (min-width: 1025px) {
+  .directions .container .directions__list {
+    display: flex;
+  }
+}
+.directions .container .directions__list .directions__item {
+  margin-bottom: 2.5rem;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .directions .container .directions__list .directions__item {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+.directions .container .directions__list .directions__item .image-container {
+  padding: 1.25rem;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .directions .container .directions__list .directions__item .text-container {
+    margin-left: 4rem;
+    text-align: left;
+  }
+}
+.directions .container .directions__list .directions__item .text-container .directions-heading {
+  padding: 1.25rem;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .directions .container .directions__list .directions__item .text-container .directions-heading {
+    padding: 1.25rem;
+  }
+}
+.directions .container .directions__list .directions__item .text-container .paragraph {
+  padding: 0.625rem;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .directions .container .directions__list .directions__item .text-container .paragraph {
+    padding: 1.25rem;
+  }
 }
 
 header nav {
