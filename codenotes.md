@@ -55,6 +55,9 @@ Resources:
 
 -[Simple CSS Text Won't Center in a Button](https://stackoverflow.com/questions/2883373/simple-css-text-wont-center-in-a-button)
 
+### 04/02/2022
+Hi. Happy Saturday. I got a late start today. I would like to move onto the other sections. I was able to add the backgrounds to the heros on the other pages. I'm learning that sometimes I do too much instead of using fewer lines of code that will handle the job I want to do. 
+
 ---
 
 font-family: 'Lexend Deca', sans-serif;
