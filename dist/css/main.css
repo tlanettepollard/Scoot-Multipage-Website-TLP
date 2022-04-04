@@ -80,6 +80,11 @@ h4 {
   line-height: 3rem;
   letter-spacing: -2.14;
 }
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .heading-2 {
+    font-size: 1.65em;
+  }
+}
 
 .heading-3 {
   font-size: 2.5rem;
@@ -219,14 +224,27 @@ Home and About section Styles
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   text-align: center;
+}
+@media screen and (min-width: 1025px) {
+  .feature {
+    text-align: left;
+  }
 }
 .feature .container {
   padding: 6.25rem 2rem;
 }
+@media screen and (min-width: 1025px) {
+  .feature .container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
 .feature .container .text-container {
   order: 2;
-  max-width: 38.75rem;
+  max-width: 35.8125rem;
 }
 .feature .container .text-container .feature-heading {
   padding: 1.875rem;
@@ -237,11 +255,35 @@ Home and About section Styles
 .feature .container .image-container {
   position: relative;
   order: 1;
-  max-width: 27.8125rem;
 }
 .feature .container .image-container .feature-image {
   width: 80%;
   border-radius: 50%;
+}
+@media screen and (min-width: 768px) {
+  .feature .container .image-container .feature-image {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .feature .container .tc-left {
+    order: 1;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .feature .container .ic-right {
+    order: 2;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .feature .container .tc-right {
+    order: 2;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .feature .container .ic-left {
+    order: 1;
+  }
 }
 
 .footer {
