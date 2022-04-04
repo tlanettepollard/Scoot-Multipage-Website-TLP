@@ -61,6 +61,8 @@ Hi. Happy Saturday. I got a late start today. I would like to move onto the othe
 ### 04/03/2022
 Hi. Today my goal is to work on my About page and hopefully Careers page. 
 
+### 04/04/2022 
+Hi. Happy Monday afternoon! My goal today is to focus on finishing the home page and working on the About page. 
 
 ---
 

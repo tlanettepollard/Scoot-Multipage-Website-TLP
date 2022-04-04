@@ -7,14 +7,27 @@ Home and About section Styles
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align: center;
+    @include bp-desktop-up {
+        text-align: left;
+    }
+
     .container {
         padding: 6.25rem 2rem;
+
+        @include bp-desktop-up {
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;  
+            
+        }
         
         .text-container {
             order: 2;
-            max-width: 38.75rem;
+            max-width: 35.8125rem;
 
+             
             .feature-heading {
                 padding: 1.875rem;
             }
@@ -23,17 +36,46 @@ Home and About section Styles
                 padding: 1.25rem;
             }
         }
-
+        
         .image-container {
             position: relative;
             order: 1;
-            max-width: 27.8125rem;
-
+            
             .feature-image {
                 width: 80%;
                 border-radius: 50%;
+
+                @include bp-tablet-up {
+                    width: 100%;
+                }
+            }
+        }
+
+        .tc-left {
+            @include bp-desktop-up {
+                order: 1;
+            }
+        }
+
+        .ic-right {
+            @include bp-desktop-up {
+                order: 2;
+            }
+        }
+
+        .tc-right {
+            @include bp-desktop-up {
+                order: 2;
+            }
+        }
+
+        .ic-left {
+            @include bp-desktop-up {
+                order: 1;
             }
         }
 
     }
 }
+
+

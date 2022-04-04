@@ -26,6 +26,9 @@ h4 {
     font-size: 3rem;
     line-height: 3rem;
     letter-spacing: -2.14;
+    @include bp-sm-mobile {
+        font-size: 1.65em;
+    }
 }
 
 .heading-3 {
