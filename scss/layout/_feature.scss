@@ -23,59 +23,7 @@ Home and About section Styles
            align-items:stretch;
            
         }
-
-        .text-container {
-            order: 2;
-            margin-bottom: 2rem;
-            padding: 2rem;
-
-            @include bp-desktop-up {
-                max-width: 27.8125rem;
-                margin: 2rem;
-                padding-right: .5rem;
-            }
-
-            .feature-heading {
-                padding: 2rem 0;
-            }
-
-            .feature-paragraph {
-                padding: 2rem 0;
-                margin-bottom: 2rem;
-            }
-
-            .feature-btn {
-                padding: 2rem 0;
-            }
-        }
-
-        .image-container {
-            order: 1; 
-            padding: 2rem;
-
-            @include bp-desktop-up {
-                width: 27.8125rem;
-                margin: 2rem;
-            }
-
-            .feature-image {
-                border-radius: 50%;
-            }
-        }
-
-        .tc-left {
-            @include bp-desktop-up {
-                order: 1;
-            }
-        }
-
-        .ic-right {
-            @include bp-desktop-up {
-                order: 2;
-            }
-        }
-
-
-    }
+   }
+        
    
 }   

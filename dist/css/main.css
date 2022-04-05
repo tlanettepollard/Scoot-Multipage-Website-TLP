@@ -247,51 +247,6 @@ Home and About section Styles
     align-items: stretch;
   }
 }
-.feature__container .text-container {
-  order: 2;
-  margin-bottom: 2rem;
-  padding: 2rem;
-}
-@media screen and (min-width: 1025px) {
-  .feature__container .text-container {
-    max-width: 27.8125rem;
-    margin: 2rem;
-    padding-right: 0.5rem;
-  }
-}
-.feature__container .text-container .feature-heading {
-  padding: 2rem 0;
-}
-.feature__container .text-container .feature-paragraph {
-  padding: 2rem 0;
-  margin-bottom: 2rem;
-}
-.feature__container .text-container .feature-btn {
-  padding: 2rem 0;
-}
-.feature__container .image-container {
-  order: 1;
-  padding: 2rem;
-}
-@media screen and (min-width: 1025px) {
-  .feature__container .image-container {
-    width: 27.8125rem;
-    margin: 2rem;
-  }
-}
-.feature__container .image-container .feature-image {
-  border-radius: 50%;
-}
-@media screen and (min-width: 1025px) {
-  .feature__container .tc-left {
-    order: 1;
-  }
-}
-@media screen and (min-width: 1025px) {
-  .feature__container .ic-right {
-    order: 2;
-  }
-}
 
 .footer {
   background-color: hsl(215deg, 14%, 23%);
