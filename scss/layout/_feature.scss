@@ -2,52 +2,64 @@
 Home and About section Styles
 ****************************/ 
 .feature {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    @include bp-desktop-up {
-        text-align: left;
-    }
+   width: 100%;
+   margin: 5rem 0;
+   text-align: center;
 
-    .container {
-        padding: 6.25rem 2rem;
+   @include bp-desktop-up {
+       text-align: initial;
+   }
+   
+   &__container {
+       width: 100vw;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       align-items: center;
 
-        @include bp-desktop-up {
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;  
-            
+       @include bp-desktop-up {
+           flex-direction: row;
+           justify-content: space-between;
+           align-items:stretch;
+           
         }
-        
+
         .text-container {
             order: 2;
-            max-width: 35.8125rem;
+            margin-bottom: 2rem;
+            padding: 2rem;
 
-             
-            .feature-heading {
-                padding: 1.875rem;
+            @include bp-desktop-up {
+                max-width: 27.8125rem;
+                margin: 2rem;
+                padding-right: .5rem;
             }
 
-            .paragraph {
-                padding: 1.25rem;
+            .feature-heading {
+                padding: 2rem 0;
+            }
+
+            .feature-paragraph {
+                padding: 2rem 0;
+                margin-bottom: 2rem;
+            }
+
+            .feature-btn {
+                padding: 2rem 0;
             }
         }
-        
-        .image-container {
-            position: relative;
-            order: 1;
-            
-            .feature-image {
-                width: 80%;
-                border-radius: 50%;
 
-                @include bp-tablet-up {
-                    width: 100%;
-                }
+        .image-container {
+            order: 1; 
+            padding: 2rem;
+
+            @include bp-desktop-up {
+                width: 27.8125rem;
+                margin: 2rem;
+            }
+
+            .feature-image {
+                border-radius: 50%;
             }
         }
 
@@ -63,19 +75,7 @@ Home and About section Styles
             }
         }
 
-        .tc-right {
-            @include bp-desktop-up {
-                order: 2;
-            }
-        }
-
-        .ic-left {
-            @include bp-desktop-up {
-                order: 1;
-            }
-        }
 
     }
-}
-
-
+   
+}   
