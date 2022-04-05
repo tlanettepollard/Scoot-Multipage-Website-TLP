@@ -5,9 +5,13 @@ Home and About section Styles
    width: 100%;
    margin: 5rem 0;
    text-align: center;
+
+   @include bp-desktop-up {
+       text-align: initial;
+   }
    
    &__container {
-       width: 100%;
+       width: 100vw;
        display: flex;
        flex-direction: column;
        justify-content: space-between;
@@ -15,26 +19,59 @@ Home and About section Styles
 
        @include bp-desktop-up {
            flex-direction: row;
+           justify-content: space-between;
+           align-items:stretch;
            
         }
 
         .text-container {
             order: 2;
+            margin-bottom: 2rem;
+            padding: 2rem;
+
+            @include bp-desktop-up {
+                max-width: 27.8125rem;
+                margin: 2rem;
+                padding-right: .5rem;
+            }
 
             .feature-heading {
-                padding: 2rem;
+                padding: 2rem 0;
             }
 
             .feature-paragraph {
-                padding: 2rem;
+                padding: 2rem 0;
+                margin-bottom: 2rem;
+            }
+
+            .feature-btn {
+                padding: 2rem 0;
             }
         }
 
         .image-container {
             order: 1; 
+            padding: 2rem;
+
+            @include bp-desktop-up {
+                width: 27.8125rem;
+                margin: 2rem;
+            }
 
             .feature-image {
                 border-radius: 50%;
+            }
+        }
+
+        .tc-left {
+            @include bp-desktop-up {
+                order: 1;
+            }
+        }
+
+        .ic-right {
+            @include bp-desktop-up {
+                order: 2;
             }
         }
 
