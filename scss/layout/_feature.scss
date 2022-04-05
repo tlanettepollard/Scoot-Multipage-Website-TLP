@@ -2,6 +2,43 @@
 Home and About section Styles
 ****************************/ 
 .feature {
+   width: 100%;
+   margin: 5rem 0;
+   text-align: center;
+   
+   &__container {
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       align-items: center;
 
-    
-}    
+       @include bp-desktop-up {
+           flex-direction: row;
+           
+        }
+
+        .text-container {
+            order: 2;
+
+            .feature-heading {
+                padding: 2rem;
+            }
+
+            .feature-paragraph {
+                padding: 2rem;
+            }
+        }
+
+        .image-container {
+            order: 1; 
+
+            .feature-image {
+                border-radius: 50%;
+            }
+        }
+
+
+    }
+   
+}   

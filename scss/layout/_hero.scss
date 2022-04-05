@@ -21,12 +21,18 @@
         background-position: right center;
         text-align: initial;
     }
-        
-    .hero-text-container {
-        color: $hero-heading;
+    .hero__container { 
+        .hero-text-container {
+            max-width: 35.8125rem;
+            color: $hero-heading;
+            padding: 0 2rem;
 
-    }
-    
+            .home-paragraph {
+                margin-bottom:  3rem;
+            }
+
+        }
+    } 
 }
 
 // About page 
@@ -60,7 +66,7 @@
         top: 0;
     }
 
-    .container {
+    .hero__container {
         
         .hero-text-container {
             max-width: 35.8125rem;
@@ -107,7 +113,7 @@
         top: 0;
     }
 
-    .container {
+    .hero__container {
         
         .hero-text-container {
             max-width: 35.8125rem;
@@ -154,7 +160,7 @@
         top: 0;
     }
 
-    .container {
+    .hero__container {
         
         .hero-text-container {
             max-width: 35.8125rem;
