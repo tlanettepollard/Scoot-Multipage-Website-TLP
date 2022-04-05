@@ -67,6 +67,14 @@ Hi. Today my goal is to work on my About page and hopefully Careers page.
 
 Hi. Happy Monday afternoon! My goal today is to focus on finishing the home page and working on the About page. Had problems with the Features section desktop page. Flex box wasn't lining up as it should for space-between.
 
+### 04/05/2022
+
+Hi. Last night drove me crazy. I couldn't figure out why my space-between wasn't working in my flex box container. I think I found the reason. I have an empty div that is getting in the way. Once I got rid of the empty divs, the alignment changed. 
+
+Resources:
+
+- [Why is flexbox space-between not working?](https://stackoverflow.com/questions/33010395/why-is-flexbox-space-between-not-working)
+
 ---
 
 font-family: 'Lexend Deca', sans-serif;
