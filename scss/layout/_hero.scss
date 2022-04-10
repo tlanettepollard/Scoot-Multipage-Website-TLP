@@ -1,9 +1,7 @@
 .hero-home {
     position: relative;
     overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    @include flex (column, center, center);
     background-image: url('../../assets/images/home-hero-mobile.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -42,10 +40,7 @@
     max-height: 12.5rem;
     height: 10rem;
     top: 4rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flex (column, center, center);
     text-align: center;
     background-image: url('../../assets/images/about-hero-mobile.jpg');
     background-repeat: no-repeat;
@@ -89,10 +84,7 @@
     max-height: 12.5rem;
     height: 10rem;
     top: 4rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flex (column, center, center);
     text-align: center;
     background-image: url('../../assets/images/careers-location-hero-mobile.jpg');
     background-repeat: no-repeat;
@@ -136,10 +128,7 @@
     max-height: 12.5rem;
     height: 10rem;
     top: 4rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flex (column, center, center);
     text-align: center;
     background-image: url('../../assets/images/careers-location-hero-mobile.jpg');
     background-repeat: no-repeat;
