@@ -69,11 +69,15 @@ Hi. Happy Monday afternoon! My goal today is to focus on finishing the home page
 
 ### 04/05/2022
 
-Hi. Last night drove me crazy. I couldn't figure out why my space-between wasn't working in my flex box container. I think I found the reason. I have an empty div that is getting in the way. Once I got rid of the empty divs, the alignment changed. 
+Hi. Last night drove me crazy. I couldn't figure out why my space-between wasn't working in my flex box container. I think I found the reason. I have an empty div that is getting in the way. Once I got rid of the empty divs, the alignment changed.
 
 Resources:
 
 - [Why is flexbox space-between not working?](https://stackoverflow.com/questions/33010395/why-is-flexbox-space-between-not-working)
+
+### 04/10/2022
+
+Hi. Back again. I was working on my business website yesterday. Today my goal is to continue styling the main sections of the pages.
 
 ---
 

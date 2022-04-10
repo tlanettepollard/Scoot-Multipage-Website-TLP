@@ -5,10 +5,7 @@
 .directions {
     height: 100%;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flex (column, center, center);
     text-align: center;
 
     @include bp-small-screen {
