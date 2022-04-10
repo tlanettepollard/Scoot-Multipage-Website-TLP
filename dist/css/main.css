@@ -126,6 +126,63 @@ h4 {
   border: 2px solid hsl(40deg, 97%, 58%);
 }
 
+/****************************
+Home and About section Styles
+****************************/
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+}
+.articles .article__container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  padding: 3.125rem;
+}
+.articles .article__container .feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 6.25rem auto;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .articles .article__container .feature {
+    flex-direction: row;
+  }
+}
+.articles .article__container .feature .text-container {
+  margin: auto;
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .articles .article__container .feature .text-container {
+    order: 2;
+  }
+}
+.articles .article__container .feature .text-container .feature-heading {
+  margin: 1.25rem;
+}
+.articles .article__container .feature .text-container .feature-paragraph {
+  margin-bottom: 10%;
+}
+.articles .article__container .feature .image-container {
+  margin: 3.125rem auto;
+}
+@media screen and (max-width: 767px) {
+  .articles .article__container .feature .image-container {
+    order: 1;
+  }
+}
+.articles .article__container .feature .image-container .feature-image {
+  border-radius: 50%;
+}
+
 .container {
   position: relative;
   width: 100%;
@@ -217,34 +274,6 @@ h4 {
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .directions .directions__container .directions__list .directions__item .text-container .paragraph {
     padding: 1.25rem;
-  }
-}
-
-/****************************
-Home and About section Styles
-****************************/
-.feature {
-  width: 100%;
-  margin: 5rem 0;
-  text-align: center;
-}
-@media screen and (min-width: 1025px) {
-  .feature {
-    text-align: initial;
-  }
-}
-.feature__container {
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-@media screen and (min-width: 1025px) {
-  .feature__container {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: stretch;
   }
 }
 
