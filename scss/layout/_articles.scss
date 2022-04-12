@@ -26,6 +26,12 @@ Home and About section Styles
                 @include bp-xl-tablet-down {
                     order: 2;
                 }
+
+                @include bp-desktop-up {
+                    width: 50%;
+                    text-align: left;
+                }
+
                 .feature-heading {
                     margin: 1.25rem;
                 }
@@ -52,9 +58,21 @@ Home and About section Styles
                }
            } 
 
+           .tc-left {
+               @include bp-desktop-up {
+                   order: 1;
+               }
+           }
+
            .ic-left {
                @include bp-desktop-up {
                    order: 1;
+               }
+           }
+
+           .ic-right {
+               @include bp-desktop-up {
+                    order: 2;
                }
            }
         }

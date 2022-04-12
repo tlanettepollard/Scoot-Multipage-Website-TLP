@@ -167,6 +167,12 @@ Home and About section Styles
     order: 2;
   }
 }
+@media screen and (min-width: 1025px) {
+  .articles .article__container .feature .text-container {
+    width: 50%;
+    text-align: left;
+  }
+}
 .articles .article__container .feature .text-container .feature-heading {
   margin: 1.25rem;
 }
@@ -190,8 +196,18 @@ Home and About section Styles
   }
 }
 @media screen and (min-width: 1025px) {
+  .articles .article__container .feature .tc-left {
+    order: 1;
+  }
+}
+@media screen and (min-width: 1025px) {
   .articles .article__container .feature .ic-left {
     order: 1;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .articles .article__container .feature .ic-right {
+    order: 2;
   }
 }
 
