@@ -16,16 +16,22 @@ Home and About section Styles
             @include flex (column, center, center);
             margin: 6.25rem auto;
 
-            @include bp-tablet-up {
+            @include bp-desktop-up {
                 flex-direction: row;
             }
 
             .text-container {
                 margin: auto;
                 width: 100%;
-                @include bp-mobile-down {
+                @include bp-xl-tablet-down {
                     order: 2;
                 }
+
+                @include bp-desktop-up {
+                    width: 50%;
+                    text-align: left;
+                }
+
                 .feature-heading {
                     margin: 1.25rem;
                 }
@@ -36,7 +42,7 @@ Home and About section Styles
 
             .image-container {
                 margin: 3.125rem auto;
-                @include bp-mobile-down {
+                @include bp-xl-tablet-down {
                     order: 1;
                 }
 
@@ -45,6 +51,30 @@ Home and About section Styles
 
                 }
             }
+
+           .tc-right {
+               @include bp-desktop-up {
+                   order: 2;
+               }
+           } 
+
+           .tc-left {
+               @include bp-desktop-up {
+                   order: 1;
+               }
+           }
+
+           .ic-left {
+               @include bp-desktop-up {
+                   order: 1;
+               }
+           }
+
+           .ic-right {
+               @include bp-desktop-up {
+                    order: 2;
+               }
+           }
         }
     }
 }
