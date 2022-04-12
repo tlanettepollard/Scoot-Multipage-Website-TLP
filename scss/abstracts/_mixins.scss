@@ -45,6 +45,12 @@
     } 
 }
 
+//XL Tablet Down: 1024px down
+@mixin bp-xl-tablet-down {
+    @media screen and (max-width: $bp-sm-screen-end){
+        @content;
+    }
+}
 
 // Tablet up: 768px up
 @mixin bp-tablet-up {

@@ -79,6 +79,10 @@ Resources:
 
 Hi. Back again. I was working on my business website yesterday. Today my goal is to continue styling the main sections of the pages.
 
+### 04/12/2022
+
+Hi. Yesterday I was working on my React course. Now I am back.
+
 ---
 
 font-family: 'Lexend Deca', sans-serif;
