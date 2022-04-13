@@ -1,0 +1,30 @@
+.values {
+    @include flex (column, center, center);
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+
+
+    .values__container {
+        @include flex (column, center, center);
+        padding: 3.125rem;
+
+         @include bp-desktop-up {
+            flex-direction: row;
+         }
+        .value-item {
+
+            .value__text-container {
+
+            }
+            .value__image-container {
+                .value-image {
+                   width: 15rem;
+                   height: 15rem;
+
+                }
+            }
+        }
+    }
+}
