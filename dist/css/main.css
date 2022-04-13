@@ -126,9 +126,9 @@ h4 {
   border: 2px solid hsl(40deg, 97%, 58%);
 }
 
-/****************************
-Home and About section Styles
-****************************/
+/*************************************
+Home, About, and Career section Styles
+*************************************/
 .articles {
   display: flex;
   flex-direction: column;
