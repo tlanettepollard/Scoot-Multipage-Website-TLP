@@ -83,6 +83,9 @@ Hi. Back again. I was working on my business website yesterday. Today my goal is
 
 Hi. Yesterday I was working on my React course. Now I am back. I'm getting more proficient at streamlining my code for multiple pages. I was able to find common sections between the pages that could use the same code.
 
+### 04/13/2022 
+Hi. Today was a busy day. I started to organize my email and delete/move old email messages. I decided to use my Mail app (should've used it sooner). So, I got to coding late. 
+
 ---
 
 font-family: 'Lexend Deca', sans-serif;
