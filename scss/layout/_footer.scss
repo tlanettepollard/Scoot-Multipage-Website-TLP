@@ -1,9 +1,15 @@
 .footer {
+    width: 100%;
     background-color: $footer-bg;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    
+    @include bp-tablet-up {
+        height: 6.3125rem;
+    }
+    
     .footer__container {
         padding: 4rem 0 5.5rem;
 
@@ -13,7 +19,7 @@
         @include bp-small-screen {
             padding: 2rem 2.4375rem;
         }
-        
+
         @include bp-desktop-up {
              padding: 2rem 10.3125rem;
         }

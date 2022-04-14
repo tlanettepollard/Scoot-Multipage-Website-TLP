@@ -307,11 +307,17 @@ Home, About, and Career section Styles
 }
 
 .footer {
+  width: 100%;
   background-color: hsl(215deg, 14%, 23%);
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .footer {
+    height: 6.3125rem;
+  }
 }
 .footer .footer__container {
   padding: 4rem 0 5.5rem;
@@ -693,6 +699,11 @@ header nav {
   background-position: bottom right;
 }
 @media screen and (min-width: 320px) and (max-width: 480px) {
+  .signup {
+    height: 25rem;
+  }
+}
+@media screen and (min-width: 768px) {
   .signup {
     height: 25rem;
   }

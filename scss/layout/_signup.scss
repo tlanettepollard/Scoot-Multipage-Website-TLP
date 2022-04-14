@@ -14,6 +14,9 @@
     @include bp-sm-mobile {
         height: 25rem;
     }
+    @include bp-tablet-up {
+        height: 25rem;
+    }
 
     @include bp-desktop {
         flex-direction: row;
