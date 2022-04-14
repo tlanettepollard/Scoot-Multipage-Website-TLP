@@ -316,11 +316,46 @@ Home, About, and Career section Styles
 .footer .footer__container {
   padding: 4rem 0 5.5rem;
 }
+@media screen and (min-width: 768px) {
+  .footer .footer__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .footer .footer__container {
+    padding: 2rem 2.4375rem;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .footer .footer__container {
+    padding: 2rem 10.3125rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer .footer__container .footer-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 26.0625rem;
+  }
+}
 .footer .footer__container .footer-navbar .navbar-logo {
   display: block;
   max-width: 6.6875rem;
   margin: 0 auto;
   padding-bottom: 1.875rem;
+}
+@media screen and (min-width: 768px) {
+  .footer .footer__container .footer-navbar .navbar-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 .footer .footer__container .footer-navbar .navbar-list .navbar-item {
   margin-bottom: 1rem;
@@ -340,17 +375,17 @@ Home, About, and Career section Styles
 .footer .footer__container .social .social__item {
   padding: 1.25rem;
 }
-.footer .footer__container .attribution {
+.footer .attribution {
   margin-top: 2.5rem;
 }
-.footer .footer__container .attribution p {
+.footer .attribution p {
   font-size: 14px;
   color: hsl(0deg, 0%, 100%);
 }
-.footer .footer__container .attribution p a {
+.footer .attribution p a {
   color: hsl(217deg, 12%, 62%);
 }
-.footer .footer__container .attribution p a:hover {
+.footer .attribution p a:hover {
   color: hsl(40deg, 97%, 58%);
 }
 
