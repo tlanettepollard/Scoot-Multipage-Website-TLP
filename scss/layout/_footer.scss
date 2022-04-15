@@ -30,18 +30,34 @@
                 @include bp-tablet-up {
                     @include flex(row, space-between, center);
                 }
+
+                .navbar-item {
+                    padding: 1rem;
+                    
+                    a {
+                        color: $nav-link-color;
+                    }
+                }
             }
         }
 
         .social {
             padding: 1.875rem;
             @include flex(row, center, center);
+
+            &__item {
+                padding: 1rem;
+            }
         }
     }
 
     .attribution {
         margin-top: 1.875rem;
         padding: .625rem;
+        @include bp-tablet-up {
+            margin-top: .3125rem;
+            padding: .3125rem;
+        }
         p {
             font-size: 0.625em; 
             color: $white;

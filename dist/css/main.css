@@ -359,6 +359,12 @@ Home, About, and Career section Styles
     align-items: center;
   }
 }
+.footer__container .footer-navbar .navbar-list .navbar-item {
+  padding: 1rem;
+}
+.footer__container .footer-navbar .navbar-list .navbar-item a {
+  color: hsl(217deg, 12%, 62%);
+}
 .footer__container .social {
   padding: 1.875rem;
   display: flex;
@@ -366,9 +372,18 @@ Home, About, and Career section Styles
   justify-content: center;
   align-items: center;
 }
+.footer__container .social__item {
+  padding: 1rem;
+}
 .footer .attribution {
   margin-top: 1.875rem;
   padding: 0.625rem;
+}
+@media screen and (min-width: 768px) {
+  .footer .attribution {
+    margin-top: 0.3125rem;
+    padding: 0.3125rem;
+  }
 }
 .footer .attribution p {
   font-size: 0.625em;
