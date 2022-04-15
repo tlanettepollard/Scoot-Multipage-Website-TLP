@@ -1,76 +1,49 @@
 .footer {
-    width: 100%;
     background-color: $footer-bg;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    
+    width: 100%;
+    margin: 0 auto;
+    padding: 4rem;
+    @include flex (column, center, center);
     @include bp-tablet-up {
-        height: 6.3125rem;
+        padding: 0;
     }
-    
-    .footer__container {
-        padding: 4rem 0 5.5rem;
 
+    &__container {
+        width: 100%;
+        height: auto;
+        @include flex(column, space-between, center);
         @include bp-tablet-up {
-            @include flex (row, space-between, center);
-        }
-        @include bp-small-screen {
-            padding: 2rem 2.4375rem;
-        }
-
-        @include bp-desktop-up {
-             padding: 2rem 10.3125rem;
+            flex-direction: row;
         }
 
         .footer-navbar {
+            text-align: center;
+
             @include bp-tablet-up {
-                @include flex (row, space-between, center);
-                width: 26.0625rem;
+                @include flex(row, space-between, center);
             }
             .navbar-logo {
-                display: block;
-                max-width: 6.6875rem;
-                margin: 0 auto;
-                padding-bottom: 1.875rem;
+                padding: 1.875rem;
             }
-
             .navbar-list {
+                padding: 1.875rem;
                 @include bp-tablet-up {
                     @include flex(row, space-between, center);
-                    
-                }
-                .navbar-item {
-                    margin-bottom: 1rem;
-                   .navbar-link {
-                       color: $nav-link-color;
-                       text-decoration: none;
-                   } 
-                   .navbar-link:hover {
-                       color: $yellow;
-                   }
                 }
             }
         }
 
         .social {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            .social__item {
-                padding: 1.25rem;
-            }
-
+            padding: 1.875rem;
+            @include flex(row, center, center);
         }
-
-        
     }
 
     .attribution {
-        margin-top: 2.5rem;
+        margin-top: 1.875rem;
+        padding: .625rem;
         p {
-            font-size: 14px;
+            font-size: 0.625em; 
             color: $white;
         }
         p a {
