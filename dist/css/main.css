@@ -306,6 +306,89 @@ Home, About, and Career section Styles
   }
 }
 
+.faqs {
+  width: 100%;
+  height: auto;
+  margin: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.faqs__container {
+  width: 20rem;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .faqs__container {
+    width: 43.0625rem;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .faqs__container {
+    width: 69.375rem;
+    margin: 5.625rem auto;
+  }
+}
+.faqs__container .faqs-heading {
+  text-align: center;
+}
+.faqs__container .faqs__accordion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 1025px) {
+  .faqs__container .faqs__accordion {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .faqs__container .faqs__accordion .accordion-body {
+    width: 45.625rem;
+  }
+}
+.faqs__container .faqs__accordion .accordion-body .faqs-subheading {
+  color: hsl(216deg, 17%, 35%);
+}
+.faqs__container .faqs__accordion .accordion-body .faq__container {
+  height: 6.9375rem;
+  position: relative;
+  margin: 0.625rem 0.625rem;
+  background-color: hsl(214deg, 37%, 96%);
+}
+.faqs__container .faqs__accordion .accordion-body .faq__container .faq-label {
+  position: relative;
+  padding: 0.625rem 0;
+  font-size: 1.125em;
+  cursor: pointer;
+}
+.faqs__container .faqs__accordion .accordion-body .faq__container .faq-label::before {
+  content: "⌄";
+  color: hsl(40deg, 97%, 58%);
+  position: absolute;
+  top: 30%;
+  right: 0.3125rem;
+  font-size: 1.125em;
+  transform: translateY(-50%);
+}
+.faqs__container .faqs__accordion .accordion-body .faq__container .faq-content {
+  font-size: 0.9375em;
+  height: 0;
+  text-align: justify;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.faqs__container .faqs__accordion .accordion-body .faq-container .active .faq-content {
+  height: 9.375rem;
+}
+.faqs__container .faqs__accordion .accordion-body .faq-container .active .faq-label::before {
+  content: "^";
+  font-size: 1.125em;
+}
+
 .footer {
   background-color: hsl(215deg, 14%, 23%);
   width: 100%;
@@ -759,45 +842,6 @@ header nav {
 .values .values__container .value-item .value__image-container .value-image {
   width: 15rem;
   height: 15rem;
-}
-
-.faqs {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.faqs__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.faqs__container .faqs-heading {
-  text-align: center;
-}
-.faqs__container .faqs__accordion {
-  width: 50rem;
-  margin: 5.625rem auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-@media screen and (min-width: 1025px) {
-  .faqs__container .faqs__accordion {
-    width: 69.375rem;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: baseline;
-  }
-}
-@media screen and (min-width: 1025px) {
-  .faqs__container .faqs__accordion .accordion-body {
-    width: 45.625rem;
-  }
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */

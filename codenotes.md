@@ -91,6 +91,11 @@ Hi. Today was a busy day. I started to organize my email and delete/move old ema
 
 Hi. I spent my day on my Chalkspot website and working on my React exercises. My focus tonight is to restyle the footer.
 
+### 08/13/2022
+
+Resources:
+-- Down Arrow Icon, <a href="https://www.flaticon.com/free-icons/arrow" title="arrow icons">Arrow icons created by th studio - Flaticon</a>
+
 ---
 
 font-family: 'Lexend Deca', sans-serif;
