@@ -1,45 +1,42 @@
 *,
 *::before,
 *::after {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    outline: 1px solid black;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	outline: 1px solid black;
 }
 
-
 html {
-    font-size: 100%;
+	font-size: 100%;
 }
 html,
 body {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 ol,
 ul {
-    list-style-type: none;
+	list-style-type: none;
 }
-
 
 /* Main Styling */
 
 // Page Wrapper
 .wrapper {
-    max-width: 144rem;
-    min-height: 100vh;
-    overflow-x: hidden;
-    margin: auto;
-    position: relative;
+	max-width: 144rem;
+	min-height: 100vh;
+	overflow-x: hidden;
+	margin: auto;
+	position: relative;
 }
 
 .img-fluid {
-    width: 100%;
-    height: auto;
+	width: 100%;
+	height: auto;
 }
 
 .img-round {
-    border-radius: 50%;
+	border-radius: 50%;
 }
-

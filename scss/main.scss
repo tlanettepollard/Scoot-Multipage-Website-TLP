@@ -1,10 +1,9 @@
-
 // Abstracts
 @import './abstracts/mixins';
 @import './abstracts/utilities';
 @import './abstracts/variables';
 
-// Base 
+// Base
 @import './base/base';
 @import './base/fonts';
 @import './base/typography';
@@ -12,7 +11,7 @@
 // Components
 @import './components/button';
 
-// Layout 
+// Layout
 @import './layout/articles';
 @import './layout/container';
 @import './layout/directions';
@@ -23,7 +22,7 @@
 @import './layout/signup';
 @import './layout/values';
 
-// Pages 
+// Pages
 @import './pages/about';
 @import './pages/careers';
 @import './pages/home';
