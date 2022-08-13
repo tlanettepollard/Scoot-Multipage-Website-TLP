@@ -1,0 +1,30 @@
+.faqs {
+	height: 100%;
+	width: 100%;
+	@include flex(column, center, center);
+	&__container {
+		@include flex(column, center, center);
+
+		.faqs-heading {
+			text-align: center;
+		}
+		.faqs__accordion {
+			width: 50rem;
+			margin: 5.625rem auto;
+			@include flex(column, center, center);
+
+			@include bp-desktop-up {
+				width: 69.375rem;
+				flex-direction: row;
+				justify-content: space-between;
+				align-items: baseline;
+			}
+
+			.accordion-body {
+				@include bp-desktop-up {
+					width: 45.625rem;
+				}
+			}
+		}
+	}
+}
