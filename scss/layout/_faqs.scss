@@ -62,7 +62,7 @@
 
 					.faq-content {
 						font-size: 0.9375em;
-						height: 0;
+                        height: 0;
 						text-align: justify;
 						overflow: hidden;
 						transition: 0.5s;
@@ -70,7 +70,7 @@
 				}
 			}
 
-			.accordion-body .faq-container .active .faq-content {
+			.accordion-body .faq-container.active .faq-content {
 				height: 9.375rem;
 			}
 
