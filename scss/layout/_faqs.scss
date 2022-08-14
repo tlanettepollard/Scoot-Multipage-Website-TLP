@@ -62,7 +62,7 @@
 
 					.faq-content {
 						font-size: 0.9375em;
-                        height: 0;
+						height: 0;
 						text-align: justify;
 						overflow: hidden;
 						transition: 0.5s;
@@ -76,7 +76,7 @@
 
 			.accordion-body .faq-container .active .faq-label::before {
 				content: '^';
-                font-size: 1.125em;
+				font-size: 1.125em;
 			}
 		}
 	}
