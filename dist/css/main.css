@@ -381,7 +381,7 @@ Home, About, and Career section Styles
   overflow: hidden;
   transition: 0.5s;
 }
-.faqs__container .faqs__accordion .accordion-body .faq-container .active .faq-content {
+.faqs__container .faqs__accordion .accordion-body .faq-container.active .faq-content {
   height: 9.375rem;
 }
 .faqs__container .faqs__accordion .accordion-body .faq-container .active .faq-label::before {

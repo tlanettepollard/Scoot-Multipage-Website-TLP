@@ -70,13 +70,13 @@
 				}
 			}
 
-			.accordion-body .faq-container .active .faq-content {
+			.accordion-body .faq-container.active .faq-content {
 				height: 9.375rem;
 			}
 
 			.accordion-body .faq-container .active .faq-label::before {
 				content: '^';
-                font-size: 1.125em;
+				font-size: 1.125em;
 			}
 		}
 	}
