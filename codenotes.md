@@ -209,3 +209,6 @@ font-size: 2.400em;
 line-height: 2.8rem;
 letter-spacing: -1.07;
 }
+
+Chevron UP
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="#FCB72B" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
