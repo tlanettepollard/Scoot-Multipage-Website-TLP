@@ -94,7 +94,8 @@ Hi. I spent my day on my Chalkspot website and working on my React exercises. My
 ### 08/13/2022
 
 Resources:
--- Down Arrow Icon, <a href="https://www.flaticon.com/free-icons/arrow" title="arrow icons">Arrow icons created by th studio - Flaticon</a>
+
+- Down Arrow Icon, <a href="https://www.flaticon.com/free-icons/arrow" title="arrow icons">Arrow icons created by th studio - Flaticon</a> -[Creating Accordion with Javascript](https://medium.com/@vikash20186/creating-accordion-with-javascript-a33743655474)
 
 ---
 
