@@ -1,2 +1,9 @@
 /* Faqs Section */
+#accordion .faq-content {
+    display: none;
+    padding: .625rem;
+}
 
+#accordion .active .faq-content {
+    display: block;
+}
