@@ -1,269 +1,368 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <link rel="stylesheet" type="text/css" href="dist/css/main.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Scoot Home</title>
-</head>
-<body>
-  <div class="wrapper">
-    <header>
-      <!-- Navbar-->
-      <nav class="hide-mobile">
-        <!-- Navbar Logo -->
-        <div class="navbar__container">
-          <div class="logo">
-            <a href="/index.html">
-              <img src="./assets/logo.svg" alt="company-logo"/>
-            </a>
-          </div>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-          <ul class="navbar__list" id="navbarMenu">
-            <li class="navbar__item">
-              <a href="/about.html" class="navbar-link">About</a>
-            </li>
-            <li class="navbar__item">
-              <a href="/locations.html" class="navbar-link">Location</a>
-            </li>
-            <li class="navbar__item">
-              <a href="/careers.html" class="navbar-link">Careers</a>
-            </li>
-          </ul>
-        </div> <!-- navbar__container -->
+		<link rel="stylesheet" type="text/css" href="dist/css/main.css" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
 
-        <button class="btn btn-primary nav-scoot-btn" type="button">
-          <a href="#scoot">Get Scootin</a>
-        </button>
-       
-      </nav>
-      <!-- End Tablet/Desktop Navbar -->
-      
-      <div class="sidebar-container hide-tablet-up">
-        <div class="sidebar-header">
-          <img id="hamburger" class="hamburger nav_handle" src="assets/icons/hamburger.svg" onclick="openNav()" alt="open menu">
-          
-          <div class="logo">
-            <a href="/index.html">
-              <img src="./assets/logo.svg" alt="company-logo"/>
-            </a>
-          </div>
-        </div><!-- sidebar-header -->
-        <div id="mobileSidebar" class="sidebar">
-          <div class="close">
-            <img src="assets/icons/close.svg" alt="close menu" onclick="closeNav()">
-          </div>
-          <div class="sidebar-links">
-            <a href="about.html">About</a>
-            <a href="locations.html">Locations</a>
-            <a href="careers.html">Careers</a>
-          </div>
-          <button class="btn btn-primary scoot" type="button">
-            <a href="#scoot">
-            Get Scootin</a>
-          </button>
-          
-          
-        </div>
-      </div><!-- sidebar-container -->
-    </header>
-    <!-- End Header -->
+		<title>Scoot Home</title>
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<!-- Navbar-->
+				<nav class="hide-mobile">
+					<!-- Navbar Logo -->
+					<div class="navbar__container">
+						<div class="logo">
+							<a href="/index.html">
+								<img src="./assets/logo.svg" alt="company-logo" />
+							</a>
+						</div>
 
-    <main id='main' class="main-home">
-    <!-- Begin Hero -->
-      <section class="hero-home">
-        <div class="hero__container">
-          <article class="hero-text-container">
-            <h1 class="home-heading heading-1">Scooter sharing made simple</h1>
-            <p class="home-paragraph paragraph">Scoot takes the hassle out of urban mobility. Our bikes are placed in convenient locations in each of our cities. Use our app to locate the nearest bike, unlock it with a tap, and you’re away!</p>
-            <a href="#scoot">
-              <button class="btn btn-primary home-btn" type="button">
-                    Get Scootin
-              </button>
-            </a>
-          </article>
+						<ul class="navbar__list" id="navbarMenu">
+							<li class="navbar__item">
+								<a href="/about.html" class="navbar-link">About</a>
+							</li>
+							<li class="navbar__item">
+								<a href="/locations.html" class="navbar-link">Location</a>
+							</li>
+							<li class="navbar__item">
+								<a href="/careers.html" class="navbar-link">Careers</a>
+							</li>
+						</ul>
+					</div>
+					<!-- navbar__container -->
 
-          <div class="shape shape--line hide-large"></div>
-          <div class="shape shape--arrow"></div>
-          <div class="shape shape--circles hide-small"></div>
-        </div>
-      </section>
-      <!-- End Hero -->
+					<button class="btn btn-primary nav-scoot-btn" type="button">
+						<a href="#scoot">Get Scootin</a>
+					</button>
+				</nav>
+				<!-- End Tablet/Desktop Navbar -->
 
-      <!-- Directions -->
-      <section class="directions">
-        <div class="directions__container">
-          
-          <ol class="directions__list">
-            <!-- Item 01 -->
-            <li class="directions__item">
-              <div class="image-container">
-                <img src="./assets/icons/locate.svg" alt="locate" class="steps-icon">
-              </div>
-              <div class="text-container">
-              <h4 class="directions-heading heading-4">Locate with app</h4>
-              <p class="paragraph">Use the app to find the nearest scooter to you. We are continuously placing scooters in the areas with most demand, so one should never be too far away. </p>
-              </div>
-            </li>
-             <!-- Item 02 -->
-            <li class="directions__item">
-              <div class="image-container">
-                <img src="./assets/icons/scooter.svg" alt="scooter" class="steps-icon">
-              </div>
-              <div class="text-container">
-                <h4 class="directions-heading heading-4">Pick your scooter</h4>
-                <p class="paragraph">We show the most important info for the scooters closest to you. So you know how much 
-                charge they have left and can see roughly how much it will cost. </p>
-              </div>
-            </li>
-            <!-- Item 03 -->
-            <li class="directions__item">
-              <div class="image-container">
-                <img src="./assets/icons/ride.svg" alt="ride" class="steps-icon">
-              </div>
-              <div class="text-container">
-                <h4 class="directions-heading heading-4">Enjoy the ride</h4>
-                <p class="paragraph">Scan the QR code and the bike will unlock. Retract the cable lock, put on a helmet, and you’re off! Always lock bikes away from walkways and accessibility ramps. </p>
-              </div>
-            </li>
-          </ol>
+				<div class="sidebar-container hide-tablet-up">
+					<div class="sidebar-header">
+						<img
+							id="hamburger"
+							class="hamburger nav_handle"
+							src="assets/icons/hamburger.svg"
+							onclick="openNav()"
+							alt="open menu"
+						/>
 
-          <div class="shape shape--line hide-mobile"></div>
-        </div>
-      </section>
-      <!-- End Directions -->
+						<div class="logo">
+							<a href="/index.html">
+								<img src="./assets/logo.svg" alt="company-logo" />
+							</a>
+						</div>
+					</div>
+					<!-- sidebar-header -->
+					<div id="mobileSidebar" class="sidebar">
+						<div class="close">
+							<img
+								src="assets/icons/close.svg"
+								alt="close menu"
+								onclick="closeNav()"
+							/>
+						</div>
+						<div class="sidebar-links">
+							<a href="about.html">About</a>
+							<a href="locations.html">Locations</a>
+							<a href="careers.html">Careers</a>
+						</div>
+						<button class="btn btn-primary scoot" type="button">
+							<a href="#scoot"> Get Scootin</a>
+						</button>
+					</div>
+				</div>
+				<!-- sidebar-container -->
+			</header>
+			<!-- End Header -->
 
-      <!-- Features Section -->
-      <section class="features">
-        <div class="features__container">
-          <article class="feature feature--right">
-            <div class="text-container tc-left">
-              <h2 class="feature-heading heading heading-2">Easy to use riding telemetry</h2>
-              <p class="feature-paragraph paragraph">The Scoot app is available with riding telemetry. This means it can show you your 
-              average speed, how long you've been using the scooter, your traveling distance, and many more things all in an easy to use app.</p>
-              <a href="about.html">
-                <button class="btn btn-primary feature-btn" type="button">
-                  Learn More
-                </button>
-              </a>
-            </div>
-            <div class="image-container ic-right">
-                <img src="./assets/images/telemetry.jpg" alt="Person using app" class="feature-image img-round img-fluid">
-            </div>
-          </article>
-          <div class="patterns">
-            <div class="shape shape--arrow-1"></div>
-            <div class="shape shape--circle-1 hide-small"></div>
-          </div>
+			<main id="main" class="main-home">
+				<!-- Begin Hero -->
+				<section class="hero-home">
+					<div class="hero__container">
+						<article class="hero-text-container">
+							<h1 class="home-heading heading-1">
+								Scooter sharing made simple
+							</h1>
+							<p class="home-paragraph paragraph">
+								Scoot takes the hassle out of urban mobility. Our bikes are
+								placed in convenient locations in each of our cities. Use our
+								app to locate the nearest bike, unlock it with a tap, and you’re
+								away!
+							</p>
+							<a href="#scoot">
+								<button class="btn btn-primary home-btn" type="button">
+									Get Scootin
+								</button>
+							</a>
+						</article>
 
-          <article class="feature feature--left">
-            <div class="text-container tc-right">
-              <h2 class="feature-heading heading heading-2">Coming to a city near you</h2>
-              <p class="feature-paragraph paragraph">Scoot is available in 4 major cities so far. We’re expanding rapidly, so be sure to let us know if you want to see us in your hometown. We’re aiming to let our scooters loose on 23 cities over the coming year.</p>
-              <a href="locations.html">
-                <button class="btn btn-primary feature-btn" type="button">
-                  Learn More
-                </button>
-              </a> 
-            </div>
-            <div class="image-container ic-left">
-                <img src="./assets/images/near-you.jpg" alt="city street" class="feature-image img-fluid img-round">  
-            </div>
-          </article>
-          <div class="patterns">
-            <div class="shape shape--arrow-2"></div>
-            <div class="shape shape--circle-2 hide-small"></div>
-          </div>
+						<div class="shape shape--line hide-large"></div>
+						<div class="shape shape--arrow"></div>
+						<div class="shape shape--circles hide-small"></div>
+					</div>
+				</section>
+				<!-- End Hero -->
 
-          <article class="feature feature--right">
-            <div class="text-container tc-left">
-              <h2 class="feature-heading heading heading-2">Zero hassle payments</h2>
-              <p class="feature-paragraph paragraph">Our payment is as easy as one two three. We accept most credit cards and debit cards. 
-              You can also link your PayPal account inside the app. Need to pay later? No worries! You can defer payment for up to a month.</p>
-              <a href="about.html">
-                <button class="btn btn-primary feature-btn" type="button">
-                  Learn More
-                </button>
-              </a>
-            </div>
-            <div class="image-container ic-right">
-              <img src="./assets/images/payments.jpg" alt="person making payments" class="feature-image img-fluid img-round">
-            </div>
-          </article>
-          <div class="patterns">
-            <div class="shape shape--arrow-3"></div>
-            <div class="shape shape--circle-3 hide-small"></div>
-          </div>
-        </div><!-- article__container -->
-      </section>
-      <!-- End Articles Section -->
+				<!-- Directions -->
+				<section class="directions">
+					<div class="directions__container">
+						<ol class="directions__list">
+							<!-- Item 01 -->
+							<li class="directions__item">
+								<div class="image-container">
+									<img
+										src="./assets/icons/locate.svg"
+										alt="locate"
+										class="steps-icon"
+									/>
+								</div>
+								<div class="text-container">
+									<h4 class="directions-heading heading-4">Locate with app</h4>
+									<p class="paragraph">
+										Use the app to find the nearest scooter to you. We are
+										continuously placing scooters in the areas with most demand,
+										so one should never be too far away.
+									</p>
+								</div>
+							</li>
+							<!-- Item 02 -->
+							<li class="directions__item">
+								<div class="image-container">
+									<img
+										src="./assets/icons/scooter.svg"
+										alt="scooter"
+										class="steps-icon"
+									/>
+								</div>
+								<div class="text-container">
+									<h4 class="directions-heading heading-4">
+										Pick your scooter
+									</h4>
+									<p class="paragraph">
+										We show the most important info for the scooters closest to
+										you. So you know how much charge they have left and can see
+										roughly how much it will cost.
+									</p>
+								</div>
+							</li>
+							<!-- Item 03 -->
+							<li class="directions__item">
+								<div class="image-container">
+									<img
+										src="./assets/icons/ride.svg"
+										alt="ride"
+										class="steps-icon"
+									/>
+								</div>
+								<div class="text-container">
+									<h4 class="directions-heading heading-4">Enjoy the ride</h4>
+									<p class="paragraph">
+										Scan the QR code and the bike will unlock. Retract the cable
+										lock, put on a helmet, and you’re off! Always lock bikes
+										away from walkways and accessibility ramps.
+									</p>
+								</div>
+							</li>
+						</ol>
 
-      
-      <!-- Sign Up Section-->
-      <section id="scoot" class="signup">
-        <div class="signup__container">
-          <article class="text-container">
-            <h2 class="scoot-heading heading-2">Sign up and Scoot off today</h2>
-          </article>
+						<div class="shape shape--line hide-mobile"></div>
+					</div>
+				</section>
+				<!-- End Directions -->
 
-          <div class="image-container">
-            <img src="/assets/icons/app-store.svg" alt="app-store" class="app-store-img">
-            <img src="/assets/icons/google-play.svg" alt="google-play" class="app-store-img"> 
-          </div>
-        </div>
-      </section>
-      <!-- End Sign Up Section -->
-    </main>
+				<!-- Features Section -->
+				<section class="features">
+					<div class="features__container">
+						<article class="feature feature--right">
+							<div class="text-container tc-left">
+								<h2 class="feature-heading heading heading-2">
+									Easy to use riding telemetry
+								</h2>
+								<p class="feature-paragraph paragraph">
+									The Scoot app is available with riding telemetry. This means
+									it can show you your average speed, how long you've been using
+									the scooter, your traveling distance, and many more things all
+									in an easy to use app.
+								</p>
+								<a href="about.html">
+									<button class="btn btn-primary feature-btn" type="button">
+										Learn More
+									</button>
+								</a>
+							</div>
+							<div class="image-container ic-right">
+								<img
+									src="./assets/images/telemetry.jpg"
+									alt="Person using app"
+									class="feature-image img-round img-fluid"
+								/>
+							</div>
+						</article>
+						<div class="patterns">
+							<div class="shape shape--arrow-1"></div>
+							<div class="shape shape--circle-1 hide-small"></div>
+						</div>
 
-    <footer class="footer">
-      <div class="footer__container">
-        <nav class="footer-navbar">
-          <a href="index.html">
-            <img src="./assets/logo-white.svg" class="navbar-logo" alt="company logo">
-          </a>
-        
-          <ul class="navbar-list">
-            <li class="navbar-item">
-              <a class="navbar-link" href="about.html">About</a>
-            </li>
-            <li class="navbar-item">
-              <a class="navbar-link" href="locations.html">Location</a>
-            </li>
-            <li class="navbar-item">
-              <a class="navbar-link" href="locations.html">Careers</a>
-          </ul>
-        </nav>
+						<article class="feature feature--left">
+							<div class="text-container tc-right">
+								<h2 class="feature-heading heading heading-2">
+									Coming to a city near you
+								</h2>
+								<p class="feature-paragraph paragraph">
+									Scoot is available in 4 major cities so far. We’re expanding
+									rapidly, so be sure to let us know if you want to see us in
+									your hometown. We’re aiming to let our scooters loose on 23
+									cities over the coming year.
+								</p>
+								<a href="locations.html">
+									<button class="btn btn-primary feature-btn" type="button">
+										Learn More
+									</button>
+								</a>
+							</div>
+							<div class="image-container ic-left">
+								<img
+									src="./assets/images/near-you.jpg"
+									alt="city street"
+									class="feature-image img-fluid img-round"
+								/>
+							</div>
+						</article>
+						<div class="patterns">
+							<div class="shape shape--arrow-2"></div>
+							<div class="shape shape--circle-2 hide-small"></div>
+						</div>
 
-        <ul class="social">
-          <li class="social__item">
-            <a href="#" class="social-icons__link">
-              <img src="./assets/icons/facebook.svg" alt="facebook">
-            </a>
-          </li>
-          <li class="social__item">
-            <a href="#" class="social-icons-link">
-              <img src="./assets/icons/twitter.svg" alt="twitter">
-            </a>
-          </li>
-          <li class="social__item">
-            <a href="#" class="social-icons-link">
-              <img src="./assets/icons/instagram.svg" alt="instagram">
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="attribution">
-          <p>Challenge by &nbsp;<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.&nbsp;Coded by &nbsp; <a href="https://github.com/tlanettepollard">Trista Lanette Pollard</a></p>
-      </div>
-    </footer>
+						<article class="feature feature--right">
+							<div class="text-container tc-left">
+								<h2 class="feature-heading heading heading-2">
+									Zero hassle payments
+								</h2>
+								<p class="feature-paragraph paragraph">
+									Our payment is as easy as one two three. We accept most credit
+									cards and debit cards. You can also link your PayPal account
+									inside the app. Need to pay later? No worries! You can defer
+									payment for up to a month.
+								</p>
+								<a href="about.html">
+									<button class="btn btn-primary feature-btn" type="button">
+										Learn More
+									</button>
+								</a>
+							</div>
+							<div class="image-container ic-right">
+								<img
+									src="./assets/images/payments.jpg"
+									alt="person making payments"
+									class="feature-image img-fluid img-round"
+								/>
+							</div>
+						</article>
+						<div class="patterns">
+							<div class="shape shape--arrow-3"></div>
+							<div class="shape shape--circle-3 hide-small"></div>
+						</div>
+					</div>
+					<!-- article__container -->
+				</section>
+				<!-- End Articles Section -->
 
-  </div><!-- wrapper -->
- 
-  <!-- My JS -->
-  <script src="/main.js"></script>
+				<!-- Sign Up Section-->
+				<section id="scoot" class="signup">
+					<div class="signup__container">
+						<article class="text-container">
+							<h2 class="scoot-heading heading-2">
+								Sign up and Scoot off today
+							</h2>
+						</article>
 
-</body>
+						<div class="image-container">
+							<img
+								src="/assets/icons/app-store.svg"
+								alt="app-store"
+								class="app-store-img"
+							/>
+							<img
+								src="/assets/icons/google-play.svg"
+								alt="google-play"
+								class="app-store-img"
+							/>
+						</div>
+					</div>
+				</section>
+				<!-- End Sign Up Section -->
+			</main>
+
+			<footer class="footer">
+				<div class="footer__container">
+					<nav class="footer-navbar">
+						<a href="index.html">
+							<img
+								src="./assets/logo-white.svg"
+								class="navbar-logo"
+								alt="company logo"
+							/>
+						</a>
+
+						<ul class="navbar-list">
+							<li class="navbar-item">
+								<a class="navbar-link" href="about.html">About</a>
+							</li>
+							<li class="navbar-item">
+								<a class="navbar-link" href="locations.html">Location</a>
+							</li>
+							<li class="navbar-item">
+								<a class="navbar-link" href="locations.html">Careers</a>
+							</li>
+						</ul>
+					</nav>
+
+					<ul class="social">
+						<li class="social__item">
+							<a href="#" class="social-icons__link">
+								<img src="./assets/icons/facebook.svg" alt="facebook" />
+							</a>
+						</li>
+						<li class="social__item">
+							<a href="#" class="social-icons-link">
+								<img src="./assets/icons/twitter.svg" alt="twitter" />
+							</a>
+						</li>
+						<li class="social__item">
+							<a href="#" class="social-icons-link">
+								<img src="./assets/icons/instagram.svg" alt="instagram" />
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="attribution">
+					<p>
+						Challenge by &nbsp;<a
+							href="https://www.frontendmentor.io?ref=challenge"
+							target="_blank"
+							>Frontend Mentor</a
+						>.&nbsp;Coded by &nbsp;
+						<a href="https://github.com/tlanettepollard"
+							>Trista Lanette Pollard</a
+						>
+					</p>
+				</div>
+			</footer>
+		</div>
+		<!-- wrapper -->
+
+		<!-- My JS -->
+		<script src="/main.js"></script>
+	</body>
 </html>

@@ -7,20 +7,16 @@ $snow-grey: hsl(214, 37%, 96%);
 $lt-yellow: hsl(39, 100%, 94%);
 $soft-black: hsl(215, 14%, 23%);
 $white: hsl(0, 0%, 100%);
+$lighter-grey: hsl(0, 0%, 59%);
 
 // Typography
 
-$heading-font: 'Space Mono',
-monospace;
-$text-font: 'Lexend Deca',
-sans-serif;
+$heading-font: 'Space Mono', monospace;
+$text-font: 'Lexend Deca', sans-serif;
 $weight-bold: 700;
 $weight-regular: 400;
 
-
-
-
-// Theme 
+// Theme
 $headings: $dk-navy;
 $hero-heading: $white;
 $cta-heading: $white;
@@ -54,4 +50,3 @@ $bp-sm-screen-end: 1024px;
 $bp-desktop-start: 1025px;
 $bp-desktop-end: 1200px;
 $bp-xl-screen-start: 1201px;
-
