@@ -92,10 +92,14 @@ Hi. Today was a busy day. I started to organize my email and delete/move old ema
 Hi. I spent my day on my Chalkspot website and working on my React exercises. My focus tonight is to restyle the footer.
 
 ### 08/13/2022
+I was away working on my React Nanodegree. Now I'm back. 
 
 Resources:
 
 - Down Arrow Icon, <a href="https://www.flaticon.com/free-icons/arrow" title="arrow icons">Arrow icons created by th studio - Flaticon</a> -[Creating Accordion with Javascript](https://medium.com/@vikash20186/creating-accordion-with-javascript-a33743655474)
+
+### 08/18/2022
+Hi, it's me again. I'm back to working on the FAQ accordion. Forgot I had one that I made before. 
 
 ---
 
