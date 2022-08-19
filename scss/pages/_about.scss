@@ -1,1 +1,26 @@
 /* Faqs Section */
+.faqs {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	padding: 3.125rem;
+	@include flex(column, center, center);
+
+	&__header,
+	.faqs__subheader {
+		text-align: center;
+	}
+
+	.faq__panel {
+		background-color: $faq-bg;
+	}
+
+	.question {
+		color: $faq-question;
+		font-weight: $weight-bold;
+	}
+
+	.answer {
+		color: $faq-answer-text;
+	}
+}
