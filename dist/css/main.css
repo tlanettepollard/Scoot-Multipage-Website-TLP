@@ -753,7 +753,33 @@ header nav {
   height: 15rem;
 }
 
-/* Faqs Section */ /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Faqs Section */
+.faqs {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  padding: 3.125rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.faqs__header,
+.faqs .faqs__subheader {
+  text-align: center;
+}
+.faqs .faq__panel {
+  background-color: hsl(214deg, 37%, 96%);
+}
+.faqs .question {
+  color: hsl(217deg, 18%, 35%);
+  font-weight: 700;
+}
+.faqs .answer {
+  color: hsl(217deg, 18%, 35%);
+}
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
 /**

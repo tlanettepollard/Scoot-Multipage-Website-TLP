@@ -8,6 +8,7 @@ $lt-yellow: hsl(39, 100%, 94%);
 $soft-black: hsl(215, 14%, 23%);
 $white: hsl(0, 0%, 100%);
 $lighter-grey: hsl(0, 0%, 59%);
+$medium-grey: hsl(217, 18, 35);
 
 // Typography
 
@@ -23,6 +24,8 @@ $cta-heading: $white;
 $faq-subheading: $dk-navy;
 $faq-bg: $snow-grey;
 $faq-hover: $lt-yellow;
+$faq-question: $medium-grey;
+$faq-answer-text: $medium-grey;
 $accordion-icon: $yellow;
 $jobs-bg: $snow-grey;
 $body-text: $dim-grey;
