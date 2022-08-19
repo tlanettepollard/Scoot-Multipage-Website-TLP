@@ -845,6 +845,7 @@ header nav {
   display: block;
   position: relative;
   cursor: pointer;
+  outline: none;
 }
 .faqs__container .faq-container .faq__panel .faq__header .faq__label::after {
   content: "";
@@ -855,7 +856,7 @@ header nav {
   right: 0.625rem;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url(../../assets/icons/chevron.svg);
+  background-image: url(../../assets/icons/arrow-down.svg);
 }
 .faqs__container .faq-container .faq__panel .faq__header input:checked + .faq__label::after {
   transform: rotate(180deg);
@@ -865,9 +866,16 @@ header nav {
   color: hsl(40deg, 97%, 58%);
   font-weight: 700;
 }
-.faqs__container .faq-container .faq__panel .faq__content .answer {
-  line-height: 1.4;
+.faqs__container .faq-container .faq__panel .faq__header .faq__input {
   display: none;
+}
+.faqs__container .faq-container .faq__panel .faq__content {
+  line-height: 1.4;
+  height: auto;
+  display: none;
+}
+.faqs__container .faq-container .faq__panel .faq__input:checked ~ .faq__content {
+  display: block;
 }
 .faqs .question {
   color: hsl(217deg, 18%, 35%);
