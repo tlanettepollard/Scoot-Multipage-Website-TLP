@@ -6,13 +6,40 @@
 	padding: 3.125rem;
 	@include flex(column, center, center);
 
-	&__header,
-	.faqs__subheader {
-		text-align: center;
-	}
+	&__container {
+		width: 100%;
+		height: auto;
+		.faqs__header {
+			text-align: center;
+			margin-top: 5.625rem;
+			padding: 1.25rem 0;
+		}
 
-	.faq__panel {
-		background-color: $faq-bg;
+		.faq {
+			@include flex(column, center, center);
+
+			@include bp-desktop-up {
+				@include flex(row, space-between, center);
+			}
+
+			&__subheader {
+				padding: 1.875rem 0;
+				@include bp-desktop-up {
+					width: 21.875rem;
+				}
+			}
+
+			&-container {
+				@include flex(column, center, center);
+				@include bp-desktop-up {
+					width: 45.625rem;
+				}
+
+				.faq__panel {
+					background-color: $faq-bg;
+				}
+			}
+		}
 	}
 
 	.question {
