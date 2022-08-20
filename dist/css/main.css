@@ -122,22 +122,6 @@ h4 {
   border: 2px solid hsl(40deg, 97%, 58%);
 }
 
-.container {
-  position: relative;
-  width: 100%;
-  max-width: 1440px;
-  margin: 0 auto;
-  display: inherit;
-  justify-content: inherit;
-  align-items: inherit;
-  flex-direction: inherit;
-  grid-template-columns: inherit;
-  grid-template-rows: inherit;
-  -moz-column-gap: inherit;
-       column-gap: inherit;
-  row-gap: inherit;
-}
-
 /* *****************
    Home Page Directions Styles
 ********************/
@@ -753,139 +737,23 @@ header nav {
   height: 15rem;
 }
 
-/* Faqs Section */
-.faqs {
-  height: 100%;
-  width: 100%;
-  margin: auto;
-  padding: 3.125rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.faqs__container {
-  width: 100%;
-  height: auto;
-}
-.faqs__container .faqs__header {
-  text-align: center;
-  margin-top: 5.625rem;
-  padding: 1.25rem 0;
-}
-.faqs__container .faq {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-@media screen and (min-width: 1025px) {
-  .faqs__container .faq {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-}
-.faqs__container .faq__subheader {
-  padding: 1.875rem 0;
-}
-@media screen and (min-width: 1025px) {
-  .faqs__container .faq__subheader {
-    width: 21.875rem;
-  }
-}
-.faqs__container .faq-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 19.4375rem;
-}
-@media screen and (min-width: 320px) and (max-width: 480px) {
-  .faqs__container .faq-container {
-    width: 90%;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .faqs__container .faq-container {
-    width: 40.625rem;
-  }
-}
-@media screen and (min-width: 1025px) {
-  .faqs__container .faq-container {
-    width: 45.625rem;
-  }
-}
-.faqs__container .faq-container .faq__panel {
-  background-color: hsl(214deg, 37%, 96%);
-  margin: 0.625rem;
-  width: 19.4375rem;
-}
-@media screen and (min-width: 320px) and (max-width: 480px) {
-  .faqs__container .faq-container .faq__panel {
-    width: 90%;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .faqs__container .faq-container .faq__panel {
-    width: 40.625rem;
-  }
-}
-@media screen and (min-width: 1025px) {
-  .faqs__container .faq-container .faq__panel {
-    width: 45.625rem;
-  }
-}
-.faqs__container .faq-container .faq__panel .faq__label,
-.faqs__container .faq-container .faq__panel .faq__content {
-  padding: 0.875rem 0.3125rem;
-}
-.faqs__container .faq-container .faq__panel .faq__header .faq__label {
-  display: block;
+.wrapper {
   position: relative;
-  cursor: pointer;
-  outline: none;
-}
-.faqs__container .faq-container .faq__panel .faq__header .faq__label::after {
-  content: "";
-  width: 1rem;
-  height: 1rem;
-  margin-top: 0.3125rem;
-  position: absolute;
-  right: 0.625rem;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url(../../assets/icons/arrow-down.svg);
-}
-.faqs__container .faq-container .faq__panel .faq__header input:checked + .faq__label::after {
-  transform: rotate(180deg);
-  margin-top: -0.5rem;
-}
-.faqs__container .faq-container .faq__panel .faq__header input:checked + .faq__label {
-  color: hsl(40deg, 97%, 58%);
-  font-weight: 700;
-}
-.faqs__container .faq-container .faq__panel .faq__header .faq__input {
-  display: none;
-}
-.faqs__container .faq-container .faq__panel .faq__content {
-  line-height: 1.4;
-  height: auto;
-  display: none;
-}
-.faqs__container .faq-container .faq__panel .faq__input:checked ~ .faq__content {
-  display: block;
-}
-.faqs .question {
-  color: hsl(217deg, 18%, 35%);
-  font-weight: 700;
-}
-.faqs .answer {
-  color: hsl(217deg, 18%, 35%);
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  flex-direction: inherit;
+  grid-template-columns: inherit;
+  grid-template-rows: inherit;
+  -moz-column-gap: inherit;
+       column-gap: inherit;
+  row-gap: inherit;
 }
 
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Faqs Section */ /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
 /**
