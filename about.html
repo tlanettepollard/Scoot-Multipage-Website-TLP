@@ -9,7 +9,7 @@
   <title>Scoot About</title>
 </head>
 <body>
-  <div class="container">
+  <div class="wrapper">
     <header>
       <div class="wrapper">
         <!-- Navbar-->
@@ -67,7 +67,7 @@
             </button>
           </div>
         </div><!-- sidebar-container -->
-      </div>
+      </div><!-- wrapper -->
     </header>
     <!-- End Header -->
 
@@ -80,8 +80,8 @@
               <h1 class="about-heading heading-1">About</h1>
             </div>
             <div class="shape shape--circles hide-small"></div>
-          </div>
-        </div>
+          </div><!-- hero__container -->
+        </div><!-- wrapper -->
       </section>
       <!-- End Hero Section -->
 
@@ -119,7 +119,7 @@
             <div class="shape shape--arrow-2"></div>
             <div class="shape shape--circle-2 hide-mobile"></div>
           </div><!-- article__container -->
-        </div>
+        </div><!-- wrapper -->
       </section> 
       <!-- End About Section -->
 
@@ -174,150 +174,156 @@
                 </div>
               </div>
             </div>
-          </article>
-        </div>
+          </article><!-- values__container-->
+        </div><!-- wrapper -->
       </section>
       <!-- End Values Section -->
 
       <!-- Faqs Section -->
       <section class="faqs">
         <div class="wrapper">
-          <h2 class="heading heading-2 faqs__header">FAQs</h2>
+            <div class="faqs__container">
+              <h2 class="heading heading-2 faqs__header">FAQs</h2>
 
-          <article class="faq faq-how">
-            <div class="faq__subheader">
-              <h3 class="heading heading-3 faq-heading">How it works</h3>
-            </div>
-            <div class="faq-container">
-              <div class="faq__panel">
-                <div class="faq__header">
-                  <input type="checkbox" id="panel-1" class="faq__input">
-                  <label for="panel-1" class="heading heading-4 faq__label question">How do I download the app?</label>
+              <article class="faq faq-how">
+                <div class="faq__subheader">
+                  <h3 class="heading heading-3 faq-heading">How it works</h3>
                 </div>
-                <div class="faq__content">
-                  <p class="answer paragraph">
-                  To download the Scoot app, you can search “Scoot” in both the App and Google Play stores. An even simpler way to do it would be to click the relevant link at the bottom of this page and you’ll be re-directed to the correct page.
-                  </p>
-                </div>
-              </div>
-              <div class="faq__panel"> 
-                <div class="faq__header">
-                  <input type="checkbox" id="panel-2" class="faq__input">
-                  <label for="panel-2" class="heading heading-4 faq__label question">Can I find a nearby Scoots?</label>
-                </div>
-                <div class="faq__content">
-                  <p class="answer paragraph">Definitely! Simply open up the app and allow us to find your location while using it. We'll 
-                  show you all of the closest Scoots and some extra useful information. </p>
-                </div>
-              </div>
-              <div class="faq__panel">
-                <div class="faq__header">
-                  <input type="checkbox" id="panel-3" class="faq__input">
-                  <label for="panel-3" class="heading heading-4 faq__label question">Do I need a license to ride?</label>
-                </div>
-                <div class="faq__content">
-                  <p class="answer paragraph">Yup! We provide information inside the app regarding local laws and the license you need to be able to ride our Scoots.</p>
-                </div>  
-              </div><!-- faq__panel -->
-            </div> <!-- faq-container -->
-          </article><!-- faqs-how -->
+                <div class="faq-container">
+                  <div class="faq__panel">
+                    <div class="faq__header">
+                      <input type="checkbox" id="panel-1" class="faq__input">
+                      <label for="panel-1" class="heading heading-4 faq__label question">How do I download the app?</label>
+                    </div>
+                    <div class="faq__content">
+                      <p class="answer paragraph">
+                      To download the Scoot app, you can search “Scoot” in both the App and Google Play stores. An even simpler way to do it would be to click the relevant link at the bottom of this page and you’ll be re-directed to the correct page.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="faq__panel"> 
+                    <div class="faq__header">
+                      <input type="checkbox" id="panel-2" class="faq__input">
+                      <label for="panel-2" class="heading heading-4 faq__label question">Can I find a nearby Scoots?</label>
+                    </div>
+                    <div class="faq__content">
+                      <p class="answer paragraph">Definitely! Simply open up the app and allow us to find your location while using it. We'll 
+                      show you all of the closest Scoots and some extra useful information. </p>
+                    </div>
+                  </div>
+                  <div class="faq__panel">
+                    <div class="faq__header">
+                      <input type="checkbox" id="panel-3" class="faq__input">
+                      <label for="panel-3" class="heading heading-4 faq__label question">Do I need a license to ride?</label>
+                    </div>
+                    <div class="faq__content">
+                      <p class="answer paragraph">Yup! We provide information inside the app regarding local laws and the license you need to be able to ride our Scoots.</p>
+                    </div>  
+                  </div><!-- faq__panel -->
+                </div> <!-- faq-container -->
+              </article><!-- faqs-how -->
 
-          <article class="faq faq-safe">
-            <div class="faq__subheader">
-              <h3 class="heading heading-3 faq-heading">Safe driving</h3>
-            </div>
-            <div class="faq-container">
-              <div class="faq__panel">
-                <div class="faq__header">
-                  <input type="checkbox" id="panel-4" class="faq__input">
-                  <label for="panel-4" class="heading heading-4 faq__label question">Should I wear a helmet?</label>
+              <article class="faq faq-safe">
+                <div class="faq__subheader">
+                  <h3 class="heading heading-3 faq-heading">Safe driving</h3>
                 </div>
-                <div class="faq__content">
-                  <p class="answer paragraph">Yes, please do! All cities have different laws. But we strongly strongly strongly recommend always wearing a helmet regardless of the local laws. We like you and we want you to be as safe as possible while Scooting.</p>
+                <div class="faq-container">
+                  <div class="faq__panel">
+                    <div class="faq__header">
+                      <input type="checkbox" id="panel-4" class="faq__input">
+                      <label for="panel-4" class="heading heading-4 faq__label question">Should I wear a helmet?</label>
+                    </div>
+                    <div class="faq__content">
+                      <p class="answer paragraph">Yes, please do! All cities have different laws. But we strongly strongly strongly recommend always wearing a helmet regardless of the local laws. We like you and we want you to be as safe as possible while Scooting.</p>
+                    </div>
+                  </div>
+                  
+                  <div class="faq__panel">
+                    <div class="faq__header">
+                      <input type="checkbox" id="panel-5" class="faq__input">
+                      <label for="panel-5" class="heading heading-4 faq__label question">How about the rules & regulations?</label>
+                    </div>
+                    <div class="faq__content">
+                      <p class="answer paragraph">Now is not the time to be a rule breaker. Be sure you're complying with all local laws and regulations. Also, just be a good human being. Be sure not to park your Scoot where it can block access to buildings or get in people's way. </p>
+                    </div>
+                  </div>
+                  
+                  <div class="faq__panel">
+                    <div class="faq__header">
+                      <input type="checkbox" id="panel-6" class="faq__input">
+                      <label for="panel-6" class="heading heading-4 faq__label question">What if I damage my Scoot?</label>
+                    </div>
+                    <div class="faq__content">
+                      <p class="answer paragraph">Be sure to read our terms and conditions carefully. Not the most fun job we know but we make it as clear as possible. There's an option to add insurance for each trip, or you can sign up for annual insurance if you're a regular Scooter. </p>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              
-              <div class="faq__panel">
-                <div class="faq__header">
-                  <input type="checkbox" id="panel-5" class="faq__input">
-                  <label for="panel-5" class="heading heading-4 faq__label question">How about the rules & regulations?</label>
-                </div>
-                <div class="faq__content">
-                  <p class="answer paragraph">Now is not the time to be a rule breaker. Be sure you're complying with all local laws and regulations. Also, just be a good human being. Be sure not to park your Scoot where it can block access to buildings or get in people's way. </p>
-                </div>
-              </div>
-              
-              <div class="faq__panel">
-                <div class="faq__header">
-                  <input type="checkbox" id="panel-6" class="faq__input">
-                  <label for="panel-6" class="heading heading-4 faq__label question">What if I damage my Scoot?</label>
-                </div>
-                <div class="faq__content">
-                  <p class="answer paragraph">Be sure to read our terms and conditions carefully. Not the most fun job we know but we make it as clear as possible. There's an option to add insurance for each trip, or you can sign up for annual insurance if you're a regular Scooter. </p>
-                </div>
-              </div>
-            </div>
-          </article><!-- faqs-safe -->
-        </div> <!-- faqs__container -->
+              </article><!-- faqs-safe -->
+          </div><!-- faqs__container -->
+        </div> <!-- wrapper -->
       </section>
       <!-- End FAQs section -->
 
     <!-- Sign Up Section-->
       <section id="scoot" class="signup">
-        <div class="signup__container">
-          <article class="text-container">
-          <h2 class="scoot-heading heading-2">Sign up and Scoot off today</h2>
-          </article>
+        <div class="wrapper">
+          <div class="signup__container">
+            <article class="text-container">
+            <h2 class="scoot-heading heading-2">Sign up and Scoot off today</h2>
+            </article>
 
-          <div class="image-container">
-            <img src="/assets/icons/app-store.svg" alt="app-store" class="app-store-img">
-            <img src="/assets/icons/google-play.svg" alt="google-play" class="app-store-img"> 
-          </div>
-        </div>
+            <div class="image-container">
+              <img src="/assets/icons/app-store.svg" alt="app-store" class="app-store-img">
+              <img src="/assets/icons/google-play.svg" alt="google-play" class="app-store-img"> 
+            </div>
+          </div><!-- signup__container -->
+        </div><!-- wrapper -->
       </section>
       <!-- End Sign Up Section -->
 
     </main>
     <footer class="footer">
-      <div class="footer__container">
-        <nav class="navbar footer-navbar">
-          <a href="index.html">
-            <img src="./assets/logo-white.svg" class="navbar-logo" alt="company logo">
-          </a>
-        
-          <ul class="navbar-list">
-            <li class="navbar-item">
-              <a class="navbar-link" href="about.html">About</a>
-            </li>
-            <li class="navbar-item">
-              <a class="navbar-link" href="locations.html">Location</a>
-            </li>
-            <li class="navbar-item">
-              <a class="navbar-link" href="locations.html">Careers</a>
-          </ul>
-        </nav>
+      <div class="wrapper">
+        <div class="footer__container">
+          <nav class="navbar footer-navbar">
+            <a href="index.html">
+              <img src="./assets/logo-white.svg" class="navbar-logo" alt="company logo">
+            </a>
+          
+            <ul class="navbar-list">
+              <li class="navbar-item">
+                <a class="navbar-link" href="about.html">About</a>
+              </li>
+              <li class="navbar-item">
+                <a class="navbar-link" href="locations.html">Location</a>
+              </li>
+              <li class="navbar-item">
+                <a class="navbar-link" href="locations.html">Careers</a>
+            </ul>
+          </nav>
 
-        <ul class="social">
-          <li class="social__item">
-            <a href="#" class="social__link">
-              <img src="./assets/icons/facebook.svg" alt="facebook">
-            </a>
-          </li>
-          <li class="social__item">
-            <a href="#" class="social-icons-link">
-              <img src="./assets/icons/twitter.svg" alt="twitter">
-            </a>
-          </li>
-          <li class="social__item">
-            <a href="#" class="social-icons-link">
-              <img src="./assets/icons/instagram.svg" alt="instagram">
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="attribution">
-        <p>Challenge by &nbsp;<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.&nbsp;Coded by &nbsp; <a href="https://github.com/tlanettepollard">Trista Lanette Pollard</a></p>
-      </div>
+          <ul class="social">
+            <li class="social__item">
+              <a href="#" class="social__link">
+                <img src="./assets/icons/facebook.svg" alt="facebook">
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="#" class="social-icons-link">
+                <img src="./assets/icons/twitter.svg" alt="twitter">
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="#" class="social-icons-link">
+                <img src="./assets/icons/instagram.svg" alt="instagram">
+              </a>
+            </li>
+          </ul>
+        </div><!-- footer__container -->
+        <div class="attribution">
+          <p>Challenge by &nbsp;<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.&nbsp;Coded by &nbsp; <a href="https://github.com/tlanettepollard">Trista Lanette Pollard</a></p>
+        </div><!-- attribution -->
+      </div><!-- wrapper -->
     </footer>
   </div><!-- Wrapper -->
 
