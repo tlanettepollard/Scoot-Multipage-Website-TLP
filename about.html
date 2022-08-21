@@ -11,169 +11,177 @@
 <body>
   <div class="container">
     <header>
-      <!-- Navbar-->
-      <nav class="hide-mobile">
-        <!-- Navbar Logo -->
-        <div class="navbar__container">
-          <div class="logo">
-            <a href="/index.html">
-              <img src="./assets/logo.svg" alt="company-logo"/>
-            </a>
-          </div>
+      <div class="wrapper">
+        <!-- Navbar-->
+        <nav class="hide-mobile">
+          <!-- Navbar Logo -->
+          <div class="navbar__container">
+            <div class="logo">
+              <a href="/index.html">
+                <img src="./assets/logo.svg" alt="company-logo"/>
+              </a>
+            </div>
 
-          <ul class="navbar__list" id="navbarMenu">
-            <li class="navbar__item">
-              <a href="/about.html" class="navbar-link">About</a>
-            </li>
-            <li class="navbar__item">
-              <a href="/locations.html" class="navbar-link">Location</a>
-            </li>
-            <li class="navbar__item">
-              <a href="/careers.html" class="navbar-link">Careers</a>
-            </li>
-          </ul>
-        </div> <!-- navbar__container -->
+            <ul class="navbar__list" id="navbarMenu">
+              <li class="navbar__item">
+                <a href="/about.html" class="navbar-link">About</a>
+              </li>
+              <li class="navbar__item">
+                <a href="/locations.html" class="navbar-link">Location</a>
+              </li>
+              <li class="navbar__item">
+                <a href="/careers.html" class="navbar-link">Careers</a>
+              </li>
+            </ul>
+          </div> <!-- navbar__container -->
 
-        <button class="btn btn-primary nav-scoot-btn" type="button">
-          <a href="#scoot">Get Scootin</a>
-        </button>
-       
-      </nav>
-      <!-- End Tablet/Desktop Navbar -->
-      
-      <div class="sidebar-container hide-tablet-up">
-        <div class="sidebar-header">
-          <img id="hamburger" class="hamburger nav_handle" src="assets/icons/hamburger.svg" onclick="openNav()" alt="open menu">
-          
-          <div class="logo">
-            <a href="/index.html">
-              <img src="./assets/logo.svg" alt="company-logo"/>
-            </a>
-          </div>
-        </div><!-- sidebar-header -->
-        <div id="mobileSidebar" class="sidebar">
-          <div class="close">
-            <img src="assets/icons/close.svg" alt="close menu" onclick="closeNav()">
-          </div>
-          <div class="sidebar-links">
-            <a href="about.html">About</a>
-            <a href="locations.html">Locations</a>
-            <a href="careers.html">Careers</a>
-          </div>
-          <button class="btn btn-primary scoot" type="button">
-            <a href="#scoot">
-            Get Scootin</a>
+          <button class="btn btn-primary nav-scoot-btn" type="button">
+            <a href="#scoot">Get Scootin</a>
           </button>
-        </div>
-      </div><!-- sidebar-container -->
+        
+        </nav>
+        <!-- End Tablet/Desktop Navbar -->
+        
+        <div class="sidebar-container hide-tablet-up">
+          <div class="sidebar-header">
+            <img id="hamburger" class="hamburger nav_handle" src="assets/icons/hamburger.svg" onclick="openNav()" alt="open menu">
+            
+            <div class="logo">
+              <a href="/index.html">
+                <img src="./assets/logo.svg" alt="company-logo"/>
+              </a>
+            </div>
+          </div><!-- sidebar-header -->
+          <div id="mobileSidebar" class="sidebar">
+            <div class="close">
+              <img src="assets/icons/close.svg" alt="close menu" onclick="closeNav()">
+            </div>
+            <div class="sidebar-links">
+              <a href="about.html">About</a>
+              <a href="locations.html">Locations</a>
+              <a href="careers.html">Careers</a>
+            </div>
+            <button class="btn btn-primary scoot" type="button">
+              <a href="#scoot">
+              Get Scootin</a>
+            </button>
+          </div>
+        </div><!-- sidebar-container -->
+      </div>
     </header>
     <!-- End Header -->
 
     <!-- Hero Banner -->
     <main class="main main-about">
       <section class="hero-about">
-        <div class="hero__container">
-          <div class="hero-text-container">
-            <h1 class="about-heading heading-1">About</h1>
+        <div class="wrapper">
+          <div class="hero__container">
+            <div class="hero-text-container">
+              <h1 class="about-heading heading-1">About</h1>
+            </div>
+            <div class="shape shape--circles hide-small"></div>
           </div>
-          <div class="shape shape--circles hide-small"></div>
         </div>
       </section>
       <!-- End Hero Section -->
 
       <!-- Section- Features -->
       <section class="features">
-        <div class="features__container">
-          <article class="feature feature--right">
-            <div class="text-container tc-left">
-              <h2 class="feature-heading heading heading-2">Mobility for the digital era</h2>
-              <p class="paragraph">Getting around should be simple (and even fun!) for everyone. We embrace technology to 
-              provide low cost, smart access to scooters at your fingertips.</p>
-            </div>
-            <div class="image-container ic-right">
-                <img class="feature-image img-fluid, img-round" src="./assets/images/digital-era.jpg" alt="article feature">
-            </div>
-          </article>
-        
-          <div class="shape shape--arrow-1"></div>
-          <div class="shape shape--circle-1 hide-mobile"></div>
-        
+        <div class="wrapper">
+          <div class="features__container">
+            <article class="feature feature--right">
+              <div class="text-container tc-left">
+                <h2 class="feature-heading heading heading-2">Mobility for the digital era</h2>
+                <p class="paragraph">Getting around should be simple (and even fun!) for everyone. We embrace technology to 
+                provide low cost, smart access to scooters at your fingertips.</p>
+              </div>
+              <div class="image-container ic-right">
+                  <img class="feature-image img-fluid, img-round" src="./assets/images/digital-era.jpg" alt="article feature">
+              </div>
+            </article>
+          
+            <div class="shape shape--arrow-1"></div>
+            <div class="shape shape--circle-1 hide-mobile"></div>
+          
 
-          <article class="feature feature--left">
-            <div class="text-container tc-right"> 
-              <h2 class="feature-heading heading heading-2">Better urban living</h2>
-              <p class="paragraph">We’re helping connect cities and bring people closer together. Our scooters are also 
-              fully-electric and we offset the minimal carbon footprint for each ride.</p>
-            </div>
+            <article class="feature feature--left">
+              <div class="text-container tc-right"> 
+                <h2 class="feature-heading heading heading-2">Better urban living</h2>
+                <p class="paragraph">We’re helping connect cities and bring people closer together. Our scooters are also 
+                fully-electric and we offset the minimal carbon footprint for each ride.</p>
+              </div>
 
-            <div class="image-container ic-left">
-                <img class="feature-image img-fluid, img-round" src="./assets/images/better-living.jpg" alt="article feature">
-            </div>
-          </article>
+              <div class="image-container ic-left">
+                  <img class="feature-image img-fluid, img-round" src="./assets/images/better-living.jpg" alt="article feature">
+              </div>
+            </article>
 
-          <div class="shape shape--arrow-2"></div>
-          <div class="shape shape--circle-2 hide-mobile"></div>
-        </div><!-- article__container -->
+            <div class="shape shape--arrow-2"></div>
+            <div class="shape shape--circle-2 hide-mobile"></div>
+          </div><!-- article__container -->
+        </div>
       </section> 
       <!-- End About Section -->
 
       <!-- Section-Values -->
       <section class="values">
-        <div class="values__header">
-          <h2 class="heading heading-2">Our values</h2>
+        <div class="wrapper">
+          <div class="values__header">
+            <h2 class="heading heading-2">Our values</h2>
+          </div>
+
+          <article class="values__container">
+            <!-- Item 01 -->
+            <div class="value-item">
+              <div class="value__image-container">
+                <img src="./assets/images/our-tech.jpg" alt="article feature" class="value-image img-fluid img-round">
+                <div class="number">
+                  <h4>01</h4>
+                </div> 
+              </div>
+              <div class="value__text-container">
+                <h4 class="value-heading heading-4">Our tech</h4>
+                <p class="value-paragraph paragraph">We’re using cutting edge technology to drive accessible urban transportation forward. Our fully electric scooters are a joy to ride!</p>
+              </div>
+            </div>
+
+            <!-- Item 02 -->
+            <div class="value-item">
+              <div class="value__image-container">
+                <img src="./assets/images/our-integrity.jpg" alt="article feature" class="value-image img-fluid img-round">
+                <div class="number">
+                  <h4>02</h4>
+                </div>
+              </div>
+              <div class="value__text-container">
+                <h4 class="value-heading heading-4">Our integrity</h4>
+                <p class="value-paragraph paragraph">We are fully committed to deliver a great yet safe, sustainable micro-mobility experience in every city we serve.</p>
+              </div>
+            </div>
+
+            <!-- Item 03 -->
+            <div class="value-item">
+              <div class="value__image-container">
+                <img src="./assets/images/our-community.jpg" alt="article feature" class="value-image img-fluid img-round">
+                <div class="number">
+                  <h4>03</h4>
+                </div>
+              </div>
+              <div class="value__text-container">
+                <h4 class="value-heading heading-4">Our community</h4>
+                <p class="value-paragraph paragraph">We support every community we serve. All workers are paid a living wage based on their 
+                location and are Scoot employees.</p> 
+                </div>
+              </div>
+            </div>
+          </article>
         </div>
-
-        <article class="values__container">
-          <!-- Item 01 -->
-          <div class="value-item">
-            <div class="value__image-container">
-              <img src="./assets/images/our-tech.jpg" alt="article feature" class="value-image img-fluid img-round">
-              <div class="number">
-                <h4>01</h4>
-              </div> 
-            </div>
-            <div class="value__text-container">
-              <h4 class="value-heading heading-4">Our tech</h4>
-              <p class="value-paragraph paragraph">We’re using cutting edge technology to drive accessible urban transportation forward. Our fully electric scooters are a joy to ride!</p>
-            </div>
-          </div>
-
-          <!-- Item 02 -->
-          <div class="value-item">
-            <div class="value__image-container">
-              <img src="./assets/images/our-integrity.jpg" alt="article feature" class="value-image img-fluid img-round">
-              <div class="number">
-                <h4>02</h4>
-              </div>
-            </div>
-            <div class="value__text-container">
-              <h4 class="value-heading heading-4">Our integrity</h4>
-              <p class="value-paragraph paragraph">We are fully committed to deliver a great yet safe, sustainable micro-mobility experience in every city we serve.</p>
-            </div>
-          </div>
-
-          <!-- Item 03 -->
-          <div class="value-item">
-            <div class="value__image-container">
-              <img src="./assets/images/our-community.jpg" alt="article feature" class="value-image img-fluid img-round">
-              <div class="number">
-                <h4>03</h4>
-              </div>
-            </div>
-            <div class="value__text-container">
-              <h4 class="value-heading heading-4">Our community</h4>
-              <p class="value-paragraph paragraph">We support every community we serve. All workers are paid a living wage based on their 
-              location and are Scoot employees.</p> 
-              </div>
-            </div>
-          </div>
-        </article>
       </section>
       <!-- End Values Section -->
 
       <!-- Faqs Section -->
       <section class="faqs">
-        <div class="faqs__container">
+        <div class="wrapper">
           <h2 class="heading heading-2 faqs__header">FAQs</h2>
 
           <article class="faq faq-how">

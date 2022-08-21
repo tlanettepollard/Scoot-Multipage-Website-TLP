@@ -1,309 +1,421 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="stylesheet" type="text/css" href="/dist/css/main.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Scoot Careers</title>
-</head>
-<body>
-  <div class="container">
-    <header>
-      <!-- Navbar-->
-      <nav class="hide-mobile">
-        <!-- Navbar Logo -->
-        <div class="navbar__container">
-          <div class="logo">
-            <a href="/index.html">
-              <img src="./assets/logo.svg" alt="company-logo"/>
-            </a>
-          </div>
+		<link rel="stylesheet" type="text/css" href="/dist/css/main.css" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
 
-          <ul class="navbar__list" id="navbarMenu">
-            <li class="navbar__item">
-              <a href="/about.html" class="navbar-link">About</a>
-            </li>
-            <li class="navbar__item">
-              <a href="/locations.html" class="navbar-link">Location</a>
-            </li>
-            <li class="navbar__item">
-              <a href="/careers.html" class="navbar-link">Careers</a>
-            </li>
-          </ul>
-        </div> <!-- navbar__container -->
+		<title>Scoot Careers</title>
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<div class="wrapper">
+					<!-- Navbar-->
+					<nav class="hide-mobile">
+						<!-- Navbar Logo -->
+						<div class="navbar__container">
+							<div class="logo">
+								<a href="/index.html">
+									<img src="./assets/logo.svg" alt="company-logo" />
+								</a>
+							</div>
 
-        <button class="btn btn-primary nav-scoot-btn" type="button">
-          <a href="#scoot">Get Scootin</a>
-        </button>
-       
-      </nav>
-      <!-- End Tablet/Desktop Navbar -->
-      
-      <div class="sidebar-container hide-tablet-up">
-        <div class="sidebar-header">
-          <img id="hamburger" class="hamburger nav_handle" src="assets/icons/hamburger.svg" onclick="openNav()" alt="open menu">
-          
-          <div class="logo">
-            <a href="/index.html">
-              <img src="./assets/logo.svg" alt="company-logo"/>
-            </a>
-          </div>
-        </div><!-- sidebar-header -->
-        <div id="mobileSidebar" class="sidebar">
-          <div class="close">
-            <img src="assets/icons/close.svg" alt="close menu" onclick="closeNav()">
-          </div>
-          <div class="sidebar-links">
-            <a href="about.html">About</a>
-            <a href="locations.html">Locations</a>
-            <a href="careers.html">Careers</a>
-          </div>
-          <button class="btn btn-primary scoot" type="button">
-            <a href="#scoot">
-            Get Scootin</a>
-          </button>
-        </div>
-      </div><!-- sidebar-container -->
-    </header>
-    <!-- End Header -->
+							<ul class="navbar__list" id="navbarMenu">
+								<li class="navbar__item">
+									<a href="/about.html" class="navbar-link">About</a>
+								</li>
+								<li class="navbar__item">
+									<a href="/locations.html" class="navbar-link">Location</a>
+								</li>
+								<li class="navbar__item">
+									<a href="/careers.html" class="navbar-link">Careers</a>
+								</li>
+							</ul>
+						</div>
+						<!-- navbar__container -->
 
-    <main class="main main-careers">
-      <section class="hero-careers">
-        <div class="hero__container">
-          <div class="hero-text-container">
-            <h1 class="careers-heading heading-1">Careers</h1>
-          </div>
-          <div class="shape shape--circles hide-small"></div>
-        </div>
-      </section>
-      <!-- End Hero Section -->
+						<button class="btn btn-primary nav-scoot-btn" type="button">
+							<a href="#scoot">Get Scootin</a>
+						</button>
+					</nav>
+					<!-- End Tablet/Desktop Navbar -->
 
-      <!-- Section-Features -->
-      <section class="features">
-        <div class="features__container">
-          <article class="feature feature--right">
-            <div class="text-container tc-left">
-              <h2 class="feature-heading heading heading-2">Care to join our mission?</h2>
-              <p class="feature-paragraph paragraph">We’re always looking for ambitious individuals to help us on our journey. If you’re passionate about our mission to provide clean, accessible transport to improve urban living we want to hear from you!</p>
-              <a href="about.html">
-                <button class="btn btn-primary feature-btn" type="button">
-                    Say Hello
-                </button>
+					<div class="sidebar-container hide-tablet-up">
+						<div class="sidebar-header">
+							<img
+								id="hamburger"
+								class="hamburger nav_handle"
+								src="assets/icons/hamburger.svg"
+								onclick="openNav()"
+								alt="open menu"
+							/>
+
+							<div class="logo">
+								<a href="/index.html">
+									<img src="./assets/logo.svg" alt="company-logo" />
+								</a>
+							</div>
+						</div>
+						<!-- sidebar-header -->
+						<div id="mobileSidebar" class="sidebar">
+							<div class="close">
+								<img
+									src="assets/icons/close.svg"
+									alt="close menu"
+									onclick="closeNav()"
+								/>
+							</div>
+							<div class="sidebar-links">
+								<a href="about.html">About</a>
+								<a href="locations.html">Locations</a>
+								<a href="careers.html">Careers</a>
+							</div>
+							<button class="btn btn-primary scoot" type="button">
+								<a href="#scoot"> Get Scootin</a>
+							</button>
+						</div>
+					</div>
+					<!-- sidebar-container -->
+				</div>
+				<!-- wrapper -->
+			</header>
+			<!-- End Header -->
+
+			<main class="main main-careers">
+				<section class="hero-careers">
+					<div class="wrapper">
+						<div class="hero__container">
+							<div class="hero-text-container">
+								<h1 class="careers-heading heading-1">Careers</h1>
+							</div>
+							<div class="shape shape--circles hide-small"></div>
+						</div>
+						<!-- .hero__container -->
+					</div>
+					<!-- wrapper -->
+				</section>
+				<!-- End Hero Section -->
+
+				<!-- Section-Features -->
+				<section class="features">
+					<div class="wrapper">
+						<div class="features__container">
+							<article class="feature feature--right">
+								<div class="text-container tc-left">
+									<h2 class="feature-heading heading heading-2">
+										Care to join our mission?
+									</h2>
+									<p class="feature-paragraph paragraph">
+										We’re always looking for ambitious individuals to help us on
+										our journey. If you’re passionate about our mission to
+										provide clean, accessible transport to improve urban living
+										we want to hear from you!
+									</p>
+									<a href="about.html">
+										<button class="btn btn-primary feature-btn" type="button">
+											Say Hello
+										</button>
+									</a>
+								</div>
+								<div class="image-container ic-right">
+									<img
+										class="feature-image img-fluid img-round"
+										src="./assets/images/join-us.jpg"
+										alt="Scoot team"
+									/>
+								</div>
+							</article>
+
+							<div class="shape shape--arrow-1"></div>
+							<div class="shape shape--circle-1 hide-small"></div>
+						</div>
+						<!-- article__container -->
+					</div>
+					<!-- wrapper -->
+				</section>
+
+				<!-- Section-Values -->
+				<section class="values">
+					<div class="wrapper">
+						<div class="values__header">
+							<h1 class="values-heading heading-2">Why join us?</h1>
+						</div>
+
+						<div class="values__container">
+							<!-- Item 01 -->
+							<div class="value-item">
+								<div class="value__image-container">
+									<img
+										src="./assets/images/our-tech.jpg"
+										alt="article feature"
+										class="value-image img-fluid img-round"
+									/>
+									<div class="number">
+										<h4>01</h4>
+									</div>
+								</div>
+								<div class="value__text-container">
+									<h4 class="value-heading heading-4">Our tech</h4>
+									<p class="value-paragraph paragraph">
+										We’re using cutting edge technology to drive accessible
+										urban transportation forward. Our fully electric scooters
+										are a joy to ride!
+									</p>
+								</div>
+							</div>
+
+							<!-- Item 02 -->
+							<div class="value-item">
+								<div class="value__image-container">
+									<img
+										src="./assets/images/our-integrity.jpg"
+										alt="article feature"
+										class="value-image img-fluid img-round"
+									/>
+									<div class="number">
+										<h4>02</h4>
+									</div>
+								</div>
+								<div class="value__text-container">
+									<h4 class="value-heading heading-4">Our integrity</h4>
+									<p class="value-paragraph paragraph">
+										We are fully committed to deliver a great yet safe,
+										sustainable micro-mobility experience in every city we
+										serve.
+									</p>
+								</div>
+							</div>
+
+							<!-- Item 03 -->
+							<div class="value-item">
+								<div class="value__image-container">
+									<img
+										src="./assets/images/our-community.jpg"
+										alt="article feature"
+										class="value-image img-fluid img-round"
+									/>
+									<div class="number">
+										<h4>03</h4>
+									</div>
+								</div>
+								<div class="value__text-container">
+									<h4 class="value-heading heading-4">Our community</h4>
+									<p class="value-paragraph paragraph">
+										We support every community we serve. All workers are paid a
+										living wage based on their location and are Scoot employees.
+									</p>
+								</div>
+							</div>
+						</div>
+						<!-- values__container -->
+					</div>
+					<!-- wrapper -->
+				</section>
+				<!-- End Career Values Section -->
+
+				<!-- Section-Jobs -->
+				<section class="jobs">
+					<div class="wrapper">
+						<div class="jobs__container">
+							<ul class="job-positions">
+								<!-- Jobs Item 01-->
+								<li class="job-position">
+									<div class="text-container">
+										<h4 class="job-title">General Manager</h4>
+										<p class="job-location">Jakarta, Indonesia</p>
+									</div>
+									<div class="message-us">
+										<a href="#">
+											<button class="message-btn btn btn-primary" type="button">
+												Apply
+											</button>
+										</a>
+									</div>
+								</li>
+
+								<!-- Jobs Item 02 -->
+								<li class="job-position">
+									<div class="text-container">
+										<h4 class="job-title">UI/UX Designer</h4>
+										<p class="job-location">Yokohama, Japan</p>
+									</div>
+									<div class="message-us">
+										<a href="#">
+											<button class="message-btn btn btn-primary" type="button">
+												Apply
+											</button>
+										</a>
+									</div>
+								</li>
+
+								<!-- Jobs Item 03 -->
+								<li class="job-position">
+									<div class="text-container">
+										<h4 class="job-title">Blog Content Copywriter</h4>
+										<p class="job-location">New York, United States</p>
+									</div>
+									<div class="message-us">
+										<a href="#">
+											<button class="message-btn btn btn-primary" type="button">
+												Apply
+											</button>
+										</a>
+									</div>
+								</li>
+
+								<!-- Jobs Item 04 -->
+								<li class="job-position">
+									<div class="text-container">
+										<h4 class="job-title">Graphic Designer</h4>
+										<p class="job-location">New York, United States</p>
+									</div>
+									<div class="message-us">
+										<a href="#">
+											<button class="message-btn btn btn-primary" type="button">
+												Apply
+											</button>
+										</a>
+									</div>
+								</li>
+
+								<!-- Jobs Item 05 -->
+								<li class="job-position">
+									<div class="text-container">
+										<h4 class="job-title">Fleet Supervisor</h4>
+										<p class="job-location">Jakarta, Indonesia</p>
+									</div>
+									<div class="message-us">
+										<a href="#">
+											<button class="message-btn btn btn-primary" type="button">
+												Apply
+											</button>
+										</a>
+									</div>
+								</li>
+
+								<!-- Jobs Item 06 -->
+								<li class="job-position">
+									<div class="text-container">
+										<h4 class="job-title">UX Analyst</h4>
+										<p class="job-location">London, United Kingdom</p>
+									</div>
+									<div class="message-us">
+										<a href="#">
+											<button class="message-btn btn btn-primary" type="button">
+												Apply
+											</button>
+										</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<!-- jobs__container -->
+					</div>
+					<!-- wrapper -->
+				</section>
+				<!-- End Jobs Section -->
+
+				<!-- Sign Up Section-->
+				<section id="scoot" class="signup">
+					<div class="wrapper">
+						<div class="signup__container">
+							<article class="text-container">
+								<h2 class="scoot-heading heading-2">
+									Sign up and Scoot off today
+								</h2>
+							</article>
+
+							<div class="image-container">
+								<img
+									src="/assets/icons/app-store.svg"
+									alt="app-store"
+									class="app-store-img"
+								/>
+								<img
+									src="/assets/icons/google-play.svg"
+									alt="google-play"
+									class="app-store-img"
+								/>
+							</div>
+						</div>
+						<!-- signup__container -->
+					</div>
+					<!-- wrapper -->
+				</section>
+				<!-- End Sign Up Section -->
+			</main>
+
+			<footer class="footer">
+				<div class="wrapper">
+          <div class="footer__container">
+            <nav class="navbar footer-navbar">
+              <a href="index.html">
+                <img
+                  src="./assets/logo-white.svg"
+                  class="navbar-logo"
+                  alt="company logo"
+                />
               </a>
-            </div>
-            <div class="image-container ic-right">
-              <img class="feature-image img-fluid img-round" src="./assets/images/join-us.jpg" alt="Scoot team">
-            </div> 
-          </article>
-       
-          <div class="shape shape--arrow-1"></div>
-          <div class="shape shape--circle-1 hide-small"></div>
-        </div><!-- article__container -->
-      </section> 
 
-      <!-- Section-Values -->
-      <section class="values">
-        <div class="values__header">
-          <h1 class="values-heading heading-2">Why join us?</h1>
-        </div>
+              <ul class="navbar-list">
+                <li class="navbar-item">
+                  <a class="navbar-link" href="about.html">About</a>
+                </li>
+                <li class="navbar-item">
+                  <a class="navbar-link" href="locations.html">Location</a>
+                </li>
+                <li class="navbar-item">
+                  <a class="navbar-link" href="locations.html">Careers</a>
+                </li>
+              </ul>
+            </nav>
+
+            <ul class="social">
+              <li class="social__item">
+                <a href="#" class="social__link">
+                  <img src="./assets/icons/facebook.svg" alt="facebook" />
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="#" class="social-icons-link">
+                  <img src="./assets/icons/twitter.svg" alt="twitter" />
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="#" class="social-icons-link">
+                  <img src="./assets/icons/instagram.svg" alt="instagram" />
+                </a>
+              </li>
+            </ul>
           
-        <div class="values__container">
-            <!-- Item 01 -->
-          <div class="value-item">
-            <div class="value__image-container">
-              <img src="./assets/images/our-tech.jpg" alt="article feature" class="value-image img-fluid img-round">
-              <div class="number">
-                <h4>01</h4>
-              </div>
+            <div class="attribution">
+              <p>
+                Challenge by &nbsp;<a
+                  href="https://www.frontendmentor.io?ref=challenge"
+                  target="_blank"
+                  >Frontend Mentor</a
+                >.&nbsp;Coded by &nbsp;
+                <a href="https://github.com/tlanettepollard"
+                  >Trista Lanette Pollard</a
+                >
+              </p>
             </div>
-            <div class="value__text-container">
-              <h4 class="value-heading heading-4">Our tech</h4>
-              <p class="value-paragraph paragraph">We’re using cutting edge technology to drive accessible urban transportation forward. Our fully electric scooters are a joy to ride!</p>
-            </div>
-          </div>
-
-          <!-- Item 02 -->
-          <div class="value-item">
-            <div class="value__image-container">
-              <img src="./assets/images/our-integrity.jpg" alt="article feature" class="value-image img-fluid img-round">
-              <div class="number">
-                <h4>02</h4>
-              </div>
-            </div>
-            <div class="value__text-container">
-              <h4 class="value-heading heading-4">Our integrity</h4>
-              <p class="value-paragraph paragraph">We are fully committed to deliver a great yet safe, sustainable micro-mobility experience 
-              in every city we serve.</p>
-            </div>
-          </div>
-
-          <!-- Item 03 -->
-          <div class="value-item">
-            <div class="value__image-container">
-              <img src="./assets/images/our-community.jpg" alt="article feature" class="value-image img-fluid img-round">
-              <div class="number">
-                <h4>03</h4>
-              </div>
-            </div>
-            <div class="value__text-container">
-              <h4 class="value-heading heading-4">Our community</h4>
-              <p class="value-paragraph paragraph">We support every community we serve. All workers are paid a living wage based on their location and are Scoot employees.</p>
-            </div>
-          </div>  
+          </div><!-- footer__container -->
         </div>
-      </section>
-      <!-- End Career Values Section -->
+				<!-- wrapper -->
+			</footer>
+		</div>
+		<!-- Wrapper -->
 
-      <!-- Section-Jobs -->
-      <section class="jobs">
-        <div class="jobs__container">
-          <ul class="job-positions">
-
-            <!-- Jobs Item 01-->
-            <li class="job-position">
-              <div class="text-container">
-                <h4 class="job-title">General Manager</h4>
-                <p class="job-location">Jakarta, Indonesia</p>
-              </div>
-              <div class="message-us">
-                <a href="#">
-                  <button class="message-btn btn btn-primary" type="button">Apply</button>
-                </a>
-              </div>
-            </li>
-
-            <!-- Jobs Item 02 -->
-            <li class="job-position">
-              <div class="text-container">
-                <h4 class="job-title">UI/UX Designer</h4>
-                <p class="job-location">Yokohama, Japan</p>
-              </div>
-              <div class="message-us">
-                <a href="#">
-                  <button class="message-btn btn btn-primary" type="button">Apply</button>
-                </a>
-              </div>
-            </li>
-
-            <!-- Jobs Item 03 -->
-            <li class="job-position">
-              <div class="text-container">
-                <h4 class="job-title">Blog Content Copywriter</h4>
-                <p class="job-location">New York, United States</p>
-              </div>
-              <div class="message-us">
-                <a href="#">
-                  <button class="message-btn btn btn-primary" type="button">Apply</button>
-                </a>
-              </div>
-            </li>
-            
-            <!-- Jobs Item 04 -->
-            <li class="job-position">
-              <div class="text-container">
-                <h4 class="job-title">Graphic Designer</h4>
-                <p class="job-location">New York, United States</p>
-              </div>
-              <div class="message-us">
-                <a href="#">
-                  <button class="message-btn btn btn-primary" type="button">Apply</button>
-                </a>
-              </div>
-            </li>
-            
-            <!-- Jobs Item 05 -->
-            <li class="job-position">
-              <div class="text-container">
-                <h4 class="job-title">Fleet Supervisor</h4>
-                <p class="job-location">Jakarta, Indonesia</p>
-              </div>
-              <div class="message-us">
-                <a href="#">
-                  <button class="message-btn btn btn-primary" type="button">Apply</button>
-                </a>
-              </div>
-            </li>
-            
-            <!-- Jobs Item 06 -->
-            <li class="job-position">
-              <div class="text-container">
-                <h4 class="job-title">UX Analyst</h4>
-                <p class="job-location">London, United Kingdom</p>
-              </div>
-              <div class="message-us">
-                <a href="#">
-                  <button class="message-btn btn btn-primary" type="button">Apply</button>
-                </a>
-              </div>  
-            </li>
-          </ul>
-        </div>
-      </section>
-      <!-- End Jobs Section -->
-
-      <!-- Sign Up Section-->
-      <section id="scoot" class="signup">
-        <div class="signup__container">
-          <article class="text-container">
-          <h2 class="scoot-heading heading-2">Sign up and Scoot off today</h2>
-          </article>
-
-          <div class="image-container">
-            <img src="/assets/icons/app-store.svg" alt="app-store" class="app-store-img">
-            <img src="/assets/icons/google-play.svg" alt="google-play" class="app-store-img"> 
-          </div>
-        </div>
-      </section>
-      <!-- End Sign Up Section -->
-    </main>
-
-    <footer class="footer">
-      <div class="container">
-        <nav class="navbar footer-navbar">
-          <a href="index.html">
-            <img src="./assets/logo-white.svg" class="navbar-logo" alt="company logo">
-          </a>
-        
-          <ul class="navbar-list">
-            <li class="navbar-item">
-              <a class="navbar-link" href="about.html">About</a>
-            </li>
-            <li class="navbar-item">
-              <a class="navbar-link" href="locations.html">Location</a>
-            </li>
-            <li class="navbar-item">
-              <a class="navbar-link" href="locations.html">Careers</a>
-          </ul>
-        </nav>
-
-        <ul class="social">
-          <li class="social__item">
-            <a href="#" class="social__link">
-              <img src="./assets/icons/facebook.svg" alt="facebook">
-            </a>
-          </li>
-          <li class="social__item">
-            <a href="#" class="social-icons-link">
-              <img src="./assets/icons/twitter.svg" alt="twitter">
-            </a>
-          </li>
-          <li class="social__item">
-            <a href="#" class="social-icons-link">
-              <img src="./assets/icons/instagram.svg" alt="instagram">
-            </a>
-          </li>
-        </ul> 
-      </div>
-      <div class="attribution">
-        <p>Challenge by &nbsp;<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.&nbsp;Coded by &nbsp; <a href="https://github.com/tlanettepollard">Trista Lanette Pollard</a></p>
-      </div>
-    </footer>
-  </div><!-- Wrapper -->
- 
-  <!-- My JS -->
-  <script src="/main.js"></script>
-</body>
+		<!-- My JS -->
+		<script src="/main.js"></script>
+	</body>
 </html>
