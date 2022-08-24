@@ -2,6 +2,15 @@
 .faqs {
 	&__container {
 		width: 85%;
-		margin: auto;
+		min-height: 61.875rem;
+		margin: 8.75rem auto;
+		position: relative;
+		overflow: hidden;
+
+		.faqs__header {
+			text-align: center;
+			margin: 2.5rem 0;
+			padding: 1.25rem 0;
+		}
 	}
 }
