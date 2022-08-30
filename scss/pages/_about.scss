@@ -2,6 +2,59 @@
 .faqs {
 	&__container {
 		width: 85%;
-		margin: auto;
+		min-height: 61.875rem;
+		margin: 8.75rem auto;
+		position: relative;
+		overflow: hidden;
+		@include flex(column, center, center);
+		overflow: hidden;
+
+		.faqs__header {
+			text-align: center;
+			margin: 2.5rem 0;
+			padding: 1.25rem 0;
+		}
+
+		.faq {
+			position: relative;
+			&__subheader {
+				.faq-heading {
+					text-align: center;
+					padding: 1.25rem;
+				}
+			}
+
+			&-container {
+				.faq__panel {
+					.faq__input {
+						display: none;
+					}
+
+					.faq__label,
+					.faq__content {
+						margin: 1.25rem auto;
+						padding: 0.625rem;
+					}
+
+					.faq__label {
+						display: block;
+						position: relative;
+						cursor: pointer;
+					}
+
+					.faq__label::after {
+						content: '';
+						width: 1rem;
+						height: 1rem;
+						position: absolute;
+						right: 0.625rem;
+						background-size: contain;
+						background-repeat: no-repeat;
+						background-image: url('/assets/icons/arrow-down.svg');
+						color: $yellow;
+					}
+				}
+			}
+		}
 	}
 }
