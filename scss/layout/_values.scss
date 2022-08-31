@@ -6,7 +6,7 @@
     text-align: center;
 
 
-    .values__container {
+    &__container {
         @include flex (column, center, center);
         padding: 3.125rem;
 

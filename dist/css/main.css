@@ -720,7 +720,7 @@ header nav {
   margin: auto;
   text-align: center;
 }
-.values .values__container {
+.values__container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -728,11 +728,11 @@ header nav {
   padding: 3.125rem;
 }
 @media screen and (min-width: 1025px) {
-  .values .values__container {
+  .values__container {
     flex-direction: row;
   }
 }
-.values .values__container .value-item .value__image-container .value-image {
+.values__container .value-item .value__image-container .value-image {
   width: 15rem;
   height: 15rem;
 }
@@ -753,7 +753,16 @@ header nav {
   row-gap: inherit;
 }
 
-/* Faqs Section */ /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Faqs Section */
+.faqs {
+  width: 100%;
+}
+.faqs__container {
+  width: 100%;
+  margin: 3.75rem auto;
+}
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
 /**
