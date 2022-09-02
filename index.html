@@ -17,111 +17,109 @@
 	<body>
 		<div class="wrapper">
 			<header>
-				<!-- Navbar-->
-				<nav class="hide-mobile">
-					<!-- Navbar Logo -->
-					<div class="navbar__container">
-						<div class="logo">
-							<a href="/index.html">
-								<img src="./assets/logo.svg" alt="company-logo" />
-							</a>
-						</div>
+				<div class="wrapper">
+					<!-- Navbar -->
+					<nav class="hide-mobile">
+						<div class="navbar__container">
+							<div class="logo">
+								<a href="/index.html">
+									<img src="./assets/logo.svg" alt="Scoot logo" />
+								</a>
+							</div>
+							<!-- logo -->
 
-						<ul class="navbar__list" id="navbarMenu">
-							<li class="navbar__item">
-								<a href="/about.html" class="navbar-link">About</a>
-							</li>
-							<li class="navbar__item">
-								<a href="/locations.html" class="navbar-link">Location</a>
-							</li>
-							<li class="navbar__item">
-								<a href="/careers.html" class="navbar-link">Careers</a>
-							</li>
-						</ul>
-					</div>
-					<!-- navbar__container -->
-
-					<button class="btn btn-primary nav-scoot-btn" type="button">
-						<a href="#scoot">Get Scootin</a>
-					</button>
-				</nav>
-				<!-- End Tablet/Desktop Navbar -->
-
-				<div class="sidebar-container hide-tablet-up">
-					<div class="sidebar-header">
-						<img
-							id="hamburger"
-							class="hamburger nav_handle"
-							src="assets/icons/hamburger.svg"
-							onclick="openNav()"
-							alt="open menu"
-						/>
-
-						<div class="logo">
-							<a href="/index.html">
-								<img src="./assets/logo.svg" alt="company-logo" />
-							</a>
+							<ul class="navbar__list" id="navbarMenu">
+								<li class="navbar__item">
+									<a href="/about.html" class="navbar-link"> About </a>
+								</li>
+								<li class="navbar__item">
+									<a href="/about.html" class="navbar-link"> Location </a>
+								</li>
+								<li class="navbar__item">
+									<a href="/about.html" class="navbar-link"> Careers </a>
+								</li>
+							</ul>
 						</div>
-					</div>
-					<!-- sidebar-header -->
-					<div id="mobileSidebar" class="sidebar">
-						<div class="close">
-							<img
-								src="assets/icons/close.svg"
-								alt="close menu"
-								onclick="closeNav()"
-							/>
-						</div>
-						<div class="sidebar-links">
-							<a href="about.html">About</a>
-							<a href="locations.html">Locations</a>
-							<a href="careers.html">Careers</a>
-						</div>
-						<button class="btn btn-primary scoot" type="button">
-							<a href="#scoot"> Get Scootin</a>
+						<!-- navbar__container -->
+						<button class="btn btn-primary nav-scoot-btn" type="button">
+							<a href="#scoot">Get Scootin</a>
 						</button>
+					</nav>
+					<!-- End Tablet/Desktop Navbar -->
+
+					<div class="sidebar-container hide-tablet-up">
+						<div class="sidebar-header">
+							<img
+								id="hamburger"
+								class="hamburger nav_handle"
+								src="./assets/icons/hamburger.svg"
+								onClick="openNav()"
+								alt="open menu"
+							/>
+							<div class="logo">
+								<a href="/index.html">
+									<img src="./assets/logo.svg" alt="Scoot logo" />
+								</a>
+							</div>
+						</div>
+						<!-- sidebar-header -->
+
+						<div id="mobileSidebar" class="sidebar">
+							<div class="close">
+								<img
+									src="./assets//icons/close.svg"
+									alt="close menu"
+									onclick="closeNav()"
+								/>
+							</div>
+							<div class="sidebar-links">
+								<a href="about.html">About</a>
+								<a href="locations.html">Locations</a>
+								<a href="careers.html">Careers</a>
+							</div>
+							<button class="btn btn-primary scoot" type="button">
+								<a href="#scoot">Get Scootin</a>
+							</button>
+						</div>
 					</div>
+					<!-- sidebar-container -->
 				</div>
-				<!-- sidebar-container -->
+				<!-- wrapper -->
 			</header>
 			<!-- End Header -->
 
-			<main id="main" class="main-home">
-				<!-- Begin Hero -->
+			<main class="main main-home">
+				<!-- Begin Hero Section -->
 				<section class="hero-home">
 					<div class="wrapper">
-						<div class="hero__container">
-							<article class="hero-text-container">
-								<h1 class="home-heading heading-1">
-									Scooter sharing made simple
-								</h1>
-								<p class="home-paragraph paragraph">
-									Scoot takes the hassle out of urban mobility. Our bikes are
-									placed in convenient locations in each of our cities. Use our
-									app to locate the nearest bike, unlock it with a tap, and
-									you’re away!
-								</p>
-								<a href="#scoot">
-									<button class="btn btn-primary home-btn" type="button">
-										Get Scootin
-									</button>
-								</a>
-							</article>
-
+						<article class="hero-container">
+							<h1 class="home-heading heading-1">
+								Scooter sharing made simple
+							</h1>
+							<p class="home-paragraph paragraph">
+								Scoot takes the hassle out of urban mobility. Our bikes are
+								placed in convenient locations in each of our cities. Use our
+								app to locate the nearest bike, unlock it with a tap, and you’re
+								away!
+							</p>
+							<a href="#scoot">
+								<button class="btn btn-primary home-btn" type="button">
+									Get Scootin
+								</button>
+							</a>
 							<div class="shape shape--line hide-large"></div>
 							<div class="shape shape--arrow"></div>
 							<div class="shape shape--circles hide-small"></div>
-						</div>
-						<!-- hero__container -->
+						</article>
 					</div>
 					<!-- wrapper -->
 				</section>
 				<!-- End Hero -->
 
-				<!-- Directions -->
+				<!-- Directions Section -->
 				<section class="directions">
 					<div class="wrapper">
-						<div class="directions__container">
+						<article class="directions__container">
 							<ol class="directions__list">
 								<!-- Item 01 -->
 								<li class="directions__item">
@@ -129,7 +127,7 @@
 										<img
 											src="./assets/icons/locate.svg"
 											alt="locate"
-											class="steps-icon"
+											class="directions-icon"
 										/>
 									</div>
 									<div class="text-container">
@@ -149,7 +147,7 @@
 										<img
 											src="./assets/icons/scooter.svg"
 											alt="scooter"
-											class="steps-icon"
+											class="directions-icon"
 										/>
 									</div>
 									<div class="text-container">
@@ -169,7 +167,7 @@
 										<img
 											src="./assets/icons/ride.svg"
 											alt="ride"
-											class="steps-icon"
+											class="directions-icon"
 										/>
 									</div>
 									<div class="text-container">
@@ -182,14 +180,12 @@
 									</div>
 								</li>
 							</ol>
-
-							<div class="shape shape--line hide-mobile"></div>
-						</div>
-						<!-- directions__container-->
+						</article>
+						<!-- directions__container -->
 					</div>
 					<!-- wrapper -->
 				</section>
-				<!-- End Directions -->
+				<!-- End Directions-->
 
 				<!-- Features Section -->
 				<section class="features">
@@ -220,13 +216,14 @@
 									/>
 								</div>
 							</article>
+							<!-- feature--right -->
 							<div class="patterns">
 								<div class="shape shape--arrow-1"></div>
 								<div class="shape shape--circle-1 hide-small"></div>
 							</div>
 
 							<article class="feature feature--left">
-								<div class="text-container tc-right">
+								<div class="text-container tc-left">
 									<h2 class="feature-heading heading heading-2">
 										Coming to a city near you
 									</h2>
@@ -242,14 +239,15 @@
 										</button>
 									</a>
 								</div>
-								<div class="image-container ic-left">
+								<div class="image-container ic-right">
 									<img
-										src="./assets/images/near-you.jpg"
+										src="./assets//images//near-you.jpg"
 										alt="city street"
 										class="feature-image img-fluid img-round"
 									/>
 								</div>
 							</article>
+							<!-- feature--left -->
 							<div class="patterns">
 								<div class="shape shape--arrow-2"></div>
 								<div class="shape shape--circle-2 hide-small"></div>
@@ -280,27 +278,25 @@
 									/>
 								</div>
 							</article>
+							<!-- feature--right -->
 							<div class="patterns">
 								<div class="shape shape--arrow-3"></div>
 								<div class="shape shape--circle-3 hide-small"></div>
 							</div>
 						</div>
-						<!-- article__container -->
+						<!-- features__container -->
 					</div>
 					<!-- wrapper -->
 				</section>
-				<!-- End Articles Section -->
+				<!-- End Features -->
 
-				<!-- Sign Up Section-->
+				<!-- Sign Up Section -->
 				<section id="scoot" class="signup">
 					<div class="wrapper">
-						<div class="signup__container">
-							<article class="text-container">
-								<h2 class="scoot-heading heading-2">
-									Sign up and Scoot off today
-								</h2>
-							</article>
-
+						<article class="signup__container">
+							<h2 class="scoot-heading heading-2">
+								Sign up and Scoot off today
+							</h2>
 							<div class="image-container">
 								<img
 									src="/assets/icons/app-store.svg"
@@ -313,76 +309,21 @@
 									class="app-store-img"
 								/>
 							</div>
-						</div>
+						</article>
 						<!-- signup__container -->
 					</div>
 					<!-- wrapper -->
 				</section>
-				<!-- End Sign Up Section -->
+				<!-- End Sign Up -->
 			</main>
 
 			<footer class="footer">
-				<div class="wrapper">
-					<div class="footer__container">
-						<nav class="footer-navbar">
-							<a href="index.html">
-								<img
-									src="./assets/logo-white.svg"
-									class="navbar-logo"
-									alt="company logo"
-								/>
-							</a>
-
-							<ul class="navbar-list">
-								<li class="navbar-item">
-									<a class="navbar-link" href="about.html">About</a>
-								</li>
-								<li class="navbar-item">
-									<a class="navbar-link" href="locations.html">Location</a>
-								</li>
-								<li class="navbar-item">
-									<a class="navbar-link" href="locations.html">Careers</a>
-								</li>
-							</ul>
-						</nav>
-
-						<ul class="social">
-							<li class="social__item">
-								<a href="#" class="social-icons__link">
-									<img src="./assets/icons/facebook.svg" alt="facebook" />
-								</a>
-							</li>
-							<li class="social__item">
-								<a href="#" class="social-icons-link">
-									<img src="./assets/icons/twitter.svg" alt="twitter" />
-								</a>
-							</li>
-							<li class="social__item">
-								<a href="#" class="social-icons-link">
-									<img src="./assets/icons/instagram.svg" alt="instagram" />
-								</a>
-							</li>
-						</ul>
-					</div>
-					<!-- footer__container -->
-					<div class="attribution">
-						<p>
-							Challenge by &nbsp;<a
-								href="https://www.frontendmentor.io?ref=challenge"
-								target="_blank"
-								>Frontend Mentor</a
-							>.&nbsp;Coded by &nbsp;
-							<a href="https://github.com/tlanettepollard"
-								>Trista Lanette Pollard</a
-							>
-						</p>
-					</div>
-					<!-- attribution -->
-				</div>
+				<div class="wrapper"></div>
 				<!-- wrapper -->
 			</footer>
 		</div>
 		<!-- wrapper -->
+		About Location Careers
 
 		<!-- My JS -->
 		<script src="/main.js"></script>
