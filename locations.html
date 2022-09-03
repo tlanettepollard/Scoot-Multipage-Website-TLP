@@ -33,10 +33,10 @@
 									<a href="/about.html" class="navbar-link"> About </a>
 								</li>
 								<li class="navbar__item">
-									<a href="/about.html" class="navbar-link"> Location </a>
+									<a href="/locations.html" class="navbar-link"> Location </a>
 								</li>
 								<li class="navbar__item">
-									<a href="/about.html" class="navbar-link"> Careers </a>
+									<a href="/careers.html" class="navbar-link"> Careers </a>
 								</li>
 							</ul>
 						</div>
@@ -73,9 +73,9 @@
 								/>
 							</div>
 							<div class="sidebar-links">
-								<a href="about.html">About</a>
-								<a href="locations.html">Locations</a>
-								<a href="careers.html">Careers</a>
+								<a href="/about.html">About</a>
+								<a href="/locations.html">Locations</a>
+								<a href="/careers.html">Careers</a>
 							</div>
 							<button class="btn btn-primary scoot" type="button">
 								<a href="#scoot">Get Scootin</a>
@@ -88,14 +88,167 @@
 			</header>
 			<!-- End Header -->
 
-			<main class="main main-locations"></main>
-			<footer></footer>
-		</div> <!-- wrapper -->
-		Locations New York London Yokohama Jakarta Your city not listed? If you’d
-		like to see Scoot in your hometown, be sure to let us know. We track
-		requests and plan launches based on demand. Feel free to message us by
-		clicking the link or messaging us on social. Message Us Sign up and Scoot
-		off today About Location Careers
+			<main class="main main-locations">
+				<!-- Hero Section -->
+				<section class="hero-locations">
+					<div class="wrapper">
+						<article class="hero__container">
+							<h1 class="locations-heading heading-1">Locations</h1>
+							<div class="shape shape--circles hide-small"></div>
+						</article>
+						<!-- hero__container -->
+					</div>
+					<!-- wrapper -->
+				</section>
+				<!-- End Hero Section -->
+
+				<section class="locations">
+					<div class="wrapper">
+						<article class="locations__container">
+							<div class="image-container">
+								<img
+									src="./assets/images/world-map-mobile.png"
+									class="locations__img hide-medium"
+									alt="World map"
+								/>
+								<img
+									src="./assets/images/world-map-tablet-desktop-2.png"
+									class="locations__img hide-small"
+									alt="World map"
+								/>
+							</div>
+
+							<ul class="locations-list hide-medium">
+								<li>
+									<div class="text-container">
+										<h3 class="heading heading-3">New York</h3>
+									</div>
+								</li>
+								<li>
+									<div class="text-container">
+										<h3 class="heading heading-3">London</h3>
+									</div>
+								</li>
+								<li>
+									<div class="text-container">
+										<h3 class="heading heading-3">Yokohama</h3>
+									</div>
+								</li>
+								<li>
+									<div class="text-container">
+										<h3 class="heading heading-3">Jakarta</h3>
+									</div>
+								</li>
+							</ul>
+							<!-- locations-list -->
+
+							<div class="locations__text-container">
+								<h2 class="heading heading-2">Your city not listed?</h2>
+								<p class="paragraph">
+									If you’d like to see Scoot in your hometown, be sure to let us
+									know. We track requests and plan launches based on demand.
+									Feel free to message us by clicking the link or messaging us
+									on social.
+								</p>
+								<a href="#">
+									<button class="btn btn-primary locations-btn" type="button">
+										Message Us
+									</button>
+								</a>
+							</div>
+						</article>
+						<!-- locations__container -->
+					</div>
+					<!-- wrapper -->
+				</section>
+				<!-- End Locations Section -->
+
+				<section id="scoot" class="signup">
+					<div class="wrapper">
+						<article class="signup__container">
+							<h2 class="scoot-heading heading-2">
+								Sign up and Scoot off today
+							</h2>
+							<div class="image-container">
+								<img
+									src="/assets/icons/app-store.svg"
+									alt="app-store"
+									class="app-store-img"
+								/>
+								<img
+									src="/assets/icons/google-play.svg"
+									alt="google-play"
+									class="app-store-img"
+								/>
+							</div>
+						</article>
+						<!-- signup__container -->
+					</div>
+					<!-- wrapper -->
+				</section>
+				<!-- End Sign Up -->
+			</main>
+			<footer class="footer">
+				<div class="wrapper">
+					<div class="footer__container">
+						<nav class="navbar footer-navbar">
+							<a href="index.html">
+								<img
+									src="./assets/logo-white.svg"
+									class="navbar-logo"
+									alt="company logo"
+								/>
+							</a>
+
+							<ul class="navbar-list">
+								<li class="navbar-item">
+									<a class="navbar-link" href="/about.html">About</a>
+								</li>
+								<li class="navbar-item">
+									<a class="navbar-link" href="/locations.html">Location</a>
+								</li>
+								<li class="navbar-item">
+									<a class="navbar-link" href="/careers.html">Careers</a>
+								</li>
+							</ul>
+						</nav>
+
+						<ul class="social">
+							<li class="social__item">
+								<a href="#" class="social__link">
+									<img src="./assets/icons/facebook.svg" alt="facebook" />
+								</a>
+							</li>
+							<li class="social__item">
+								<a href="#" class="social-icons-link">
+									<img src="./assets/icons/twitter.svg" alt="twitter" />
+								</a>
+							</li>
+							<li class="social__item">
+								<a href="#" class="social-icons-link">
+									<img src="./assets/icons/instagram.svg" alt="instagram" />
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="attribution">
+						<p>
+							Challenge by &nbsp;<a
+								href="https://www.frontendmentor.io?ref=challenge"
+								target="_blank"
+								>Frontend Mentor</a
+							>.&nbsp;Coded by &nbsp;
+							<a href="https://github.com/tlanettepollard"
+								>Trista Lanette Pollard</a
+							>
+						</p>
+					</div>
+					<!-- attribution -->
+				</div>
+				<!-- wrapper-->
+			</footer>
+		</div>
+		<!-- wrapper -->
 
 		<!-- My JS -->
 		<script src="/main.js"></script>
