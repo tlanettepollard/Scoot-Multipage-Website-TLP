@@ -127,6 +127,53 @@ h4 {
 /*************************************
 Home, About, and Career section Styles
 *************************************/
+@media screen and (min-width: 768px) {
+  nav .logo {
+    margin-left: 1.25rem;
+  }
+}
+nav .navbar-toggler-icon {
+  background-image: url("/assets/icons/hamburger.svg");
+}
+nav .btn-close {
+  background-image: url("/assets/icons/close.svg");
+}
+nav .offcanvas {
+  background-color: hsl(215deg, 14%, 23%);
+}
+nav .offcanvas .offcanvas-header {
+  background-color: hsl(0deg, 0%, 100%);
+}
+@media screen and (min-width: 768px) {
+  nav .offcanvas .offcanvas-body .navbar-nav {
+    margin: auto;
+    margin: auto;
+    padding: auto;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  nav .offcanvas .offcanvas-body .navbar-nav .nav-item {
+    margin: 0.625rem;
+  }
+}
+nav .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
+  color: hsl(0deg, 0%, 100%);
+}
+@media screen and (min-width: 768px) {
+  nav .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
+    color: hsl(217deg, 12%, 62%);
+  }
+}
+@media screen and (min-width: 768px) {
+  nav .offcanvas .offcanvas-body .nav-button {
+    width: 11.25rem !important;
+    height: auto;
+    border-radius: 25%;
+    margin-right: 1.25rem;
+  }
+}
+
 .wrapper {
   position: relative;
   width: 100%;
