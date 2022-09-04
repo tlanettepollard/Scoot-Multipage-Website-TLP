@@ -3,7 +3,19 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+		
+		<!-- Bootstrap -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+			crossorigin="anonymous"
+		/>
+
+		<!-- My CSS -->
 		<link rel="stylesheet" type="text/css" href="/dist/css/main.css" />
+
 		<link
 			rel="icon"
 			type="image/png"
@@ -15,83 +27,72 @@
 	</head>
 	<body>
 		<div class="wrapper">
-			<header>
-				<div class="wrapper">
-					<!-- Navbar -->
-					<nav class="hide-mobile">
-						<div class="navbar__container">
-							<div class="logo">
-								<a href="/index.html">
-									<img src="./assets/logo.svg" alt="Scoot logo" />
-								</a>
-							</div>
-							<!-- logo -->
+			<nav class="navbar bg-light navbar-expand-md fixed-top">
+				<div class="container-fluid">
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="offcanvas"
+						data-bs-target="#offcanvasNavbar"
+						aria-controls="offcanvasNavbar"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<a class="navbar-brand mx-auto" href="./index.html">
+						<img
+							src="./assets/logo.svg"
+							alt="Scoot logo"
+							class="logo img-fluid"
+						/>
+					</a>
 
-							<ul class="navbar__list" id="navbarMenu">
-								<li class="navbar__item">
-									<a href="/about.html" class="navbar-link"> About </a>
+					<div
+						class="offcanvas offcanvas-start"
+						tabindex="-1"
+						id="offcanvasNavbar"
+						aria-labelledby="offcanvasNavbarLabel"
+					>
+						<div class="offcanvas-header">
+							<button
+								type="button"
+								class="btn-close"
+								data-bs-dismiss="offcanvas"
+								aria-label="Close"
+							></button>
+							<img
+								src="./assets/logo.svg"
+								alt="Scoot logo"
+								class="logo navbar-brand mx-auto"
+							/>
+						</div>
+						<!-- offcanvas-header -->
+						<div class="offcanvas-body">
+							<ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+								<li class="nav-item">
+									<a class="nav-link" href="./about.html">About</a>
 								</li>
-								<li class="navbar__item">
-									<a href="/locations.html" class="navbar-link"> Location </a>
+								<li class="nav-item">
+									<a class="nav-link" href="./locations.html">Location</a>
 								</li>
-								<li class="navbar__item">
-									<a href="/careers.html" class="navbar-link"> Careers </a>
+								<li class="nav-item">
+									<a class="nav-link" href="./careers.html">Careers</a>
 								</li>
 							</ul>
-						</div>
-						<!-- navbar__container -->
-						<button class="btn btn-primary nav-scoot-btn" type="button">
-							<a href="#scoot">Get Scootin</a>
-						</button>
-					</nav>
-					<!-- End Tablet/Desktop Navbar -->
-
-					<div class="sidebar-container hide-tablet-up">
-						<div class="sidebar-header">
-							<img
-								id="hamburger"
-								class="hamburger nav_handle"
-								src="./assets/icons/hamburger.svg"
-								onClick="openNav()"
-								alt="open menu"
-							/>
-							<div class="logo">
-								<a href="/index.html">
-									<img src="./assets/logo.svg" alt="Scoot logo" />
-								</a>
-							</div>
-						</div>
-						<!-- sidebar-header -->
-
-						<div id="mobileSidebar" class="sidebar">
-							<div class="close">
-								<img
-									src="./assets//icons/close.svg"
-									alt="close menu"
-									onclick="closeNav()"
-								/>
-							</div>
-							<div class="sidebar-links">
-								<a href="/about.html">About</a>
-								<a href="/locations.html">Locations</a>
-								<a href="/careers.html">Careers</a>
-							</div>
-							<button class="btn btn-primary scoot" type="button">
+							<button class="btn btn-lg btn-warning p-2" type="button">
 								<a href="#scoot">Get Scootin</a>
 							</button>
 						</div>
 					</div>
-					<!-- sidebar-container -->
 				</div>
-				<!-- wrapper -->
-			</header>
-			<!-- End Header -->
+				<!-- navbar -->
+			</nav>
+			<!-- End Navbar -->
 
 			<main class="main main-about">
 				<!-- Hero Banner -->
-				<section class="hero-about">
-					<div class="wrapper">
-						<article class="hero__container">
+				<section class="hero-about px-4 py-5 my-5 container-fluid">
+					<div class="container">
+						<article class="hero-content container-fluid">
 							<h1 class="about-heading heading-1">About</h1>
 							<div class="shape shape--circles hide-small"></div>
 						</article>
@@ -103,10 +104,10 @@
 
 				<!-- Features Section -->
 				<section class="features">
-					<div class="wrapper">
-						<div class="features__container">
-							<article class="feature feature--right">
-								<div class="text-container tc-left">
+					<div class="container-fluid">
+						<div class="features-content">
+							<article class="feature feature--right container">
+								<div class="text-content tc-left">
 									<h2 class="feature-heading heading heading-2">
 										Mobility for the digital era
 									</h2>
@@ -116,7 +117,7 @@
 										access to scooters at your fingertips.
 									</p>
 								</div>
-								<div class="image-container ic-right">
+								<div class="image-content ic-right">
 									<img
 										class="feature-image img-fluid img-round"
 										src="./assets/images/digital-era.jpg"
@@ -127,8 +128,8 @@
 							<div class="shape shape--arrow-1"></div>
 							<div class="shape shape--circle-1 hide-mobile"></div>
 
-							<article class="feature feature--left">
-								<div class="text-container tc-right">
+							<article class="feature feature--left container">
+								<div class="text-content tc-right">
 									<h2 class="feature-heading heading heading-2">
 										Better urban living
 									</h2>
@@ -138,7 +139,7 @@
 										the minimal carbon footprint for each ride.
 									</p>
 								</div>
-								<div class="image-container ic-right">
+								<div class="image-content ic-right">
 									<img
 										class="feature-image img-fluid img-round"
 										src="./assets/images/better-living.jpg"
@@ -157,14 +158,14 @@
 
 				<!-- Values Section -->
 				<section class="values">
-					<div class="wrapper">
+					<div class="container-fluid">
 						<div class="values__header">
 							<h2 class="heading heading-2">Our values</h2>
 						</div>
-						<article class="values__container">
+						<article class="values-content container">
 							<!-- Item 01 -->
 							<div class="value-item">
-								<div class="value__image-container">
+								<div class="value-image image-content">
 									<img
 										src="./assets/images/our-tech.jpg"
 										alt="article feature"
@@ -174,7 +175,7 @@
 										<h4>01</h4>
 									</div>
 								</div>
-								<div class="value__text-container">
+								<div class="value-text text-content">
 									<h4 class="value-heading heading-4">Our tech</h4>
 									<p class="value-paragraph paragraph">
 										We’re using cutting edge technology to drive accessible
@@ -186,7 +187,7 @@
 
 							<!-- Item 02 -->
 							<div class="value-item">
-								<div class="value__image-container">
+								<div class="value-image image-content">
 									<img
 										src="./assets/images/our-integrity.jpg"
 										alt="article feature"
@@ -196,7 +197,7 @@
 										<h4>02</h4>
 									</div>
 								</div>
-								<div class="value__text-container">
+								<div class="value-text text-content">
 									<h4 class="value-heading heading-4">Our integrity</h4>
 									<p class="value-paragraph paragraph">
 										We are fully committed to deliver a great yet safe,
@@ -208,13 +209,13 @@
 
 							<!-- Item 03 -->
 							<div class="value-item">
-								<div class="value__image-container">
+								<div class="value-image image-content">
 									<img src="./assets/images/our-community.jpg" alt="article feature" class="value-image img-fluid img-round">
 									<div class="number">
 									<h4>03</h4>
 									</div>
 								</div>
-								<div class="value__text-container">
+								<div class="value-text text-content">
 									<h4 class="value-heading heading-4">Our community</h4>
 									<p class="value-paragraph paragraph">We support every community we serve. All workers are paid a living wage based on their 
 									location and are Scoot employees.</p> 
@@ -376,7 +377,11 @@
 		</div>
 		<!-- wrapper -->
 		
-		<!-- My JS -->
-		<script src="/main.js"></script>
+		<!-- JavaScript Bundle with Popper -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+			crossorigin="anonymous"
+		></script>
 	</body>
 </html>

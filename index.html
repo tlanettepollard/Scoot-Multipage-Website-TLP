@@ -4,7 +4,17 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<link rel="stylesheet" type="text/css" href="dist/css/main.css" />
+		<!-- Bootstrap -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+			crossorigin="anonymous"
+		/>
+
+		<!-- My CSS -->
+		<link rel="stylesheet" type="text/css" href="/dist/css/main.css" />
+
 		<link
 			rel="icon"
 			type="image/png"
@@ -16,121 +26,107 @@
 	</head>
 	<body>
 		<div class="wrapper">
-			<header>
-				<div class="wrapper">
-					<!-- Navbar -->
-					<nav class="hide-mobile">
-						<div class="navbar__container">
-							<div class="logo">
-								<a href="/index.html">
-									<img src="./assets/logo.svg" alt="Scoot logo" />
-								</a>
-							</div>
-							<!-- logo -->
+			<nav class="navbar bg-light navbar-expand-md fixed-top">
+				<div class="container-fluid">
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="offcanvas"
+						data-bs-target="#offcanvasNavbar"
+						aria-controls="offcanvasNavbar"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<a class="navbar-brand mx-auto" href="./index.html">
+						<img
+							src="./assets/logo.svg"
+							alt="Scoot logo"
+							class="logo img-fluid"
+						/>
+					</a>
 
-							<ul class="navbar__list" id="navbarMenu">
-								<li class="navbar__item">
-									<a href="/about.html" class="navbar-link"> About </a>
+					<div
+						class="offcanvas offcanvas-start"
+						tabindex="-1"
+						id="offcanvasNavbar"
+						aria-labelledby="offcanvasNavbarLabel"
+					>
+						<div class="offcanvas-header">
+							<button
+								type="button"
+								class="btn-close"
+								data-bs-dismiss="offcanvas"
+								aria-label="Close"
+							></button>
+							<img
+								src="./assets/logo.svg"
+								alt="Scoot logo"
+								class="logo navbar-brand mx-auto"
+							/>
+						</div>
+						<!-- offcanvas-header -->
+						<div class="offcanvas-body">
+							<ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+								<li class="nav-item">
+									<a class="nav-link" href="./about.html">About</a>
 								</li>
-								<li class="navbar__item">
-									<a href="/locations.html" class="navbar-link"> Location </a>
+								<li class="nav-item">
+									<a class="nav-link" href="./locations.html">Location</a>
 								</li>
-								<li class="navbar__item">
-									<a href="/careers.html" class="navbar-link"> Careers </a>
+								<li class="nav-item">
+									<a class="nav-link" href="./careers.html">Careers</a>
 								</li>
 							</ul>
-						</div>
-						<!-- navbar__container -->
-						<button class="btn btn-primary nav-scoot-btn" type="button">
-							<a href="#scoot">Get Scootin</a>
-						</button>
-					</nav>
-					<!-- End Tablet/Desktop Navbar -->
-
-					<div class="sidebar-container hide-tablet-up">
-						<div class="sidebar-header">
-							<img
-								id="hamburger"
-								class="hamburger nav_handle"
-								src="./assets/icons/hamburger.svg"
-								onClick="openNav()"
-								alt="open menu"
-							/>
-							<div class="logo">
-								<a href="/index.html">
-									<img src="./assets/logo.svg" alt="Scoot logo" />
-								</a>
-							</div>
-						</div>
-						<!-- sidebar-header -->
-
-						<div id="mobileSidebar" class="sidebar">
-							<div class="close">
-								<img
-									src="./assets//icons/close.svg"
-									alt="close menu"
-									onclick="closeNav()"
-								/>
-							</div>
-							<div class="sidebar-links">
-								<a href="/about.html">About</a>
-								<a href="/locations.html">Locations</a>
-								<a href="/careers.html">Careers</a>
-							</div>
-							<button class="btn btn-primary scoot" type="button">
+							<button class="btn btn-lg btn-warning p-2" type="button">
 								<a href="#scoot">Get Scootin</a>
 							</button>
 						</div>
 					</div>
-					<!-- sidebar-container -->
 				</div>
-				<!-- wrapper -->
-			</header>
-			<!-- End Header -->
+				<!-- navbar -->
+			</nav>
+			<!-- End Navbar -->
 
-			<main class="main main-home">
-				<!-- Begin Hero Section -->
-				<section class="hero-home">
-					<div class="wrapper">
-						<article class="hero-container">
-							<h1 class="home-heading heading-1">
-								Scooter sharing made simple
-							</h1>
-							<p class="home-paragraph paragraph">
+			<main class="main-home">
+				<!-- Hero -->
+				<section class="hero-home px-4 py-5 my-5 container-fluid text-center">
+					<article class="container-fluid hero-content">
+						<h1 class="heading heading-1">Scooter sharing made simple</h1>
+						<div class="col-lg-6 mx-auto">
+							<p class="lead mb-4">
 								Scoot takes the hassle out of urban mobility. Our bikes are
 								placed in convenient locations in each of our cities. Use our
 								app to locate the nearest bike, unlock it with a tap, and you’re
 								away!
 							</p>
-							<a href="#scoot">
-								<button class="btn btn-primary home-btn" type="button">
-									Get Scootin
-								</button>
-							</a>
-							<div class="shape shape--line hide-large"></div>
-							<div class="shape shape--arrow"></div>
-							<div class="shape shape--circles hide-small"></div>
-						</article>
-					</div>
-					<!-- wrapper -->
+						</div>
+						<div class="col-lg-6 mx-auto">
+							<button class="btn btn-lg btn-warning p-2" type="button">
+								<a href="#scoot">Get Scootin</a>
+							</button>
+						</div>
+					</article>
+
+					<div class="shape shape--line hide-large"></div>
+					<div class="shape shape--arrow"></div>
+					<div class="shape shape--circles hide-small"></div>
 				</section>
-				<!-- End Hero -->
+				<!-- End Hero Section -->
 
 				<!-- Directions Section -->
-				<section class="directions">
-					<div class="wrapper">
-						<article class="directions__container">
-							<ol class="directions__list">
-								<!-- Item 01 -->
-								<li class="directions__item">
-									<div class="image-container">
-										<img
-											src="./assets/icons/locate.svg"
-											alt="locate"
-											class="directions-icon"
-										/>
-									</div>
-									<div class="text-container">
+				<section class="directions m-auto">
+					<article class="container-fluid directions__container m-auto">
+						<ul class="directions__list container">
+							<!-- Item 01 -->
+							<li class="directions__item">
+								<div class="image-content">
+									<img
+										src="./assets/icons/locate.svg"
+										alt="locate"
+										class="steps-icon img-thumbnail"
+									/>
+
+									<div class="text-content">
 										<h4 class="directions-heading heading-4">
 											Locate with app
 										</h4>
@@ -140,17 +136,19 @@
 											demand, so one should never be too far away.
 										</p>
 									</div>
-								</li>
-								<!-- Item 02 -->
-								<li class="directions__item">
-									<div class="image-container">
-										<img
-											src="./assets/icons/scooter.svg"
-											alt="scooter"
-											class="directions-icon"
-										/>
-									</div>
-									<div class="text-container">
+								</div>
+							</li>
+
+							<!-- Item 02 -->
+							<li class="directions__item">
+								<div class="image-content">
+									<img
+										src="./assets/icons/scooter.svg"
+										alt="locate"
+										class="steps-icon img-thumbnail"
+									/>
+
+									<div class="text-content">
 										<h4 class="directions-heading heading-4">
 											Pick your scooter
 										</h4>
@@ -160,17 +158,19 @@
 											see roughly how much it will cost.
 										</p>
 									</div>
-								</li>
-								<!-- Item 03 -->
-								<li class="directions__item">
-									<div class="image-container">
-										<img
-											src="./assets/icons/ride.svg"
-											alt="ride"
-											class="directions-icon"
-										/>
-									</div>
-									<div class="text-container">
+								</div>
+							</li>
+
+							<!-- Item 03 -->
+							<li class="directions__item">
+								<div class="image-content">
+									<img
+										src="./assets/icons/ride.svg"
+										alt="locate"
+										class="steps-icon img-thumbnail"
+									/>
+
+									<div class="text-content">
 										<h4 class="directions-heading heading-4">Enjoy the ride</h4>
 										<p class="paragraph">
 											Scan the QR code and the bike will unlock. Retract the
@@ -178,21 +178,20 @@
 											bikes away from walkways and accessibility ramps.
 										</p>
 									</div>
-								</li>
-							</ol>
-						</article>
-						<!-- directions__container -->
-					</div>
-					<!-- wrapper -->
+								</div>
+							</li>
+						</ul>
+
+						<div class="shape shape--line hide-mobile"></div>
+					</article>
 				</section>
-				<!-- End Directions-->
+				<!-- End Direction Section -->
 
 				<!-- Features Section -->
 				<section class="features">
-					<div class="wrapper">
-						<div class="features__container">
-							<article class="feature feature--right">
-								<div class="text-container tc-left">
+					<div class="container-fluid">
+						<article class="feature container feature--right">
+								<div class="text-content tc-left">
 									<h2 class="feature-heading heading heading-2">
 										Easy to use riding telemetry
 									</h2>
@@ -208,7 +207,7 @@
 										</button>
 									</a>
 								</div>
-								<div class="image-container ic-right">
+								<div class="image-content ic-right">
 									<img
 										src="./assets/images/telemetry.jpg"
 										alt="Person using app"
@@ -216,14 +215,13 @@
 									/>
 								</div>
 							</article>
-							<!-- feature--right -->
 							<div class="patterns">
 								<div class="shape shape--arrow-1"></div>
 								<div class="shape shape--circle-1 hide-small"></div>
 							</div>
 
-							<article class="feature feature--left">
-								<div class="text-container tc-left">
+							<article class="feature feature--left container">
+								<div class="text-content tc-right">
 									<h2 class="feature-heading heading heading-2">
 										Coming to a city near you
 									</h2>
@@ -239,22 +237,21 @@
 										</button>
 									</a>
 								</div>
-								<div class="image-container ic-right">
+								<div class="image-content ic-left">
 									<img
-										src="./assets//images//near-you.jpg"
+										src="./assets/images/near-you.jpg"
 										alt="city street"
 										class="feature-image img-fluid img-round"
 									/>
 								</div>
 							</article>
-							<!-- feature--left -->
 							<div class="patterns">
 								<div class="shape shape--arrow-2"></div>
 								<div class="shape shape--circle-2 hide-small"></div>
 							</div>
 
-							<article class="feature feature--right">
-								<div class="text-container tc-left">
+							<article class="feature feature--right container">
+								<div class="text-content tc-left">
 									<h2 class="feature-heading heading heading-2">
 										Zero hassle payments
 									</h2>
@@ -270,7 +267,7 @@
 										</button>
 									</a>
 								</div>
-								<div class="image-container ic-right">
+								<div class="image-content ic-right">
 									<img
 										src="./assets/images/payments.jpg"
 										alt="person making payments"
@@ -278,25 +275,26 @@
 									/>
 								</div>
 							</article>
-							<!-- feature--right -->
 							<div class="patterns">
 								<div class="shape shape--arrow-3"></div>
 								<div class="shape shape--circle-3 hide-small"></div>
 							</div>
 						</div>
-						<!-- features__container -->
-					</div>
-					<!-- wrapper -->
+						<!-- article__container -->
+					</div><!-- container-fluid -->
 				</section>
-				<!-- End Features -->
+				<!-- End Features Section-->
 
-				<!-- Sign Up Section -->
+				<!-- Sign Up Section-->
 				<section id="scoot" class="signup">
-					<div class="wrapper">
-						<article class="signup__container">
-							<h2 class="scoot-heading heading-2">
-								Sign up and Scoot off today
-							</h2>
+					<div class="container-fluid">
+						<div class="signup container">
+							<article class="text-container">
+								<h2 class="scoot-heading heading-2">
+									Sign up and Scoot off today
+								</h2>
+							</article>
+
 							<div class="image-container">
 								<img
 									src="/assets/icons/app-store.svg"
@@ -309,57 +307,59 @@
 									class="app-store-img"
 								/>
 							</div>
-						</article>
+						</div>
 						<!-- signup__container -->
 					</div>
 					<!-- wrapper -->
 				</section>
-				<!-- End Sign Up -->
+				<!-- End Sign Up Section -->
 			</main>
 
 			<footer class="footer">
-				<div class="wrapper">
-					<div class="footer__container">
-						<nav class="footer-navbar">
+				<div class="container-fluid">
+					<div class="footer-content">
+						<nav class="footer-navbar container">
 							<a href="index.html">
 								<img
 									src="./assets/logo-white.svg"
-									class="navbar-logo"
+									class="navbar-logo img-thumbnail"
 									alt="company logo"
 								/>
 							</a>
-							<ul class="navbar-list">
-								<li class="navbar-item">
-									<a class="navbar-link" href="/about.html">About</a>
+
+							<ul class="nav">
+								<li class="nav-item">
+									<a class="nav-link" href="about.html">About</a>
 								</li>
-								<li class="navbar-item">
-									<a class="navbar-link" href="/locations.html">Location</a>
+								<li class="nav-item">
+									<a class="nav-link" href="locations.html">Location</a>
 								</li>
-								<li class="navbar-item">
-									<a class="navbar-link" href="/careers.html">Careers</a>
+								<li class="nav-item">
+									<a class="nav-link" href="locations.html">Careers</a>
 								</li>
 							</ul>
 						</nav>
-						<ul class="social">
-							<li class="social__item">
-								<a href="#" class="social-icons__link">
+
+						<ul class="social nav container">
+							<li class="nav-item">
+								<a href="#" class="nav-link">
 									<img src="./assets/icons/facebook.svg" alt="facebook" />
 								</a>
 							</li>
-							<li class="social__item">
-								<a href="#" class="social-icons-link">
+							<li class="nav-item">
+								<a href="#" class="nav-link">
 									<img src="./assets/icons/twitter.svg" alt="twitter" />
 								</a>
 							</li>
-							<li class="social__item">
-								<a href="#" class="social-icons-link">
+							<li class="nav-item">
+								<a href="#" class="nav-link">
 									<img src="./assets/icons/instagram.svg" alt="instagram" />
 								</a>
 							</li>
 						</ul>
 					</div>
 					<!-- footer__container -->
-					<div class="attribution">
+					<div class="attribution container">
 						<p>
 							Challenge by &nbsp;<a
 								href="https://www.frontendmentor.io?ref=challenge"
@@ -378,7 +378,11 @@
 		</div>
 		<!-- wrapper -->
 
-		<!-- My JS -->
-		<script src="/main.js"></script>
+		<!-- JavaScript Bundle with Popper -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+			crossorigin="anonymous"
+		></script>
 	</body>
 </html>

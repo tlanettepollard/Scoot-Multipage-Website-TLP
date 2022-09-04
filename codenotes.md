@@ -107,6 +107,10 @@ Hi, it's me again. I'm back to working on the FAQ accordion. Forgot I had one th
 
 Hi. It's been so long that I need to start again. I had been working on my React Nanodegree since April. I feel like I forgot how to code using HTML, CSS, and JS, especially the positioning and sizing.
 
+### 09/03/2022
+
+Hi. I was researching a way to do this offcanvas navigation. I finally decided to go with Bootstrap for this project. So, starting over again. 
+
 ---
 
 font-family: 'Lexend Deca', sans-serif;
@@ -223,3 +227,19 @@ letter-spacing: -1.07;
 
 Chevron UP
 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="#FCB72B" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
+
+<img
+								id="hamburger"
+								class="hamburger nav_handle"
+								src="./assets/icons/hamburger.svg"
+								onClick="openNav()"
+								alt="open menu"
+							/>
+
+              <div class="close">
+    							<img
+    								src="./assets//icons/close.svg"
+    								alt="close menu"
+    								onclick="closeNav()"
+    							/>
+    						</div>
