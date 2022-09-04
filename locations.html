@@ -89,9 +89,9 @@
 
 			<main class="main main-locations">
 				<!-- Hero Section -->
-				<section class="hero-locations">
-					<div class="wrapper">
-						<article class="hero__container">
+				<section class="hero-locations container-fluid px-4 py-5 my-5">
+					<div class="container">
+						<article class="hero-content container-fluid">
 							<h1 class="locations-heading heading-1">Locations</h1>
 							<div class="shape shape--circles hide-small"></div>
 						</article>
@@ -102,22 +102,22 @@
 				<!-- End Hero Section -->
 
 				<section class="locations">
-					<div class="wrapper">
-						<article class="locations__container">
-							<div class="image-container">
+					<div class="container-fluid">
+						<article class="locations-content">
+							<div class="image-content">
 								<img
 									src="./assets/images/world-map-mobile.png"
-									class="locations__img hide-medium"
+									class="locations__img img-fluid d-block d-md-none container m-auto"
 									alt="World map"
 								/>
 								<img
 									src="./assets/images/world-map-tablet-desktop-2.png"
-									class="locations__img hide-small"
+									class="locations__img img-fluid d-none d-md-block container m-auto"
 									alt="World map"
 								/>
 							</div>
 
-							<ul class="locations-list hide-medium">
+							<ul class="locations-list d-block d-md-none container m-auto">
 								<li>
 									<div class="text-container">
 										<h3 class="heading heading-3">New York</h3>
@@ -141,16 +141,21 @@
 							</ul>
 							<!-- locations-list -->
 
-							<div class="locations__text-container">
-								<h2 class="heading heading-2">Your city not listed?</h2>
-								<p class="paragraph">
+							<div class="locations-content container">
+								<h2 class="heading heading-2 locations-heading">
+									Your city not listed?
+								</h2>
+								<p class="locations-paragraph paragraph">
 									If you’d like to see Scoot in your hometown, be sure to let us
 									know. We track requests and plan launches based on demand.
 									Feel free to message us by clicking the link or messaging us
 									on social.
 								</p>
 								<a href="#">
-									<button class="btn btn-primary locations-btn" type="button">
+									<button
+										class="btn btn-warning locations-btn text-light"
+										type="button"
+									>
 										Message Us
 									</button>
 								</a>
