@@ -103,17 +103,19 @@ h4 {
 }
 
 .btn {
-  display: inline-block;
-  max-width: 19.2rem;
-  max-height: 5.3rem;
+  max-width: 11.25rem;
+  max-height: 3.3125rem;
   width: 100%;
-  padding: 2rem 1rem;
 }
 
 .btn-primary {
   font-family: "Space Mono", monospace;
   background-color: hsl(40deg, 97%, 58%);
   color: hsl(0deg, 0%, 100%);
+}
+.btn-primary a:link {
+  margin: auto;
+  font-size: 0.625rem;
 }
 .btn-primary:hover {
   background-color: transparent;
@@ -196,6 +198,13 @@ nav .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
     background-position: right center;
     text-align: initial;
   }
+}
+.hero-home .hero-content .home-button {
+  width: 11.25rem;
+  height: 3.3125rem;
+}
+.hero-home .hero-content .home-button a {
+  color: hsl(0deg, 0%, 100%);
 }
 
 .wrapper {

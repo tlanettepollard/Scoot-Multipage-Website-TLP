@@ -19,5 +19,16 @@
 		text-align: initial;
 	}
 
-	
+	.hero-content {
+
+
+        .home-button {
+            width: 11.25rem;
+            height: 3.3125rem;
+
+            a {
+                color: $white;
+            }
+        }
+    }
 }
