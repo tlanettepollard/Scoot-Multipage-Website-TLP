@@ -197,27 +197,6 @@ nav .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
     text-align: initial;
   }
 }
-@media screen and (min-width: 1025px) {
-  .hero-home .hero-content {
-    text-align: left;
-    margin-right: 6.25rem;
-    margin-left: 18.75rem;
-  }
-  .hero-home .hero-content .home-heading {
-    width: 35.8125rem;
-  }
-  .hero-home .hero-content .home-lead {
-    margin-left: 6.25rem;
-  }
-  .hero-home .hero-content .home-button {
-    margin-left: 6.25rem;
-    width: 11.25rem;
-    height: 3.3125rem;
-  }
-  .hero-home .hero-content .home-button a {
-    color: hsl(0deg, 0%, 100%);
-  }
-}
 
 .wrapper {
   position: relative;

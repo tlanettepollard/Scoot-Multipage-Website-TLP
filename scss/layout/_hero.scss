@@ -19,29 +19,5 @@
 		text-align: initial;
 	}
 
-	.hero-content {
-		@include bp-desktop-up {
-			text-align: left;
-			margin-right: 6.25rem;
-			margin-left: 18.75rem;
-
-			.home-heading {
-				width: 35.8125rem;
-			}
-
-			.home-lead {
-				margin-left: 6.25rem;
-			}
-
-			.home-button {
-				margin-left: 6.25rem;
-				width: 11.25rem;
-				height: 3.3125rem;
-
-				a {
-					color: $white;
-				}
-			}
-		}
-	}
+	
 }
