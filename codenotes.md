@@ -109,7 +109,11 @@ Hi. It's been so long that I need to start again. I had been working on my React
 
 ### 09/03/2022
 
-Hi. I was researching a way to do this offcanvas navigation. I finally decided to go with Bootstrap for this project. So, starting over again. 
+Hi. I was researching a way to do this offcanvas navigation. I finally decided to go with Bootstrap for this project. So, starting over again.
+
+### 09/11/2022
+
+Hi. I need to realize that I need to use more of the features of Bootstrap. I'm not taking advantage of it's features.
 
 ---
 
