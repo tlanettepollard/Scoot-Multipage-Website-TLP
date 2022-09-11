@@ -1,0 +1,47 @@
+.hero-home {
+	position: relative;
+	overflow: hidden;
+	height: 40.625rem;
+	width: 100%;
+	color: $hero-heading;
+	background-image: url('../../assets/images/home-hero-mobile.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+	@include bp-small-screen {
+		background-image: url('../../assets/images/home-hero-tablet.jpg');
+	}
+
+	@include bp-desktop-up {
+		background-image: url('../../assets/images/home-hero-desktop.jpg');
+		background-position: right center;
+		text-align: initial;
+	}
+
+	.hero-content {
+		@include bp-desktop-up {
+			text-align: left;
+			margin-right: 6.25rem;
+			margin-left: 18.75rem;
+
+			.home-heading {
+				width: 35.8125rem;
+			}
+
+			.home-lead {
+				margin-left: 6.25rem;
+			}
+
+			.home-button {
+				margin-left: 6.25rem;
+				width: 11.25rem;
+				height: 3.3125rem;
+
+				a {
+					color: $white;
+				}
+			}
+		}
+	}
+}
