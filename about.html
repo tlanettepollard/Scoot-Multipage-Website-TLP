@@ -1,337 +1,410 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="/dist/css/main.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Scoot About</title>
-</head>
-<body>
-  <div class="wrapper">
-    <header>
-      <div class="wrapper">
-        <!-- Navbar-->
-        <nav class="hide-mobile">
-          <!-- Navbar Logo -->
-          <div class="navbar__container">
-            <div class="logo">
-              <a href="/index.html">
-                <img src="./assets/logo.svg" alt="company-logo"/>
-              </a>
-            </div>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+		
+		<!-- Bootstrap -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+			crossorigin="anonymous"
+		/>
 
-            <ul class="navbar__list" id="navbarMenu">
-              <li class="navbar__item">
-                <a href="/about.html" class="navbar-link">About</a>
-              </li>
-              <li class="navbar__item">
-                <a href="/locations.html" class="navbar-link">Location</a>
-              </li>
-              <li class="navbar__item">
-                <a href="/careers.html" class="navbar-link">Careers</a>
-              </li>
-            </ul>
-          </div> <!-- navbar__container -->
+		<!-- My CSS -->
+		<link rel="stylesheet" type="text/css" href="/dist/css/main.css" />
 
-          <button class="btn btn-primary nav-scoot-btn" type="button">
-            <a href="#scoot">Get Scootin</a>
-          </button>
-        
-        </nav>
-        <!-- End Tablet/Desktop Navbar -->
-        
-        <div class="sidebar-container hide-tablet-up">
-          <div class="sidebar-header">
-            <img id="hamburger" class="hamburger nav_handle" src="assets/icons/hamburger.svg" onclick="openNav()" alt="open menu">
-            
-            <div class="logo">
-              <a href="/index.html">
-                <img src="./assets/logo.svg" alt="company-logo"/>
-              </a>
-            </div>
-          </div><!-- sidebar-header -->
-          <div id="mobileSidebar" class="sidebar">
-            <div class="close">
-              <img src="assets/icons/close.svg" alt="close menu" onclick="closeNav()">
-            </div>
-            <div class="sidebar-links">
-              <a href="about.html">About</a>
-              <a href="locations.html">Locations</a>
-              <a href="careers.html">Careers</a>
-            </div>
-            <button class="btn btn-primary scoot" type="button">
-              <a href="#scoot">
-              Get Scootin</a>
-            </button>
-          </div>
-        </div><!-- sidebar-container -->
-      </div><!-- wrapper -->
-    </header>
-    <!-- End Header -->
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
 
-    <!-- Hero Banner -->
-    <main class="main main-about">
-      <section class="hero-about">
-        <div class="wrapper">
-          <div class="hero__container">
-            <div class="hero-text-container">
-              <h1 class="about-heading heading-1">About</h1>
-            </div>
-            <div class="shape shape--circles hide-small"></div>
-          </div><!-- hero__container -->
-        </div><!-- wrapper -->
-      </section>
-      <!-- End Hero Section -->
+		<title>Scoot About</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<nav class="navbar bg-light navbar-expand-md fixed-top">
+				<div class="container-fluid">
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="offcanvas"
+						data-bs-target="#offcanvasNavbar"
+						aria-controls="offcanvasNavbar"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<a class="navbar-brand mx-auto" href="./index.html">
+						<img
+							src="./assets/logo.svg"
+							alt="Scoot logo"
+							class="logo img-fluid"
+						/>
+					</a>
 
-      <!-- Section- Features -->
-      <section class="features">
-        <div class="wrapper">
-          <div class="features__container">
-            <article class="feature feature--right">
-              <div class="text-container tc-left">
-                <h2 class="feature-heading heading heading-2">Mobility for the digital era</h2>
-                <p class="paragraph">Getting around should be simple (and even fun!) for everyone. We embrace technology to 
-                provide low cost, smart access to scooters at your fingertips.</p>
-              </div>
-              <div class="image-container ic-right">
-                  <img class="feature-image img-fluid, img-round" src="./assets/images/digital-era.jpg" alt="article feature">
-              </div>
-            </article>
-          
-            <div class="shape shape--arrow-1"></div>
-            <div class="shape shape--circle-1 hide-mobile"></div>
-          
+					<div
+						class="offcanvas offcanvas-start"
+						tabindex="-1"
+						id="offcanvasNavbar"
+						aria-labelledby="offcanvasNavbarLabel"
+					>
+						<div class="offcanvas-header">
+							<button
+								type="button"
+								class="btn-close"
+								data-bs-dismiss="offcanvas"
+								aria-label="Close"
+							></button>
+							<img
+								src="./assets/logo.svg"
+								alt="Scoot logo"
+								class="logo navbar-brand mx-auto"
+							/>
+						</div>
+						<!-- offcanvas-header -->
+						<div class="offcanvas-body">
+							<ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+								<li class="nav-item">
+									<a class="nav-link" href="./about.html">About</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="./locations.html">Location</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="./careers.html">Careers</a>
+								</li>
+							</ul>
+							<button class="btn btn-lg btn-warning p-2" type="button">
+								<a href="#scoot">Get Scootin</a>
+							</button>
+						</div>
+					</div>
+				</div>
+				<!-- navbar -->
+			</nav>
+			<!-- End Navbar -->
 
-            <article class="feature feature--left">
-              <div class="text-container tc-right"> 
-                <h2 class="feature-heading heading heading-2">Better urban living</h2>
-                <p class="paragraph">We’re helping connect cities and bring people closer together. Our scooters are also 
-                fully-electric and we offset the minimal carbon footprint for each ride.</p>
-              </div>
+			<main class="main main-about">
+				<!-- Hero Banner -->
+				<section class="hero-about px-4 py-5 my-5 container-fluid">
+					<div class="container">
+						<article class="hero-content container-fluid">
+							<h1 class="about-heading heading-1">About</h1>
+							<div class="shape shape--circles hide-small"></div>
+						</article>
+						<!-- hero__container -->
+					</div>
+					<!-- wrapper -->
+				</section>
+				<!--  End Hero Section -->
 
-              <div class="image-container ic-left">
-                  <img class="feature-image img-fluid, img-round" src="./assets/images/better-living.jpg" alt="article feature">
-              </div>
-            </article>
+				<!-- Features Section -->
+				<section class="features">
+					<div class="container-fluid">
+						<div class="features-content">
+							<article class="feature feature--right container">
+								<div class="text-content tc-left">
+									<h2 class="feature-heading heading heading-2">
+										Mobility for the digital era
+									</h2>
+									<p class="paragraph">
+										Getting around should be simple (and even fun!) for
+										everyone. We embrace technology to provide low cost, smart
+										access to scooters at your fingertips.
+									</p>
+								</div>
+								<div class="image-content ic-right">
+									<img
+										class="feature-image img-fluid img-round"
+										src="./assets/images/digital-era.jpg"
+										alt="digital era feature"
+									/>
+								</div>
+							</article>
+							<div class="shape shape--arrow-1"></div>
+							<div class="shape shape--circle-1 hide-mobile"></div>
 
-            <div class="shape shape--arrow-2"></div>
-            <div class="shape shape--circle-2 hide-mobile"></div>
-          </div><!-- article__container -->
-        </div><!-- wrapper -->
-      </section> 
-      <!-- End About Section -->
+							<article class="feature feature--left container">
+								<div class="text-content tc-right">
+									<h2 class="feature-heading heading heading-2">
+										Better urban living
+									</h2>
+									<p class="paragraph">
+										We’re helping connect cities and bring people closer
+										together. Our scooters are also fully-electric and we offset
+										the minimal carbon footprint for each ride.
+									</p>
+								</div>
+								<div class="image-content ic-right">
+									<img
+										class="feature-image img-fluid img-round"
+										src="./assets/images/better-living.jpg"
+										alt="better living feature"
+									/>
+								</div>
+							</article>
+							<div class="shape shape--arrow-2"></div>
+							<div class="shape shape--circle-2 hide-mobile"></div>
+						</div>
+						<!-- features__container -->
+					</div>
+					<!-- wrapper -->
+				</section>
+				<!-- End Features Section -->
 
-      <!-- Section-Values -->
-      <section class="values">
-        <div class="wrapper">
-          <div class="values__header">
-            <h2 class="heading heading-2">Our values</h2>
-          </div>
+				<!-- Values Section -->
+				<section class="values">
+					<div class="container-fluid">
+						<div class="values__header">
+							<h2 class="heading heading-2">Our values</h2>
+						</div>
+						<article class="values-content container">
+							<!-- Item 01 -->
+							<div class="value-item">
+								<div class="value-image image-content">
+									<img
+										src="./assets/images/our-tech.jpg"
+										alt="article feature"
+										class="value-image img-fluid img-round"
+									/>
+									<div class="value-number border border-4">
+										<h4>01</h4>
+									</div>
+								</div>
+								<div class="value-text text-content">
+									<h4 class="value-heading heading-4">Our tech</h4>
+									<p class="value-paragraph paragraph">
+										We’re using cutting edge technology to drive accessible
+										urban transportation forward. Our fully electric scooters
+										are a joy to ride!
+									</p>
+								</div>
+							</div>
 
-          <article class="values__container">
-            <!-- Item 01 -->
-            <div class="value-item">
-              <div class="value__image-container">
-                <img src="./assets/images/our-tech.jpg" alt="article feature" class="value-image img-fluid img-round">
-                <div class="number">
-                  <h4>01</h4>
-                </div> 
-              </div>
-              <div class="value__text-container">
-                <h4 class="value-heading heading-4">Our tech</h4>
-                <p class="value-paragraph paragraph">We’re using cutting edge technology to drive accessible urban transportation forward. Our fully electric scooters are a joy to ride!</p>
-              </div>
-            </div>
+							<!-- Item 02 -->
+							<div class="value-item">
+								<div class="value-image image-content">
+									<img
+										src="./assets/images/our-integrity.jpg"
+										alt="article feature"
+										class="value-image img-fluid img-round"
+									/>
+									<div class="number">
+										<h4>02</h4>
+									</div>
+								</div>
+								<div class="value-text text-content">
+									<h4 class="value-heading heading-4">Our integrity</h4>
+									<p class="value-paragraph paragraph">
+										We are fully committed to deliver a great yet safe,
+										sustainable micro-mobility experience in every city we
+										serve.
+									</p>
+								</div>
+							</div>
 
-            <!-- Item 02 -->
-            <div class="value-item">
-              <div class="value__image-container">
-                <img src="./assets/images/our-integrity.jpg" alt="article feature" class="value-image img-fluid img-round">
-                <div class="number">
-                  <h4>02</h4>
-                </div>
-              </div>
-              <div class="value__text-container">
-                <h4 class="value-heading heading-4">Our integrity</h4>
-                <p class="value-paragraph paragraph">We are fully committed to deliver a great yet safe, sustainable micro-mobility experience in every city we serve.</p>
-              </div>
-            </div>
+							<!-- Item 03 -->
+							<div class="value-item">
+								<div class="value-image image-content">
+									<img src="./assets/images/our-community.jpg" alt="article feature" class="value-image img-fluid img-round">
+									<div class="number">
+									<h4>03</h4>
+									</div>
+								</div>
+								<div class="value-text text-content">
+									<h4 class="value-heading heading-4">Our community</h4>
+									<p class="value-paragraph paragraph">We support every community we serve. All workers are paid a living wage based on their 
+									location and are Scoot employees.</p> 
+									</div>
+								</div>
+							</div>
+						</article>
+						<!-- values__container-->
+					</div>
+					<!-- wrapper -->
+				</section>
+				<!-- End Values Section -->
 
-            <!-- Item 03 -->
-            <div class="value-item">
-              <div class="value__image-container">
-                <img src="./assets/images/our-community.jpg" alt="article feature" class="value-image img-fluid img-round">
-                <div class="number">
-                  <h4>03</h4>
-                </div>
-              </div>
-              <div class="value__text-container">
-                <h4 class="value-heading heading-4">Our community</h4>
-                <p class="value-paragraph paragraph">We support every community we serve. All workers are paid a living wage based on their 
-                location and are Scoot employees.</p> 
-                </div>
-              </div>
-            </div>
-          </article><!-- values__container-->
-        </div><!-- wrapper -->
-      </section>
-      <!-- End Values Section -->
+				<!-- Faqs Section -->
+				<section class="faqs container-fluid">		
+					<h2 class="heading heading-2 faqs-header text-center p-2 my-3">FAQs</h2>
+					<article class="faq faq-how container-md">
+						<h3 class="heading heading-3 faq-heading text-center">
+							How it works
+						</h3>
+						<div class="accordion how" id="accordionScoot">
+							<div class="accordion-item item-1">
+								<h4 class="heading heading-3 accordion-header" id="headingOne">
+									<button class="accordion-button heading-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">How do I download the app?
+									</button>	
+								</h4>
+								<div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionScoot">
+									<div class="accordion-body">To download the Scoot app, you can search “Scoot” in both the App and Google Play stores. An even simpler way to do it would be to click the relevant link at the bottom of this page and you’ll be re-directed to the correct page.</div><!-- accordion-body -->
+								</div><!-- accordion-collapse -->
+							</div><!-- item-1  -->	
 
-      <!-- Faqs Section -->
-      <section class="faqs">
-        <div class="wrapper">
-          <div class="faqs__container">
-              <h2 class="heading heading-2 faqs__header">FAQs</h2>
+							<div class="accordion-item item-2">
+								<h4 class="heading heading-3 accordion-header" id="headingTwo">
+									<button class="accordion-button heading-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Can I find a nearby Scoots?
+									</button>	
+								</h4>
+								<div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionScoot">
+									<div class="accordion-body">Definitely! Simply open up the app and allow us to find your location while using it. We'll show you all of the closest Scoots and some extra useful information.</div><!-- accordion-body -->
+								</div><!-- accordion-collapse -->
+							</div><!-- item-2  -->	
+							
+							<div class="accordion-item item-3">
+								<h4 class="heading heading-3 accordion-header" id="headingThree">
+									<button class="accordion-button heading-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Do I need a license to ride?
+									</button>	
+								</h4>
+								<div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionScoot">
+									<div class="accordion-body">Yup! We provide information inside the app regarding local laws and the license you need to be able to ride our Scoots.</div><!-- accordion-body -->
+								</div><!-- accordion-collapse -->
+							</div><!-- item-3  -->	
+						</div><!-- accordion how -->
+					</article><!-- faq-how -->
+					
+					<article class="faq faq-safe container-md">
+						<h3 class="heading heading-3 faq-heading text-center">
+							Safe driving
+						</h3>
+						<div class="accordion safe" id="accordionScoot">
+							<div class="accordion-item item-4">
+								<h4 class="heading heading-3 accordion-header" id="headingFour">
+									<button class="accordion-button heading-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Should I wear a helmet?
+									</button>	
+								</h4>
+								<div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionScoot">
+									<div class="accordion-body">Yes, please do! All cities have different laws. But we strongly strongly strongly recommend always wearing a helmet regardless of the local laws. We like you and we want you to be as safe as possible while Scooting.</div><!-- accordion-body -->
+								</div><!-- accordion-collapse -->
+							</div><!-- item-4  -->	
 
-              <article class="faq faq-how">
-                <div class="faq__subheader">
-                  <h3 class="heading heading-3 faq-heading">How it works</h3>
-                </div>
-                <div class="faq-container">
-                  <div class="faq__panel">
-                    <div class="faq__header">
-                      <input type="checkbox" id="panel-1" class="faq__input">
-                      <label for="panel-1" class="heading heading-4 faq__label question">How do I download the app?</label>
-                    </div>
-                    <div class="faq__content">
-                      <p class="answer paragraph">
-                      To download the Scoot app, you can search “Scoot” in both the App and Google Play stores. An even simpler way to do it would be to click the relevant link at the bottom of this page and you’ll be re-directed to the correct page.
-                      </p>
-                    </div>
-                  </div>
-                  <div class="faq__panel"> 
-                    <div class="faq__header">
-                      <input type="checkbox" id="panel-2" class="faq__input">
-                      <label for="panel-2" class="heading heading-4 faq__label question">Can I find a nearby Scoots?</label>
-                    </div>
-                    <div class="faq__content">
-                      <p class="answer paragraph">Definitely! Simply open up the app and allow us to find your location while using it. We'll 
-                      show you all of the closest Scoots and some extra useful information. </p>
-                    </div>
-                  </div>
-                  <div class="faq__panel">
-                    <div class="faq__header">
-                      <input type="checkbox" id="panel-3" class="faq__input">
-                      <label for="panel-3" class="heading heading-4 faq__label question">Do I need a license to ride?</label>
-                    </div>
-                    <div class="faq__content">
-                      <p class="answer paragraph">Yup! We provide information inside the app regarding local laws and the license you need to be able to ride our Scoots.</p>
-                    </div>  
-                  </div><!-- faq__panel -->
-                </div> <!-- faq-container -->
-              </article><!-- faqs-how -->
+							<div class="accordion-item item-5">
+								<h4 class="heading heading-3 accordion-header" id="headingFive">
+									<button class="accordion-button heading-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">How about the rules & regulations?
+									</button>	
+								</h4>
+								<div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionScoot">
+									<div class="accordion-body">Now is not the time to be a rule breaker. Be sure you're complying with all local laws and regulations. Also, just be a good human being. Be sure not to park your Scoot where it can block access to buildings or get in people's way.</div><!-- accordion-body -->
+								</div><!-- accordion-collapse -->
+							</div><!-- item-5  -->	
+							
+							<div class="accordion-item item-6">
+								<h4 class="heading heading-3 accordion-header" id="headingSix">
+									<button class="accordion-button heading-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">What if I damage my Scoot?
+									</button>	
+								</h4>
+								<div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionScoot">
+									<div class="accordion-body">Be sure to read our terms and conditions carefully. Not the most fun job we know but we make it as clear as possible. There's an option to add insurance for each trip, or you can sign up for annual insurance if you're a regular Scooter. </div><!-- accordion-body -->
+								</div><!-- accordion-collapse -->
+							</div><!-- item-6 -->	
+						</div><!-- accordion safe -->
+					</article>		
+				</section><!-- End Faqs Section -->
 
-              <article class="faq faq-safe">
-                <div class="faq__subheader">
-                  <h3 class="heading heading-3 faq-heading">Safe driving</h3>
-                </div>
-                <div class="faq-container">
-                  <div class="faq__panel">
-                    <div class="faq__header">
-                      <input type="checkbox" id="panel-4" class="faq__input">
-                      <label for="panel-4" class="heading heading-4 faq__label question">Should I wear a helmet?</label>
-                    </div>
-                    <div class="faq__content">
-                      <p class="answer paragraph">Yes, please do! All cities have different laws. But we strongly strongly strongly recommend always wearing a helmet regardless of the local laws. We like you and we want you to be as safe as possible while Scooting.</p>
-                    </div>
-                  </div>
-                  
-                  <div class="faq__panel">
-                    <div class="faq__header">
-                      <input type="checkbox" id="panel-5" class="faq__input">
-                      <label for="panel-5" class="heading heading-4 faq__label question">How about the rules & regulations?</label>
-                    </div>
-                    <div class="faq__content">
-                      <p class="answer paragraph">Now is not the time to be a rule breaker. Be sure you're complying with all local laws and regulations. Also, just be a good human being. Be sure not to park your Scoot where it can block access to buildings or get in people's way. </p>
-                    </div>
-                  </div>
-                  
-                  <div class="faq__panel">
-                    <div class="faq__header">
-                      <input type="checkbox" id="panel-6" class="faq__input">
-                      <label for="panel-6" class="heading heading-4 faq__label question">What if I damage my Scoot?</label>
-                    </div>
-                    <div class="faq__content">
-                      <p class="answer paragraph">Be sure to read our terms and conditions carefully. Not the most fun job we know but we make it as clear as possible. There's an option to add insurance for each trip, or you can sign up for annual insurance if you're a regular Scooter. </p>
-                    </div>
-                  </div>
-                </div>
-              </article><!-- faqs-safe -->
-          </div><!-- faqs__container -->
-        </div> <!-- wrapper -->
-      </section>
-      <!-- End FAQs section -->
+				<!-- Sign Up Section-->
+				<section id="scoot" class="signup">
+					<div class="container-fluid">
+						<div class="signup container">
+							<article class="text-container">
+								<h2 class="scoot-heading heading-2">
+									Sign up and Scoot off today
+								</h2>
+							</article>
 
-    <!-- Sign Up Section-->
-      <section id="scoot" class="signup">
-        <div class="wrapper">
-          <div class="signup__container">
-            <article class="text-container">
-            <h2 class="scoot-heading heading-2">Sign up and Scoot off today</h2>
-            </article>
+							<div class="image-container">
+								<img
+									src="/assets/icons/app-store.svg"
+									alt="app-store"
+									class="app-store-img"
+								/>
+								<img
+									src="/assets/icons/google-play.svg"
+									alt="google-play"
+									class="app-store-img"
+								/>
+							</div>
+						</div>
+						<!-- signup__container -->
+					</div>
+					<!-- wrapper -->
+				</section>
+				<!-- End Sign Up Section -->
+			</main>
+			<!-- main -->
+			<footer class="footer">
+				<div class="container-fluid">
+					<div class="footer-content">
+						<nav class="footer-navbar container">
+							<a href="index.html">
+								<img
+									src="./assets/logo-white.svg"
+									class="navbar-logo img-thumbnail"
+									alt="company logo"
+								/>
+							</a>
 
-            <div class="image-container">
-              <img src="/assets/icons/app-store.svg" alt="app-store" class="app-store-img">
-              <img src="/assets/icons/google-play.svg" alt="google-play" class="app-store-img"> 
-            </div>
-          </div><!-- signup__container -->
-        </div><!-- wrapper -->
-      </section>
-      <!-- End Sign Up Section -->
+							<ul class="nav">
+								<li class="nav-item">
+									<a class="nav-link" href="about.html">About</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="locations.html">Location</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="locations.html">Careers</a>
+								</li>
+							</ul>
+						</nav>
 
-    </main>
-    <footer class="footer">
-      <div class="wrapper">
-        <div class="footer__container">
-          <nav class="navbar footer-navbar">
-            <a href="index.html">
-              <img src="./assets/logo-white.svg" class="navbar-logo" alt="company logo">
-            </a>
-          
-            <ul class="navbar-list">
-              <li class="navbar-item">
-                <a class="navbar-link" href="about.html">About</a>
-              </li>
-              <li class="navbar-item">
-                <a class="navbar-link" href="locations.html">Location</a>
-              </li>
-              <li class="navbar-item">
-                <a class="navbar-link" href="locations.html">Careers</a>
-            </ul>
-          </nav>
-
-          <ul class="social">
-            
-              <li class="social__item">
-                <a href="#" class="social__link">
-                  <img src="./assets/icons/facebook.svg" alt="facebook">
-                </a>
-              </li>
-              <li class="social__item">
-                <a href="#" class="social-icons-link">
-                  <img src="./assets/icons/twitter.svg" alt="twitter">
-                </a>
-              </li>
-              <li class="social__item">
-                <a href="#" class="social-icons-link">
-                  <img src="./assets/icons/instagram.svg" alt="instagram">
-                </a>
-              </li>
-            
-          </ul>
-        </div><!-- footer__container -->
-        <div class="attribution">
-          <p>Challenge by &nbsp;<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.&nbsp;Coded by &nbsp; <a href="https://github.com/tlanettepollard">Trista Lanette Pollard</a></p>
-        </div><!-- attribution -->
-      </div><!-- wrapper -->
-    </footer>
-  </div><!-- Wrapper -->
-
-  <!-- My JS -->
-  <script src="/main.js"></script>
-</body>
-
-
+						<ul class="social nav container">
+							<li class="nav-item">
+								<a href="#" class="nav-link">
+									<img src="./assets/icons/facebook.svg" alt="facebook" />
+								</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link">
+									<img src="./assets/icons/twitter.svg" alt="twitter" />
+								</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link">
+									<img src="./assets/icons/instagram.svg" alt="instagram" />
+								</a>
+							</li>
+						</ul>
+					</div>
+					<!-- footer__container -->
+					<div class="attribution container">
+						<p>
+							Challenge by &nbsp;<a
+								href="https://www.frontendmentor.io?ref=challenge"
+								target="_blank"
+								>Frontend Mentor</a
+							>.&nbsp;Coded by &nbsp;
+							<a href="https://github.com/tlanettepollard"
+								>Trista Lanette Pollard</a
+							>
+						</p>
+					</div>
+					<!-- attribution -->
+				</div>
+				<!-- wrapper -->
+			</footer>
+		</div>
+		<!-- wrapper -->
+		
+		<!-- JavaScript Bundle with Popper -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+			crossorigin="anonymous"
+		></script>
+	</body>
 </html>

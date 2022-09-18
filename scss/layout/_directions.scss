@@ -1,69 +1,25 @@
 /* *****************
    Home Page Directions Styles
-********************/ 
+********************/
 
 .directions {
-    height: 100%;
-    width: 100%;
-    @include flex (column, center, center);
-    text-align: center;
+	&__container {
+		.directions__list {
+			.directions__item {
+				.content {
+					.image-content {
+						.steps-icon {
+							max-width: 6rem;
+							max-height: 6rem;
 
-    @include bp-small-screen {
-        text-align: initial;
-    }
-    @include bp-desktop-up {
-        text-align: left;
-    }
-    
-    .directions__container {
-        padding: 7.5rem 2rem;
-        @include bp-small-screen {
-            padding: 7.5rem 4rem;
-        }
-        @include bp-desktop-up {
-            padding: 7.5rem 9.5625rem;   
-     }
-
-        .directions__list {
-            width: 100%;
-            @include bp-desktop-up {
-                display: flex; 
-                   
-            }
-
-            .directions__item {
-                margin-bottom: 2.5rem;
-
-                @include bp-small-screen {
-                    display: flex;
-                    justify-content: flex-start;
-                }
-
-                .image-container {
-                    padding: 1.25rem;
-                }
-
-                .text-container {
-                    @include bp-small-screen {
-                        margin-left: 4rem;
-                        text-align: left;
-                    }
-                    .directions-heading {
-                        padding:  1.25rem;
-                        @include bp-small-screen {
-                            padding: 1.25rem;
-                        }
-                    }
-                    .paragraph {
-                        padding: .625rem;
-                        @include bp-small-screen {
-                            padding: 1.25rem;
-                        }
-                    }
-                }
-            }
-        }
-    }
-    
-
+							@include bp-mobile-down {
+								width: 3.5rem;
+								height: 3.5rem;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 }

@@ -1,18 +1,17 @@
 .hide-mobile {
-    @include bp-mobile-down {
-        display: none;
-    }
+	@include bp-mobile-down {
+		display: none;
+	}
 }
 
 .hide-tablet-up {
-    @include bp-tablet-up {
-        display: none;
-    }
+	@include bp-tablet-up {
+		display: none;
+	}
 }
 
 .hide-desktop-up {
-   @include bp-desktop-up {
-       display: none;
-   } 
+	@include bp-desktop-up {
+		display: none;
+	}
 }
-

@@ -1,155 +1,54 @@
+nav {
+	.logo {
+		@include bp-tablet-up {
+			margin-left: 1.25rem;
+		}
+	}
+	.navbar-toggler-icon {
+		background-image: url('/assets/icons/hamburger.svg');
+	}
 
-  header {
-      
-    nav {
-        width: 100%;
-        margin: 0;
-        padding: 1.375rem 0;
+	.btn-close {
+		background-image: url('/assets/icons/close.svg');
+	}
 
-         @include bp-tablet-up {
-            display: flex;
-            justify-content: space-between;
+	.offcanvas {
+		background-color: $soft-black;
 
-            .navbar__container {
-                width: 80%;
-                display: flex;
-                align-items: center;
+		.offcanvas-header {
+			background-color: $white;
+		}
 
-                .logo {
-                    margin-left: 2.5rem; 
-                    margin-right: 3.75rem;
-                }
+		.offcanvas-body {
+			.navbar-nav {
+				@include bp-tablet-up {
+					margin: auto;
+                    margin: auto;
+					padding: auto;
+					align-items: center;
+				}
 
-                .navbar__list {
-                    width: 60%;
-                    display: flex;
-
-                    .navbar__item {
-                        padding: 0 .625rem;
-                        @include bp-desktop-up {
-                            padding: 0 2rem;
-                        }
+				.nav-item {
+                    @include bp-tablet-up {
+                        margin: .625rem;
                     }
-                    
-                }
-            }
+					.nav-link {
+						color: $white;
 
-            .nav-scoot-btn{
-                width: 11.25rem;
-                height: 3.3125rem;
-                padding: 0;
-                margin-right: 2.5rem;
-
-                @include bp-desktop-up {
-                        margin-right: 10.3125rem;
-                }
-            }
-            .nav-scoot-btn a {
-                color: $button-text;
-                font-size: .9375rem;
-                
-            }
-
-            .nav-scoot-btn a:hover {
-                color: $button-hover-text;
-            }
-            
-        }
-
-        .logo {
-            @include bp-desktop-up {
-                width: 6.7387rem;
-                height: 1.785rem;
-                margin-left: 10.3125rem;
-            }
-        }
-
-    }
-
-    .sidebar-container {
-        @include bp-mobile-down {
-            position: fixed;
-            top: 0;
-            text-align: center;
-            background: $white;
-            display: block;
-            width: 100%;
-            height: 4.375rem;
-            z-index: 9999;
-
-            .sidebar-header {
-                display: flex;
-                align-items: center;
-
-            .logo {
-                margin: auto;
-                padding: .625rem;
-            } 
-
-            .hamburger {
-                position: absolute;
-                left: 2rem;
-                cursor: pointer;
-                
-            }
-
-        }
-            .sidebar {
-                height: calc(100% - 70px);
-                width: 0px;
-                position: fixed;
-                top: 4.375rem;
-                background-color: $sidebar-bg;
-                overflow: hidden;
-                padding-top: -1.25rem;
-                transition: 0.5s ease-in-out;
-
-                .close {
-                    position: absolute; 
-                    top: 2%;
-                    right: 5%;
-                    cursor: pointer;
-                }
-
-                a {
-                    color: $sidenav-link-color;
-                }
-
-                a:hover {
-                    color: $sidenav-link-hover;
-                    text-decoration: none;
-                }
-
-                .sidebar-links {
-                    display: flex;
-                    flex-direction: column;
-                    width: 90%;
-                    height: 18.75rem;
-                    padding: 1.25rem;
-                    font-size: 1.125rem;
-                    margin: 4rem .3125rem;
-                    padding-right: .5rem;
-                    text-align: left;
-
-                }
-
-                .scoot {
-                    position: absolute;
-                    display: inline-block;
-                    left: 2rem;
-                    bottom: 3.125rem;
-                    padding: 0px;
-                    width: 12rem;
-                    height: 3.125rem;
-                    font-size: 65%;
-                    font-weight: $weight-bold;
-                    
-                }
-
-            }
-
-             
-
-        }
-    }
-}  
+						@include bp-tablet-up {
+							color: $nav-link-color;
+						}
+					}
+				}
+			}
+			.nav-button {
+				@include bp-tablet-up {
+					width: 11.25rem !important;
+					height: auto;
+					border-radius: 25%;
+                    margin-right: 1.25rem;
+				}
+			}
+		}
+	}
+}

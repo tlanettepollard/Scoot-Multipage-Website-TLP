@@ -92,14 +92,30 @@ Hi. Today was a busy day. I started to organize my email and delete/move old ema
 Hi. I spent my day on my Chalkspot website and working on my React exercises. My focus tonight is to restyle the footer.
 
 ### 08/13/2022
-I was away working on my React Nanodegree. Now I'm back. 
+
+I was away working on my React Nanodegree. Now I'm back.
 
 Resources:
 
 - Down Arrow Icon, <a href="https://www.flaticon.com/free-icons/arrow" title="arrow icons">Arrow icons created by th studio - Flaticon</a> -[Creating Accordion with Javascript](https://medium.com/@vikash20186/creating-accordion-with-javascript-a33743655474)
 
 ### 08/18/2022
-Hi, it's me again. I'm back to working on the FAQ accordion. Forgot I had one that I made before. 
+
+Hi, it's me again. I'm back to working on the FAQ accordion. Forgot I had one that I made before.
+
+### 08/31/2022
+
+Hi. It's been so long that I need to start again. I had been working on my React Nanodegree since April. I feel like I forgot how to code using HTML, CSS, and JS, especially the positioning and sizing.
+
+### 09/03/2022
+
+Hi. I was researching a way to do this offcanvas navigation. I finally decided to go with Bootstrap for this project. So, starting over again.
+
+### 09/11/2022
+
+Hi. I need to realize that I need to use more of the features of Bootstrap. I'm not taking advantage of it's features.
+
+
 
 ---
 
@@ -217,3 +233,19 @@ letter-spacing: -1.07;
 
 Chevron UP
 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="#FCB72B" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
+
+<img
+								id="hamburger"
+								class="hamburger nav_handle"
+								src="./assets/icons/hamburger.svg"
+								onClick="openNav()"
+								alt="open menu"
+							/>
+
+              <div class="close">
+    							<img
+    								src="./assets//icons/close.svg"
+    								alt="close menu"
+    								onclick="closeNav()"
+    							/>
+    						</div>

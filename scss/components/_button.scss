@@ -1,19 +1,24 @@
 .btn {
-    display: inline-block;
-    max-width: 19.2rem;
-    max-height: 5.3rem;
-    width: 100%;
-    padding: 2rem 1rem;
+	//display: inline-block;
+	max-width: 11.25rem;
+	max-height: 3.3125rem;
+	width: 100%;
+	//padding: 2rem 1rem;
 }
 
 .btn-primary {
-    font-family: $heading-font;
-    background-color: $button-bg;
-    color: $button-text;
+	font-family: $heading-font;
+	background-color: $button-bg;
+	color: $button-text;
 
-    &:hover {
-        background-color: transparent;
-        color: $button-hover-text;
-        border: 2px solid $button-hover-border;
-    }
+	a:link {
+		margin: auto;
+		font-size: 0.625rem;
+	}
+
+	&:hover {
+		background-color: transparent;
+		color: $button-hover-text;
+		border: 2px solid $button-hover-border;
+	}
 }
