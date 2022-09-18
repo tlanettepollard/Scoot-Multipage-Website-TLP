@@ -140,6 +140,17 @@ h4 {
 /*************************************
 Home, About, and Career section Styles
 *************************************/
+.footer {
+  width: 100%;
+  height: 27.375rem;
+  background-color: hsl(215deg, 14%, 23%);
+}
+@media screen and (min-width: 768px) {
+  .footer {
+    height: 6rem;
+  }
+}
+
 @media screen and (min-width: 768px) {
   nav .logo {
     margin-left: 1.25rem;
@@ -216,6 +227,24 @@ nav .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
 }
 .hero-home .hero-content .home-button a {
   color: hsl(0deg, 0%, 100%);
+}
+
+.signup {
+  width: 100%;
+  height: 20rem;
+  max-height: 20rem;
+  position: relative;
+  overflow: hidden;
+  background-color: hsl(217deg, 18%, 35%);
+  background-image: url("../../assets/patterns/semi-circles.svg");
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-position-x: right;
+}
+@media screen and (min-width: 768px) {
+  .signup {
+    height: 18.75rem;
+  }
 }
 
 .wrapper {
