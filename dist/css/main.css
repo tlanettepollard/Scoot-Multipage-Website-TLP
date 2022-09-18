@@ -126,6 +126,17 @@ h4 {
 /* *****************
    Home Page Directions Styles
 ********************/
+.directions__container .directions__list .directions__item .content .image-content .steps-icon {
+  max-width: 6rem;
+  max-height: 6rem;
+}
+@media screen and (max-width: 767px) {
+  .directions__container .directions__list .directions__item .content .image-content .steps-icon {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+}
+
 /*************************************
 Home, About, and Career section Styles
 *************************************/

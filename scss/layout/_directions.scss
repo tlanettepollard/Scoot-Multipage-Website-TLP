@@ -1,4 +1,25 @@
 /* *****************
    Home Page Directions Styles
-********************/ 
+********************/
 
+.directions {
+	&__container {
+		.directions__list {
+			.directions__item {
+				.content {
+					.image-content {
+						.steps-icon {
+							max-width: 6rem;
+							max-height: 6rem;
+
+							@include bp-mobile-down {
+								width: 3.5rem;
+								height: 3.5rem;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
