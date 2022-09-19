@@ -1,9 +1,9 @@
 .footer {
     width: 100%;
-    height: 27.375rem;
+    height: 31.25rem;
     background-color: $footer-bg;
 
     @include bp-tablet-up {
-        height: 6rem;
+        height: 6.25rem;
     }
 }

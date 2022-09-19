@@ -142,12 +142,12 @@ Home, About, and Career section Styles
 *************************************/
 .footer {
   width: 100%;
-  height: 27.375rem;
+  height: 31.25rem;
   background-color: hsl(215deg, 14%, 23%);
 }
 @media screen and (min-width: 768px) {
   .footer {
-    height: 6rem;
+    height: 6.25rem;
   }
 }
 
