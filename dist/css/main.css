@@ -152,7 +152,7 @@ Home, About, and Career section Styles
 }
 .footer-content .footer-navbar .navbar-logo {
   background-color: transparent;
-  color: white;
+  filter: invert(1);
 }
 
 @media screen and (min-width: 768px) {
