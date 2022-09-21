@@ -1,9 +1,18 @@
 .footer {
-    width: 100%;
-    height: 31.25rem;
-    background-color: $footer-bg;
+	width: 100%;
+	height: 31.25rem;
+	background-color: $footer-bg;
 
-    @include bp-tablet-up {
-        height: 6.25rem;
-    }
+	@include bp-tablet-up {
+		height: 6.25rem;
+	}
+
+	&-content {
+		.footer-navbar {
+			.navbar-logo {
+				background-color: transparent;
+				color: white;
+			}
+		}
+	}
 }
