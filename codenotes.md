@@ -115,7 +115,13 @@ Hi. I was researching a way to do this offcanvas navigation. I finally decided t
 
 Hi. I need to realize that I need to use more of the features of Bootstrap. I'm not taking advantage of it's features.
 
+### 09/24/2022
 
+Hi. I've been a little busy with school. I'm finally back to coding.
+
+Resources:
+
+- [How to change color of SVG](https://qawithexperts.com/article/html/how-to-change-color-of-svg-various-ways-using-css/414)
 
 ---
 
