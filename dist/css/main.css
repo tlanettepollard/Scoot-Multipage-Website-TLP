@@ -145,9 +145,14 @@ Home, About, and Career section Styles
   height: 34.375rem;
   background-color: hsl(215deg, 14%, 23%);
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .footer {
-    height: 12.5rem;
+    height: 11.25rem;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .footer {
+    height: 10.625rem;
   }
 }
 .footer-content {
@@ -176,6 +181,13 @@ Home, About, and Career section Styles
   .footer-content .social-navbar {
     width: 50%;
   }
+}
+.footer .attribution p {
+  color: hsl(217deg, 12%, 62%);
+  font-size: 0.625rem;
+}
+.footer .attribution p a {
+  color: hsl(217deg, 12%, 62%);
 }
 
 @media screen and (min-width: 768px) {

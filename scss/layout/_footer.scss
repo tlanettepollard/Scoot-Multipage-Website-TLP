@@ -3,8 +3,12 @@
 	height: 34.375rem;
 	background-color: $footer-bg;
 
-	@include bp-tablet-up {
-		height: 12.5rem;
+	@include bp-small-screen {
+		height: 11.25rem;
+	}
+
+	@include bp-desktop-up {
+		height: 10.625rem;
 	}
 
 	&-content {
@@ -37,6 +41,17 @@
 			@include bp-tablet-up {
 				width: 50%;
 			}
+		}
+	}
+
+	.attribution {
+		p {
+			color: $dim-grey;
+			font-size: 0.625rem;
+		}
+
+		p a {
+			color: $dim-grey;
 		}
 	}
 }
