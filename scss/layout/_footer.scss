@@ -4,14 +4,38 @@
 	background-color: $footer-bg;
 
 	@include bp-tablet-up {
-		height: 6rem;
+		height: 12.5rem;
 	}
 
 	&-content {
-		height: 100%;
+		height: 26.875rem;
+		width: 100%;
 
-		.logo {
-			.navbar-logo {
+		@include bp-tablet-up {
+			height: 6rem;
+		}
+		.footer-navbar {
+			width: 100%;
+
+			.logo {
+				.navbar-logo {
+					background-color: transparent;
+					border: none;
+				}
+			}
+
+			.nav {
+				.nav-item a {
+					color: $white;
+				}
+			}
+		}
+
+		.social-navbar {
+			width: 100%;
+
+			@include bp-tablet-up {
+				width: 50%;
 			}
 		}
 	}
