@@ -170,9 +170,16 @@ Home, About, and Career section Styles
 .footer-content .footer-navbar .logo .navbar-logo {
   background-color: transparent;
   border: none;
+  width: 7.5rem;
+  height: 2.5rem;
 }
 .footer-content .footer-navbar .nav .nav-item a {
   color: hsl(0deg, 0%, 100%);
+}
+@media screen and (min-width: 1201px) {
+  .footer-content .footer-navbar .nav .nav-item a {
+    font-size: 1.5rem;
+  }
 }
 .footer-content .social-navbar {
   width: 100%;

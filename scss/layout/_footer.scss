@@ -22,15 +22,26 @@
 			width: 100%;
 
 			.logo {
+				@include bp-xl-up {
+					
+				}
 				.navbar-logo {
 					background-color: transparent;
 					border: none;
+					width: 7.5rem;
+					height: 2.5rem;
 				}
 			}
 
 			.nav {
+				@include bp-xl-up {
+					
+				}
 				.nav-item a {
 					color: $white;
+					@include bp-xl-up {
+						font-size: 1.5rem;
+					}
 				}
 			}
 		}
