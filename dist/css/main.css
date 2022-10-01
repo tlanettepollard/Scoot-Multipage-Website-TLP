@@ -126,6 +126,19 @@ h4 {
 /* *****************
    Home Page Directions Styles
 ********************/
+.directions {
+  height: 61.25rem;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .directions {
+    height: 37.5rem;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .directions {
+    height: 31.25rem;
+  }
+}
 .directions__container .directions__list .directions__item .content .image-content .steps-icon {
   max-width: 6rem;
   max-height: 6rem;
