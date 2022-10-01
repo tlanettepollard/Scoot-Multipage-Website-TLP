@@ -7,11 +7,40 @@
 	background-color: $signup-bg;
 	background-image: url('../../assets/patterns/semi-circles.svg');
 	background-repeat: no-repeat;
-	
+
 	background-position-y: bottom;
 	background-position-x: right;
 
 	@include bp-tablet-up {
 		height: 18.75rem;
+	}
+	&-container {
+		height: 20rem;
+
+		.text-container {
+			@include bp-tablet-up {
+				width: 28.125rem;
+			}
+		}
+
+		.image-container {
+			width: 100%;
+			height: auto;
+			@include bp-sm-mobile {
+				margin: auto;
+			}
+			@include bp-small-screen {
+				width: 50%;
+			}
+			@include bp-desktop-up {
+				width: 50%;
+			}
+
+			.app-store-img {
+				@include bp-sm-mobile {
+					width: 50%;
+				}
+			}
+		}
 	}
 }

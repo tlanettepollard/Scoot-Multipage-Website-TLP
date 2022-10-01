@@ -292,6 +292,38 @@ nav .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
     height: 18.75rem;
   }
 }
+.signup-container {
+  height: 20rem;
+}
+@media screen and (min-width: 768px) {
+  .signup-container .text-container {
+    width: 28.125rem;
+  }
+}
+.signup-container .image-container {
+  width: 100%;
+  height: auto;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .signup-container .image-container {
+    margin: auto;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .signup-container .image-container {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .signup-container .image-container {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .signup-container .image-container .app-store-img {
+    width: 50%;
+  }
+}
 
 .wrapper {
   position: relative;
