@@ -3,6 +3,15 @@
 ********************/
 
 .directions {
+	height: 61.25rem;
+	 @include bp-small-screen {
+		height: 37.5rem;
+	 }
+
+	 @include bp-desktop-up {
+		height: 31.25rem;
+	 }
+
 	&__container {
 		.directions__list {
 			.directions__item {
