@@ -1,3 +1,11 @@
 /*************************************
 Home, About, and Career section Styles
 *************************************/ 
+.features {
+    max-width: 100%;
+    .feature {
+       .text-content {
+        max-width: 35.8125rem;
+       } 
+    }
+}
