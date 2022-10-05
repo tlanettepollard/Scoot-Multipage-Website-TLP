@@ -265,6 +265,11 @@ nav .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
   background-size: cover;
   background-position: center;
 }
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .hero-home {
+    height: 56.25rem;
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .hero-home {
     background-image: url("../../assets/images/home-hero-tablet.jpg");
