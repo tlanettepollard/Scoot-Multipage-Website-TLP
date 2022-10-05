@@ -8,7 +8,9 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-
+	@include bp-sm-mobile {
+		height: 56.25rem;
+	}
 	@include bp-small-screen {
 		background-image: url('../../assets/images/home-hero-tablet.jpg');
 	}
