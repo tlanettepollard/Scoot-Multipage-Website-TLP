@@ -3,19 +3,18 @@
 ********************/
 
 .directions {
-	height: 61.25rem;
-	 @include bp-small-screen {
-		height: 37.5rem;
-	 }
-
-	 @include bp-desktop-up {
-		height: 31.25rem;
-	 }
+	height: auto;
+	width: 100%;
+	max-width: 79.6875rem;
 
 	&__container {
 		.directions__list {
 			.directions__item {
+				height: auto;
+
 				.content {
+					height: auto;
+
 					.image-content {
 						.steps-icon {
 							max-width: 6rem;
@@ -26,6 +25,9 @@
 								height: 3.5rem;
 							}
 						}
+					}
+
+					.text-content {
 					}
 				}
 			}
