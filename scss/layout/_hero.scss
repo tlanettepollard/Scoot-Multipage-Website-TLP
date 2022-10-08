@@ -8,11 +8,9 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	@include bp-sm-mobile {
-		height: 62.5rem;
-	}
-	@include bp-tablet {
-		height: 56.25rem;
+
+	@include bp-xs-mobile {
+		height: 50rem;
 	}
 	@include bp-small-screen {
 		background-image: url('../../assets/images/home-hero-tablet.jpg');
@@ -26,14 +24,15 @@
 
 	.hero-content {
 		height: auto;
+		width: 100%;
 
-        .home-button {
-            width: 11.25rem;
-            height: 3.3125rem;
+		.home-button {
+			width: 11.25rem;
+			height: 3.3125rem;
 
-            a {
-                color: $white;
-            }
-        }
-    }
+			a {
+				color: $white;
+			}
+		}
+	}
 }
