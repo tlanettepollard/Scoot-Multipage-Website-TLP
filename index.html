@@ -93,24 +93,26 @@
 			<main class="main-home">
 				<!-- Hero -->
 				<section
-					class="hero-home container-fluid d-flex flex-column justify-content-center align-items-center text-center text-lg-start mt-5 mt-lg-5"
+					class="hero-home container-fluid d-flex flex-column justify-content-center align-items-center text-center text-lg-start m-auto mt-lg-5"
 				>
 					<div class="row">
-						<article class="container-fluid hero-content mt-3 mt-lg-4">
-							<h1 class="home-heading col-sm-12 col-lg-6 heading-1 mt-5">
+						<article
+							class="container-fluid hero-content m-auto d-flex flex-column justify-content-center align-items-between"
+						>
+							<h1 class="home-heading col-sm-12 col-lg-6 heading-1 m-auto">
 								Scooter sharing made simple
 							</h1>
-							<div class="col-sm-12 col-lg-6 mb-5">
-								<p class="home-lead p-2">
+							<div class="col-sm-12 col-lg-6 m-auto">
+								<p class="home-lead m-auto">
 									Scoot takes the hassle out of urban mobility. Our bikes are
 									placed in convenient locations in each of our cities. Use our
 									app to locate the nearest bike, unlock it with a tap, and
 									you’re away!
 								</p>
 							</div>
-							<div class="col-lg-3">
+							<div class="col-lg-3 m-auto">
 								<button
-									class="btn btn-lg btn-warning home-button p-2 mx-4"
+									class="btn btn-lg btn-warning home-button"
 									type="button"
 								>
 									<a href="#scoot" class="fs-6">Get Scootin</a>
@@ -118,9 +120,29 @@
 							</div>
 						</article>
 					</div>
-					<div class="shape shape--line hide-large"></div>
-					<div class="shape shape--arrow"></div>
-					<div class="shape shape--circles hide-small"></div>
+					<div class="hero-patterns d-flex flex-row">
+						<div class="shape--line d-none d-xl-block">
+							<img
+								src="/assets/patterns/line.svg"
+								alt="line"
+								class="hero-line position-absolute"
+							/>
+						</div>
+						<div class="shape--arrow">
+							<img
+								src="/assets/patterns/right-arrow.svg"
+								class="hero-rightarrow position-absolute"
+								alt="right arrow"
+							/>
+						</div>
+						<div class="shape--whtcircles d-none d-md-block">
+							<img
+								src="/assets/patterns/white-circles.svg"
+								alt="white circles"
+								class="hero-whtcircles position-absolute"
+							/>
+						</div>
+					</div>
 				</section>
 				<!-- End Hero Section -->
 

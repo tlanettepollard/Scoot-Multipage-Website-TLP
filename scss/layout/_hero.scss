@@ -9,6 +9,9 @@
 	background-size: cover;
 	background-position: center;
 	@include bp-sm-mobile {
+		height: 62.5rem;
+	}
+	@include bp-tablet {
 		height: 56.25rem;
 	}
 	@include bp-small-screen {
@@ -22,7 +25,7 @@
 	}
 
 	.hero-content {
-
+		height: auto;
 
         .home-button {
             width: 11.25rem;
