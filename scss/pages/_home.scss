@@ -6,7 +6,13 @@
 			width: 27.9375rem;
 			height: 8.625rem;
 			z-index: 0;
-			top: 36.25rem;
+			top: 30.625rem;
+			right: 19.375rem;
+
+			@include bp-xs-mobile {
+				top: 38.75rem;
+				right: 13.125rem;
+			}
 		}
 	}
 }
