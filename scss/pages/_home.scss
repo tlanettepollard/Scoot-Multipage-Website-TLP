@@ -13,6 +13,10 @@
 				top: 38.75rem;
 				right: 13.125rem;
 			}
+
+            @include bp-small-screen {
+                right: 58%;
+            }
 		}
 	}
 }
