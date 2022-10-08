@@ -43,10 +43,6 @@ ul {
 }
 
 /* Main Styling */
-/*.img-fluid {
-	width: 100%;
-	height: auto;
-}*/
 .img-round {
   border-radius: 50%;
 }
@@ -274,6 +270,11 @@ nav .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
 }
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .hero-home {
+    height: 62.5rem;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .hero-home {
     height: 56.25rem;
   }
 }
@@ -288,6 +289,9 @@ nav .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
     background-position: right center;
     text-align: initial;
   }
+}
+.hero-home .hero-content {
+  height: auto;
 }
 .hero-home .hero-content .home-button {
   width: 11.25rem;
@@ -374,6 +378,13 @@ nav .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
 	}
 }
 */
+.hero-patterns .shape--arrow .hero-rightarrow {
+  width: 27.9375rem;
+  height: 8.625rem;
+  z-index: 0;
+  top: 36.25rem;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
