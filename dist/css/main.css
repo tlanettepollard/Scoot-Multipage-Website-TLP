@@ -394,6 +394,13 @@ nav .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
     right: 58%;
   }
 }
+.hero-patterns .shape--whtcircles .hero-whtcircles {
+  width: 14.625rem;
+  height: 3.9375rem;
+  z-index: 0;
+  top: 34.375rem;
+  left: 75%;
+}
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
