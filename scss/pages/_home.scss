@@ -14,9 +14,19 @@
 				right: 13.125rem;
 			}
 
-            @include bp-small-screen {
-                right: 58%;
-            }
+			@include bp-small-screen {
+				right: 58%;
+			}
+		}
+	}
+
+	.shape--whtcircles {
+		.hero-whtcircles {
+			width: 14.625rem;
+			height: 3.9375rem;
+			z-index: 0;
+			top: 34.375rem;
+			left: 75%;
 		}
 	}
 }
