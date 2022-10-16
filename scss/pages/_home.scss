@@ -1,5 +1,23 @@
 //Page Patterns
 
+.hero-home {
+	height: 40.625rem;
+	.home-heading {
+		@include bp-tablet-up {
+			width: 75%;
+		}
+		@include bp-xl-up {
+			width: 50%;
+		}
+	}
+
+	.home-lead {
+		@include bp-xl-up {
+			width: 50%;
+		}
+	}
+}
+
 .hero-patterns {
 	.shape--arrow {
 		.hero-rightarrow {
@@ -27,6 +45,10 @@
 			z-index: 0;
 			top: 34.375rem;
 			right: -4%;
+
+			@include bp-xl-up {
+				right: -2%;
+			}
 		}
 	}
 }
