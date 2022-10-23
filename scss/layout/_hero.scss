@@ -1,7 +1,9 @@
+// Hero-Home Styles
+
 .hero-home {
 	position: relative;
 	overflow: hidden;
-	height: 40.625rem;
+	height: 50rem;
 	width: 100%;
 	color: $hero-heading;
 	background-image: url('../../assets/images/home-hero-mobile.jpg');
@@ -24,7 +26,29 @@
 
 	.hero-content {
 		height: auto;
-		width: 100%;
+		max-width: 19.6875rem;
+
+		@include bp-small-screen {
+			max-width: 36.25rem;
+		}
+
+		.home-heading {
+			width: 100%;
+			height: auto;
+
+			@include bp-desktop-up {
+				max-width: 31.25rem;
+			}
+		}
+
+		.home-lead {
+			width: 100%;
+			height: auto;
+
+			@include bp-desktop-up {
+				max-width: 25.625rem;
+			}
+		}
 
 		.home-button {
 			width: 11.25rem;
@@ -32,6 +56,42 @@
 
 			a {
 				color: $white;
+			}
+		}
+	}
+}
+
+//Page Patterns
+.hero-patterns {
+	.shape--arrow {
+		.hero-rightarrow {
+			width: 27.9375rem;
+			height: 8.625rem;
+			z-index: 0;
+			top: 37.5rem;
+			right: 19.375rem;
+
+			@include bp-xs-mobile {
+				top: 38.75rem;
+				right: 13.125rem;
+			}
+
+			@include bp-small-screen {
+				right: 58%;
+			}
+		}
+	}
+
+	.shape--whtcircles {
+		.hero-whtcircles {
+			width: 14.625rem;
+			height: 3.9375rem;
+			z-index: 0;
+			top: 34.375rem;
+			right: -4%;
+
+			@include bp-xl-up {
+				right: -2%;
 			}
 		}
 	}
