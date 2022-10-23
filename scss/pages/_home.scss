@@ -3,18 +3,19 @@
 .hero-home {
 	height: 40.625rem;
 	.home-heading {
-		@include bp-tablet-up {
-			width: 75%;
-		}
-		@include bp-xl-up {
+		width: 100%;
+		height: auto;
+		/*@include bp-xl-up {
 			width: 50%;
-		}
+		}*/
 	}
 
 	.home-lead {
-		@include bp-xl-up {
+		width: 100%;
+		height: auto;
+		/*@include bp-xl-up {
 			width: 50%;
-		}
+		}*/
 	}
 }
 

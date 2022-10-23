@@ -379,20 +379,19 @@ nav .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
 .hero-home {
   height: 40.625rem;
 }
-@media screen and (min-width: 768px) {
-  .hero-home .home-heading {
-    width: 75%;
-  }
+.hero-home .home-heading {
+  width: 100%;
+  height: auto;
+  /*@include bp-xl-up {
+  	width: 50%;
+  }*/
 }
-@media screen and (min-width: 1201px) {
-  .hero-home .home-heading {
-    width: 50%;
-  }
-}
-@media screen and (min-width: 1201px) {
-  .hero-home .home-lead {
-    width: 50%;
-  }
+.hero-home .home-lead {
+  width: 100%;
+  height: auto;
+  /*@include bp-xl-up {
+  	width: 50%;
+  }*/
 }
 
 .hero-patterns .shape--arrow .hero-rightarrow {
