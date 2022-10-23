@@ -268,7 +268,6 @@ nav .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
   background-image: url("../../assets/images/home-hero-mobile.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
 }
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .hero-home {
@@ -278,41 +277,26 @@ nav .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .hero-home {
     background-image: url("../../assets/images/home-hero-tablet.jpg");
+    background-position: center;
   }
 }
 @media screen and (min-width: 1025px) {
   .hero-home {
     background-image: url("../../assets/images/home-hero-desktop.jpg");
-    background-position: right center;
     text-align: initial;
   }
 }
 .hero-home .hero-content {
-  height: auto;
-  max-width: 19.6875rem;
-}
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .hero-home .hero-content {
-    max-width: 36.25rem;
-  }
+  width: 100%;
+  height: 100%;
 }
 .hero-home .hero-content .home-heading {
   width: 100%;
   height: auto;
 }
-@media screen and (min-width: 1025px) {
-  .hero-home .hero-content .home-heading {
-    max-width: 31.25rem;
-  }
-}
 .hero-home .hero-content .home-lead {
   width: 100%;
   height: auto;
-}
-@media screen and (min-width: 1025px) {
-  .hero-home .hero-content .home-lead {
-    max-width: 25.625rem;
-  }
 }
 .hero-home .hero-content .home-button {
   width: 11.25rem;
