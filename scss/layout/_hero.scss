@@ -9,45 +9,34 @@
 	background-image: url('../../assets/images/home-hero-mobile.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;
+	//background-position: center center;
 
 	@include bp-xs-mobile {
 		height: 50rem;
 	}
 	@include bp-small-screen {
 		background-image: url('../../assets/images/home-hero-tablet.jpg');
+		background-position: center;
 	}
 
 	@include bp-desktop-up {
 		background-image: url('../../assets/images/home-hero-desktop.jpg');
-		background-position: right center;
+		//background-position: right center;
 		text-align: initial;
 	}
 
 	.hero-content {
-		height: auto;
-		max-width: 19.6875rem;
-
-		@include bp-small-screen {
-			max-width: 36.25rem;
-		}
+		width: 100%;
+		height: 100%;
 
 		.home-heading {
 			width: 100%;
 			height: auto;
-
-			@include bp-desktop-up {
-				max-width: 31.25rem;
-			}
 		}
 
 		.home-lead {
 			width: 100%;
 			height: auto;
-
-			@include bp-desktop-up {
-				max-width: 25.625rem;
-			}
 		}
 
 		.home-button {
