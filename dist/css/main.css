@@ -262,7 +262,7 @@ nav .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
 .hero-home {
   position: relative;
   overflow: hidden;
-  height: 40.625rem;
+  height: 50rem;
   width: 100%;
   color: hsl(0deg, 0%, 100%);
   background-image: url("../../assets/images/home-hero-mobile.jpg");
@@ -289,7 +289,30 @@ nav .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
 }
 .hero-home .hero-content {
   height: auto;
+  max-width: 19.6875rem;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .hero-home .hero-content {
+    max-width: 36.25rem;
+  }
+}
+.hero-home .hero-content .home-heading {
   width: 100%;
+  height: auto;
+}
+@media screen and (min-width: 1025px) {
+  .hero-home .hero-content .home-heading {
+    max-width: 31.25rem;
+  }
+}
+.hero-home .hero-content .home-lead {
+  width: 100%;
+  height: auto;
+}
+@media screen and (min-width: 1025px) {
+  .hero-home .hero-content .home-lead {
+    max-width: 25.625rem;
+  }
 }
 .hero-home .hero-content .home-button {
   width: 11.25rem;
@@ -297,6 +320,37 @@ nav .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
 }
 .hero-home .hero-content .home-button a {
   color: hsl(0deg, 0%, 100%);
+}
+
+.hero-patterns .shape--arrow .hero-rightarrow {
+  width: 27.9375rem;
+  height: 8.625rem;
+  z-index: 0;
+  top: 37.5rem;
+  right: 19.375rem;
+}
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .hero-patterns .shape--arrow .hero-rightarrow {
+    top: 38.75rem;
+    right: 13.125rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .hero-patterns .shape--arrow .hero-rightarrow {
+    right: 58%;
+  }
+}
+.hero-patterns .shape--whtcircles .hero-whtcircles {
+  width: 14.625rem;
+  height: 3.9375rem;
+  z-index: 0;
+  top: 34.375rem;
+  right: -4%;
+}
+@media screen and (min-width: 1201px) {
+  .hero-patterns .shape--whtcircles .hero-whtcircles {
+    right: -2%;
+  }
 }
 
 .signup {
@@ -376,55 +430,6 @@ nav .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
 	}
 }
 */
-.hero-home {
-  height: 40.625rem;
-}
-.hero-home .home-heading {
-  width: 100%;
-  height: auto;
-  /*@include bp-xl-up {
-  	width: 50%;
-  }*/
-}
-.hero-home .home-lead {
-  width: 100%;
-  height: auto;
-  /*@include bp-xl-up {
-  	width: 50%;
-  }*/
-}
-
-.hero-patterns .shape--arrow .hero-rightarrow {
-  width: 27.9375rem;
-  height: 8.625rem;
-  z-index: 0;
-  top: 30.625rem;
-  right: 19.375rem;
-}
-@media screen and (min-width: 320px) and (max-width: 479px) {
-  .hero-patterns .shape--arrow .hero-rightarrow {
-    top: 38.75rem;
-    right: 13.125rem;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .hero-patterns .shape--arrow .hero-rightarrow {
-    right: 58%;
-  }
-}
-.hero-patterns .shape--whtcircles .hero-whtcircles {
-  width: 14.625rem;
-  height: 3.9375rem;
-  z-index: 0;
-  top: 34.375rem;
-  right: -4%;
-}
-@media screen and (min-width: 1201px) {
-  .hero-patterns .shape--whtcircles .hero-whtcircles {
-    right: -2%;
-  }
-}
-
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
