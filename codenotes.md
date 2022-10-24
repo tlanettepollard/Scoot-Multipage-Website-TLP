@@ -105,7 +105,7 @@ Hi, it's me again. I'm back to working on the FAQ accordion. Forgot I had one th
 
 ### 08/31/2022
 
-Hi. It's been so long that I need to start again. I had been working on my React Nanodegree since April. I feel like I forgot how to code using HTML, CSS, and JS, especially the positioning and sizing.
+Hi. It's been so long that I need to start again. I had been working on my React Nanodegree since April. I feel like I forgot how to code using HTML, CSS, and JS, especially the positioning and sizing. I think I need to place the margin and padding in the style sheet instead of relying on the Bootstrap measurements.
 
 ### 09/03/2022
 
@@ -122,6 +122,10 @@ Hi. I've been a little busy with school. I'm finally back to coding.
 Resources:
 
 - [How to change color of SVG](https://qawithexperts.com/article/html/how-to-change-color-of-svg-various-ways-using-css/414)
+
+### 10/23/2022
+
+Hi. I went back to work on the Hero section of the home page. I am obsessed with placement of the hero content. I'm using Bootstrap, so I think I'm doing to much and not using it's capabilities to it's fullest.
 
 ---
 
