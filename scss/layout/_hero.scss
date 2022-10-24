@@ -32,11 +32,23 @@
 		.home-heading {
 			width: 100%;
 			height: auto;
+			@include bp-small-screen {
+				width: 80%;
+			}
+			@include bp-desktop-up {
+				width: 40%;
+			}
 		}
 
 		.home-lead {
 			width: 100%;
 			height: auto;
+			@include bp-small-screen {
+				width: 80%;
+			}
+			@include bp-desktop-up {
+				width: 40%;
+			}
 		}
 
 		.home-button {

@@ -294,9 +294,29 @@ nav .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
   width: 100%;
   height: auto;
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .hero-home .hero-content .home-heading {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .hero-home .hero-content .home-heading {
+    width: 40%;
+  }
+}
 .hero-home .hero-content .home-lead {
   width: 100%;
   height: auto;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .hero-home .hero-content .home-lead {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .hero-home .hero-content .home-lead {
+    width: 40%;
+  }
 }
 .hero-home .hero-content .home-button {
   width: 11.25rem;
