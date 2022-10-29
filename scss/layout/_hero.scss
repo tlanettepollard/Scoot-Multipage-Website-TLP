@@ -43,6 +43,10 @@
 		.home-lead {
 			width: 100%;
 			height: auto;
+			padding: 1.875rem;
+			@include bp-xs-mobile {
+				padding: .625rem;
+			}
 			@include bp-small-screen {
 				//width: 80%;
 			}
@@ -55,9 +59,17 @@
 			width: 11.25rem;
 			height: 3.3125rem;
 
+
 			a {
 				color: $white;
 			}
+		}
+	}
+	.mt-5 {
+		margin-top: 6.25rem !important;
+
+		@include bp-desktop-up {
+			margin-top: 9.375rem !important;
 		}
 	}
 }
