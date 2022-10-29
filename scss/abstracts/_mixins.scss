@@ -1,82 +1,79 @@
 @import './variables';
 
 // Flex
-@mixin flex ($direction, $justifyContent, $alignItems) {
-    display: flex;
-    flex-direction: $direction;
-    justify-content: $justifyContent;
-    align-items: $alignItems;
+@mixin flex($direction, $justifyContent, $alignItems) {
+	display: flex;
+	flex-direction: $direction;
+	justify-content: $justifyContent;
+	align-items: $alignItems;
 }
 
 // Extra Small Devices 320px to 479px
 @mixin bp-xs-mobile {
-    @media screen and (min-width: $bp-mobile-start) and (max-width: 479px) {
-        @content;
-    }
+	@media screen and (min-width: $bp-mobile-start) and (max-width: 479px) {
+		@content;
+	}
 }
-
 
 // Extra Small Devices up to 480px
 @mixin bp-sm-mobile {
-    @media screen and (min-width: $bp-mobile-start) and (max-width: $bp-mobile-end) {
-        @content;
-    }
+	@media screen and (min-width: $bp-mobile-start) and (max-width: $bp-mobile-end) {
+		@content;
+	}
 }
 
 // Tablets 481px to 767px
 @mixin bp-tablet {
-    @media screen and (min-width: $bp-tablet-start) and (max-width: $bp-tablet-end) {
-        @content;
-    } 
+	@media screen and (min-width: $bp-tablet-start) and (max-width: $bp-tablet-end) {
+		@content;
+	}
 }
-
 
 // Small screens 768px to 1024px
 @mixin bp-small-screen {
-    @media screen and (min-width: $bp-sm-screen-start) and (max-width: $bp-sm-screen-end) {
-        @content;
-    }
+	@media screen and (min-width: $bp-sm-screen-start) and (max-width: $bp-sm-screen-end) {
+		@content;
+	}
 }
-
 
 // Desktops 1025px to 1200px
 @mixin bp-desktop {
-    @media screen and (min-width: $bp-desktop-start) and (max-width: $bp-desktop-end) {
-        @content;
-    }
+	@media screen and (min-width: $bp-desktop-start) and (max-width: $bp-desktop-end) {
+		@content;
+	}
 }
 
 // LG Mobile Down: 767px down
 @mixin bp-mobile-down {
-    @media screen and (max-width: $bp-tablet-end) {
-        @content;
-    } 
+	@media screen and (max-width: $bp-tablet-end) {
+		@content;
+	}
 }
 
 //XL Tablet Down: 1024px down
 @mixin bp-xl-tablet-down {
-    @media screen and (max-width: $bp-sm-screen-end){
-        @content;
-    }
+	@media screen and (max-width: $bp-sm-screen-end) {
+		@content;
+	}
 }
 
 // Tablet up: 768px up
 @mixin bp-tablet-up {
-    @media screen and (min-width: $bp-sm-screen-start) {
-        @content;
-    }
+	@media screen and (min-width: $bp-sm-screen-start) {
+		@content;
+	}
 }
 
 // Desktops 1025px up
 @mixin bp-desktop-up {
-    @media screen and (min-width: $bp-desktop-start) {
-        @content;
-    }
+	@media screen and (min-width: $bp-desktop-start) {
+		@content;
+	}
 }
 
 // XL Screens 1201px up
 @mixin bp-xl-up {
-    @media screen and (min-width: $bp-xl-screen-start) {
-        @content;
-    }
+	@media screen and (min-width: $bp-xl-screen-start) {
+		@content;
+	}
 }
