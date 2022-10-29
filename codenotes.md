@@ -127,7 +127,9 @@ Resources:
 
 Hi. I went back to work on the Hero section of the home page. I am obsessed with placement of the hero content. I'm using Bootstrap, so I think I'm doing to much and not using it's capabilities to it's fullest.
 
----
+### 10/29/2022
+
+## Hi. I'm back. I'm learning that when it comes to recreating the placement of design elements, I should use positioning if margin (sizing) doesn't work.
 
 font-family: 'Lexend Deca', sans-serif;
 font-family: 'Space Mono', monospace;
