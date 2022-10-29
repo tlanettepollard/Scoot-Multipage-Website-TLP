@@ -294,28 +294,14 @@ nav .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
   width: 100%;
   height: auto;
 }
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .hero-home .hero-content .home-heading {
-    width: 80%;
-  }
-}
-@media screen and (min-width: 1025px) {
-  .hero-home .hero-content .home-heading {
-    width: 40%;
-  }
-}
 .hero-home .hero-content .home-lead {
   width: 100%;
   height: auto;
+  padding: 1.875rem;
 }
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 320px) and (max-width: 479px) {
   .hero-home .hero-content .home-lead {
-    width: 80%;
-  }
-}
-@media screen and (min-width: 1025px) {
-  .hero-home .hero-content .home-lead {
-    width: 40%;
+    padding: 0.625rem;
   }
 }
 .hero-home .hero-content .home-button {
@@ -325,12 +311,20 @@ nav .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
 .hero-home .hero-content .home-button a {
   color: hsl(0deg, 0%, 100%);
 }
+.hero-home .mt-5 {
+  margin-top: 6.25rem !important;
+}
+@media screen and (min-width: 1025px) {
+  .hero-home .mt-5 {
+    margin-top: 9.375rem !important;
+  }
+}
 
 .hero-patterns .shape--arrow .hero-rightarrow {
   width: 27.9375rem;
   height: 8.625rem;
   z-index: 0;
-  top: 37.5rem;
+  top: 38.75rem;
   right: 19.375rem;
 }
 @media screen and (min-width: 320px) and (max-width: 479px) {
@@ -348,7 +342,7 @@ nav .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
   width: 14.625rem;
   height: 3.9375rem;
   z-index: 0;
-  top: 34.375rem;
+  top: 43.125rem;
   right: -4%;
 }
 @media screen and (min-width: 1201px) {
