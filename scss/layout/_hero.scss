@@ -33,10 +33,10 @@
 			width: 100%;
 			height: auto;
 			@include bp-small-screen {
-				width: 80%;
+				//width: 80%;
 			}
 			@include bp-desktop-up {
-				width: 40%;
+				//width: 40%;
 			}
 		}
 
@@ -44,10 +44,10 @@
 			width: 100%;
 			height: auto;
 			@include bp-small-screen {
-				width: 80%;
+				//width: 80%;
 			}
 			@include bp-desktop-up {
-				width: 40%;
+				//width: 40%;
 			}
 		}
 
@@ -69,7 +69,7 @@
 			width: 27.9375rem;
 			height: 8.625rem;
 			z-index: 0;
-			top: 37.5rem;
+			top: 38.75rem;
 			right: 19.375rem;
 
 			@include bp-xs-mobile {
@@ -88,7 +88,7 @@
 			width: 14.625rem;
 			height: 3.9375rem;
 			z-index: 0;
-			top: 34.375rem;
+			top: 43.125rem;
 			right: -4%;
 
 			@include bp-xl-up {
