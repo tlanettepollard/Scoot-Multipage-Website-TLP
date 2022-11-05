@@ -21,15 +21,18 @@
 
 	@include bp-desktop-up {
 		background-image: url('../../assets/images/home-hero-desktop.jpg');
-		//background-position: right center;
 		text-align: initial;
+	}
+
+	@include bp-xl-up {
+		background-position: center center;
 	}
 
 	.hero-content {
 		width: 100%;
 		height: 100%;
 		top: 11.1875rem;
-		left: 0rem;
+		left: 0;
 
 		@include bp-small-screen {
 			top: 12.5rem;
@@ -39,9 +42,14 @@
 			top: 12.5rem;
 		}
 
+		@include bp-xl-up {
+			left: 6.25rem;
+		}
+
 		.home-heading {
 			width: 100%;
 			height: auto;
+
 			@include bp-small-screen {
 				width: 35.8125rem;
 				height: 7rem;
@@ -68,6 +76,11 @@
 				width: 25.3125rem;
 				height: 6.25rem;
 			}
+			@include bp-xl-up {
+				position: absolute;
+				left: 6.875rem;
+				top: 11.25rem;
+			}
 		}
 
 		.home-button {
@@ -76,6 +89,11 @@
 			margin-top: 2.5rem;
 			@include bp-xs-mobile {
 				margin-top: 0rem;
+			}
+			@include bp-xl-up {
+				position: absolute;
+				left: 6.875rem;
+				top: 18.75rem;
 			}
 			a {
 				color: $white;
@@ -91,8 +109,8 @@
 			width: 203px;
 			height: 0.9375rem;
 			z-index: 0;
-			left: 0rem;
-			top: 450px;
+			left: -3.125rem;
+			top: 26.25rem;
 		}
 	}
 	.shape--arrow {
@@ -110,6 +128,11 @@
 
 			@include bp-small-screen {
 				right: 58%;
+			}
+
+			@include bp-xl-up {
+				left: 46.875rem;
+				top: 26.25rem;
 			}
 		}
 	}
