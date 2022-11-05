@@ -89,14 +89,25 @@
 
 			<main class="main main-about">
 				<!-- Hero Banner -->
-				<section class="hero-about px-4 py-5 my-5 container-fluid">
-					<div class="container">
-						<article class="hero-content container-fluid">
-							<h1 class="about-heading heading-1">About</h1>
-							<div class="shape shape--circles hide-small"></div>
-						</article>
-						<!-- hero__container -->
+				<section class="hero-about container-fluid">
+					<article class="hero-about-content container-fluid position-absolute">
+						<div class="row flex-column">
+							<div class="about-heading-container">
+								<h1 class="about-heading position-absolute heading-1 ps-md-5 text-center text-md-start text-white">About</h1>
+							</div>
+						</div>
+					</article>
+
+					<div class="hero-patterns d-flex flex-row">
+						<div class="shape--whtcircles d-none d-md-block">
+							<img
+								src="/assets/patterns/white-circles.svg"
+								alt="white circles"
+								class="hero-whtcircles position-absolute"
+							/>
+						</div>
 					</div>
+					<!-- hero__container -->
 					<!-- wrapper -->
 				</section>
 				<!--  End Hero Section -->
