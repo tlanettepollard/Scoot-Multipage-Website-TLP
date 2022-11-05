@@ -361,7 +361,7 @@ nav .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
   .hero-home .hero-content .home-lead {
     position: absolute;
     left: 6.875rem;
-    top: 11.25rem;
+    top: 11.5625rem;
   }
 }
 .hero-home .hero-content .home-button {
@@ -408,24 +408,29 @@ nav .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .hero-patterns .shape--arrow .hero-rightarrow {
     right: 58%;
+    top: 39.375rem;
   }
 }
 @media screen and (min-width: 1201px) {
   .hero-patterns .shape--arrow .hero-rightarrow {
-    left: 46.875rem;
-    top: 26.25rem;
+    width: 27.9375rem;
+    height: 9.375rem;
+    left: 40.625rem;
+    top: 27.5rem;
   }
 }
-.hero-patterns .shape--whtcircles .hero-whtcircles {
+
+.shape--whtcircles .hero-whtcircles {
   width: 14.625rem;
   height: 3.9375rem;
   z-index: 0;
-  top: 43.125rem;
+  top: 42.8125rem;
   right: -4%;
 }
 @media screen and (min-width: 1201px) {
-  .hero-patterns .shape--whtcircles .hero-whtcircles {
-    right: -2%;
+  .shape--whtcircles .hero-whtcircles {
+    left: 87%;
+    top: 32.4063rem;
   }
 }
 

@@ -79,7 +79,7 @@
 			@include bp-xl-up {
 				position: absolute;
 				left: 6.875rem;
-				top: 11.25rem;
+				top: 11.5625rem;
 			}
 		}
 
@@ -128,26 +128,30 @@
 
 			@include bp-small-screen {
 				right: 58%;
+				top: 39.375rem;
 			}
 
 			@include bp-xl-up {
-				left: 46.875rem;
-				top: 26.25rem;
+				width: 27.9375rem;
+				height: 9.375rem;
+				left: 40.625rem;
+				top: 27.5rem;
 			}
 		}
 	}
+}
 
-	.shape--whtcircles {
-		.hero-whtcircles {
-			width: 14.625rem;
-			height: 3.9375rem;
-			z-index: 0;
-			top: 43.125rem;
-			right: -4%;
+.shape--whtcircles {
+	.hero-whtcircles {
+		width: 14.625rem;
+		height: 3.9375rem;
+		z-index: 0;
+		top: 42.8125rem;
+		right: -4%;
 
-			@include bp-xl-up {
-				right: -2%;
-			}
+		@include bp-xl-up {
+			left: 87%;
+			top: 32.4063rem;
 		}
 	}
 }
