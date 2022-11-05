@@ -1,3 +1,46 @@
+.hero-about {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 10rem;
+	color: $hero-heading;
+	background-image: url('../../assets/images/about-hero-mobile.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom 75%;
+
+	@include bp-tablet-up {
+		height: 12.5rem;
+	}
+
+	@include bp-small-screen {
+		background-image: url('../../assets/images/about-hero-tablet.jpg');
+	}
+
+	@include bp-desktop-up {
+		background-image: url('../../assets/images/about-hero-desktop.jpg');
+		//background-position: center;
+	}
+
+	.hero-about-content {
+		width: 100%;
+		height: 100%;
+		width: 100%;
+		height: 100%;
+		top: 3.75rem;
+		left: 0rem;
+
+		@include bp-tablet-up {
+			top: 5rem;
+		}
+
+		.about-heading {
+			width: 100%;
+			height: 100%;
+		}
+	}
+}
+
 /* Faqs Section */
 
 /*.faqs {
