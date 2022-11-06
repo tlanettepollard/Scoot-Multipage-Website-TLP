@@ -52,13 +52,14 @@
 						aria-labelledby="offcanvasNavbarLabel"
 					>
 						<div class="offcanvas-header">
-							<button
-								type="button"
-								class="btn-close"
-								data-bs-dismiss="offcanvas"
-								aria-label="Close"
-							></button>
-
+							<div class="button-container">
+								<button
+									type="button"
+									class="btn-close"
+									data-bs-dismiss="offcanvas"
+									aria-label="Close"
+								></button>
+							</div>
 							<img
 								src="./assets/logo.svg"
 								alt="Scoot logo"
@@ -80,9 +81,14 @@
 									<a class="nav-link" href="./careers.html">Careers</a>
 								</li>
 							</ul>
-							<button class="btn btn-lg btn-warning p-2 mt-4" type="button">
-								<a href="#scoot" class="text-light fs-6">Get Scootin</a>
-							</button>
+							<div class="button-container m-auto">
+								<button
+									class="btn btn-lg btn-warning p-2 d-block position-absolute"
+									type="button"
+								>
+									<a href="#scoot">Get Scootin</a>
+								</button>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -110,7 +116,7 @@
 									you’re away!
 								</p>
 							</div>
-							<div class="button-container">
+							<div class="button-container text-center">
 								<button
 									class="btn btn-lg btn-warning home-button"
 									type="button"
@@ -259,11 +265,11 @@
 									the scooter, your traveling distance, and many more things all
 									in an easy to use app.
 								</p>
-								<a href="about.html">
+								<div class="button-container text-center">
 									<button class="btn btn-primary feature-btn" type="button">
-										Learn More
+										<a href="about.html" class="text-white"> Learn More</a>
 									</button>
-								</a>
+								</div>
 							</div>
 							<div class="image-content ic-right m-auto py-5 p-xl-5">
 								<img
@@ -295,11 +301,11 @@
 									your hometown. We’re aiming to let our scooters loose on 23
 									cities over the coming year.
 								</p>
-								<a href="locations.html">
+								<div class="button-container text-center">
 									<button class="btn btn-primary feature-btn" type="button">
-										Learn More
+										<a href="about.html" class="text-white"> Learn More</a>
 									</button>
-								</a>
+								</div>
 							</div>
 							<div class="image-content ic-left m-auto py-5 p-xl-5">
 								<img
@@ -331,11 +337,11 @@
 									inside the app. Need to pay later? No worries! You can defer
 									payment for up to a month.
 								</p>
-								<a href="about.html">
+								<div class="button-container text-center">
 									<button class="btn btn-primary feature-btn" type="button">
-										Learn More
+										<a href="about.html" class="text-white"> Learn More</a>
 									</button>
-								</a>
+								</div>
 							</div>
 							<div class="image-content ic-right m-auto py-5 p-xl-5">
 								<img
