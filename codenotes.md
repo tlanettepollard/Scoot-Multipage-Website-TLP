@@ -129,7 +129,12 @@ Hi. I went back to work on the Hero section of the home page. I am obsessed with
 
 ### 10/29/2022
 
-## Hi. I'm back. I'm learning that when it comes to recreating the placement of design elements, I should use positioning if margin (sizing) doesn't work.
+Hi. I'm back. I'm learning that when it comes to recreating the placement of design elements, I should use positioning if margin (sizing) doesn't work.
+
+### 11/05/2022
+Hi. Need to check the nav-button in my css. 
+
+-----
 
 font-family: 'Lexend Deca', sans-serif;
 font-family: 'Space Mono', monospace;

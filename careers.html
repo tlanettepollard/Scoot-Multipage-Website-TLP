@@ -52,12 +52,14 @@
 						aria-labelledby="offcanvasNavbarLabel"
 					>
 						<div class="offcanvas-header">
-							<button
-								type="button"
-								class="btn-close"
-								data-bs-dismiss="offcanvas"
-								aria-label="Close"
-							></button>
+							<div class="button-container">
+								<button
+									type="button"
+									class="btn-close"
+									data-bs-dismiss="offcanvas"
+									aria-label="Close"
+								></button>
+							</div>
 							<img
 								src="./assets/logo.svg"
 								alt="Scoot logo"
@@ -77,9 +79,11 @@
 									<a class="nav-link" href="./careers.html">Careers</a>
 								</li>
 							</ul>
-							<button class="btn btn-lg btn-warning p-2" type="button">
-								<a href="#scoot">Get Scootin</a>
-							</button>
+							<div class="button-container m-auto">
+								<button class="btn btn-lg btn-warning p-2" type="button">
+									<a href="#scoot">Get Scootin</a>
+								</button>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -90,10 +94,16 @@
 			<main class="main main-careers">
 				<!-- Hero Section -->
 				<section class="hero-careers container-fluid">
-					<article class="hero-careers-content container-fluid position-absolute">
+					<article
+						class="hero-careers-content container-fluid position-absolute"
+					>
 						<div class="row flex-column">
 							<div class="careers-heading-container">
-								<h1 class="careers-heading heading-1 position-absolute text-center text-md-start text-white">Careers</h1>
+								<h1
+									class="careers-heading heading-1 position-absolute text-center text-md-start text-white"
+								>
+									Careers
+								</h1>
 							</div>
 						</div>
 					</article>
@@ -113,37 +123,43 @@
 				<!-- Features Sections -->
 				<section class="features">
 					<div class="container-fluid">
-						<div class="features-content">
-							<article class="feature feature--right container">
-								<div class="text-content tc-left">
-									<h2 class="feature-heading heading heading-2">
-										Care to join our mission?
-									</h2>
-									<p class="paragraph">
-										We’re always looking for ambitious individuals to help us on
-										our journey. If you’re passionate about our mission to
-										provide clean, accessible transport to improve urban living
-										we want to hear from you!
-									</p>
-									<a href="about.html">
-										<button class="btn btn-primary feature-btn" type="button">
-											Say Hello
-										</button>
-									</a>
+						<article
+							class="feature container feature--right d-flex flex-column-reverse flex-xl-row m-auto"
+						>
+							<div class="text-content tc-left m-auto py-5">
+								<h2
+									class="feature-heading heading heading-2 text-center text-xl-start"
+								>
+									Care to join our mission?
+								</h2>
+								<p
+									class="feature-paragraph paragraph text-center text-xl-start p-4 ps-xl-0"
+								>
+									We’re always looking for ambitious individuals to help us on
+									our journey. If you’re passionate about our mission to provide
+									clean, accessible transport to improve urban living we want to
+									hear from you!
+								</p>
+								<div class="button-container text-center">
+									<button
+										class="btn btn-lg btn-warning  feature-btn mx-auto"
+										type="button"
+									>
+										<a href="about.html" class="fs-6 text-white"> Say Hello</a>
+									</button>
 								</div>
-								<div class="image-content ic-right">
-									<img
-										class="feature-image img-fluid img-round"
-										src="./assets/images/join-us.jpg"
-										alt="Scoot team"
-									/>
-								</div>
-							</article>
+							</div>
+							<div class="image-content ic-right">
+								<img
+									class="feature-image img-fluid img-round"
+									src="./assets/images/join-us.jpg"
+									alt="Scoot team"
+								/>
+							</div>
+						</article>
 
-							<div class="shape shape--arrow-1"></div>
-							<div class="shape shape--circle-1 hide-small"></div>
-						</div>
-						<!-- features__container-->
+						<div class="shape shape--arrow-1"></div>
+						<div class="shape shape--circle-1 hide-small"></div>
 					</div>
 					<!-- container-fluid -->
 				</section>
