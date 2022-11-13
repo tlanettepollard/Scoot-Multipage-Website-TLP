@@ -33,4 +33,17 @@
 			}
 		}
 	}
+
+	.directions-patterns {
+		.shape--line {
+			.directions-vertical-line {
+				width: 0px;
+				height: 515px;
+				left: 74.5px;
+				top: 920px;
+				z-index: -1;
+				border: 15px solid #e5ecf4;
+			}
+		}
+	}
 }

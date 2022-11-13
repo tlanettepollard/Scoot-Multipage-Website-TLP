@@ -26,6 +26,7 @@
 	</head>
 	<body>
 		<div class="wrapper">
+			<!-- Header -->
 			<nav class="navbar bg-light navbar-expand-md">
 				<div class="container-fluid">
 					<button
@@ -96,7 +97,7 @@
 				</div>
 				<!-- navbar -->
 			</nav>
-			<!-- End Navbar -->
+			<!-- End Header-->
 
 			<main class="main-home">
 				<!-- Hero -->
@@ -155,10 +156,10 @@
 				<!-- End Hero Section -->
 
 				<!-- Directions Section -->
-				<section class="directions my-5 mx-auto">
-					<article class="container-fluid directions__container m-auto">
+				<section class="directions my-5 mx-auto px-2">
+					<article class="container-fluid directions__container m-auto py-3">
 						<ul
-							class="directions__list container m-auto d-lg-flex flex-column flex-xl-row"
+							class="directions__list container m-auto d-lg-flex flex-column flex-xl-row py-3"
 						>
 							<!-- Item 01 -->
 							<li class="directions__item pe-lg-5">
@@ -241,8 +242,16 @@
 								</div>
 							</li>
 						</ul>
-
-						<div class="shape shape--line hide-mobile"></div>
+						<div class="directions-patterns">
+							<div class="shape shape--line">
+								<img src="/assets/patterns/vertical-line.svg" class="directions-vertical-line d-none d-md-block d-xl-none position-absolute" />
+								<img
+								src="/assets/patterns/horizontal-line.svg"
+								alt="line"
+								class="directions-horizontal-line d-none d-xl-block position-absolute"
+								/>
+							</div>
+						</div>	
 					</article>
 				</section>
 				<!-- End Direction Section -->
