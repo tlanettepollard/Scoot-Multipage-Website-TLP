@@ -20,6 +20,7 @@ nav {
 		}
 
 		.offcanvas-body {
+		
 			.navbar-nav {
 				@include bp-tablet-up {
 					margin: auto;
@@ -41,14 +42,7 @@ nav {
 					}
 				}
 			}
-			.nav-button {
-				@include bp-tablet-up {
-					width: 11.25rem !important;
-					height: auto;
-					border-radius: 25%;
-                    margin-right: 1.25rem;
-				}
-			}
+			
 		}
 	}
 }

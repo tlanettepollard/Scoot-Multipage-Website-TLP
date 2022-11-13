@@ -108,24 +108,26 @@ h4 {
 }
 
 .btn {
-  max-width: 11.25rem;
-  max-height: 3.3125rem;
-  width: 100%;
+  width: 12rem;
+  height: 3.3125rem;
+  border-radius: 0px;
+  color: hsl(0deg, 0%, 100%);
 }
 
 .btn-primary {
   font-family: "Space Mono", monospace;
   background-color: hsl(40deg, 97%, 58%);
-  color: hsl(0deg, 0%, 100%);
-}
-.btn-primary a:link {
-  margin: auto;
-  font-size: 0.625rem;
 }
 .btn-primary:hover {
   background-color: transparent;
-  color: hsl(40deg, 97%, 58%);
   border: 2px solid hsl(40deg, 97%, 58%);
+}
+.btn-primary:hover a:hover {
+  color: hsl(40deg, 97%, 58%);
+}
+.btn-primary a:link {
+  margin: auto;
+  color: hsl(0deg, 0%, 100%);
 }
 
 /* *****************
@@ -255,14 +257,6 @@ nav .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
 @media screen and (min-width: 768px) {
   nav .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
     color: hsl(217deg, 12%, 62%);
-  }
-}
-@media screen and (min-width: 768px) {
-  nav .offcanvas .offcanvas-body .nav-button {
-    width: 11.25rem !important;
-    height: auto;
-    border-radius: 25%;
-    margin-right: 1.25rem;
   }
 }
 
