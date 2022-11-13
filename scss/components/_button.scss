@@ -9,14 +9,16 @@
 	font-family: $heading-font;
 	background-color: $button-bg;
 
-	a:link {
-		margin: auto;
-		font-size: 0.625rem;
-	}
-
 	&:hover {
 		background-color: transparent;
-		color: $button-hover-text;
 		border: 2px solid $button-hover-border;
+		a:hover {
+			color: $button-hover-text;
+		}
+	}
+
+	a:link {
+		margin: auto;
+		color: $button-text;
 	}
 }

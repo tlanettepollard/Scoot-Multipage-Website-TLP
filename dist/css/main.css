@@ -118,14 +118,16 @@ h4 {
   font-family: "Space Mono", monospace;
   background-color: hsl(40deg, 97%, 58%);
 }
-.btn-primary a:link {
-  margin: auto;
-  font-size: 0.625rem;
-}
 .btn-primary:hover {
   background-color: transparent;
-  color: hsl(40deg, 97%, 58%);
   border: 2px solid hsl(40deg, 97%, 58%);
+}
+.btn-primary:hover a:hover {
+  color: hsl(40deg, 97%, 58%);
+}
+.btn-primary a:link {
+  margin: auto;
+  color: hsl(0deg, 0%, 100%);
 }
 
 /* *****************
@@ -257,6 +259,7 @@ nav .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
     color: hsl(217deg, 12%, 62%);
   }
 }
+
 .hero-home {
   position: relative;
   overflow: hidden;
