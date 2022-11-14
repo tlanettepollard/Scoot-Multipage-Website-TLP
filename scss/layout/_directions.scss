@@ -39,8 +39,17 @@
 			.directions-vertical-line {
 				width: 0px;
 				height: 515px;
-				left: 74.5px;
+				left: 72.5px;
 				top: 920px;
+				z-index: -1;
+				border: 15px solid #e5ecf4;
+			}
+
+			.directions-horizontal-line {
+				width: 974px;
+				height: 1px;
+				left: 0px;
+				top: 994px;
 				z-index: -1;
 				border: 15px solid #e5ecf4;
 			}
