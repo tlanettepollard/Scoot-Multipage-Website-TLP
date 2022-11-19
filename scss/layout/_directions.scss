@@ -56,3 +56,13 @@
 		}
 	}
 }
+
+.py-5 {
+	padding: 7.5625rem 0 !important;
+	@include bp-small-screen {
+		padding: 6.625rem 0 !important;
+	}
+	@include bp-desktop-up {
+		padding: 9.375rem 0 !important;
+	}
+}
