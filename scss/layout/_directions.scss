@@ -39,7 +39,7 @@
 			.directions-vertical-line {
 				width: 0px;
 				height: 515px;
-				left: 72.5px;
+				left: 130.75px;
 				top: 920px;
 				z-index: -1;
 				border: 15px solid #e5ecf4;
@@ -54,6 +54,12 @@
 				border: 15px solid #e5ecf4;
 			}
 		}
+	}
+}
+
+.px-2 {
+	@include bp-small-screen {
+		padding: 0 6.375rem !important;
 	}
 }
 
