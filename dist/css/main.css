@@ -413,7 +413,7 @@ nav .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
 @media screen and (min-width: 1201px) {
   .hero-home .hero-content .home-button {
     position: absolute;
-    left: 6.875rem;
+    left: 6.25rem;
     top: 18.75rem;
   }
 }
