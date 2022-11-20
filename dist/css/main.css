@@ -157,7 +157,7 @@ h4 {
 .directions .directions-patterns .shape--line .directions-vertical-line {
   width: 0px;
   height: 515px;
-  left: 130.75px;
+  left: 120.5px;
   top: 920px;
   z-index: -1;
   border: 15px solid #e5ecf4;
@@ -165,15 +165,20 @@ h4 {
 .directions .directions-patterns .shape--line .directions-horizontal-line {
   width: 974px;
   height: 1px;
-  left: 0px;
-  top: 994px;
+  left: -16px;
+  top: 1105px;
   z-index: -1;
   border: 15px solid #e5ecf4;
 }
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .px-2 {
-    padding: 0 6.375rem !important;
+@media screen and (min-width: 1281px) {
+  .directions .directions-patterns .shape--line .directions-horizontal-line {
+    width: 1000px;
+    left: 0px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .directions .directions-patterns .shape--line .directions-horizontal-line {
+    width: 1300px;
   }
 }
 
