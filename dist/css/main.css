@@ -206,6 +206,15 @@ Home, About, and Career section Styles
   max-width: 35.8125rem;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .features-patterns .shape--arrow .arrow-left-down-1 {
+    width: 45.875rem;
+    height: 6.1875rem;
+    left: 12.5rem;
+    top: 137.5rem;
+  }
+}
+
 .footer {
   width: 100%;
   height: 34.375rem;
