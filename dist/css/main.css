@@ -163,7 +163,7 @@ h4 {
   border: 15px solid #e5ecf4;
 }
 .directions .directions-patterns .shape--line .directions-horizontal-line {
-  width: 974px;
+  width: 940px;
   height: 1px;
   left: -16px;
   top: 1105px;
@@ -178,7 +178,7 @@ h4 {
 }
 @media screen and (min-width: 1920px) {
   .directions .directions-patterns .shape--line .directions-horizontal-line {
-    width: 1300px;
+    width: 1240px;
   }
 }
 
@@ -365,10 +365,23 @@ nav .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
     height: 7rem;
   }
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
   .hero-home .hero-content .home-heading {
     width: 31.25rem;
     height: 7rem;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1440px) {
+  .hero-home .hero-content .home-heading {
+    width: 31.25rem;
+    margin-left: 0.3125rem !important;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .hero-home .hero-content .home-heading {
+    width: 35%;
+    font-size: 4rem;
+    margin-left: 10rem !important;
   }
 }
 .hero-home .hero-content .home-lead {
@@ -400,6 +413,11 @@ nav .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
     top: 11.5625rem;
   }
 }
+@media screen and (min-width: 1920px) {
+  .hero-home .hero-content .home-lead {
+    margin-left: 12.5rem !important;
+  }
+}
 .hero-home .hero-content .home-button {
   width: 11.25rem;
   height: 3.3125rem;
@@ -417,6 +435,11 @@ nav .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
     top: 18.75rem;
   }
 }
+@media screen and (min-width: 1920px) {
+  .hero-home .hero-content .home-button {
+    margin-left: 12.5rem !important;
+  }
+}
 .hero-home .hero-content .home-button a {
   color: hsl(0deg, 0%, 100%);
 }
@@ -427,6 +450,12 @@ nav .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
   z-index: 0;
   left: -3.125rem;
   top: 26.25rem;
+}
+@media screen and (min-width: 1920px) {
+  .hero-patterns .shape--line .hero-line {
+    width: 403px;
+    margin-left: -1.25rem !important;
+  }
 }
 .hero-patterns .shape--arrow .hero-rightarrow {
   width: 27.9375rem;
@@ -452,7 +481,12 @@ nav .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
     width: 27.9375rem;
     height: 9.375rem;
     left: 40.625rem;
-    top: 27.5rem;
+    top: 26rem;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .hero-patterns .shape--arrow .hero-rightarrow {
+    margin-left: 12.5rem !important;
   }
 }
 

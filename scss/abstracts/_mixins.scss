@@ -43,6 +43,13 @@
 	}
 }
 
+// Desktops 1201px to 1440px {
+@mixin bp-laptop {
+	@media screen and (min-width: $bp-laptop-screen-start) and (max-width: $bp-laptop-screen-end) {
+		@content;
+	}
+}
+
 // LG Mobile Down: 767px down
 @mixin bp-mobile-down {
 	@media screen and (max-width: $bp-tablet-end) {
@@ -73,7 +80,14 @@
 
 // XL Screens 1201px up
 @mixin bp-xl-up {
-	@media screen and (min-width: $bp-xl-screen-start) {
+	@media screen and (min-width: $bp-laptop-screen-start) {
+		@content;
+	}
+}
+
+// XXL Screens 1440px up
+@mixin bp-xxl-up {
+	@media screen and (min-width: $bp-xl-desktop-start) {
 		@content;
 	}
 }

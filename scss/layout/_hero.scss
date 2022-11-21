@@ -54,9 +54,20 @@
 				width: 35.8125rem;
 				height: 7rem;
 			}
-			@include bp-desktop-up {
+			@include bp-desktop {
 				width: 31.25rem;
 				height: 7rem;
+			}
+
+			@include bp-laptop {
+				width: 31.25rem;
+				margin-left: 0.3125rem !important;
+			}
+
+			@media screen and (min-width: 1920px) {
+				width: 35%;
+				font-size: 4rem;
+				margin-left: 10rem !important;
 			}
 		}
 
@@ -81,6 +92,10 @@
 				left: 6.875rem;
 				top: 11.5625rem;
 			}
+
+			@media screen and (min-width: 1920px) {
+				margin-left: 12.5rem !important;
+			}
 		}
 
 		.home-button {
@@ -94,6 +109,10 @@
 				position: absolute;
 				left: 6.25rem;
 				top: 18.75rem;
+			}
+
+			@media screen and (min-width: 1920px) {
+				margin-left: 12.5rem !important;
 			}
 			a {
 				color: $white;
@@ -111,6 +130,11 @@
 			z-index: 0;
 			left: -3.125rem;
 			top: 26.25rem;
+
+			@media screen and (min-width: 1920px) {
+				width: 403px;
+				margin-left: -1.25rem !important;
+			}
 		}
 	}
 	.shape--arrow {
@@ -135,7 +159,11 @@
 				width: 27.9375rem;
 				height: 9.375rem;
 				left: 40.625rem;
-				top: 27.5rem;
+				top: 26rem;
+			}
+
+			@media screen and (min-width: 1920px) {
+				margin-left: 12.5rem !important;
 			}
 		}
 	}

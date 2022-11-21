@@ -46,20 +46,20 @@
 			}
 
 			.directions-horizontal-line {
-				width: 974px;
+				width: 940px;
 				height: 1px;
 				left: -16px;
 				top: 1105px;
 				z-index: -1;
 				border: 15px solid #e5ecf4;
-				
+
 				@media screen and (min-width: 1281px) {
 					width: 1000px;
 					left: 0px;
 				}
 
 				@media screen and (min-width: 1920px) {
-					width: 1300px;
+					width: 1240px;
 				}
 			}
 		}
