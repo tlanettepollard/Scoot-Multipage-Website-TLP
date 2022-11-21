@@ -176,7 +176,7 @@ h4 {
     left: 0px;
   }
 }
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1441px) {
   .directions .directions-patterns .shape--line .directions-horizontal-line {
     width: 1240px;
   }
@@ -204,6 +204,15 @@ Home, About, and Career section Styles
 }
 .features .feature .text-content {
   max-width: 35.8125rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .features-patterns .shape--arrow .arrow-left-down-1 {
+    width: 45.875rem;
+    height: 6.1875rem;
+    left: 12.5rem;
+    top: 137.5rem;
+  }
 }
 
 .footer {

@@ -58,7 +58,7 @@
 					left: 0px;
 				}
 
-				@media screen and (min-width: 1920px) {
+				@include bp-xxl-up {
 					width: 1240px;
 				}
 			}

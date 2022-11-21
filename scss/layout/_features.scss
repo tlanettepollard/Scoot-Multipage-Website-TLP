@@ -9,3 +9,17 @@ Home, About, and Career section Styles
        } 
     }
 }
+
+.features-patterns {
+    .shape--arrow {
+        @include bp-small-screen {
+            .arrow-left-down-1 {
+            width: 45.875rem;
+            height: 6.1875rem;
+            left: 12.5rem;
+            top: 137.5rem;
+            }
+        }
+        
+    }
+}
