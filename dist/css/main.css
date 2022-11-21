@@ -176,7 +176,7 @@ h4 {
     left: 0px;
   }
 }
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1441px) {
   .directions .directions-patterns .shape--line .directions-horizontal-line {
     width: 1240px;
   }
