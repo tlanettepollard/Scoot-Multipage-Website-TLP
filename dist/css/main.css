@@ -377,7 +377,7 @@ nav .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
     margin-left: 0.3125rem !important;
   }
 }
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1441px) {
   .hero-home .hero-content .home-heading {
     width: 35%;
     font-size: 4rem;
@@ -413,8 +413,9 @@ nav .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
     top: 11.5625rem;
   }
 }
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1441px) {
   .hero-home .hero-content .home-lead {
+    font-size: 1rem;
     margin-left: 12.5rem !important;
   }
 }

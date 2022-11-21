@@ -64,7 +64,7 @@
 				margin-left: 0.3125rem !important;
 			}
 
-			@media screen and (min-width: 1920px) {
+			@include bp-xxl-up {
 				width: 35%;
 				font-size: 4rem;
 				margin-left: 10rem !important;
@@ -93,7 +93,8 @@
 				top: 11.5625rem;
 			}
 
-			@media screen and (min-width: 1920px) {
+			@include bp-xxl-up {
+				font-size: 1rem;
 				margin-left: 12.5rem !important;
 			}
 		}
