@@ -206,12 +206,19 @@ Home, About, and Career section Styles
   max-width: 35.8125rem;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .features-patterns .shape--arrow .arrow-left-down-1 {
     width: 45.875rem;
     height: 6.1875rem;
-    left: 12.5rem;
-    top: 137.5rem;
+    left: 35px;
+    top: 2150px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .features-patterns .shape--circle .circle-1 {
+    top: 1845px;
+    left: 680px;
+    z-index: -1;
   }
 }
 
