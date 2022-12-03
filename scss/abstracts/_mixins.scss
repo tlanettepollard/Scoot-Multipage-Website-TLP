@@ -29,14 +29,14 @@
 	}
 }
 
-// Small screens 768px to 1024px
+// Small screens 768px to 1023px
 @mixin bp-small-screen {
 	@media screen and (min-width: $bp-sm-screen-start) and (max-width: $bp-sm-screen-end) {
 		@content;
 	}
 }
 
-// Desktops 1025px to 1200px
+// Desktops 1024px to 1200px
 @mixin bp-desktop {
 	@media screen and (min-width: $bp-desktop-start) and (max-width: $bp-desktop-end) {
 		@content;

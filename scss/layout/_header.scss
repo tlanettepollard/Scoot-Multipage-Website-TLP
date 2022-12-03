@@ -17,6 +17,9 @@ nav {
 			left: 2.4375rem;
 			top: 2.125rem;
 		}
+		@media screen and (min-width: 1900px) {
+			left: 6.25rem;
+		}
 	}
 	.navbar-toggler-icon {
 		background-image: url('/assets/icons/hamburger.svg');
@@ -45,11 +48,31 @@ nav {
 				top: 8rem;
 				left: 2rem;
 
-				@include bp-tablet-up {
+				@include bp-small-screen {
 					width: 43.0625rem;
 					height: 1.8125rem;
 					top: 2.25rem;
 					left: 12.8125rem;
+				}
+
+				@include bp-desktop {
+					width: 31.25rem;
+					height: 3.3125rem;
+					left: 12.5rem;
+					top: 1.375rem;
+				}
+
+				@include bp-xl-up {
+					width: 69.125rem;
+					height: 3.3125rem;
+					left: 12.5rem;
+					top: 1.375rem;
+				}
+
+				@media screen and (min-width: 1900px) {
+					width: 87.5rem;
+					height: 3.3125rem;
+					left: 18.75rem;
 				}
 
 				.nav-item {
@@ -83,9 +106,25 @@ nav {
 						top: 29.375rem;
 					}
 
-					@media screen and (min-width: 768px) and (max-width: 1023px) {
+					@include bp-small-screen {
+						left: 21.75rem;
 						top: -0.625rem;
-						left: 21.25rem;
+					}
+
+					@include bp-desktop {
+						left: 34.25rem;
+						top: 0;
+					}
+
+					@include bp-xl-up {
+						width: 11.25rem;
+						height: 3.3125rem;
+						left: 53.125rem;
+						top: 0;
+					}
+
+					@media screen and (min-width: 1900px) {
+						left: 81.25rem;
 					}
 				}
 			}

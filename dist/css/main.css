@@ -19,7 +19,7 @@
   }
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   .hide-desktop-up {
     display: none;
   }
@@ -148,12 +148,12 @@ Home, About, and Career section Styles
   height: 34.375rem;
   background-color: hsl(215deg, 14%, 23%);
 }
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .footer {
     height: 11.25rem;
   }
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   .footer {
     height: 10.625rem;
   }
@@ -223,6 +223,11 @@ nav .nav-logo {
     top: 2.125rem;
   }
 }
+@media screen and (min-width: 1900px) {
+  nav .nav-logo {
+    left: 6.25rem;
+  }
+}
 nav .navbar-toggler-icon {
   background-image: url("/assets/icons/hamburger.svg");
 }
@@ -245,12 +250,35 @@ nav .offcanvas .offcanvas-body .navbar-nav {
   top: 8rem;
   left: 2rem;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   nav .offcanvas .offcanvas-body .navbar-nav {
     width: 43.0625rem;
     height: 1.8125rem;
     top: 2.25rem;
     left: 12.8125rem;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  nav .offcanvas .offcanvas-body .navbar-nav {
+    width: 31.25rem;
+    height: 3.3125rem;
+    left: 12.5rem;
+    top: 1.375rem;
+  }
+}
+@media screen and (min-width: 1201px) {
+  nav .offcanvas .offcanvas-body .navbar-nav {
+    width: 69.125rem;
+    height: 3.3125rem;
+    left: 12.5rem;
+    top: 1.375rem;
+  }
+}
+@media screen and (min-width: 1900px) {
+  nav .offcanvas .offcanvas-body .navbar-nav {
+    width: 87.5rem;
+    height: 3.3125rem;
+    left: 18.75rem;
   }
 }
 @media screen and (min-width: 768px) {
@@ -289,8 +317,27 @@ nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
+    left: 21.75rem;
     top: -0.625rem;
-    left: 21.25rem;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
+    left: 34.25rem;
+    top: 0;
+  }
+}
+@media screen and (min-width: 1201px) {
+  nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
+    width: 11.25rem;
+    height: 3.3125rem;
+    left: 53.125rem;
+    top: 0;
+  }
+}
+@media screen and (min-width: 1900px) {
+  nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
+    left: 81.25rem;
   }
 }
 
