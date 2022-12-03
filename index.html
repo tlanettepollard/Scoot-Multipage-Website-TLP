@@ -27,7 +27,7 @@
 	<body>
 		<div class="wrapper">
 			<!-- Header -->
-			<nav class="navbar bg-light navbar-expand-md">
+			<nav class="navbar bg-light navbar-expand-lg">
 				<div class="container-fluid">
 					<button
 						class="navbar-toggler"
@@ -42,7 +42,7 @@
 						<img
 							src="./assets/logo.svg"
 							alt="Scoot logo"
-							class="logo img-fluid"
+							class="logo img-fluid position-absolute"
 						/>
 					</a>
 					<div
@@ -67,6 +67,31 @@
 							/>
 						</div>
 						<!-- offcanvas-header -->
+						<div
+							class="offcanvas-body d-flex flex-column flex-lg-row justify-content-between align-items-start"
+						>
+							<ul
+								class="navbar-nav position-absolute align-items-center p-md-auto m-md-auto"
+							>
+								<li class="nav-item m-md-1">
+									<a class="nav-link" href="./about.html">About</a>
+								</li>
+								<li class="nav-item m-md-1">
+									<a class="nav-link" href="./locations.html">Locations</a>
+								</li>
+								<li class="nav-item m-md-1">
+									<a class="nav-link" href="./careers.html">Careers</a>
+								</li>
+								<div class="button-container">
+									<button
+										class="btn btn-lg btn-primary offcanvas-button d-block"
+										type="button"
+									>
+										<a href="#scoot" class="fs-6">Get Scootin</a>
+									</button>
+								</div>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</nav>
