@@ -97,7 +97,7 @@ I was away working on my React Nanodegree. Now I'm back.
 
 ### 12/02/2022
 
-Hi. I feel like I've lost my way with this project. I feel as if I need to start over. 
+Hi. I feel like I've lost my way with this project. I feel as if I need to start over.
 
 Resources:
 
@@ -135,10 +135,11 @@ Hi. I went back to work on the Hero section of the home page. I am obsessed with
 
 Hi. I'm back. I'm learning that when it comes to recreating the placement of design elements, I should use positioning if margin (sizing) doesn't work.
 
-### 11/05/2022
-Hi. Need to check the nav-button in my css. 
+### 12/05/2022
 
------
+Hi. I need to start again. I've lost my way and I think that I've haven't used Bootstrap to its full potential. I've left off at the logo for the offcanvas menu and the navbar menu.
+
+---
 
 font-family: 'Lexend Deca', sans-serif;
 font-family: 'Space Mono', monospace;
