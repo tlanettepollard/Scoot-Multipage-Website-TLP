@@ -16,4 +16,18 @@
 	@include bp-xl-up {
 		background-image: url('../../assets/images/home-hero-desktop.jpg');
 	}
-}
+
+	.hero-content {
+		width: 19.4375rem;
+		//min-width: 19.4375rem;
+		//max-width: 35.8125rem;
+
+		
+		}
+
+		.home-heading {
+			width: 19.4375rem;
+			height: 7.5rem;
+		}
+	}
+

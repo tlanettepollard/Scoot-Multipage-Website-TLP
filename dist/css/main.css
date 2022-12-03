@@ -365,6 +365,13 @@ nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
     background-image: url("../../assets/images/home-hero-desktop.jpg");
   }
 }
+.hero-home .hero-content {
+  width: 19.4375rem;
+}
+.hero-home .home-heading {
+  width: 19.4375rem;
+  height: 7.5rem;
+}
 
 .wrapper {
   position: relative;
