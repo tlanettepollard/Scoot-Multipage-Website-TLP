@@ -15,14 +15,14 @@
 	}
 }
 
-// Extra Small Devices up to 480px
+// Extra Small Devices up to 479px
 @mixin bp-sm-mobile {
 	@media screen and (min-width: $bp-mobile-start) and (max-width: $bp-mobile-end) {
 		@content;
 	}
 }
 
-// Tablets 481px to 767px
+// Tablets 480px to 767px
 @mixin bp-tablet {
 	@media screen and (min-width: $bp-tablet-start) and (max-width: $bp-tablet-end) {
 		@content;

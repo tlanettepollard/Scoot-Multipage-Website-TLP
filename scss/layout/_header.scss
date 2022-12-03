@@ -48,13 +48,39 @@ nav {
 				}
 
 				.nav-item {
-					
+					@include bp-tablet-up {
+						font-size: 0.9375rem;
+					}
 					.nav-link {
 						color: $white;
 
 						@include bp-tablet-up {
 							color: $nav-link-color;
 						}
+					}
+				}
+
+				.offcanvas-button {
+					width: 12rem;
+					height: 3.3125rem;
+					left: 0;
+					top: 28.125rem;
+
+					@media screen and (min-width: 320px) and (max-width: 374px) {
+						top: 16.25rem;
+					}
+
+					@media screen and (min-width: 376px) and (max-width: 480px) {
+						top: 36.875rem;
+					}
+
+					@include bp-tablet {
+						top: 29.375rem;
+					}
+
+					@media screen and (min-width: 768px) and (max-width: 1023px){
+						top: -0.625rem;
+						left: 21.25rem;
 					}
 				}
 			}
