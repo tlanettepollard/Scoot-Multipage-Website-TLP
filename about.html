@@ -26,7 +26,75 @@
 	</head>
 	<body>
 		<div class="wrapper">
-			
+			<!-- Header -->
+			<nav class="navbar bg-light navbar-expand-md">
+				<div class="container-fluid">
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="offcanvas"
+						data-bs-target="#offcanvasNavbar"
+						aria-controls="offcanvasNavbar"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<a class="navbar-brand mx-auto" href="./index.html">
+						<img
+							src="./assets/logo.svg"
+							alt="Scoot logo"
+							class="nav-logo img-fluid position-absolute"
+						/>
+					</a>
+					<div
+						class="offcanvas offcanvas-start"
+						tabindex="-1"
+						id="offcanvasNavbar"
+						aria-labelledby="=offcanvasNavbarLabel"
+					>
+						<div class="offcanvas-header">
+							<div class="button-container">
+								<button
+									type="button"
+									class="btn-close"
+									data-bs-dismiss="offcanvas"
+									aria-label="Close"
+								></button>
+							</div>
+							<img
+								src="./assets/logo.svg"
+								alt="Scoot logo"
+								class="sidebar-logo position-absolute navbar-brand mx-auto"
+							/>
+						</div>
+						<!-- offcanvas-header -->
+						<div
+							class="offcanvas-body d-flex flex-column flex-lg-row justify-content-between align-items-start"
+						>
+							<ul
+								class="navbar-nav position-absolute m-md-auto align-items-md-center"
+							>
+								<li class="nav-item m-md-2 m-xl-4">
+									<a class="nav-link" href="./about.html">About</a>
+								</li>
+								<li class="nav-item m-md-2 m-xl-4">
+									<a class="nav-link" href="./locations.html">Locations</a>
+								</li>
+								<li class="nav-item m-md-2 m-xl-4">
+									<a class="nav-link" href="./careers.html">Careers</a>
+								</li>
+								<div class="button-container">
+									<button
+										class="btn btn-lg btn-primary offcanvas-button d-block position-absolute"
+										type="button"
+									>
+										<a href="#scoot" class="fs-6">Get Scootin</a>
+									</button>
+								</div>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav>
 		</div>
 		<!-- wrapper -->
 
