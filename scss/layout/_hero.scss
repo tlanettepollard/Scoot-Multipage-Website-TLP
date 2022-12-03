@@ -1,2 +1,14 @@
 // Hero-Home Styles
+.hero-home {
+	position: relative;
+	overflow: hidden;
+	height: 40.625rem;
+	width: 100%;
+	color: $hero-heading;
+	background-image: url('../../assets/images/home-hero-mobile.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
 
+	@include bp-small-screen {
+	}
+}
