@@ -346,15 +346,26 @@ nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
 }
 
 .hero-home {
-  position: relative;
   overflow: hidden;
   height: 40.625rem;
   width: 100%;
   color: hsl(0deg, 0%, 100%);
   background-image: url("../../assets/images/home-hero-mobile.jpg");
   background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
 }
+@media screen and (min-width: 768px) {
+  .hero-home {
+    background-image: url("../../assets/images/home-hero-tablet.jpg");
+  }
+}
+@media screen and (min-width: 1201px) {
+  .hero-home {
+    background-image: url("../../assets/images/home-hero-desktop.jpg");
+  }
+}
+
 .wrapper {
   position: relative;
   width: 100%;
