@@ -1,12 +1,12 @@
 @import './variables';
 
-// Flex
+/* Flex
 @mixin flex($direction, $justifyContent, $alignItems) {
 	display: flex;
 	flex-direction: $direction;
 	justify-content: $justifyContent;
 	align-items: $alignItems;
-}
+} */
 
 // Extra Small Devices 320px to 479px
 @mixin bp-xs-mobile {

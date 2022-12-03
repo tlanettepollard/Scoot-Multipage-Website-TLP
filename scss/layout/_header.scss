@@ -1,4 +1,10 @@
 nav {
+	height: 4rem;
+	width: 100%;
+
+	@include bp-tablet-up {
+		height: 6rem;
+	}
 	.logo {
 		@include bp-tablet-up {
 			margin-left: 1.25rem;
@@ -20,19 +26,18 @@ nav {
 		}
 
 		.offcanvas-body {
-		
 			.navbar-nav {
 				@include bp-tablet-up {
 					margin: auto;
-                    margin: auto;
+					margin: auto;
 					padding: auto;
 					align-items: center;
 				}
 
 				.nav-item {
-                    @include bp-tablet-up {
-                        margin: .625rem;
-                    }
+					@include bp-tablet-up {
+						margin: 0.625rem;
+					}
 					.nav-link {
 						color: $white;
 
@@ -42,7 +47,11 @@ nav {
 					}
 				}
 			}
-			
 		}
 	}
+}
+
+// Bootstrap Classes
+.bg-light {
+	background-color: $white !important;
 }

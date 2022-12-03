@@ -95,6 +95,10 @@ Hi. I spent my day on my Chalkspot website and working on my React exercises. My
 
 I was away working on my React Nanodegree. Now I'm back.
 
+### 12/02/2022
+
+Hi. I feel like I've lost my way with this project. I feel as if I need to start over. 
+
 Resources:
 
 - Down Arrow Icon, <a href="https://www.flaticon.com/free-icons/arrow" title="arrow icons">Arrow icons created by th studio - Flaticon</a> -[Creating Accordion with Javascript](https://medium.com/@vikash20186/creating-accordion-with-javascript-a33743655474)

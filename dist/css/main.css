@@ -1,4 +1,11 @@
 @charset "UTF-8";
+/* Flex
+@mixin flex($direction, $justifyContent, $alignItems) {
+	display: flex;
+	flex-direction: $direction;
+	justify-content: $justifyContent;
+	align-items: $alignItems;
+} */
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Space+Mono:wght@700&display=swap");
 @media screen and (max-width: 767px) {
   .hide-mobile {
@@ -133,95 +140,9 @@ h4 {
 /* *****************
    Home Page Directions Styles
 ********************/
-.directions {
-  height: auto;
-  width: 100%;
-  max-width: 79.6875rem;
-}
-.directions__container .directions__list .directions__item {
-  height: auto;
-}
-.directions__container .directions__list .directions__item .content {
-  height: auto;
-}
-.directions__container .directions__list .directions__item .content .image-content .steps-icon {
-  max-width: 6rem;
-  max-height: 6rem;
-}
-@media screen and (max-width: 767px) {
-  .directions__container .directions__list .directions__item .content .image-content .steps-icon {
-    width: 3.5rem;
-    height: 3.5rem;
-  }
-}
-.directions .directions-patterns .shape--line .directions-vertical-line {
-  width: 0px;
-  height: 515px;
-  left: 120.5px;
-  top: 920px;
-  z-index: -1;
-  border: 15px solid #e5ecf4;
-}
-.directions .directions-patterns .shape--line .directions-horizontal-line {
-  width: 940px;
-  height: 1px;
-  left: -16px;
-  top: 1105px;
-  z-index: -1;
-  border: 15px solid #e5ecf4;
-}
-@media screen and (min-width: 1281px) {
-  .directions .directions-patterns .shape--line .directions-horizontal-line {
-    width: 1000px;
-    left: 0px;
-  }
-}
-@media screen and (min-width: 1441px) {
-  .directions .directions-patterns .shape--line .directions-horizontal-line {
-    width: 1240px;
-  }
-}
-
-.py-5 {
-  padding: 7.5625rem 0 !important;
-}
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .py-5 {
-    padding: 6.625rem 0 !important;
-  }
-}
-@media screen and (min-width: 1025px) {
-  .py-5 {
-    padding: 9.375rem 0 !important;
-  }
-}
-
 /*************************************
 Home, About, and Career section Styles
 *************************************/
-.features {
-  max-width: 100%;
-}
-.features .feature .text-content {
-  max-width: 35.8125rem;
-}
-
-@media screen and (max-width: 768px) {
-  .features-patterns .shape--arrow .arrow-left-down-1 {
-    width: 45.875rem;
-    height: 6.1875rem;
-    left: 35px;
-    top: 2150px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .features-patterns .shape--circle .circle-1 {
-    top: 1845px;
-    left: 680px;
-    z-index: -1;
-  }
-}
-
 .footer {
   width: 100%;
   height: 34.375rem;
@@ -279,6 +200,15 @@ Home, About, and Career section Styles
   color: hsl(217deg, 12%, 62%);
 }
 
+nav {
+  height: 4rem;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  nav {
+    height: 6rem;
+  }
+}
 @media screen and (min-width: 768px) {
   nav .logo {
     margin-left: 1.25rem;
@@ -318,257 +248,8 @@ nav .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
   }
 }
 
-.hero-home {
-  position: relative;
-  overflow: hidden;
-  height: 50rem;
-  width: 100%;
-  color: hsl(0deg, 0%, 100%);
-  background-image: url("../../assets/images/home-hero-mobile.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-@media screen and (min-width: 320px) and (max-width: 479px) {
-  .hero-home {
-    height: 50rem;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .hero-home {
-    background-image: url("../../assets/images/home-hero-tablet.jpg");
-    background-position: center;
-  }
-}
-@media screen and (min-width: 1025px) {
-  .hero-home {
-    background-image: url("../../assets/images/home-hero-desktop.jpg");
-    text-align: initial;
-  }
-}
-@media screen and (min-width: 1201px) {
-  .hero-home {
-    background-position: center center;
-  }
-}
-.hero-home .hero-content {
-  width: 100%;
-  height: 100%;
-  top: 11.1875rem;
-  left: 0;
-}
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .hero-home .hero-content {
-    top: 12.5rem;
-  }
-}
-@media screen and (min-width: 1025px) {
-  .hero-home .hero-content {
-    top: 12.5rem;
-  }
-}
-@media screen and (min-width: 1201px) {
-  .hero-home .hero-content {
-    left: 6.25rem;
-  }
-}
-.hero-home .hero-content .home-heading {
-  width: 100%;
-  height: auto;
-}
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .hero-home .hero-content .home-heading {
-    width: 35.8125rem;
-    height: 7rem;
-  }
-}
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
-  .hero-home .hero-content .home-heading {
-    width: 31.25rem;
-    height: 7rem;
-  }
-}
-@media screen and (min-width: 1201px) and (max-width: 1440px) {
-  .hero-home .hero-content .home-heading {
-    width: 31.25rem;
-    margin-left: 0.3125rem !important;
-  }
-}
-@media screen and (min-width: 1441px) {
-  .hero-home .hero-content .home-heading {
-    width: 35%;
-    font-size: 4rem;
-    margin-left: 10rem !important;
-  }
-}
-.hero-home .hero-content .home-lead {
-  width: 100%;
-  height: auto;
-}
-@media screen and (min-width: 320px) and (max-width: 479px) {
-  .hero-home .hero-content .home-lead {
-    width: 100%;
-    height: 7.8125rem;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .hero-home .hero-content .home-lead {
-    width: 35.8125rem;
-    height: 4.6875rem;
-  }
-}
-@media screen and (min-width: 1025px) {
-  .hero-home .hero-content .home-lead {
-    width: 25.3125rem;
-    height: 6.25rem;
-  }
-}
-@media screen and (min-width: 1201px) {
-  .hero-home .hero-content .home-lead {
-    position: absolute;
-    left: 6.875rem;
-    top: 11.5625rem;
-  }
-}
-@media screen and (min-width: 1441px) {
-  .hero-home .hero-content .home-lead {
-    font-size: 1rem;
-    margin-left: 12.5rem !important;
-  }
-}
-.hero-home .hero-content .home-button {
-  width: 11.25rem;
-  height: 3.3125rem;
-  margin-top: 2.5rem;
-}
-@media screen and (min-width: 320px) and (max-width: 479px) {
-  .hero-home .hero-content .home-button {
-    margin-top: 0rem;
-  }
-}
-@media screen and (min-width: 1201px) {
-  .hero-home .hero-content .home-button {
-    position: absolute;
-    left: 6.25rem;
-    top: 18.75rem;
-  }
-}
-@media screen and (min-width: 1920px) {
-  .hero-home .hero-content .home-button {
-    margin-left: 12.5rem !important;
-  }
-}
-.hero-home .hero-content .home-button a {
-  color: hsl(0deg, 0%, 100%);
-}
-
-.hero-patterns .shape--line .hero-line {
-  width: 203px;
-  height: 0.9375rem;
-  z-index: 0;
-  left: -3.125rem;
-  top: 26.25rem;
-}
-@media screen and (min-width: 1920px) {
-  .hero-patterns .shape--line .hero-line {
-    width: 403px;
-    margin-left: -1.25rem !important;
-  }
-}
-.hero-patterns .shape--arrow .hero-rightarrow {
-  width: 27.9375rem;
-  height: 8.625rem;
-  z-index: 0;
-  top: 37.5rem;
-  right: 19.375rem;
-}
-@media screen and (min-width: 320px) and (max-width: 479px) {
-  .hero-patterns .shape--arrow .hero-rightarrow {
-    top: 40rem;
-    right: 13.125rem;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .hero-patterns .shape--arrow .hero-rightarrow {
-    right: 58%;
-    top: 39.375rem;
-  }
-}
-@media screen and (min-width: 1201px) {
-  .hero-patterns .shape--arrow .hero-rightarrow {
-    width: 27.9375rem;
-    height: 9.375rem;
-    left: 40.625rem;
-    top: 26rem;
-  }
-}
-@media screen and (min-width: 1920px) {
-  .hero-patterns .shape--arrow .hero-rightarrow {
-    margin-left: 12.5rem !important;
-  }
-}
-
-.shape--whtcircles .hero-whtcircles {
-  width: 14.625rem;
-  height: 3.9375rem;
-  z-index: 0;
-  top: 42.8125rem;
-  right: -4%;
-}
-@media screen and (min-width: 1201px) {
-  .shape--whtcircles .hero-whtcircles {
-    left: 87%;
-    top: 32.4063rem;
-  }
-}
-
-.signup {
-  width: 100%;
-  height: 20rem;
-  max-height: 20rem;
-  position: relative;
-  overflow: hidden;
-  background-color: hsl(217deg, 18%, 35%);
-  background-image: url("../../assets/patterns/semi-circles.svg");
-  background-repeat: no-repeat;
-  background-position-y: bottom;
-  background-position-x: right;
-}
-@media screen and (min-width: 768px) {
-  .signup {
-    height: 18.75rem;
-  }
-}
-.signup-container {
-  height: 20rem;
-}
-@media screen and (min-width: 768px) {
-  .signup-container .text-container {
-    width: 28.125rem;
-  }
-}
-.signup-container .image-container {
-  width: 100%;
-  height: auto;
-}
-@media screen and (min-width: 320px) and (max-width: 480px) {
-  .signup-container .image-container {
-    margin: auto;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .signup-container .image-container {
-    width: 50%;
-  }
-}
-@media screen and (min-width: 1025px) {
-  .signup-container .image-container {
-    width: 50%;
-  }
-}
-@media screen and (min-width: 320px) and (max-width: 480px) {
-  .signup-container .image-container .app-store-img {
-    width: 50%;
-  }
+.bg-light {
+  background-color: hsl(0deg, 0%, 100%) !important;
 }
 
 .wrapper {
@@ -588,54 +269,6 @@ nav .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
   row-gap: inherit;
 }
 
-.hero-about {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  height: 10rem;
-  color: hsl(0deg, 0%, 100%);
-  background-image: url("../../assets/images/about-hero-mobile.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom 75%;
-}
-@media screen and (min-width: 768px) {
-  .hero-about {
-    height: 12.5rem;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .hero-about {
-    background-image: url("../../assets/images/about-hero-tablet.jpg");
-  }
-}
-@media screen and (min-width: 1025px) {
-  .hero-about {
-    background-image: url("../../assets/images/about-hero-desktop.jpg");
-  }
-}
-.hero-about .hero-about-content {
-  width: 100%;
-  height: 100%;
-  top: 3.75rem;
-  left: 0rem;
-}
-@media screen and (min-width: 768px) {
-  .hero-about .hero-about-content {
-    top: 5rem;
-  }
-}
-@media screen and (min-width: 768px) and (min-width: 768px) {
-  .hero-about .hero-about-content {
-    left: 11.46%;
-    right: 77.29%;
-  }
-}
-.hero-about .hero-about-content .about-heading {
-  width: 100%;
-  height: 100%;
-}
-
 /* Faqs Section */
 /*.faqs {
 	width: 100%;
@@ -646,54 +279,6 @@ nav .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
 	}
 }
 */
-.hero-careers {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  height: 10rem;
-  color: hsl(0deg, 0%, 100%);
-  background-image: url("../../assets/images/careers-location-hero-mobile.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom 75%;
-}
-@media screen and (min-width: 768px) {
-  .hero-careers {
-    height: 12.5rem;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .hero-careers {
-    background-image: url("../../assets/images/careers-locations-hero-tablet.jpg");
-  }
-}
-@media screen and (min-width: 1025px) {
-  .hero-careers {
-    background-image: url("../../assets/images/careers-locations-hero-desktop.jpg");
-  }
-}
-.hero-careers .hero-careers-content {
-  width: 100%;
-  height: 100%;
-  top: 3.75rem;
-  left: 0rem;
-}
-@media screen and (min-width: 768px) {
-  .hero-careers .hero-careers-content {
-    top: 5rem;
-  }
-}
-.hero-careers .hero-careers-content .careers-heading {
-  width: 100%;
-  height: 100%;
-}
-@media screen and (min-width: 768px) {
-  .hero-careers .hero-careers-content .careers-heading {
-    left: 11.46%;
-    right: 77.29%;
-  }
-}
-
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
