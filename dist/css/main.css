@@ -366,11 +366,48 @@ nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
   }
 }
 .hero-home .hero-content {
-  width: 19.4375rem;
+  width: 19.6875rem;
+  height: 25rem;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .hero-home .hero-content {
+    width: 18.75rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero-home .hero-content {
+    width: 35.8125rem;
+    height: 18.5rem;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .hero-home .hero-content {
+    width: 31.25rem;
+    height: 23.125rem;
+  }
+}
+.hero-home .hero-content .mt-5 {
+  margin-top: 7.1875rem !important;
 }
 .hero-home .home-heading {
   width: 19.4375rem;
   height: 7.5rem;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .hero-home .home-heading {
+    width: 17.1875rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero-home .home-heading {
+    width: 35.8125rem;
+    height: 7rem;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .hero-home .home-heading {
+    width: 31.25rem;
+  }
 }
 
 .wrapper {
