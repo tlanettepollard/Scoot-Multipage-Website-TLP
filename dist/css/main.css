@@ -137,6 +137,42 @@ h4 {
   color: hsl(0deg, 0%, 100%);
 }
 
+.banner-about {
+  height: 10rem;
+  width: 100%;
+  color: hsl(0deg, 0%, 100%);
+  background-image: url("../../assets/images/about-hero-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom 75%;
+}
+@media screen and (min-width: 768px) {
+  .banner-about {
+    height: 12.5rem;
+    background-image: url("../../assets/images/about-hero-tablet.jpg");
+  }
+}
+@media screen and (min-width: 1201px) {
+  .banner-about {
+    background-image: url("../../assets/images/about-hero-desktop.jpg");
+  }
+}
+.banner-about .banner-about-content {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 25%;
+}
+@media screen and (min-width: 768px) {
+  .banner-about .banner-about-content {
+    left: 15%;
+  }
+}
+.banner-about .banner-about-content .about-banner-container .about-heading {
+  width: 100%;
+  height: 100%;
+}
+
 /* *****************
    Home Page Directions Styles
 ********************/
