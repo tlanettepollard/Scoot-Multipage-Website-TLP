@@ -55,6 +55,27 @@
 
 		@include bp-xl-up {
 			width: 31.25rem;
+			position: absolute;
+			left: 10.3125rem;
+			top: 15.5625rem;
+		}
+	}
+
+	.home-lead {
+		@include bp-xl-up {
+			position: absolute;
+			width: 25.3125rem;
+			height: 6.25rem;
+			left: 16.25rem;
+			top: 25.0625rem;
+		}
+	}
+
+	.home-button {
+		@include bp-xl-up {
+			position: absolute;
+			left: 16.25rem;
+			top: 33.8125rem;
 		}
 	}
 }
