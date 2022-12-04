@@ -135,9 +135,13 @@ Hi. I went back to work on the Hero section of the home page. I am obsessed with
 
 Hi. I'm back. I'm learning that when it comes to recreating the placement of design elements, I should use positioning if margin (sizing) doesn't work.
 
-### 12/05/2022
+### 12/02/2022
 
 Hi. I need to start again. I've lost my way and I think that I've haven't used Bootstrap to its full potential. I've left off at the logo for the offcanvas menu and the navbar menu.
+
+### 12/03/2022
+
+Hi. I'm glad I started again. I really paid attention to the Figma drawing and measurements. I'm trying to let Bootstrap do the work. I have a better understanding of position absolute than I did before. I will continue with the Directions section tomorrow.
 
 ---
 
