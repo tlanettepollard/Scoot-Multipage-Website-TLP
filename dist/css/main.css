@@ -581,6 +581,9 @@ nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
     height: 38.1875rem;
   }
 }
+.wrapper .main .ms-xl-5 {
+  margin-left: 7.625rem !important;
+}
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
