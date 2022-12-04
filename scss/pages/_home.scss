@@ -2,18 +2,20 @@
     .main {
         .directions {
            width: 19.4375rem;
-           height: 49.5rem; 
+           height: 64.5rem; 
 
            @include bp-tablet-up {
                 width: 35.8125rem;
-                height: 29.375rem;
+                height: 44.625rem;
 
            }
 
            @include bp-xl-up {
                 width: 79.6875rem;
-                height: 18.1875rem;
+                height: 38.1875rem;
            }
         }
     }
+
+    
 }

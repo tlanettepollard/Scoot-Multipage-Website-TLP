@@ -567,18 +567,18 @@ nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
 */
 .wrapper .main .directions {
   width: 19.4375rem;
-  height: 49.5rem;
+  height: 64.5rem;
 }
 @media screen and (min-width: 768px) {
   .wrapper .main .directions {
     width: 35.8125rem;
-    height: 29.375rem;
+    height: 44.625rem;
   }
 }
 @media screen and (min-width: 1201px) {
   .wrapper .main .directions {
     width: 79.6875rem;
-    height: 18.1875rem;
+    height: 38.1875rem;
   }
 }
 
