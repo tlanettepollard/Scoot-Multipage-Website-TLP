@@ -565,6 +565,23 @@ nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
 	}
 }
 */
+.wrapper .main .directions {
+  width: 19.4375rem;
+  height: 49.5rem;
+}
+@media screen and (min-width: 768px) {
+  .wrapper .main .directions {
+    width: 35.8125rem;
+    height: 29.375rem;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .wrapper .main .directions {
+    width: 79.6875rem;
+    height: 18.1875rem;
+  }
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
