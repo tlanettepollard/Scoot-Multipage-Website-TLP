@@ -11,9 +11,10 @@
    }
 
    @include bp-desktop-up {
-      width: 79.6875rem;
-      height: 18.1875rem;
+      width: 56.25rem;
    }
+
+   
 	&-container {
 		.directions-list {
 			.directions-item {
