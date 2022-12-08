@@ -95,6 +95,10 @@ Hi. I spent my day on my Chalkspot website and working on my React exercises. My
 
 I was away working on my React Nanodegree. Now I'm back.
 
+### 12/02/2022
+
+Hi. I feel like I've lost my way with this project. I feel as if I need to start over.
+
 Resources:
 
 - Down Arrow Icon, <a href="https://www.flaticon.com/free-icons/arrow" title="arrow icons">Arrow icons created by th studio - Flaticon</a> -[Creating Accordion with Javascript](https://medium.com/@vikash20186/creating-accordion-with-javascript-a33743655474)
@@ -131,138 +135,14 @@ Hi. I went back to work on the Hero section of the home page. I am obsessed with
 
 Hi. I'm back. I'm learning that when it comes to recreating the placement of design elements, I should use positioning if margin (sizing) doesn't work.
 
-### 11/05/2022
-Hi. Need to check the nav-button in my css. 
+### 12/02/2022
 
------
+Hi. I need to start again. I've lost my way and I think that I've haven't used Bootstrap to its full potential. I've left off at the logo for the offcanvas menu and the navbar menu.
 
-font-family: 'Lexend Deca', sans-serif;
-font-family: 'Space Mono', monospace;
+### 12/03/2022
 
-/_ Set the width of the sidebar to 250px and the left margin of the page content to 250px _/
-function openNav() {
-document.getElementById("mySidebar").style.width = "270px";
+Hi. I'm glad I started again. I really paid attention to the Figma drawing and measurements. I'm trying to let Bootstrap do the work. I have a better understanding of position absolute than I did before. I will continue with the Directions section tomorrow.
 
-      }
+### 12/08/2022
 
-      /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
-      function closeNav() {
-        document.getElementById("mySidebar").style.width = "0";
-
-      }
-
-
-
-      @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Space+Mono:wght@700&display=swap');
-
-// Variables
-$yellow: hsl(40, 97%, 58%);
-$dk-navy: hsl(216, 17%, 35%);
-$dim-grey: hsl(217, 12%, 62%);
-$lt-grey: hsl(212, 41%, 93%);
-$snow-grey: hsl(214, 37%, 96%);
-$lt-yellow: hsl(39, 100%, 94%);
-$white: hsl(0, 0%, 100%);
-
-$heading-font: 'Space Mono',
-monospace;
-$text-font: 'Lexend Deca',
-sans-serif;
-$weight-bold: 700;
-$weight-regular: 400;
-
-//Theme
-$headings: $dk-navy;
-$main-heading: $white;
-$page-heading: $white;
-$faq-text: $dk-navy;
-$faq-bg: $snow-grey;
-$faq-hover: $lt-yellow;
-$accordion-icon: $yellow;
-$jobs-bg: $snow-grey;
-$body-text: $dim-grey;
-$nav-text: $dim-grey;
-$nav-text-hover: $yellow;
-$app-bg: $lt-grey;
-$button-bg: $yellow;
-$button-text: $white;
-$button-hover-border: $yellow;
-$button-hover-text: $yellow;
-$social-icon-bg: $yellow;
-
-// Base styles
-_,
-_::before,
-\*::after {
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-outline: 1px solid black;
-}
-
-html {
-font: 62.5%;
-}
-
-html,
-body {
-margin: 0;
-padding: 0;
-}
-
-body {
-font-family: $text-font;
-font-size: 1.500em;
-line-height: 2.5rem;
-}
-
-h1,
-h2,
-h3,
-h4 {
-font-family: $heading-font;
-font-weight: $weight-bold;
-}
-
-h1 {
-font-size: 5.6em;
-line-height: 5.6rem;
-letter-spacing: -2.5;
-}
-
-h2 {
-font-size: 4.600em;
-line-height: 4.8rem;
-letter-spacing: -2.14;
-}
-
-h3 {
-font-size: 4.00em;
-line-height: 4.8rem;
-letter-spacing: -1.79;
-}
-
-h4 {
-font-size: 2.400em;
-line-height: 2.8rem;
-letter-spacing: -1.07;
-}
-
-Chevron UP
-<svg xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="#FCB72B" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
-
-<img
-								id="hamburger"
-								class="hamburger nav_handle"
-								src="./assets/icons/hamburger.svg"
-								onClick="openNav()"
-								alt="open menu"
-							/>
-
-              <div class="close">
-    							<img
-    								src="./assets//icons/close.svg"
-    								alt="close menu"
-    								onclick="closeNav()"
-    							/>
-    						</div>
+## Phew! I don't know why it took so long for it to work, but I was finally able to resize the directions icons to 56px w/h for mobile. I even researched in Google to find out what I wa doing wrong.

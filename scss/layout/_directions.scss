@@ -1,77 +1,32 @@
 /* *****************
    Home Page Directions Styles
 ********************/
-
 .directions {
-	height: auto;
-	width: 100%;
-	max-width: 79.6875rem;
+   width: 19.4375rem;
+   height: 49.5rem;
 
-	&__container {
-		.directions__list {
-			.directions__item {
-				height: auto;
+   @include bp-tablet-up {
+      width: 35.8125rem; 
+      height: 29.375rem;
+   }
 
-				.content {
-					height: auto;
+   @include bp-desktop-up {
+      width: 79.6875rem;
+      height: 18.1875rem;
+   }
+	&-container {
+		.directions-list {
+			.directions-item {
+				.image-content img {
+					width: 3.5rem;
+					height: 3.5rem;
 
-					.image-content {
-						.steps-icon {
-							max-width: 6rem;
-							max-height: 6rem;
-
-							@include bp-mobile-down {
-								width: 3.5rem;
-								height: 3.5rem;
-							}
-						}
-					}
-
-					.text-content {
+					@include bp-tablet-up {
+						width: 6rem;
+						height: 6rem;
 					}
 				}
 			}
 		}
-	}
-
-	.directions-patterns {
-		.shape--line {
-			.directions-vertical-line {
-				width: 0px;
-				height: 515px;
-				left: 120.5px;
-				top: 920px;
-				z-index: -1;
-				border: 15px solid #e5ecf4;
-			}
-
-			.directions-horizontal-line {
-				width: 940px;
-				height: 1px;
-				left: -16px;
-				top: 1105px;
-				z-index: -1;
-				border: 15px solid #e5ecf4;
-
-				@media screen and (min-width: 1281px) {
-					width: 1000px;
-					left: 0px;
-				}
-
-				@include bp-xxl-up {
-					width: 1240px;
-				}
-			}
-		}
-	}
-}
-
-.py-5 {
-	padding: 7.5625rem 0 !important;
-	@include bp-small-screen {
-		padding: 6.625rem 0 !important;
-	}
-	@include bp-desktop-up {
-		padding: 9.375rem 0 !important;
 	}
 }

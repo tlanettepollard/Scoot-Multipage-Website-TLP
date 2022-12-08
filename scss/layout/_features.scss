@@ -1,34 +1,4 @@
 /*************************************
 Home, About, and Career section Styles
 *************************************/
-.features {
-	max-width: 100%;
-	.feature {
-		.text-content {
-			max-width: 35.8125rem;
-		}
-	}
-}
 
-.features-patterns {
-	.shape--arrow {
-		@media screen and (max-width: $bp-sm-screen-start) {
-			.arrow-left-down-1 {
-				width: 45.875rem;
-				height: 6.1875rem;
-				left: 35px;
-				top: 2150px;
-			}
-		}
-	}
-
-	.shape--circle {
-		@media screen and (max-width: $bp-sm-screen-start) {
-			.circle-1 {
-				top: 1845px;
-				left: 680px;
-				z-index: -1;
-			}
-		}
-	}
-}
