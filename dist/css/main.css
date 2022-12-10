@@ -258,9 +258,9 @@ h4 {
     height: 31.25rem;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1201px) {
   .directions {
-    height: 34.375rem;
+    height: 18.75rem;
   }
 }
 
