@@ -61,7 +61,11 @@
 		}
 
 		@include bp-xxl-up {
-			left: 10rem;
+			left: 10.9375rem;
+		}
+
+		@include bp-xxxl-up {
+			left: 20.625rem;
 		}
 	}
 
@@ -70,16 +74,32 @@
 			position: absolute;
 			width: 25.3125rem;
 			height: 6.25rem;
-			left: 16.25rem;
+			left: 11.875rem;
 			top: 25.0625rem;
+		}
+
+		@include bp-xxl-up {
+			left: 17.5rem;
+		}
+
+		@include bp-xxxl-up {
+			left: 26.875rem;
 		}
 	}
 
 	.home-button {
 		@include bp-xl-up {
 			position: absolute;
-			left: 16.25rem;
+			left: 11.875rem;
 			top: 33.8125rem;
+		}
+
+		@include bp-xxl-up {
+			left: 17.5rem;
+		}
+
+		@include bp-xxxl-up {
+			left: 26.875rem;
 		}
 	}
 }

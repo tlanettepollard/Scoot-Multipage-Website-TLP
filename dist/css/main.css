@@ -266,7 +266,12 @@ h4 {
 @media screen and (min-width: 1201px) {
   .directions-container .content {
     position: absolute;
-    left: 6.25rem;
+    left: 5rem;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .directions-container .content {
+    left: 0;
   }
 }
 @media screen and (min-width: 768px) {
@@ -556,7 +561,12 @@ nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
 }
 @media screen and (min-width: 1440px) {
   .hero-home .home-heading {
-    left: 10rem;
+    left: 10.9375rem;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .hero-home .home-heading {
+    left: 20.625rem;
   }
 }
 @media screen and (min-width: 1201px) {
@@ -564,15 +574,35 @@ nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
     position: absolute;
     width: 25.3125rem;
     height: 6.25rem;
-    left: 16.25rem;
+    left: 11.875rem;
     top: 25.0625rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero-home .home-lead {
+    left: 17.5rem;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .hero-home .home-lead {
+    left: 26.875rem;
   }
 }
 @media screen and (min-width: 1201px) {
   .hero-home .home-button {
     position: absolute;
-    left: 16.25rem;
+    left: 11.875rem;
     top: 33.8125rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero-home .home-button {
+    left: 17.5rem;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .hero-home .home-button {
+    left: 26.875rem;
   }
 }
 
