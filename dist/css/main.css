@@ -320,37 +320,37 @@ Home, About, and Career section Styles
     height: 10.625rem;
   }
 }
-.footer-content {
+.footer-container {
   height: 26.875rem;
   width: 100%;
 }
 @media screen and (min-width: 768px) {
-  .footer-content {
+  .footer-container {
     height: 6rem;
   }
 }
-.footer-content .footer-navbar {
+.footer-container .footer-nav {
   width: 100%;
 }
-.footer-content .footer-navbar .logo .navbar-logo {
+.footer-container .footer-nav .logo .navbar-logo {
   background-color: transparent;
   border: none;
   width: 7.5rem;
   height: 2.5rem;
 }
-.footer-content .footer-navbar .nav .nav-item a {
+.footer-container .footer-nav .nav .nav-item a {
   color: hsl(0deg, 0%, 100%);
 }
 @media screen and (min-width: 1201px) {
-  .footer-content .footer-navbar .nav .nav-item a {
+  .footer-container .footer-nav .nav .nav-item a {
     font-size: 1.5rem;
   }
 }
-.footer-content .social-navbar {
+.footer-container .social-nav {
   width: 100%;
 }
 @media screen and (min-width: 768px) {
-  .footer-content .social-navbar {
+  .footer-container .social-nav {
     width: 50%;
   }
 }
