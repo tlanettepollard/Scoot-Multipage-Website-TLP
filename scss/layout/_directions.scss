@@ -2,19 +2,18 @@
    Home Page Directions Styles
 ********************/
 .directions {
-   width: 19.4375rem;
-   height: 49.5rem;
+	width: 19.4375rem;
+	height: 49.5rem;
 
-   @include bp-tablet-up {
-      width: 35.8125rem; 
-      height: 29.375rem;
-   }
+	@include bp-tablet-up {
+		width: 35.8125rem;
+		height: 29.375rem;
+	}
 
-   @include bp-desktop-up {
-      width: 56.25rem;
-   }
+	@include bp-desktop-up {
+		width: 56.25rem;
+	}
 
-   
 	&-container {
 		.directions-list {
 			.directions-item {
@@ -25,6 +24,14 @@
 					@include bp-tablet-up {
 						width: 6rem;
 						height: 6rem;
+					}
+				}
+
+				.text-content {
+					.directions-heading {
+					}
+
+					.directions-text {
 					}
 				}
 			}
