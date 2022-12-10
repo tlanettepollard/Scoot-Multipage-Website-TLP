@@ -250,30 +250,20 @@ h4 {
    Home Page Directions Styles
 ********************/
 .directions {
-  width: 19.4375rem;
-  height: 49.5rem;
+  width: 100%;
+  height: 50rem;
 }
 @media screen and (min-width: 768px) {
   .directions {
-    width: 35.8125rem;
-    height: 29.375rem;
+    height: 31.25rem;
   }
 }
 @media screen and (min-width: 1024px) {
   .directions {
-    width: 56.25rem;
+    height: 34.375rem;
   }
 }
-.directions-container .directions-list .directions-item .image-content img {
-  width: 3.5rem;
-  height: 3.5rem;
-}
-@media screen and (min-width: 768px) {
-  .directions-container .directions-list .directions-item .image-content img {
-    width: 6rem;
-    height: 6rem;
-  }
-}
+
 /*************************************
 Home, About, and Career section Styles
 *************************************/
