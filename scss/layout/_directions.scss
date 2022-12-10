@@ -15,7 +15,7 @@
 	}
 
 	&-container {
-		.content {
+		.directions-content {
 			@include bp-xl-up {
 				position: absolute;
 				left: 5rem;
@@ -23,7 +23,7 @@
 
 			@include bp-xxxl-up {
 				left: 0;
-		}
+			}
 			.directions-item {
 				.image-content {
 				}

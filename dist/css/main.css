@@ -264,25 +264,25 @@ h4 {
   }
 }
 @media screen and (min-width: 1201px) {
-  .directions-container .content {
+  .directions-container .directions-content {
     position: absolute;
     left: 5rem;
   }
 }
 @media screen and (min-width: 1920px) {
-  .directions-container .content {
+  .directions-container .directions-content {
     left: 0;
   }
 }
 @media screen and (min-width: 768px) {
-  .directions-container .content .directions-item .text-content .directions-heading,
-.directions-container .content .directions-item .text-content .directions-text {
+  .directions-container .directions-content .directions-item .text-content .directions-heading,
+.directions-container .directions-content .directions-item .text-content .directions-text {
     width: 19.4375rem;
   }
 }
 @media screen and (min-width: 1024px) {
-  .directions-container .content .directions-item .text-content .directions-heading,
-.directions-container .content .directions-item .text-content .directions-text {
+  .directions-container .directions-content .directions-item .text-content .directions-heading,
+.directions-container .directions-content .directions-item .text-content .directions-text {
     width: 21.875rem;
   }
 }
@@ -290,6 +290,21 @@ h4 {
 /*************************************
 Home, About, and Career section Styles
 *************************************/
+.features {
+  width: 100%;
+  height: 154.5rem;
+}
+@media screen and (min-width: 768px) {
+  .features {
+    height: 176.1875rem;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .features {
+    height: 115.625rem;
+  }
+}
+
 .footer {
   width: 100%;
   height: 34.375rem;
