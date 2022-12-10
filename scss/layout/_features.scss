@@ -13,4 +13,37 @@ Home, About, and Career section Styles
 	@include bp-xl-up {
 		height: 115.625rem;
 	}
+
+    .feature {
+        @include bp-tablet-up {
+            width: 35.8125rem;
+        }
+
+        @include bp-desktop-up {
+            width: 69.375rem;
+        }
+        .feature-image img {
+            width: 19.4375rem;
+
+            @include bp-tablet-up {
+                width: 27.8125rem;
+            }
+        }
+
+        .feature-copy {
+            @include bp-tablet-up {
+                width: 35.8125rem;
+            }
+
+            .feature-heading {
+                @include bp-tablet-up {
+                    
+                }
+            }
+
+            .feature-text {
+                
+            }
+        }
+    }
 }
