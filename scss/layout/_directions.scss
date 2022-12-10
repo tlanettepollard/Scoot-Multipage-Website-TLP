@@ -13,5 +13,22 @@
 	@include bp-xl-up {
 		height: 18.75rem;
 	}
-	
+
+	&-container {
+		.content {
+			.directions-item {
+				.image-content {
+				}
+
+				.text-content {
+					.directions-heading,
+					.directions-text {
+						@include bp-tablet-up {
+							width: 19.4375rem;
+						}
+					}
+				}
+			}
+		}
+	}
 }
