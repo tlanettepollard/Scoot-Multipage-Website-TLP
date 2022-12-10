@@ -16,6 +16,10 @@
 
 	&-container {
 		.content {
+			@include bp-xl-up {
+				position: absolute;
+				left: 6.25rem;
+			}
 			.directions-item {
 				.image-content {
 				}
@@ -25,6 +29,10 @@
 					.directions-text {
 						@include bp-tablet-up {
 							width: 19.4375rem;
+						}
+
+						@include bp-desktop-up {
+							width: 21.875rem;
 						}
 					}
 				}

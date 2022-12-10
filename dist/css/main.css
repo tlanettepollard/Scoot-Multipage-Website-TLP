@@ -263,10 +263,22 @@ h4 {
     height: 18.75rem;
   }
 }
+@media screen and (min-width: 1201px) {
+  .directions-container .content {
+    position: absolute;
+    left: 6.25rem;
+  }
+}
 @media screen and (min-width: 768px) {
   .directions-container .content .directions-item .text-content .directions-heading,
 .directions-container .content .directions-item .text-content .directions-text {
     width: 19.4375rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .directions-container .content .directions-item .text-content .directions-heading,
+.directions-container .content .directions-item .text-content .directions-text {
+    width: 21.875rem;
   }
 }
 
@@ -538,8 +550,13 @@ nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
   .hero-home .home-heading {
     width: 31.25rem;
     position: absolute;
-    left: 10.3125rem;
+    left: 5.3125rem;
     top: 15.5625rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero-home .home-heading {
+    left: 10rem;
   }
 }
 @media screen and (min-width: 1201px) {
