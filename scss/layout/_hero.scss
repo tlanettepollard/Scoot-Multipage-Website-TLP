@@ -56,8 +56,12 @@
 		@include bp-xl-up {
 			width: 31.25rem;
 			position: absolute;
-			left: 10.3125rem;
+			left: 5.3125rem;
 			top: 15.5625rem;
+		}
+
+		@include bp-xxl-up {
+			left: 10rem;
 		}
 	}
 
