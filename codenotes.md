@@ -145,4 +145,8 @@ Hi. I'm glad I started again. I really paid attention to the Figma drawing and m
 
 ### 12/08/2022
 
-## Phew! I don't know why it took so long for it to work, but I was finally able to resize the directions icons to 56px w/h for mobile. I even researched in Google to find out what I wa doing wrong.
+Phew! I don't know why it took so long for it to work, but I was finally able to resize the directions icons to 56px w/h for mobile. I even researched in Google to find out what I wa doing wrong.
+
+### 12/10/2022
+
+Hi, I'm back. I keep overthinking the directions section for some reason. I just need to go with my initial view of how it should be based on the Figma drawings. 

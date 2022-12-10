@@ -1,6 +1,7 @@
 /* *****************
    Home Page Directions Styles
 ********************/
+
 .directions {
 	width: 100%;
 	height: 50rem;
@@ -9,7 +10,8 @@
 		height: 31.25rem;
 	}
 
-	@include bp-desktop-up {
-		height: 34.375rem;
+	@include bp-xl-up {
+		height: 18.75rem;
 	}
+	
 }
