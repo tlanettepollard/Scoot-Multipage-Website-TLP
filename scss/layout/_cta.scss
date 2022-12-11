@@ -2,6 +2,9 @@
 	width: 100%;
 	height: 20rem;
 	background-color: $signup-bg;
+    background-image: url('../../assets/patterns/semi-circles.svg');
+    background-repeat: no-repeat;
+	background-position: bottom right;
 
 	@include bp-tablet-up {
 		height: 18.75rem;
@@ -29,5 +32,16 @@
 				width: 28.5625rem;
 			}
 		}
+
+		.appstore-icons {
+			.store-icon img {
+				@include bp-sm-mobile {
+					width: 95%;
+				}
+			}
+		}
 	}
+
+    
+    
 }

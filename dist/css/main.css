@@ -250,6 +250,9 @@ h4 {
   width: 100%;
   height: 20rem;
   background-color: hsl(217deg, 18%, 35%);
+  background-image: url("../../assets/patterns/semi-circles.svg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 @media screen and (min-width: 768px) {
   .cta {
@@ -281,6 +284,11 @@ h4 {
 @media screen and (min-width: 1024px) {
   .cta-container .cta-heading {
     width: 28.5625rem;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .cta-container .appstore-icons .store-icon img {
+    width: 95%;
   }
 }
 
