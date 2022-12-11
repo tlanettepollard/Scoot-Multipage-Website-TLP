@@ -246,6 +246,44 @@ h4 {
   height: 100%;
 }
 
+.cta {
+  width: 100%;
+  height: 20rem;
+  background-color: hsl(217deg, 18%, 35%);
+}
+@media screen and (min-width: 768px) {
+  .cta {
+    height: 18.75rem;
+  }
+}
+.cta-container {
+  width: 100%;
+  height: 20rem;
+}
+@media screen and (min-width: 768px) {
+  .cta-container {
+    height: 18.75rem;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .cta-container {
+    width: 69.375rem;
+  }
+}
+.cta-container .cta-heading {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .cta-container .cta-heading {
+    width: 28.5625rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cta-container .cta-heading {
+    width: 28.5625rem;
+  }
+}
+
 /* *****************
    Home Page Directions Styles
 ********************/
@@ -266,7 +304,7 @@ h4 {
 @media screen and (min-width: 1201px) {
   .directions-container .directions-content {
     position: absolute;
-    left: 5rem;
+    left: 6rem;
   }
 }
 @media screen and (min-width: 1920px) {
@@ -312,6 +350,16 @@ Home, About, and Career section Styles
 @media screen and (min-width: 1024px) {
   .features .feature {
     width: 69.375rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .features .feature {
+    width: 71.875rem;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .features .feature {
+    width: 81.25rem;
   }
 }
 .features .feature .feature-image img {
