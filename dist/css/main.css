@@ -266,7 +266,7 @@ h4 {
 @media screen and (min-width: 1201px) {
   .directions-container .directions-content {
     position: absolute;
-    left: 5rem;
+    left: 6rem;
   }
 }
 @media screen and (min-width: 1920px) {
@@ -312,6 +312,16 @@ Home, About, and Career section Styles
 @media screen and (min-width: 1024px) {
   .features .feature {
     width: 69.375rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .features .feature {
+    width: 71.875rem;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .features .feature {
+    width: 81.25rem;
   }
 }
 .features .feature .feature-image img {
