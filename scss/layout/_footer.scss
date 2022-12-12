@@ -3,42 +3,34 @@
 	height: 34.375rem;
 	background-color: $footer-bg;
 
-	@include bp-small-screen {
-		height: 11.25rem;
-	}
-
-	@include bp-desktop-up {
-		height: 10.625rem;
+	@include bp-tablet-up {
+		height: 6rem;
 	}
 
 	&-container {
-		height: 26.875rem;
+		height: 27.5rem;
 		width: 100%;
 
 		@include bp-tablet-up {
 			height: 6rem;
 		}
-		.footer-nav {
-			width: 100%;
 
-			.logo {
-				@include bp-xl-up {
-					
-				}
-				.navbar-logo {
-					background-color: transparent;
-					border: none;
-					width: 7.5rem;
-					height: 2.5rem;
-				}
+		.footer-logo {
+			width: 7.5rem;
+
+			.navbar-logo {
+				background-color: transparent;
+				border: none;
+				width: 7.5rem;
+				height: 2.5rem;
 			}
+		}
 
-			.nav {
-				@include bp-xl-up {
-					
-				}
-				.nav-item a {
-					color: $white;
+		.footer__nav {
+			.footer__nav-item {
+				.footer__nav-link {
+					color: $footer-nav-links;
+
 					@include bp-xl-up {
 						font-size: 1.5rem;
 					}
@@ -47,10 +39,10 @@
 		}
 
 		.social-nav {
-			width: 100%;
+			width: 7.5rem;
 
-			@include bp-tablet-up {
-				width: 50%;
+			.social-link {
+				width: 100%;
 			}
 		}
 	}
