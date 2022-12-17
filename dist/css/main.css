@@ -411,12 +411,27 @@ Home, About, and Career section Styles
   width: 7.5rem;
   height: 2.5rem;
 }
+@media screen and (min-width: 768px) {
+  .footer-container .footer__nav {
+    width: 50%;
+  }
+}
 .footer-container .footer__nav .footer__nav-item .footer__nav-link {
   color: hsl(217deg, 12%, 62%);
 }
 @media screen and (min-width: 1201px) {
   .footer-container .footer__nav .footer__nav-item .footer__nav-link {
     font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .footer-container .footer__nav {
+    margin-left: -6.25rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .footer-container .footer__nav {
+    margin-left: -12.5rem;
   }
 }
 .footer-container .social-nav {
