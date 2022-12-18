@@ -336,53 +336,55 @@ h4 {
 /*************************************
 Home, About, and Career section Styles
 *************************************/
-.features {
+/* Home Style */
+.features-home {
   width: 100%;
   height: 154.5rem;
 }
 @media screen and (min-width: 768px) {
-  .features {
+  .features-home {
     height: 176.1875rem;
   }
 }
 @media screen and (min-width: 1201px) {
-  .features {
+  .features-home {
     height: 115.625rem;
   }
 }
 @media screen and (min-width: 768px) {
-  .features .feature {
+  .features-home .feature-home {
     width: 35.8125rem;
   }
 }
 @media screen and (min-width: 1024px) {
-  .features .feature {
+  .features-home .feature-home {
     width: 69.375rem;
   }
 }
 @media screen and (min-width: 1440px) {
-  .features .feature {
+  .features-home .feature-home {
     width: 71.875rem;
   }
 }
 @media screen and (min-width: 1920px) {
-  .features .feature {
+  .features-home .feature-home {
     width: 81.25rem;
   }
 }
-.features .feature .feature-image img {
+.features-home .feature-home .feature-home--image img {
   width: 19.4375rem;
 }
 @media screen and (min-width: 768px) {
-  .features .feature .feature-image img {
+  .features-home .feature-home .feature-home--image img {
     width: 27.8125rem;
   }
 }
 @media screen and (min-width: 768px) {
-  .features .feature .feature-copy {
+  .features-home .feature-home .feature-home--copy {
     width: 35.8125rem;
   }
 }
+/* About Style */
 .footer {
   width: 100%;
   height: 34.375rem;
