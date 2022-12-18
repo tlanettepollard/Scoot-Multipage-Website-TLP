@@ -246,41 +246,86 @@
 				<!-- FAQS Section -->
 				<section class="faqs container-fluid">
 					<h2 class="faqs__title heading-2 container">FAQS</h2>
-					<article class="faqs-container container">
-						<h3 class="faq-title heading-3">How it works</h3>
-						<div class="accordion" id="accordionOne">
-							<div clas="accordion-item">
-								<h4 class="accordion-header heading-4" id="headingOne">
-									<button
-										class="accordion-button"
-										type="button"
-										data-bs-toggle="collapse"
-										data-bs-target="#collapseOne"
-										aria-expanded="true"
-										aria-controls="collapseOne"
+					<div class="faqs-container container">
+						<article class="faq">
+							<h3 class="faq-title heading-3">How it works</h3>
+							<div class="accordion" id="accordionOne">
+								<div class="accordion-item">
+									<h4
+										class="accordion-header faq-question heading-4"
+										id="headingOne"
 									>
-										How do I download the app?
-									</button>
-								</h4>
-								<div
-									class="accordion-collapse collapse"
-									aria-labelledby="headingOne"
-									data-bs-parent="#accordionOne"
-								>
-									<div class="accordion-body">
-										<p class="paragraph">
-											To download the Scoot app, you can search “Scoot” in both
-											the App and Google Play stores. An even simpler way to do
-											it would be to click the relevant link at the bottom of
-											this page and you’ll be re-directed to the correct page.
-										</p>
+										<button
+											class="accordion-button"
+											type="button"
+											data-bs-toggle="collapse"
+											data-bs-target="#collapseOne"
+											aria-expanded="true"
+											aria-controls="collapseOne"
+										>
+											How do I download the app?
+										</button>
+									</h4>
+									<div
+										class="accordion-collapse collapse show"
+										id="collapseOne"
+										aria-labelledby="headingOne"
+										data-bs-parent="#accordionOne"
+									>
+										<div class="accordion-body">
+											<p class="faq-answer paragraph">
+												To download the Scoot app, you can search “Scoot” in
+												both the App and Google Play stores. An even simpler way
+												to do it would be to click the relevant link at the
+												bottom of this page and you’ll be re-directed to the
+												correct page.
+											</p>
+										</div>
 									</div>
 								</div>
+								<!-- question 1 -->
+								<div class="accordion-item">
+									<h4
+										class="accordion-header faq-question heading-4"
+										id="headingTwo"
+									>
+										<button
+											class="accordion-button collapsed"
+											type="button"
+											data-bs-toggle="collapse"
+											data-bs-target="#collapseTwo"
+											aria-expanded="false"
+											aria-controls="collapseTwo"
+										>
+											Can I find a nearby Scoots?
+										</button>
+									</h4>
+									<div
+										class="accordion-collapse collapse show"
+										id="collapseTwo"
+										aria-labelledby="headingTwo"
+										data-bs-parent="#accordionTwo"
+									>
+										<div class="accordion-body">
+											<p class="faq-answer paragraph">
+												Definitely! Simply open up the app and allow us to find
+												your location while using it. We'll show you all of the
+												closest Scoots and some extra useful information.
+											</p>
+										</div>
+									</div>
+								</div>
+								<!-- question 2 -->
 							</div>
-						</div>
-					</article>
+						</article>
+						<!-- faq -->
+						<article class="faq">
+							<h3 class="faq-title heading-3">Safe driving</h3>
+						</article>
+					</div>
 				</section>
 				<!-- End FAQS Section -->
+
 				<!-- Call-to-Action Section -->
 				<section class="cta container-fluid position-relative">
 					<div
