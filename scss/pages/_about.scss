@@ -2,12 +2,15 @@
 
 /* Faqs Section */
 
-/*.faqs {
+.faqs {
 	width: 100%;
+	height: 86.375rem;
 
-	&__container {
-		width: 100%;
-		margin: 3.75rem auto;
+	@include bp-tablet-up {
+		height: 72.875rem;
+	}
+
+	@include bp-xl-up {
+		height: 69.375rem;
 	}
 }
-*/
