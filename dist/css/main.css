@@ -729,20 +729,17 @@ nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
 /* Faqs Section */
 .faqs {
   width: 100%;
-  height: 87.5rem;
+  height: 100%;
+  margin-top: 14.5rem;
+  margin-bottom: 12rem;
 }
 @media screen and (min-width: 768px) {
   .faqs {
-    height: 75rem;
-  }
-}
-@media screen and (min-width: 1201px) {
-  .faqs {
-    height: 69.375rem;
+    margin-bottom: 16rem;
   }
 }
 .faqs .faqs-container {
-  height: 86.375rem;
+  height: 100%;
 }
 .faqs .faqs-container .faq .faq-title {
   width: 100%;
