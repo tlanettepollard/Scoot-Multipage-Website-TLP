@@ -2,10 +2,10 @@
 
 .faqs {
 	width: 100%;
-	height: 86.375rem;
+	height: 87.5rem;
 
 	@include bp-tablet-up {
-		height: 72.875rem;
+		height: 75rem;
 	}
 
 	@include bp-xl-up {
@@ -13,6 +13,7 @@
 	}
 
 	.faqs-container {
+		height: 86.375rem;
 		.faq {
 			.faq-title {
 				width: 100%;
@@ -21,17 +22,32 @@
 					width: 21.875rem;
 					height: 3rem;
 				}
-				
 			}
 			.accordion {
 				width: 100%;
 				@include bp-xl-up {
 					width: 80%;
 				}
-				
+
 				&-item {
-					.faq-question{
-						background-color: $faq-bg !important;
+					.accordion-button.collapsed {
+						background-color: $faq-bg;
+					}
+
+					.accordion-button {
+						background-color: $faq-bg;
+					}
+
+					.accordion-button::after {
+						background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FCB72B'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
+					}
+
+					.accordion-button:hover {
+						background-color: $accordion-button-hover;
+					}
+
+					.accordion-body {
+						background-color: $faq-bg;
 					}
 				}
 			}
