@@ -741,6 +741,26 @@ nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
     height: 69.375rem;
   }
 }
+.faqs .faqs-container .faq .faq-title {
+  width: 100%;
+}
+@media screen and (min-width: 1201px) {
+  .faqs .faqs-container .faq .faq-title {
+    width: 21.875rem;
+    height: 3rem;
+  }
+}
+.faqs .faqs-container .faq .accordion {
+  width: 100%;
+}
+@media screen and (min-width: 1201px) {
+  .faqs .faqs-container .faq .accordion {
+    width: 80%;
+  }
+}
+.faqs .faqs-container .faq .accordion-item .faq-question {
+  background-color: hsl(214deg, 37%, 96%) !important;
+}
 
 .wrapper .main .directions {
   width: 19.4375rem;

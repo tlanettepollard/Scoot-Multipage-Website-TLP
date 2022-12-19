@@ -11,4 +11,30 @@
 	@include bp-xl-up {
 		height: 69.375rem;
 	}
+
+	.faqs-container {
+		.faq {
+			.faq-title {
+				width: 100%;
+
+				@include bp-xl-up {
+					width: 21.875rem;
+					height: 3rem;
+				}
+				
+			}
+			.accordion {
+				width: 100%;
+				@include bp-xl-up {
+					width: 80%;
+				}
+				
+				&-item {
+					.faq-question{
+						background-color: $faq-bg !important;
+					}
+				}
+			}
+		}
+	}
 }
