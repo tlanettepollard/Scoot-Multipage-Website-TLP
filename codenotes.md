@@ -150,3 +150,11 @@ Phew! I don't know why it took so long for it to work, but I was finally able to
 ### 12/10/2022
 
 Hi, I'm back. I keep overthinking the directions section for some reason. I just need to go with my initial view of how it should be based on the Figma drawings. 
+
+
+
+
+
+-space-s: 12rem;
+  --space-m: 16rem;
+  --space-l: 20rem;
