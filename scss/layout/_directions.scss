@@ -5,13 +5,19 @@
 .directions {
 	width: 100%;
 	height: 50rem;
+	margin-top: 8.25rem;
+	margin-bottom: 6.625rem;
 
 	@include bp-tablet-up {
 		height: 31.25rem;
+		margin-top: 6.9375rem;
+		margin-bottom: 7.8125rem;
 	}
 
 	@include bp-xl-up {
 		height: 18.75rem;
+		margin-top: 9.75rem;
+		margin-bottom: 12.1875rem;
 	}
 
 	&-container {
