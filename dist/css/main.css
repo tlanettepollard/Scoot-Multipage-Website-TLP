@@ -298,15 +298,21 @@ h4 {
 .directions {
   width: 100%;
   height: 50rem;
+  margin-top: 8.25rem;
+  margin-bottom: 6.625rem;
 }
 @media screen and (min-width: 768px) {
   .directions {
     height: 31.25rem;
+    margin-top: 6.9375rem;
+    margin-bottom: 7.8125rem;
   }
 }
 @media screen and (min-width: 1201px) {
   .directions {
     height: 18.75rem;
+    margin-top: 9.75rem;
+    margin-bottom: 12.1875rem;
   }
 }
 @media screen and (min-width: 1201px) {
@@ -334,21 +340,24 @@ h4 {
 }
 
 /*************************************
-Home, About, and Career section Styles
+Home, About, and Careers section Styles
 *************************************/
 /* Home Style */
 .features-home {
   width: 100%;
   height: 154.5rem;
+  margin-bottom: 6.25rem;
 }
 @media screen and (min-width: 768px) {
   .features-home {
     height: 176.1875rem;
+    margin-bottom: 6.5rem;
   }
 }
 @media screen and (min-width: 1201px) {
   .features-home {
     height: 115.625rem;
+    margin-bottom: 12.375rem;
   }
 }
 @media screen and (min-width: 768px) {
@@ -385,6 +394,41 @@ Home, About, and Career section Styles
   }
 }
 /* About Style */
+.features-about {
+  margin-top: 4.625rem;
+  margin-bottom: 5.9375rem;
+}
+@media screen and (min-width: 768px) {
+  .features-about {
+    margin-top: 9rem;
+    margin-bottom: 7.5rem;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .features-about {
+    margin-top: 7.875rem;
+    margin-bottom: 6.25rem;
+  }
+}
+
+/* Careers Style */
+.features-careers {
+  margin-top: 4.625rem;
+  margin-bottom: 5.9375rem;
+}
+@media screen and (min-width: 768px) {
+  .features-careers {
+    margin-top: 7.5rem;
+    margin-bottom: 6.25rem;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .features-careers {
+    margin-top: 7.875rem;
+    margin-bottom: 6.25rem;
+  }
+}
+
 .footer {
   width: 100%;
   height: 34.375rem;
