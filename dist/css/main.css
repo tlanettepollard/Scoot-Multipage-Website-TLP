@@ -393,6 +393,23 @@ Home, About, and Careers section Styles
     width: 35.8125rem;
   }
 }
+.features-home .feature-home .feature-home--copy .feature-home--heading {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .features-home .feature-home .feature-home--copy .feature-home--heading {
+    width: 85%;
+  }
+}
+.features-home .feature-home .feature-home--copy .feature-home--text {
+  width: 100%;
+}
+@media screen and (min-width: 1201px) {
+  .features-home .feature-home .feature-home--copy .feature-home--text {
+    width: 28.125rem;
+  }
+}
+
 /* About Style */
 .features-about {
   margin-top: 4.625rem;
@@ -409,9 +426,7 @@ Home, About, and Careers section Styles
     margin-top: 7.875rem;
     margin-bottom: 6.25rem;
   }
-}
-
-/* Careers Style */
+} /* Careers Style */
 .features-careers {
   margin-top: 4.625rem;
   margin-bottom: 5.9375rem;
