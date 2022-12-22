@@ -34,6 +34,7 @@ Home, About, and Careers section Styles
 		@include bp-xxxl-up {
 			width: 81.25rem;
 		}
+
 		.feature-home--image img {
 			width: 19.4375rem;
 
@@ -48,11 +49,18 @@ Home, About, and Careers section Styles
 			}
 
 			.feature-home--heading {
+				width: 100%;
 				@include bp-tablet-up {
+					width: 85%;
 				}
 			}
 
 			.feature-home--text {
+				width: 100%;
+
+				@include bp-xl-up {
+					width: 28.125rem;
+				}
 			}
 		}
 	}
