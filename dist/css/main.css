@@ -412,21 +412,26 @@ Home, About, and Careers section Styles
 
 /* About Style */
 .features-about {
+  height: 77.6875rem;
   margin-top: 4.625rem;
   margin-bottom: 5.9375rem;
 }
 @media screen and (min-width: 768px) {
   .features-about {
+    height: 92.625rem;
     margin-top: 9rem;
     margin-bottom: 7.5rem;
   }
 }
 @media screen and (min-width: 1201px) {
   .features-about {
+    height: 62.1875rem;
     margin-top: 7.875rem;
     margin-bottom: 6.25rem;
   }
-} /* Careers Style */
+}
+
+/* Careers Style */
 .features-careers {
   margin-top: 4.625rem;
   margin-bottom: 5.9375rem;
