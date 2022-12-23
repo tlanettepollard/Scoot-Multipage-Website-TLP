@@ -35,7 +35,7 @@ Home, About, and Careers section Styles
 			width: 81.25rem;
 		}
 
-		.feature-home--image img {
+		&--image img {
 			width: 19.4375rem;
 
 			@include bp-tablet-up {
@@ -43,7 +43,7 @@ Home, About, and Careers section Styles
 			}
 		}
 
-		.feature-home--copy {
+		&--copy {
 			@include bp-tablet-up {
 				width: 35.8125rem;
 			}
@@ -68,20 +68,60 @@ Home, About, and Careers section Styles
 
 /* About Style */
 .features-about {
-	height: 77.6875rem;
+	width: 100%;
+	height: 93.75rem;
 	margin-top: 4.625rem;
 	margin-bottom: 5.9375rem;
 
 	@include bp-tablet-up {
-		height: 92.625rem;
+		height: 106.25rem;
 		margin-top: 9rem;
 		margin-bottom: 7.5rem;
 	}
 
 	@include bp-xl-up {
-		height: 62.1875rem;
+		height: 81.25rem;
 		margin-top: 7.875rem;
 		margin-bottom: 6.25rem;
+	}
+
+	.feature-about {
+		@include bp-tablet-up {
+			width: 35.8125rem;
+		}
+
+		@include bp-desktop-up {
+			width: 69.375rem;
+		}
+
+		@include bp-xxl-up {
+			width: 71.875rem;
+		}
+
+		@include bp-xxxl-up {
+			width: 81.25rem;
+		}
+
+		&--image img {
+			width: 19.4375rem;
+
+			@include bp-tablet-up {
+				width: 27.8125rem;
+			}
+		}
+
+		&--copy {
+			@include bp-tablet-up {
+				width: 35.8125rem;
+			}
+
+			.feature-about--heading {
+				width: 100%;
+				@include bp-tablet-up {
+					width: 85%;
+				}
+			}
+		}
 	}
 }
 

@@ -380,54 +380,96 @@ Home, About, and Careers section Styles
     width: 81.25rem;
   }
 }
-.features-home .feature-home .feature-home--image img {
+.features-home .feature-home--image img {
   width: 19.4375rem;
 }
 @media screen and (min-width: 768px) {
-  .features-home .feature-home .feature-home--image img {
+  .features-home .feature-home--image img {
     width: 27.8125rem;
   }
 }
 @media screen and (min-width: 768px) {
-  .features-home .feature-home .feature-home--copy {
+  .features-home .feature-home--copy {
     width: 35.8125rem;
   }
 }
-.features-home .feature-home .feature-home--copy .feature-home--heading {
+.features-home .feature-home--copy .feature-home--heading {
   width: 100%;
 }
 @media screen and (min-width: 768px) {
-  .features-home .feature-home .feature-home--copy .feature-home--heading {
+  .features-home .feature-home--copy .feature-home--heading {
     width: 85%;
   }
 }
-.features-home .feature-home .feature-home--copy .feature-home--text {
+.features-home .feature-home--copy .feature-home--text {
   width: 100%;
 }
 @media screen and (min-width: 1201px) {
-  .features-home .feature-home .feature-home--copy .feature-home--text {
+  .features-home .feature-home--copy .feature-home--text {
     width: 28.125rem;
   }
 }
 
 /* About Style */
 .features-about {
-  height: 77.6875rem;
+  width: 100%;
+  height: 93.75rem;
   margin-top: 4.625rem;
   margin-bottom: 5.9375rem;
 }
 @media screen and (min-width: 768px) {
   .features-about {
-    height: 92.625rem;
+    height: 106.25rem;
     margin-top: 9rem;
     margin-bottom: 7.5rem;
   }
 }
 @media screen and (min-width: 1201px) {
   .features-about {
-    height: 62.1875rem;
+    height: 81.25rem;
     margin-top: 7.875rem;
     margin-bottom: 6.25rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .features-about .feature-about {
+    width: 35.8125rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .features-about .feature-about {
+    width: 69.375rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .features-about .feature-about {
+    width: 71.875rem;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .features-about .feature-about {
+    width: 81.25rem;
+  }
+}
+.features-about .feature-about--image img {
+  width: 19.4375rem;
+}
+@media screen and (min-width: 768px) {
+  .features-about .feature-about--image img {
+    width: 27.8125rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .features-about .feature-about--copy {
+    width: 35.8125rem;
+  }
+}
+.features-about .feature-about--copy .feature-about--heading {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .features-about .feature-about--copy .feature-about--heading {
+    width: 85%;
   }
 }
 
