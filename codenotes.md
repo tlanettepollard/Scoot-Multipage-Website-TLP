@@ -153,7 +153,15 @@ Hi, I'm back. I keep overthinking the directions section for some reason. I just
 
 ### 12/20/2022
 
-Hi. I've been working on this project, but I haven't written in awhile. I've been trying to use the Bootstrap built in spacing with margins. I've decided to use my own instead between the page sections.
+Hi. I've been working on this project, but I haven't written in awhile. I've been trying to use the Bootstrap built in spacing with margins. I've decided to use my own instead between the page sections. I also found a way to recolor my accordion arrows on StackOverflow.
+
+Resources:
+
+- [Change arrow Color in Bootstrap](https://stackoverflow.com/questions/66335238/changing-the-color-arrow-in-bootstrap)
+
+### 12/23/2022
+
+Hi. Back again. Starting Christmas break which means I'll have more time to code.
 
 -space-s: 12rem;
 --space-m: 16rem;

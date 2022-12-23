@@ -68,15 +68,18 @@ Home, About, and Careers section Styles
 
 /* About Style */
 .features-about {
+	height: 77.6875rem;
 	margin-top: 4.625rem;
 	margin-bottom: 5.9375rem;
 
 	@include bp-tablet-up {
+		height: 92.625rem;
 		margin-top: 9rem;
 		margin-bottom: 7.5rem;
 	}
 
 	@include bp-xl-up {
+		height: 62.1875rem;
 		margin-top: 7.875rem;
 		margin-bottom: 6.25rem;
 	}
