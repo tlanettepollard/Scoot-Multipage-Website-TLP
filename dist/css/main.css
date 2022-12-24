@@ -497,10 +497,16 @@ Home, About, and Careers section Styles
 }
 .features-about .feature-about--image img {
   width: 19.4375rem;
+  margin-bottom: 3.5rem;
 }
 @media screen and (min-width: 768px) {
   .features-about .feature-about--image img {
     width: 27.8125rem;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .features-about .feature-about--image img {
+    margin-bottom: 0rem;
   }
 }
 @media screen and (min-width: 768px) {
@@ -510,10 +516,36 @@ Home, About, and Careers section Styles
 }
 .features-about .feature-about--copy .feature-about--heading {
   width: 100%;
+  margin-bottom: 2rem;
 }
 @media screen and (min-width: 768px) {
   .features-about .feature-about--copy .feature-about--heading {
-    width: 85%;
+    margin-bottom: 2.875rem;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .features-about .feature-about--copy .feature-about--heading {
+    margin-bottom: 1.875rem;
+  }
+}
+.features-about .feature-about--copy .feature-about--text {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .features-about .feature-about--copy .feature-about--text {
+    margin-bottom: 2.875rem;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .features-about .feature-about--copy .feature-about--text {
+    width: 28.125rem;
+    margin-bottom: 2.5rem;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .features-about .feature-about--copy .feature-about--text {
+    font-size: 1.125rem;
   }
 }
 
