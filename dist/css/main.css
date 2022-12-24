@@ -320,6 +320,7 @@ h4 {
 }
 @media screen and (min-width: 1920px) {
   .directions {
+    width: 82.8125rem;
     margin-left: 18.75rem;
   }
 }
@@ -334,12 +335,16 @@ h4 {
     padding-right: 2.5rem;
   }
 }
+@media screen and (min-width: 1920px) {
+  .directions .directions-content .directions-item {
+    padding-right: 6.25rem;
+  }
+}
 .directions .directions-content .directions-item .image-content {
   padding-bottom: 2.1875rem;
 }
 @media screen and (min-width: 768px) {
   .directions .directions-content .directions-item .text-content {
-    width: 24.875rem;
     padding-left: 5rem;
   }
 }
@@ -351,6 +356,11 @@ h4 {
 }
 .directions .directions-content .directions-item .text-content .directions-heading {
   padding-bottom: 2.1875rem;
+}
+@media screen and (min-width: 1920px) {
+  .directions .directions-content .directions-item .text-content .directions-text {
+    font-size: 1.125rem;
+  }
 }
 .directions .directions-content .directions-item:nth-of-type(3) {
   padding-bottom: 0;
@@ -398,10 +408,16 @@ Home, About, and Careers section Styles
 }
 .features-home .feature-home--image img {
   width: 19.4375rem;
+  margin-bottom: 3.5rem;
 }
 @media screen and (min-width: 768px) {
   .features-home .feature-home--image img {
     width: 27.8125rem;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .features-home .feature-home--image img {
+    margin-bottom: 0rem;
   }
 }
 @media screen and (min-width: 768px) {
@@ -411,13 +427,36 @@ Home, About, and Careers section Styles
 }
 .features-home .feature-home--copy .feature-home--heading {
   width: 100%;
+  margin-bottom: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .features-home .feature-home--copy .feature-home--heading {
+    margin-bottom: 2.875rem;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .features-home .feature-home--copy .feature-home--heading {
+    margin-bottom: 1.875rem;
+  }
 }
 .features-home .feature-home--copy .feature-home--text {
   width: 100%;
+  margin-bottom: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .features-home .feature-home--copy .feature-home--text {
+    margin-bottom: 2.875rem;
+  }
 }
 @media screen and (min-width: 1201px) {
   .features-home .feature-home--copy .feature-home--text {
     width: 28.125rem;
+    margin-bottom: 2.5rem;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .features-home .feature-home--copy .feature-home--text {
+    font-size: 1.125rem;
   }
 }
 

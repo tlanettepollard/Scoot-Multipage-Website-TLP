@@ -36,9 +36,14 @@ Home, About, and Careers section Styles
 
 		&--image img {
 			width: 19.4375rem;
+			margin-bottom: 3.5rem;
 
 			@include bp-tablet-up {
 				width: 27.8125rem;
+			}
+
+			@include bp-xl-up {
+				margin-bottom: 0rem;
 			}
 		}
 
@@ -49,13 +54,32 @@ Home, About, and Careers section Styles
 
 			.feature-home--heading {
 				width: 100%;
+				margin-bottom: 2rem;
+
+				@include bp-tablet-up {
+					margin-bottom: 2.875rem;
+				}
+
+				@include bp-xl-up {
+					margin-bottom: 1.875rem;
+				}
 			}
 
 			.feature-home--text {
 				width: 100%;
+				margin-bottom: 2rem;
+
+				@include bp-tablet-up {
+					margin-bottom: 2.875rem;
+				}
 
 				@include bp-xl-up {
 					width: 28.125rem;
+					margin-bottom: 2.5rem;
+				}
+
+				@include bp-xxxl-up {
+					font-size: 1.125rem;
 				}
 			}
 		}
@@ -123,4 +147,3 @@ Home, About, and Careers section Styles
 	@include bp-xl-up {
 	}
 }
-
