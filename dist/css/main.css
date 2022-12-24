@@ -313,6 +313,16 @@ h4 {
     margin-top: 10rem;
   }
 }
+@media screen and (min-width: 1440px) {
+  .directions {
+    margin-left: 9.375rem;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .directions {
+    margin-left: 18.75rem;
+  }
+}
 .directions-content {
   min-height: 100%;
 }

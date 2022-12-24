@@ -18,6 +18,14 @@
 		margin-top: 10rem;
 	}
 
+	@include bp-xxl-up{
+		margin-left: 9.375rem;
+	}
+
+	@include bp-xxxl-up {
+		margin-left: 18.75rem;
+	}
+
 	&-content {
 		min-height: 100%;
 	}
