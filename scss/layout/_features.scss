@@ -6,16 +6,13 @@ Home, About, and Careers section Styles
 .features-home {
 	width: 100%;
 	height: 154.5rem;
-	margin-bottom: 7.5rem;
 
 	@include bp-tablet-up {
 		height: 176.1875rem;
-		margin-bottom: 6.5rem;
 	}
 
 	@include bp-xl-up {
 		height: 115.625rem;
-		margin-bottom: 12.375rem;
 	}
 
 	.feature-home {
@@ -70,19 +67,13 @@ Home, About, and Careers section Styles
 .features-about {
 	width: 100%;
 	height: 93.75rem;
-	margin-top: 4.625rem;
-	margin-bottom: 5.9375rem;
 
 	@include bp-tablet-up {
 		height: 106.25rem;
-		margin-top: 9rem;
-		margin-bottom: 7.5rem;
 	}
 
 	@include bp-xl-up {
 		height: 81.25rem;
-		margin-top: 7.875rem;
-		margin-bottom: 6.25rem;
 	}
 
 	.feature-about {
@@ -127,16 +118,9 @@ Home, About, and Careers section Styles
 
 /* Careers Style */
 .features-careers {
-	margin-top: 4.625rem;
-	margin-bottom: 5.9375rem;
-
 	@include bp-tablet-up {
-		margin-top: 7.5rem;
-		margin-bottom: 6.25rem;
 	}
 
 	@include bp-xl-up {
-		margin-top: 7.875rem;
-		margin-bottom: 6.25rem;
 	}
 }

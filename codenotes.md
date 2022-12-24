@@ -161,11 +161,17 @@ Resources:
 
 ### 12/23/2022
 
-Hi. Back again. Starting Christmas break which means I'll have more time to code. Working with the directions section. Need to work with it some more. 
+Hi. Back again. Starting Christmas break which means I'll have more time to code. Working with the directions section. Need to work with it some more.
 
 ### 12/24/2022
 
-Happy Christmas Eve! I'm back. I think I am doing to much instead of letting the Bootstrap work. 
+Happy Christmas Eve! I'm back. I think I am doing to much instead of letting the Bootstrap work. Today I was having an issue with how I was view the distance between the elements on my page versus the actual distance (which gets in the way often). I know their is a measured distance, but if that measurement doesn't match the Figma file image, I obsess over fixing it. That when I searched more information about applying the margin top and bottom to the parent element versus the child element. I was reminded about **collaspsing margins**. Yup. That's why padding is sometimes the better option. Thank God for Stack Overflow. 
+
+Resources:
+
+- [Adjusting margin-top of div inside of a container](https://stackoverflow.com/questions/8529695/adjusting-the-margin-top-of-a-div-inside-of-a-container-div-pushes-both-the-inne)
+
+---
 
 -space-s: 12rem;
 --space-m: 16rem;
