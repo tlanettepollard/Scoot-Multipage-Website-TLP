@@ -297,7 +297,7 @@ h4 {
 ********************/
 .directions {
   width: 100%;
-  height: 56.25rem;
+  height: 62.5rem;
   margin-top: 7.5rem;
 }
 @media screen and (min-width: 768px) {
@@ -323,8 +323,37 @@ h4 {
     margin-left: 18.75rem;
   }
 }
-.directions-content {
+.directions .directions-content {
   min-height: 100%;
+}
+.directions .directions-content .directions-item {
+  padding-bottom: 3rem;
+}
+@media screen and (min-width: 1201px) {
+  .directions .directions-content .directions-item {
+    padding-right: 2.5rem;
+  }
+}
+.directions .directions-content .directions-item .image-content {
+  padding-bottom: 2.1875rem;
+}
+@media screen and (min-width: 768px) {
+  .directions .directions-content .directions-item .text-content {
+    width: 24.875rem;
+    padding-left: 5rem;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .directions .directions-content .directions-item .text-content {
+    width: 21.875rem;
+    padding-left: 0rem;
+  }
+}
+.directions .directions-content .directions-item .text-content .directions-heading {
+  padding-bottom: 2.1875rem;
+}
+.directions .directions-content .directions-item:nth-of-type(3) {
+  padding-bottom: 0;
 }
 
 /*************************************
@@ -334,6 +363,7 @@ Home, About, and Careers section Styles
 .features-home {
   width: 100%;
   height: 154.5rem;
+  margin-top: 7.5rem;
 }
 @media screen and (min-width: 768px) {
   .features-home {
@@ -343,6 +373,7 @@ Home, About, and Careers section Styles
 @media screen and (min-width: 1201px) {
   .features-home {
     height: 115.625rem;
+    margin-top: -6.25rem;
   }
 }
 @media screen and (min-width: 768px) {

@@ -4,7 +4,7 @@
 
 .directions {
 	width: 100%;
-	height: 56.25rem;
+	height: 62.5rem;
 	margin-top: 7.5rem;
 
 	@include bp-tablet-up {
@@ -18,7 +18,7 @@
 		margin-top: 10rem;
 	}
 
-	@include bp-xxl-up{
+	@include bp-xxl-up {
 		margin-left: 9.375rem;
 	}
 
@@ -26,7 +26,38 @@
 		margin-left: 18.75rem;
 	}
 
-	&-content {
+	.directions-content {
 		min-height: 100%;
+
+		.directions-item {
+			padding-bottom: 3rem;
+
+			@include bp-xl-up {
+				padding-right: 2.5rem;
+			}
+
+			.image-content {
+				padding-bottom: 2.1875rem;
+			}
+
+			.text-content {
+				@include bp-tablet-up {
+					width: 24.875rem;
+					padding-left: 5rem;
+				}
+
+				@include bp-xl-up {
+					width: 21.875rem;
+					padding-left: 0rem;
+				}
+
+				.directions-heading {
+					padding-bottom: 2.1875rem;
+				}
+			}
+		}
+		.directions-item:nth-of-type(3) {
+			padding-bottom: 0;
+		}
 	}
 }
