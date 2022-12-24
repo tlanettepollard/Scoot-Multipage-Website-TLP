@@ -47,9 +47,6 @@ Home, About, and Careers section Styles
 
 			.feature-home--heading {
 				width: 100%;
-				@include bp-tablet-up {
-					width: 85%;
-				}
 			}
 
 			.feature-home--text {
@@ -124,3 +121,4 @@ Home, About, and Careers section Styles
 	@include bp-xl-up {
 	}
 }
+
