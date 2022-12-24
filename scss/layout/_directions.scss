@@ -4,49 +4,25 @@
 
 .directions {
 	width: 100%;
-	height: 50rem;
-	margin-top: 8.25rem;
-	margin-bottom: 6.625rem;
+	height: 49.5rem;
+	margin-top: 7.5rem;
+	
 
 	@include bp-tablet-up {
-		height: 31.25rem;
-		margin-top: 6.9375rem;
-		margin-bottom: 7.8125rem;
+		height: 29.375rem;
+		margin-top: 7.625rem;
 	}
 
 	@include bp-xl-up {
 		height: 18.75rem;
-		margin-top: 9.75rem;
-		margin-bottom: 12.1875rem;
+		margin-top: 10rem;
 	}
 
-	&-container {
-		.directions-content {
-			@include bp-xl-up {
-				position: absolute;
-				left: 6rem;
-			}
+	&-content {
+		width: 100%;
+		height: 49.5rem; 
 
-			@include bp-xxxl-up {
-				left: 0;
-			}
-			.directions-item {
-				.image-content {
-				}
-
-				.text-content {
-					.directions-heading,
-					.directions-text {
-						@include bp-tablet-up {
-							width: 19.4375rem;
-						}
-
-						@include bp-desktop-up {
-							width: 21.875rem;
-						}
-					}
-				}
-			}
-		}
+		
+		
 	}
 }
