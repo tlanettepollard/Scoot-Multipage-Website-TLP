@@ -161,7 +161,7 @@ Resources:
 
 ### 12/23/2022
 
-Hi. Back again. Starting Christmas break which means I'll have more time to code.
+Hi. Back again. Starting Christmas break which means I'll have more time to code. Working with the directions section. Need to work with it some more. 
 
 -space-s: 12rem;
 --space-m: 16rem;
