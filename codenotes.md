@@ -163,6 +163,10 @@ Resources:
 
 Hi. Back again. Starting Christmas break which means I'll have more time to code. Working with the directions section. Need to work with it some more. 
 
+### 12/24/2022
+
+Happy Christmas Eve! I'm back. I think I am doing to much instead of letting the Bootstrap work. 
+
 -space-s: 12rem;
 --space-m: 16rem;
 --space-l: 20rem;

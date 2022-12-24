@@ -295,27 +295,6 @@ h4 {
 /* *****************
    Home Page Directions Styles
 ********************/
-.directions {
-  width: 19.4375rem;
-  height: 100%;
-  margin-top: 7.5rem;
-  margin-bottom: 7.5rem;
-}
-@media screen and (min-width: 768px) {
-  .directions {
-    width: 35.8125rem;
-    height: 29.375rem;
-  }
-}
-@media screen and (min-width: 1201px) {
-  .directions {
-    width: 79.6875rem;
-    height: 18.1875rem;
-  }
-}
-.directions-content {
-  height: 100%;
-}
 /*************************************
 Home, About, and Careers section Styles
 *************************************/
