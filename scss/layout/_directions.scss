@@ -23,6 +23,7 @@
 	}
 
 	@include bp-xxxl-up {
+		width: 82.8125rem;
 		margin-left: 18.75rem;
 	}
 
@@ -36,13 +37,16 @@
 				padding-right: 2.5rem;
 			}
 
+			@include bp-xxxl-up {
+				padding-right: 6.25rem;
+			}
+
 			.image-content {
 				padding-bottom: 2.1875rem;
 			}
 
 			.text-content {
 				@include bp-tablet-up {
-					width: 24.875rem;
 					padding-left: 5rem;
 				}
 
@@ -53,6 +57,12 @@
 
 				.directions-heading {
 					padding-bottom: 2.1875rem;
+				}
+
+				.directions-text {
+					@include bp-xxxl-up {
+						font-size: 1.125rem;
+					}
 				}
 			}
 		}
