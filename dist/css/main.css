@@ -297,46 +297,24 @@ h4 {
 ********************/
 .directions {
   width: 100%;
-  height: 50rem;
-  margin-top: 8.25rem;
-  margin-bottom: 6.625rem;
+  height: 49.5rem;
+  margin-top: 7.5rem;
 }
 @media screen and (min-width: 768px) {
   .directions {
-    height: 31.25rem;
-    margin-top: 6.9375rem;
-    margin-bottom: 7.8125rem;
+    height: 29.375rem;
+    margin-top: 7.625rem;
   }
 }
 @media screen and (min-width: 1201px) {
   .directions {
     height: 18.75rem;
-    margin-top: 9.75rem;
-    margin-bottom: 12.1875rem;
+    margin-top: 10rem;
   }
 }
-@media screen and (min-width: 1201px) {
-  .directions-container .directions-content {
-    position: absolute;
-    left: 6rem;
-  }
-}
-@media screen and (min-width: 1920px) {
-  .directions-container .directions-content {
-    left: 0;
-  }
-}
-@media screen and (min-width: 768px) {
-  .directions-container .directions-content .directions-item .text-content .directions-heading,
-.directions-container .directions-content .directions-item .text-content .directions-text {
-    width: 19.4375rem;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .directions-container .directions-content .directions-item .text-content .directions-heading,
-.directions-container .directions-content .directions-item .text-content .directions-text {
-    width: 21.875rem;
-  }
+.directions-content {
+  width: 100%;
+  height: 49.5rem;
 }
 
 /*************************************
@@ -346,7 +324,7 @@ Home, About, and Careers section Styles
 .features-home {
   width: 100%;
   height: 154.5rem;
-  margin-bottom: 6.25rem;
+  margin-bottom: 7.5rem;
 }
 @media screen and (min-width: 768px) {
   .features-home {
