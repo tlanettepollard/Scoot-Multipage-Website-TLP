@@ -165,7 +165,7 @@ Hi. Back again. Starting Christmas break which means I'll have more time to code
 
 ### 12/24/2022
 
-Happy Christmas Eve! I'm back. I think I am doing to much instead of letting the Bootstrap work. Today I was having an issue with how I was view the distance between the elements on my page versus the actual distance (which gets in the way often). I know their is a measured distance, but if that measurement doesn't match the Figma file image, I obsess over fixing it. That when I searched more information about applying the margin top and bottom to the parent element versus the child element. I was reminded about **collaspsing margins**. Yup. That's why padding is sometimes the better option. Thank God for Stack Overflow. 
+Happy Christmas Eve! I'm back. I think I am doing to much instead of letting the Bootstrap work. Today I was having an issue with how I was view the distance between the elements on my page versus the actual distance (which gets in the way often). I know their is a measured distance, but if that measurement doesn't match the Figma file image, I obsess over fixing it. That when I searched more information about applying the margin top and bottom to the parent element versus the child element. I was reminded about **collaspsing margins**. Yup. That's why padding is sometimes the better option. Thank God for Stack Overflow. I've also decided to put in my own margin and padding instead of adding new values to Bootstrap margin and padding classes. I finised the Features Home and About sections. Tomorrow I will work on the Careers section.
 
 Resources:
 
