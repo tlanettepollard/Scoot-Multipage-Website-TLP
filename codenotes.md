@@ -171,6 +171,9 @@ Resources:
 
 - [Adjusting margin-top of div inside of a container](https://stackoverflow.com/questions/8529695/adjusting-the-margin-top-of-a-div-inside-of-a-container-div-pushes-both-the-inne)
 
+
+### 01/05/2023
+Hi, I'm back. I worked on the Careers page features section. I can't understand why the bottom padding for the section is not working on this page, but it works on the About page. I'll check it tomorrow. 
 ---
 
 -space-s: 12rem;
