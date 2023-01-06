@@ -553,9 +553,59 @@ Home, About, and Careers section Styles
 /* Careers Style */
 .features-careers {
   width: 100%;
-  height: 27.8125rem;
+  height: 45.125rem;
   margin-top: 7.5rem;
 }
+@media screen and (min-width: 768px) {
+  .features-careers {
+    height: 51.625rem;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .features-careers {
+    height: 27.8125rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .features-careers .feature-careers {
+    width: 35.8125rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .features-careers .feature-careers {
+    width: 69.375rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .features-careers .feature-careers {
+    width: 71.875rem;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .features-careers .feature-careers {
+    width: 81.25rem;
+  }
+}
+.features-careers .feature-careers--image {
+  width: 19.4375rem;
+  margin-bottom: 3.5rem;
+}
+@media screen and (min-width: 768px) {
+  .features-careers .feature-careers--image {
+    width: 27.8125rem;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .features-careers .feature-careers--image {
+    margin-bottom: 0rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .features-careers .feature-careers--copy {
+    width: 35.8125rem;
+  }
+}
+
 .footer {
   width: 100%;
   height: 34.375rem;
