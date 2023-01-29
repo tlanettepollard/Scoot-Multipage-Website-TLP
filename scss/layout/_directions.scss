@@ -4,75 +4,77 @@
 
 .directions {
 	width: 100%;
-	height: 49.5rem;
-	margin-top: 7.5rem;
-
-	@include bp-tablet-up {
-		height: 35.8125rem;
-		margin-top: 7.625rem;
-	}
 
 	@include bp-xl-up {
-		width: 79.6875rem;
-		height: 18.1875rem;
-		margin-top: 10rem;
+		height: 18.75rem !important;
 	}
 
-	@include bp-xxl-up {
-		margin-left: 9.375rem;
-	}
+	&-content {
+		width: 100%;
+		height: 100%;
 
-	@include bp-xxxl-up {
-		width: 82.8125rem;
-		margin-left: 18.75rem;
-	}
+		@include bp-xl-up {
+			height: 18.1875rem;
+		}
 
-	.directions-content {
-		min-height: 100%;
+		@include bp-xxl-up {
+			margin-left: 1.5625rem;		
+		}	
+
+		@include bp-xxxl-up {
+			margin-left: -3.875rem;
+		}
 
 		.directions-item {
-			//padding-bottom: 3rem;
+			width: 100%;
+			height: 19.4375rem;
 
-			@include bp-xl-up {
-				padding-right: 2.5rem;
+			@include bp-tablet-up {
+				width: 35.8125rem;
+				height: 8.125rem;
 			}
 
-			@include bp-xxxl-up {
-				padding-right: 6.25rem;
+			@include bp-xl-up {
+				width: 21.875rem;
+				height: 18.1875rem;
 			}
 
 			.image-content {
-
 				.directions-icon {
 					width: 3.5rem;
-					height: 3.5rem;
+					height: auto;
 
 					@include bp-tablet-up {
 						width: 6rem;
-						height: 6rem;
+						height: auto;
 					}
 				}
 			}
 
 			.text-content {
 				@include bp-tablet-up {
-					padding-left: 5rem;
+					width: 24.875rem;
 				}
 
 				@include bp-xl-up {
 					width: 21.875rem;
-					padding-left: 0rem;
-				}
-
-				.directions-text {
-					@include bp-xxxl-up {
-						font-size: 1.125rem;
-					}
 				}
 			}
 		}
-		.directions-item:nth-of-type(3) {
-			padding-bottom: 0;
-		}
+	
 	}
+
+	.mt-sm-5 {
+		margin-top: 7.5rem !important;
+	}
+
+	.mt-md-5 {
+		margin-top: 8.125rem !important;
+	}
+
+	.mt-xl-5 {
+		margin-top: 8.75rem !important;
+	}
+
+	
 }
