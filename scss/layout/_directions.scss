@@ -28,7 +28,7 @@
 	}
 
 	.directions-content {
-		height: auto;
+		min-height: 100%;
 
 		.directions-item {
 			//padding-bottom: 3rem;
@@ -42,7 +42,6 @@
 			}
 
 			.image-content {
-				//padding-bottom: 2.1875rem;
 
 				.directions-icon {
 					width: 3.5rem;
@@ -63,10 +62,6 @@
 				@include bp-xl-up {
 					width: 21.875rem;
 					padding-left: 0rem;
-				}
-
-				.directions-heading {
-					//padding-bottom: 2.1875rem;
 				}
 
 				.directions-text {
