@@ -996,14 +996,22 @@ nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
   width: 100%;
   height: 28.6875rem;
 }
+@media screen and (min-width: 1201px) {
+  .values .value {
+    width: 21.875rem;
+  }
+}
 .values .value-image img {
   width: 15rem;
   height: auto;
 }
-.values .value-number {
+.values .value-image .value-number {
   width: 6rem;
   height: 6rem;
   background-color: hsl(40deg, 97%, 58%);
+  left: 50%;
+  top: 32%;
+  transform: translate(-50%, 59%);
 }
 
 .wrapper {
