@@ -314,12 +314,12 @@ h4 {
 }
 @media screen and (min-width: 1440px) {
   .directions-content {
-    margin-left: 1.5625rem;
+    margin-left: -0.3125rem;
   }
 }
 @media screen and (min-width: 1920px) {
   .directions-content {
-    margin-left: -3.875rem;
+    margin-left: -4.6875rem;
   }
 }
 .directions-content .directions-item {
@@ -962,6 +962,34 @@ nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
 @media screen and (min-width: 1920px) {
   .hero-home .home-button {
     left: 26.875rem;
+  }
+}
+
+.values {
+  width: 100%;
+}
+.values-container {
+  width: 100%;
+  height: 100%;
+}
+@media screen and (min-width: 768px) {
+  .values-container {
+    width: 28.5625rem;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .values-container {
+    width: 69.375rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .values-container {
+    width: 71.875rem;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .values-container {
+    width: 84.375rem;
   }
 }
 
