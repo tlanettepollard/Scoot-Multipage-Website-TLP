@@ -26,15 +26,29 @@
 		}
 
 		.directions-item {
+			width: 100%;
+			height: 19.4375rem;
+
 			@include bp-tablet-up {
 				width: 35.8125rem;
+				height: 8.125rem;
 			}
+
 			@include bp-xl-up {
 				width: 21.875rem;
+				height: 18.1875rem;
 			}
 
 			.image-content {
+				.directions-icon {
+					width: 3.5rem;
+					height: auto;
 
+					@include bp-tablet-up {
+						width: 6rem;
+						height: auto;
+					}
+				}
 			}
 
 			.text-content {

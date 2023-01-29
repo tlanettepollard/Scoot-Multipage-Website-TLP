@@ -322,14 +322,30 @@ h4 {
     margin-left: -3.875rem;
   }
 }
+.directions-content .directions-item {
+  width: 100%;
+  height: 19.4375rem;
+}
 @media screen and (min-width: 768px) {
   .directions-content .directions-item {
     width: 35.8125rem;
+    height: 8.125rem;
   }
 }
 @media screen and (min-width: 1201px) {
   .directions-content .directions-item {
     width: 21.875rem;
+    height: 18.1875rem;
+  }
+}
+.directions-content .directions-item .image-content .directions-icon {
+  width: 3.5rem;
+  height: auto;
+}
+@media screen and (min-width: 768px) {
+  .directions-content .directions-item .image-content .directions-icon {
+    width: 6rem;
+    height: auto;
   }
 }
 @media screen and (min-width: 768px) {
