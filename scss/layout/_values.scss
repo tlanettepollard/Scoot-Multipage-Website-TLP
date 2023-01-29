@@ -22,21 +22,27 @@
 		}
 	}
 
-    .value {
-        width: 100%;
-        height: 28.6875rem;
+	.value {
+		width: 100%;
+		height: 28.6875rem;
 
-        @include bp-xl-up
-        &-image img {
-            width: 15rem;
-            height: auto;
-        }
+		@include bp-xl-up {
+			width: 21.875rem;
+		}
 
-        &-number {
-            width: 6rem;
-            height: 6rem;
-            background-color: $yellow;
-
-        }
-    }
+		&-image {
+			img {
+				width: 15rem;
+				height: auto;
+			}
+			.value-number {
+				width: 6rem;
+				height: 6rem;
+				background-color: $yellow;
+				left: 50%;
+				top: 32%;
+				transform: translate(-50%, 59%);
+			}
+		}
+	}
 }
