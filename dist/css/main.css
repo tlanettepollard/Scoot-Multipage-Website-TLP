@@ -1079,6 +1079,11 @@ nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
   background-color: hsl(214deg, 37%, 96%);
 }
 
+.features-careers {
+  padding: 8.125rem 0;
+  margin: 6.25rem 0;
+}
+
 .wrapper .main .directions {
   width: 19.4375rem;
   height: 64.5rem;
