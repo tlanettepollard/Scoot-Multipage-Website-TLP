@@ -1084,6 +1084,27 @@ nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
   margin: 6.25rem 0;
 }
 
+.jobs-container .position {
+  background-color: hsl(214deg, 37%, 96%);
+}
+.jobs-container .position-btn {
+  width: 15.4375rem;
+  height: 3.3125rem;
+}
+@media screen and (min-width: 768px) {
+  .jobs-container .position-btn {
+    width: 11.25rem;
+  }
+}
+
+.mb-3 {
+  margin-bottom: 1.5rem !important;
+}
+
+.mb-5 {
+  margin-bottom: 10rem !important;
+}
+
 .wrapper .main .directions {
   width: 19.4375rem;
   height: 64.5rem;
