@@ -124,6 +124,7 @@
 						<div class="maps">
 							<div class="map-mobile d-block d-md-none d-lg-none my-5">
 								<img
+									draggable="false"
 									src="./assets/images/world-map-mobile.png"
 									alt="world map"
 									class="city-image img-fluid"
@@ -131,6 +132,7 @@
 							</div>
 							<div class="map-tablet d-none d-md-block d-lg-block my-5">
 								<img
+									draggable="false"
 									src="./assets/images/world-map-tablet-desktop-2.png"
 									alt=""
 									class="img-fluid city-image"
@@ -138,18 +140,20 @@
 							</div>
 						</div>
 					</div>
-					<div class="locations d-md-none d-lg-none">
-						<ul class="locations-list">
-							<li>
+					<div
+						class="locations container d-md-none d-lg-none d-flex flex-column align-items-center justify-content-between"
+					>
+						<ul class="locations-list container text-center">
+							<li class="locations-item mb-2">
 								<h3>New York</h3>
 							</li>
-							<li>
+							<li class="locations-item mb-2">
 								<h3>London</h3>
 							</li>
-							<li>
+							<li class="locations-item mb-2">
 								<h3>Jakarta</h3>
 							</li>
-							<li>
+							<li class="locations-item mb-2">
 								<h3>Yokohama</h3>
 							</li>
 						</ul>
