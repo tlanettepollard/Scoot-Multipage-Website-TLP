@@ -1,14 +1,25 @@
 .world-map {
-    &--container {
+	&--container {
+	}
+	.locations {
+		height: 21rem;
 
-    }
+		&-list {
+			.locations-item {
+				height: 4.5rem;
 
+				h3 {
+                    
+					
+				}
+			}
+		}
+	}
 }
 
 .mb-5 {
-    margin-bottom: 4.5rem !important;
+	margin-bottom: 4.5rem !important;
 }
 .my-5 {
-    margin-top: 4.5rem !important;
+	margin-top: 4.5rem !important;
 }
-

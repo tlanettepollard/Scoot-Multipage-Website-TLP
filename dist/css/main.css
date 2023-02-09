@@ -1125,6 +1125,12 @@ nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
   margin-left: 7.625rem !important;
 }
 
+.world-map .locations {
+  height: 21rem;
+}
+.world-map .locations-list .locations-item {
+  height: 4.5rem;
+}
 .mb-5 {
   margin-bottom: 4.5rem !important;
 }
