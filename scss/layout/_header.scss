@@ -1,6 +1,9 @@
 nav {
 	height: 4rem;
 	width: 100%;
+	@include bp-tablet-up {
+		left: 2.4375rem;
+	}
 
 	@include bp-tablet-up {
 		height: 6rem;
@@ -124,8 +127,10 @@ nav {
 					}
 
 					@media screen and (min-width: 1900px) {
-						left: 81.25rem;
+						left: 75rem;
 					}
+
+					
 				}
 			}
 		}

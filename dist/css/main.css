@@ -146,6 +146,11 @@ h4 {
   background-size: cover;
   background-position: bottom 75%;
 }
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .banner-about {
+    background-position: bottom;
+  }
+}
 @media screen and (min-width: 768px) {
   .banner-about {
     height: 12.5rem;
@@ -197,6 +202,28 @@ h4 {
 @media screen and (min-width: 1201px) {
   .banner-locations {
     background-image: url("../../assets/images/careers-locations-hero-desktop.jpg");
+  }
+}
+
+.banner-heading {
+  width: 100%;
+  height: 2.5rem;
+  left: 0;
+  top: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .banner-heading {
+    left: 11.46%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .banner-heading {
+    left: 5%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .banner-heading {
+    left: -8%;
   }
 }
 
@@ -666,6 +693,11 @@ nav {
 }
 @media screen and (min-width: 768px) {
   nav {
+    left: 2.4375rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  nav {
     height: 6rem;
   }
 }
@@ -797,7 +829,7 @@ nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
 }
 @media screen and (min-width: 1900px) {
   nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
-    left: 81.25rem;
+    left: 75rem;
   }
 }
 
