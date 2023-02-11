@@ -135,6 +135,7 @@ h4 {
 .btn-primary a:link {
   margin: auto;
   color: hsl(0deg, 0%, 100%);
+  text-decoration: none;
 }
 
 .banner-about {
@@ -1135,9 +1136,6 @@ nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
   .city-listing .city-copy .city-text {
     width: 27.8125rem;
   }
-}
-.city-listing .city-copy .city-btn {
-  text-decoration: none;
 }
 
 .mb-5 {
