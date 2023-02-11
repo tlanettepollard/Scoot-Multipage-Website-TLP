@@ -157,22 +157,6 @@ h4 {
     background-image: url("../../assets/images/about-hero-desktop.jpg");
   }
 }
-.banner-about .banner-about-content {
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 25%;
-}
-@media screen and (min-width: 768px) {
-  .banner-about .banner-about-content {
-    left: 15%;
-  }
-}
-.banner-about .banner-about-content .about-banner-container .about-heading,
-.banner-about .banner-about-content .about-banner-container .careers-heading {
-  width: 100%;
-  height: 100%;
-}
 
 .banner-careers {
   height: 10rem;
@@ -194,21 +178,6 @@ h4 {
     background-image: url("../../assets/images/careers-locations-hero-desktop.jpg");
   }
 }
-.banner-careers .banner-careers-content {
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 25%;
-}
-@media screen and (min-width: 768px) {
-  .banner-careers .banner-careers-content {
-    left: 15%;
-  }
-}
-.banner-careers .banner-careers-content .careers-banner-container .careers-heading {
-  width: 100%;
-  height: 100%;
-}
 
 .banner-locations {
   height: 10rem;
@@ -229,21 +198,6 @@ h4 {
   .banner-locations {
     background-image: url("../../assets/images/careers-locations-hero-desktop.jpg");
   }
-}
-.banner-locations .banner-locations-content {
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 25%;
-}
-@media screen and (min-width: 768px) {
-  .banner-locations .banner-locations-content {
-    left: 15%;
-  }
-}
-.banner-locations .banner-locations-content .locations-banner-container .locations-heading {
-  width: 100%;
-  height: 100%;
 }
 
 .cta {
