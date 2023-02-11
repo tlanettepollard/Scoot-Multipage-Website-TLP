@@ -1126,11 +1126,42 @@ nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
 }
 
 .world-map .locations {
-  height: 21rem;
+  height: 28.125rem;
 }
 .world-map .locations-list .locations-item {
   height: 4.5rem;
+  background-color: hsl(39deg, 100%, 94%);
 }
+
+@media screen and (min-width: 1201px) {
+  .city-listing {
+    min-width: 69.4375rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .city-listing .city-copy {
+    width: 35.8125rem;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .city-listing .city-copy {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .city-listing .city-copy .city-heading {
+    width: 21.9375rem;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .city-listing .city-copy .city-text {
+    width: 27.8125rem;
+  }
+}
+.city-listing .city-copy .city-btn {
+  text-decoration: none;
+}
+
 .mb-5 {
   margin-bottom: 4.5rem !important;
 }
