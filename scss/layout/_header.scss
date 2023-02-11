@@ -2,12 +2,10 @@ nav {
 	height: 4rem;
 	width: 100%;
 	@include bp-tablet-up {
-		left: 2.4375rem;
-	}
-
-	@include bp-tablet-up {
+		left: 1.25rem;
 		height: 6rem;
 	}
+
 	.nav-logo {
 		width: 6.7387rem;
 		height: 1.785rem;
@@ -106,31 +104,26 @@ nav {
 					}
 
 					@include bp-tablet {
-						top: 29.375rem;
+						top: 28.125rem;
+						left: 0;
 					}
 
 					@include bp-small-screen {
-						left: 21.75rem;
+						left: 18.75rem;
 						top: -0.625rem;
 					}
 
 					@include bp-desktop {
-						left: 34.25rem;
+						left: 34.375rem;
 						top: 0;
 					}
 
 					@include bp-xl-up {
 						width: 11.25rem;
 						height: 3.3125rem;
-						left: 53.125rem;
+						left: 51.25rem;
 						top: 0;
 					}
-
-					@media screen and (min-width: 1900px) {
-						left: 75rem;
-					}
-
-					
 				}
 			}
 		}

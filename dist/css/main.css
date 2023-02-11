@@ -693,11 +693,7 @@ nav {
 }
 @media screen and (min-width: 768px) {
   nav {
-    left: 2.4375rem;
-  }
-}
-@media screen and (min-width: 768px) {
-  nav {
+    left: 1.25rem;
     height: 6rem;
   }
 }
@@ -804,18 +800,19 @@ nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
 }
 @media screen and (min-width: 481px) and (max-width: 767px) {
   nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
-    top: 29.375rem;
+    top: 28.125rem;
+    left: 0;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
-    left: 21.75rem;
+    left: 18.75rem;
     top: -0.625rem;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
   nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
-    left: 34.25rem;
+    left: 34.375rem;
     top: 0;
   }
 }
@@ -823,13 +820,8 @@ nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
   nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
     width: 11.25rem;
     height: 3.3125rem;
-    left: 53.125rem;
+    left: 51.25rem;
     top: 0;
-  }
-}
-@media screen and (min-width: 1900px) {
-  nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
-    left: 75rem;
   }
 }
 
