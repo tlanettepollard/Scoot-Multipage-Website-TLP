@@ -100,17 +100,13 @@
 			<!-- Banner -->
 			<main class="main main-locations">
 				<section class="banner-locations container-fluid">
-					<article
-						class="banner-locations-content container-fluid position-relative"
-					>
-						<div class="flex-column">
-							<div class="locations-banner-container">
-								<h1
-									class="locations-heading heading-1 text-center text-md-start position-absolute"
-								>
-									Locations
-								</h1>
-							</div>
+					<article class="banner-locations-content container-fluid position-relative">
+						<div class="locations-banner-container container position-relative">
+							<h1
+								class="locations-heading heading-1 position-absolute text-center text-md-start"
+							>
+								Locations
+							</h1>
 						</div>
 					</article>
 					<div class="banner-patterns d-flex flex-row">
@@ -121,40 +117,48 @@
 
 				<section class="world-map container-fluid my-5">
 					<div class="world-map--container container">
-						<div class="maps">
-							<div class="map-mobile d-block d-md-none d-lg-none my-5">
+						<div class="maps container py-2">
+							<div class="map-mobile d-md-none">
 								<img
 									draggable="false"
-									src="./assets/images/world-map-mobile.png"
+									src="/assets/images/world-map-mobile.png"
 									alt="world map"
 									class="city-image img-fluid"
 								/>
 							</div>
-							<div class="map-tablet d-none d-md-block d-lg-block my-5">
+							<div class="map-tablet d-none d-md-block d-lg-none">
 								<img
 									draggable="false"
-									src="./assets/images/world-map-tablet-desktop-2.png"
-									alt=""
+									src="/assets/images/world-map-desktop-update.png"
+									alt="world map"
+									class="img-fluid city-image"
+								/>
+							</div>
+							<div class="map-desktop d-none d-md-none d-lg-block text-center">
+								<img
+									draggable="false"
+									src="/assets/images/world-map-desktop-update.png"
+									alt="world map"
 									class="img-fluid city-image"
 								/>
 							</div>
 						</div>
 					</div>
 					<div
-						class="locations container d-md-none d-lg-none d-flex flex-column align-items-center justify-content-between"
+						class="locations container d-md-none d-lg-none d-flex flex-column align-items-center justify-content-between my-4"
 					>
 						<ul class="locations-list container text-center">
-							<li class="locations-item mb-2">
-								<h3>New York</h3>
+							<li class="locations-item mb-3">
+								<h3 class="p-4">New York</h3>
 							</li>
-							<li class="locations-item mb-2">
-								<h3>London</h3>
+							<li class="locations-item mb-3">
+								<h3 class="p-4">London</h3>
 							</li>
-							<li class="locations-item mb-2">
-								<h3>Jakarta</h3>
+							<li class="locations-item mb-3">
+								<h3 class="p-4">Jakarta</h3>
 							</li>
-							<li class="locations-item mb-2">
-								<h3>Yokohama</h3>
+							<li class="locations-item mb-3">
+								<h3 class="p-4">Yokohama</h3>
 							</li>
 						</ul>
 					</div>
@@ -162,23 +166,20 @@
 				<!-- End World Map section -->
 
 				<!-- Begin City List section -->
-				<section class="city-listing container-fluid mb-5">
-					<div class="city-listing--container container">
-						<div class="city-question">
-							<h2>Your City Not Listed?</h2>
-							<div class="city-copy">
-								<p>
-									If you’d like to see Scoot in your hometown, be sure to let us
-									know. We track requests and plan launches based on demand.
-									Feel free to message us by clicking the link or messaging us
-									on social.
-								</p>
-								<div class="button-container">
-									<button class="btn-primary btn-lg btn city-btn">
-										<a href="#" class="">Message Us</a>
-									</button>
-								</div>
-							</div>
+				<section class="city-listing container-fluid my-5">
+					<div
+						class="city-copy container d-flex flex-column flex-xl-row justify-content-center justify-content-xl-between align-items-center text-center text-xl-start"
+					>
+						<h2 class="heading-2 p-2 city-heading">Your City Not Listed?</h2>
+						<p class="paragraph city-text py-2">
+							If you’d like to see Scoot in your hometown, be sure to let us
+							know. We track requests and plan launches based on demand. Feel
+							free to message us by clicking the link or messaging us on social.
+						</p>
+						<div class="button-container">
+							<button class="btn-primary btn-lg btn city-btn">
+								<a href="#" class="fs-6">Message Us</a>
+							</button>
 						</div>
 					</div>
 				</section>

@@ -2,19 +2,45 @@
 	&--container {
 	}
 	.locations {
-		height: 21rem;
+		height: 28.125rem;
 
 		&-list {
 			.locations-item {
 				height: 4.5rem;
-
-				h3 {
-                    
-					
-				}
+				background-color: $lt-yellow;
 			}
 		}
 	}
+}
+
+.city-listing {
+	@include bp-xl-up {
+		min-width: 69.4375rem;
+	}
+
+	.city-copy {
+		@include bp-tablet-up {
+			width: 35.8125rem;
+		}
+
+		@include bp-xl-up {
+			width: 100%;
+		}
+		.city-heading {
+			@include bp-xl-up {
+				width: 21.9375rem;
+			}
+		}
+		.city-text {
+			@include bp-xl-up {
+				width: 27.8125rem;
+			}
+		}
+		.city-btn {
+			text-decoration: none;
+		}
+	}
+	
 }
 
 .mb-5 {
