@@ -135,6 +135,7 @@ h4 {
 .btn-primary a:link {
   margin: auto;
   color: hsl(0deg, 0%, 100%);
+  text-decoration: none;
 }
 
 .banner-about {
@@ -145,6 +146,11 @@ h4 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom 75%;
+}
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .banner-about {
+    background-position: bottom;
+  }
 }
 @media screen and (min-width: 768px) {
   .banner-about {
@@ -197,6 +203,28 @@ h4 {
 @media screen and (min-width: 1201px) {
   .banner-locations {
     background-image: url("../../assets/images/careers-locations-hero-desktop.jpg");
+  }
+}
+
+.banner-heading {
+  width: 100%;
+  height: 2.5rem;
+  left: 0;
+  top: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .banner-heading {
+    left: 11.46%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .banner-heading {
+    left: 5%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .banner-heading {
+    left: -8%;
   }
 }
 
@@ -358,7 +386,7 @@ Home, About, and Careers section Styles
 }
 @media screen and (min-width: 1920px) {
   .features-home .feature-home {
-    width: 81.25rem;
+    width: 100rem;
   }
 }
 .features-home .feature-home--image img {
@@ -666,6 +694,7 @@ nav {
 }
 @media screen and (min-width: 768px) {
   nav {
+    left: 1.25rem;
     height: 6rem;
   }
 }
@@ -772,18 +801,19 @@ nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
 }
 @media screen and (min-width: 481px) and (max-width: 767px) {
   nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
-    top: 29.375rem;
+    top: 28.125rem;
+    left: 0;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
-    left: 21.75rem;
+    left: 18.75rem;
     top: -0.625rem;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
   nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
-    left: 34.25rem;
+    left: 34.375rem;
     top: 0;
   }
 }
@@ -791,13 +821,18 @@ nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
   nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
     width: 11.25rem;
     height: 3.3125rem;
-    left: 53.125rem;
+    left: 51.25rem;
     top: 0;
   }
 }
-@media screen and (min-width: 1900px) {
+@media screen and (min-width: 1440px) {
   nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
-    left: 81.25rem;
+    left: 57.5rem;
+  }
+}
+@media screen and (min-width: 1920px) {
+  nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
+    left: 68.75rem;
   }
 }
 
@@ -1011,6 +1046,10 @@ nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
 }
 .faqs .faqs-container .faq .accordion {
   width: 100%;
+  --bs-accordion-color: hsl(217, 18%, 35%);
+  --bs-accordion-active-color: hsla(40, 88%, 44%, 0.865);
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem
+  	rgb(252, 183, 43, 100%);
 }
 @media screen and (min-width: 1201px) {
   .faqs .faqs-container .faq .accordion {
@@ -1026,11 +1065,14 @@ nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
 .faqs .faqs-container .faq .accordion-item .accordion-button::after {
   background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FCB72B'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
 }
-.faqs .faqs-container .faq .accordion-item .accordion-button:hover {
-  background-color: hsl(39deg, 100%, 94%);
-}
 .faqs .faqs-container .faq .accordion-item .accordion-body {
   background-color: hsl(214deg, 37%, 96%);
+}
+.faqs .faqs-container .faq .accordion-item .faq-btn:hover {
+  background-color: hsl(39deg, 100%, 94%);
+}
+.faqs .faqs-container .faq .accordion-item .faq-answer {
+  color: hsl(215deg, 14%, 23%);
 }
 
 .features-careers {
@@ -1111,9 +1153,6 @@ nav .offcanvas .offcanvas-body .navbar-nav .offcanvas-button {
   .city-listing .city-copy .city-text {
     width: 27.8125rem;
   }
-}
-.city-listing .city-copy .city-btn {
-  text-decoration: none;
 }
 
 .mb-5 {

@@ -8,6 +8,10 @@
 	background-size: cover;
 	background-position: bottom 75%;
 
+	@include bp-xs-mobile {
+		background-position: bottom;
+	}
+
 	@include bp-tablet-up {
 		height: 12.5rem;
 		background-image: url('../../assets/images/about-hero-tablet.jpg');
@@ -57,5 +61,24 @@
 
 	@include bp-xl-up {
 		background-image: url('../../assets/images/careers-locations-hero-desktop.jpg');
+	}
+}
+
+.banner-heading {
+	width: 100%;
+	height: 2.5rem;
+	left: 0;
+	top: 2rem;
+
+	@include bp-tablet-up {
+		left: 11.46%;
+	}
+
+	@include bp-desktop-up {
+		left: 5%;
+	}
+
+	@include bp-xxl-up {
+		left: -8%;
 	}
 }
