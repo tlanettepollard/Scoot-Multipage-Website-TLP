@@ -5,6 +5,7 @@ nav {
 		left: 1.25rem;
 		height: 6rem;
 	}
+	
 
 	.nav-logo {
 		width: 6.7387rem;
@@ -124,6 +125,16 @@ nav {
 						left: 51.25rem;
 						top: 0;
 					}
+
+					@include bp-xxl-up {
+						left: 57.5rem;
+					}
+
+					@include bp-xxxl-up {
+						left: 68.75rem;
+					}
+					
+
 				}
 			}
 		}

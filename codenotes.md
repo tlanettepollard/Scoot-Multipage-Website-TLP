@@ -171,10 +171,15 @@ Resources:
 
 - [Adjusting margin-top of div inside of a container](https://stackoverflow.com/questions/8529695/adjusting-the-margin-top-of-a-div-inside-of-a-container-div-pushes-both-the-inne)
 
-
 ### 01/05/2023
-Hi, I'm back. I worked on the Careers page features section. I can't understand why the bottom padding for the section is not working on this page, but it works on the About page. I'll check it tomorrow. 
----
+
+## Hi, I'm back. I worked on the Careers page features section. I can't understand why the bottom padding for the section is not working on this page, but it works on the About page. I'll check it tomorrow.
+
+### 02/11/2023
+
+Hi, I'm back. I have been working on Scoot. I just haven't been writing my notes. Today I got stuck on how to change my Bootstrap accordion's default active text color. After searching (Thank you Google), I found the answer. It was more simple than I thought it was. I thought it would be more complicated based on reading the Bootstrap documents on their site. Glad that Google had a more simple fix.
+
+Resources: -[How to change the accordion's color?](https://github.com/twbs/bootstrap/discussions/37229)
 
 -space-s: 12rem;
 --space-m: 16rem;
