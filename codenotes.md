@@ -177,7 +177,7 @@ Resources:
 
 ### 02/11/2023
 
-Hi, I'm back. I have been working on Scoot. I just haven't been writing my notes. Today I got stuck on how to change my Bootstrap accordion's default active text color. After searching (Thank you Google), I found the answer. It was more simple than I thought it was. I thought it would be more complicated based on reading the Bootstrap documents on their site. Glad that Google had a more simple fix.
+Hi, I'm back. I have been working on Scoot. I just haven't been writing my notes. Today I got stuck on how to change my Bootstrap accordion's default active text color. After searching (Thank you Google), I found the answer. It was more simple than I thought it was. I thought it would be more complicated based on reading the Bootstrap documents on their site. Glad that Google had a more simple fix. I got a reminder of how to use the Bootstrap Sass variables to change the color.
 
 Resources: -[How to change the accordion's color?](https://github.com/twbs/bootstrap/discussions/37229)
 
