@@ -114,6 +114,52 @@ h4 {
   line-height: 1.5625rem;
 }
 
+.cta {
+  width: 100%;
+  height: 20rem;
+  background-color: hsl(217, 18%, 35%);
+  background-image: url("../../assets/patterns/semi-circles.svg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+@media screen and (min-width: 768px) {
+  .cta {
+    height: 18.75rem;
+  }
+}
+.cta-container {
+  width: 100%;
+  height: 20rem;
+}
+@media screen and (min-width: 768px) {
+  .cta-container {
+    height: 18.75rem;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .cta-container {
+    width: 69.375rem;
+  }
+}
+.cta-container .cta-heading {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .cta-container .cta-heading {
+    width: 28.5625rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cta-container .cta-heading {
+    width: 28.5625rem;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .cta-container .appstore-icons .store-icon img {
+    width: 95%;
+  }
+}
+
 /* *****************
    Home Page Directions Styles
 ********************/
@@ -388,6 +434,71 @@ Home, About, and Careers section Styles
   .features-careers .feature-careers--copy .feature-careers--text {
     font-size: 1.125rem;
   }
+}
+
+.footer {
+  width: 100%;
+  height: 34.375rem;
+  background-color: hsl(215, 14%, 23%);
+}
+@media screen and (min-width: 768px) {
+  .footer {
+    height: 6rem;
+  }
+}
+.footer-container {
+  height: 27.5rem;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .footer-container {
+    height: 6rem;
+  }
+}
+.footer-container .footer-logo {
+  width: 7.5rem;
+}
+.footer-container .footer-logo .navbar-logo {
+  background-color: transparent;
+  border: none;
+  width: 7.5rem;
+  height: 2.5rem;
+}
+@media screen and (min-width: 768px) {
+  .footer-container .footer__nav {
+    width: 50%;
+  }
+}
+.footer-container .footer__nav .footer__nav-item .footer__nav-link {
+  color: hsl(217, 12%, 62%);
+}
+@media screen and (min-width: 1201px) {
+  .footer-container .footer__nav .footer__nav-item .footer__nav-link {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .footer-container .footer__nav {
+    margin-left: -6.25rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .footer-container .footer__nav {
+    margin-left: -12.5rem;
+  }
+}
+.footer-container .social-nav {
+  width: 7.5rem;
+}
+.footer-container .social-nav .social-link {
+  width: 100%;
+}
+.footer .attribution p {
+  color: hsl(217, 12%, 62%);
+  font-size: 0.625rem;
+}
+.footer .attribution p a {
+  color: hsl(217, 12%, 62%);
 }
 
 .header nav {
