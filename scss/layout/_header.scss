@@ -1,0 +1,28 @@
+nav {
+	.nav-logo {
+		
+	}
+
+	.navbar-toggler-icon {
+		background-image: url('/assets/icons/hamburger.svg');
+	}
+
+	.btn-close {
+		background-image: url('/assets/icons/close.svg');
+	}
+
+	.offcanvas {
+		background-color: $soft-black;
+
+		.offcanvas-header {
+			background-color: $white;
+		}
+	}
+	
+}
+
+// Bootstrap Classes 
+.bg-light {
+	background-color: $white !important;
+}
+

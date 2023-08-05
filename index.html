@@ -19,54 +19,68 @@
 
 <body>
 	<div class="wrapper">
-		<!-- Header -->
-		<nav class="navbar bg-light navbar-expand-md">
+		<header class="header">
 			<div class="container-fluid">
-				<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-					data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<a href="./index.html" class="navbar-brand mx-auto">
-					<img src="./assets/logo.svg" alt="Scoot logo" class="nav-logo img-fluid">
-				</a>
-				<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
-					aria-labelledby="offcanvasNavbarLabel">
-					<div class="offcanvas-header">
-						<div class="button-container">
-							<button class="btn-close" type="button" data-bs-dismiss="offcanvas"
-								aria-lable="Close"></button>
-						</div>
-						<div class="logo-container mx-auto">
-							<img src="./assets/logo.svg" alt="Scoot logo" class=" navbar-brand">
-						</div>
-					</div><!-- Offcanvas Header -->
-					<div
-						class="offcanvas-body d-flex flex-column flex-md-row justify-content-between align-items-start">
-						<ul class="navbar-nav mt-5 ms-4">
-							<li class="nav-item py-2">
-								<a href="./about.html" class="nav-link text-light">About</a>
-							</li>
-							<li class="nav-item py-2">
-								<a href="./locations.html" class="nav-link text-light">Locations</a>
-							</li>
-							<li class="nav-item py-2">
-								<a href="./careers.html" class="nav-link text-light">Careers</a>
-							</li>
-						</ul>
-						<div class="button-container mb-4 ms-4">
-							<a href="#scoot" class="btn btn-primary fs-3 d-inline-block py-4" role="button">
-								Get Scootin</a>
+				<!-- Header -->
+				<nav class="navbar bg-light navbar-expand-md">
+					<div class="container">
+						<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+							data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<a href="./index.html" class="navbar-brand d-none d-md-block mx-auto">
+							<img src="./assets/logo.svg" alt="Scoot logo" class="img-fluid align-middle me-5">
+						</a>
+						<!-- Offcanvas Menu -->
+						<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+							aria-labelledby="offcanvasNavbarLabel">
+							<div class="offcanvas-header">
+								<button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+									aria-label="Close"></button>
+								<img src="./assets/logo.svg" class="sidebar-logo navbar-brand mx-auto d-md-none"
+									alt="Scoot logo">
+							</div> <!-- End Offcanvas Header -->
+							<div
+								class="offcanvas-body d-flex flex-column flex-md-row justify-content-between align-items-start">
+								<ul class="navbar-nav">
+									<li class="nav-item m-md-2 m-xl-4">
+										<a class="nav-link" href="./about.html">About</a>
+									</li>
+									<li class="nav-item m-md-2 m-xl-4">
+										<a class="nav-link" href="./locations.html">Locations</a>
+									</li>
+									<li class="nav-item m-md-2 m-xl-4">
+										<a class="nav-link" href="./careers.html">Careers</a>
+									</li>
+									<div class="button-container d-md-none">
+										<a href="#" class="btn btn-primary d-md-none">Get Scootin</a>
+									</div>
+								</ul>
+							</div>
 						</div>
 					</div>
-				</div>
-			</div>
-		</nav>
-		<!-- End Header -->
+					<!-- CTA Button -->
+					<a href="#" class="btn btn-primary d-none d-md-block">Get Scootin</a>
+				</nav>
+			</div><!-- wrapper -->
+		</header><!-- End Header -->
 
-		<!-- Hero Section -->
+		<main class="main main-home">
+			<section class="hero-home container-fluid"></section><!-- End Hero Section -->
+			<section class="directions container-fluid"></section><!-- End Directions Section -->
+			<section class="features-home container-fluid"></section><!-- End Features Section -->
+			<section class="cta container-fluid">
 
-	</div>
-	<!-- wrapper -->
+			</section><!-- End CTA Section -->
+		</main><!-- End Main -->
+
+		<footer class="footer container-fluid">
+			<div class="footer-container container"></div>
+		</footer><!-- End Footer -->
+
+
+	</div><!-- Page Wrapper -->
+
 
 	<!-- JavaScript Bundle with Popper -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"

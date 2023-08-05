@@ -114,152 +114,9 @@ h4 {
   line-height: 1.5625rem;
 }
 
-.btn {
-  width: 12rem;
-  height: 3.3125rem;
-  border-radius: 0px;
-  color: hsl(0, 0%, 100%);
-}
-
-.btn-primary {
-  font-family: "Space Mono", monospace;
-  background-color: hsl(40, 97%, 58%);
-}
-.btn-primary:hover {
-  background-color: transparent;
-  border: 2px solid hsl(40, 97%, 58%);
-}
-.btn-primary:hover a:hover {
-  color: hsl(40, 97%, 58%);
-}
-.btn-primary a:link {
-  margin: auto;
-  color: hsl(0, 0%, 100%);
-  text-decoration: none;
-}
-
-.cta {
-  width: 100%;
-  height: 20rem;
-  background-color: hsl(217, 18%, 35%);
-  background-image: url("../../assets/patterns/semi-circles.svg");
-  background-repeat: no-repeat;
-  background-position: bottom right;
-}
-@media screen and (min-width: 768px) {
-  .cta {
-    height: 18.75rem;
-  }
-}
-.cta-container {
-  width: 100%;
-  height: 20rem;
-}
-@media screen and (min-width: 768px) {
-  .cta-container {
-    height: 18.75rem;
-  }
-}
-@media screen and (min-width: 1024px) and (max-width: 1200px) {
-  .cta-container {
-    width: 69.375rem;
-  }
-}
-.cta-container .cta-heading {
-  width: 100%;
-}
-@media screen and (min-width: 768px) {
-  .cta-container .cta-heading {
-    width: 28.5625rem;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .cta-container .cta-heading {
-    width: 28.5625rem;
-  }
-}
-@media screen and (min-width: 320px) and (max-width: 480px) {
-  .cta-container .appstore-icons .store-icon img {
-    width: 95%;
-  }
-}
-
 /* *****************
    Home Page Directions Styles
 ********************/
-.directions {
-  width: 100%;
-}
-@media screen and (min-width: 1201px) {
-  .directions {
-    height: 18.75rem !important;
-  }
-}
-.directions-content {
-  width: 100%;
-  height: 100%;
-}
-@media screen and (min-width: 1201px) {
-  .directions-content {
-    height: 18.1875rem;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .directions-content {
-    margin-left: -0.3125rem;
-  }
-}
-@media screen and (min-width: 1920px) {
-  .directions-content {
-    margin-left: -4.6875rem;
-  }
-}
-.directions-content .directions-item {
-  width: 100%;
-  height: 19.4375rem;
-}
-@media screen and (min-width: 768px) {
-  .directions-content .directions-item {
-    width: 35.8125rem;
-    height: 8.125rem;
-  }
-}
-@media screen and (min-width: 1201px) {
-  .directions-content .directions-item {
-    width: 21.875rem;
-    height: 18.1875rem;
-  }
-}
-.directions-content .directions-item .image-content .directions-icon {
-  width: 3.5rem;
-  height: auto;
-}
-@media screen and (min-width: 768px) {
-  .directions-content .directions-item .image-content .directions-icon {
-    width: 6rem;
-    height: auto;
-  }
-}
-@media screen and (min-width: 768px) {
-  .directions-content .directions-item .text-content {
-    width: 24.875rem;
-  }
-}
-@media screen and (min-width: 1201px) {
-  .directions-content .directions-item .text-content {
-    width: 21.875rem;
-  }
-}
-.directions .mt-sm-5 {
-  margin-top: 7.5rem !important;
-}
-.directions .mt-md-5 {
-  margin-top: 8.125rem !important;
-}
-.directions .mt-xl-5 {
-  margin-top: 8.75rem !important;
-}
-
 /*************************************
 Home, About, and Careers section Styles
 *************************************/
@@ -533,69 +390,21 @@ Home, About, and Careers section Styles
   }
 }
 
-.footer {
-  width: 100%;
-  height: 34.375rem;
+nav .navbar-toggler-icon {
+  background-image: url("/assets/icons/hamburger.svg");
+}
+nav .btn-close {
+  background-image: url("/assets/icons/close.svg");
+}
+nav .offcanvas {
   background-color: hsl(215, 14%, 23%);
 }
-@media screen and (min-width: 768px) {
-  .footer {
-    height: 6rem;
-  }
+nav .offcanvas .offcanvas-header {
+  background-color: hsl(0, 0%, 100%);
 }
-.footer-container {
-  height: 27.5rem;
-  width: 100%;
-}
-@media screen and (min-width: 768px) {
-  .footer-container {
-    height: 6rem;
-  }
-}
-.footer-container .footer-logo {
-  width: 7.5rem;
-}
-.footer-container .footer-logo .navbar-logo {
-  background-color: transparent;
-  border: none;
-  width: 7.5rem;
-  height: 2.5rem;
-}
-@media screen and (min-width: 768px) {
-  .footer-container .footer__nav {
-    width: 50%;
-  }
-}
-.footer-container .footer__nav .footer__nav-item .footer__nav-link {
-  color: hsl(217, 12%, 62%);
-}
-@media screen and (min-width: 1201px) {
-  .footer-container .footer__nav .footer__nav-item .footer__nav-link {
-    font-size: 1.5rem;
-  }
-}
-@media screen and (min-width: 1201px) {
-  .footer-container .footer__nav {
-    margin-left: -6.25rem;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .footer-container .footer__nav {
-    margin-left: -12.5rem;
-  }
-}
-.footer-container .social-nav {
-  width: 7.5rem;
-}
-.footer-container .social-nav .social-link {
-  width: 100%;
-}
-.footer .attribution p {
-  color: hsl(217, 12%, 62%);
-  font-size: 0.625rem;
-}
-.footer .attribution p a {
-  color: hsl(217, 12%, 62%);
+
+.bg-light {
+  background-color: hsl(0, 0%, 100%) !important;
 }
 
 .values {
@@ -743,26 +552,6 @@ Home, About, and Careers section Styles
 
 .mb-5 {
   margin-bottom: 10rem !important;
-}
-
-.wrapper .main .directions {
-  width: 19.4375rem;
-  height: 64.5rem;
-}
-@media screen and (min-width: 768px) {
-  .wrapper .main .directions {
-    width: 35.8125rem;
-    height: 44.625rem;
-  }
-}
-@media screen and (min-width: 1201px) {
-  .wrapper .main .directions {
-    width: 79.6875rem;
-    height: 38.1875rem;
-  }
-}
-.wrapper .main .ms-xl-5 {
-  margin-left: 7.625rem !important;
 }
 
 .world-map .locations {
