@@ -390,16 +390,20 @@ Home, About, and Careers section Styles
   }
 }
 
-nav .navbar-toggler-icon {
+.header nav {
+  height: 4rem;
+  width: 100%;
+}
+.header nav .navbar-toggler-icon {
   background-image: url("/assets/icons/hamburger.svg");
 }
-nav .btn-close {
+.header nav .btn-close {
   background-image: url("/assets/icons/close.svg");
 }
-nav .offcanvas {
+.header nav .offcanvas {
   background-color: hsl(215, 14%, 23%);
 }
-nav .offcanvas .offcanvas-header {
+.header nav .offcanvas .offcanvas-header {
   background-color: hsl(0, 0%, 100%);
 }
 
@@ -407,6 +411,25 @@ nav .offcanvas .offcanvas-header {
   background-color: hsl(0, 0%, 100%) !important;
 }
 
+.hero-home {
+  overflow: hidden;
+  height: 40.625rem;
+  width: 100%;
+  background-image: url("../../assets/images/home-hero-mobile.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+@media screen and (min-width: 768px) {
+  .hero-home {
+    background-image: url("../../assets/images/home-hero-tablet.jpg");
+  }
+}
+@media screen and (min-width: 1201px) {
+  .hero-home {
+    background-image: url("../../assets/images/home-hero-desktop.jpg");
+  }
+}
 .values {
   width: 100%;
 }

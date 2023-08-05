@@ -1,1 +1,22 @@
 // Hero-Home Styles
+.hero-home {
+	overflow: hidden;
+	height: 40.625rem;
+	width: 100%;
+	background-image: url('../../assets/images/home-hero-mobile.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+
+	@include bp-tablet-up {
+		background-image: url('../../assets/images/home-hero-tablet.jpg');
+	}
+
+	@include bp-xl-up {
+		background-image: url('../../assets/images/home-hero-desktop.jpg');
+	}
+
+	.hero-content {
+		
+	}
+}

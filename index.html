@@ -19,7 +19,7 @@
 
 <body>
 	<div class="wrapper">
-		<header class="header">
+		<header class="header mb-2">
 			<div class="container-fluid">
 				<!-- Header -->
 				<nav class="navbar bg-light navbar-expand-md">
@@ -28,7 +28,7 @@
 							data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
 							<span class="navbar-toggler-icon"></span>
 						</button>
-						<a href="./index.html" class="navbar-brand d-none d-md-block mx-auto">
+						<a href="./index.html" class="navbar-brand mx-auto">
 							<img src="./assets/logo.svg" alt="Scoot logo" class="img-fluid align-middle me-5">
 						</a>
 						<!-- Offcanvas Menu -->
@@ -66,8 +66,88 @@
 		</header><!-- End Header -->
 
 		<main class="main main-home">
-			<section class="hero-home container-fluid"></section><!-- End Hero Section -->
-			<section class="directions container-fluid"></section><!-- End Directions Section -->
+			<section class="hero-home container-fluid">
+				<article class="hero-content text-center text-xl-start container m-auto m-xl-0">
+					<div class="flex-column mt-5">
+						<div class="heading-container mx-md-5 pt-2 px-1">
+							<h1 class="home-heading heading-1 text-white">
+								Scooter sharing made simple
+							</h1>
+						</div>
+						<div class="lead-container">
+							<p class="home-lead paragraph mx-md-5 mt-xl-3 p-3 text-white">
+								Scoot takes the hassle out of urban mobility. Our bikes are
+								placed in convenient locations in each of our cities. Use our
+								app to locate the nearest bike, unlock it with a tap, and
+								you’re away!
+							</p>
+						</div>
+						<div class="button-container text-center text-xl-start mt-5">
+							<button class="btn btn-lg btn-primary home-button" type="button">
+								<a href="#scoot" class="btn btn-primary fs-6">Get Scootin</a>
+							</button>
+						</div>
+					</div>
+				</article>
+				<!-- Hero Patterns -->
+				<div class="hero-patterns">
+					<div class="shape--line d-none d-xl-block"></div>
+					<div class="shape--arrow"></div>
+					<div class="shape--whitecircles d-none d-md-block"></div>
+				</div>
+			</section><!-- End Hero Section -->
+
+			<section class="directions container-fluid">
+				<article
+					class="directions-content d-flex flex-column flex-xl-row justify-content-evenly align-items-center my-5">
+					<!-- Item 01 -->
+					<div
+						class="directions-item d-flex flex-column flex-md-row flex-xl-column justify-content-md-between text-center text-md-start mb-5 mb-md-1">
+						<div class="image-content ms-md-5 ps-md-5">
+							<img src="./assets/icons/locate.svg" alt="Locate icon" class="directions-icon">
+						</div>
+						<div class="text-content d-flex flex-column justify-content-evenly ms-md-5 px-md-5 ps-xl-0">
+							<h4 class="directions-heading heading-4 p-1">Locate with app</h4>
+							<p class="paragraph directions-text">Use the app to find the nearest scooter to you. We are
+								continuously placing scooters in the areas with most demand,
+								so one should never be too far away.</p>
+						</div>
+					</div>
+					<!-- Item 02 -->
+					<div
+						class="directions-item d-flex flex-column flex-md-row flex-xl-column justify-content-md-between text-center text-md-start mb-5 mb-md-0">
+						<div class="image-content ms-md-5 ps-md-5">
+							<img src="./assets/icons/scooter.svg" alt="Locate icon" class="directions-icon">
+						</div>
+						<div class="text-content d-flex flex-column justify-content-evenly ms-md-5 px-md-5 ps-xl-0">
+							<h4 class="directions-heading heading-4 p-1">Pick your scooter</h4>
+							<p class="paragraph directions-text">We show the most important info for the scooters
+								closest to
+								you. So you know how much charge they have left and can see
+								roughly how much it will cost.</p>
+						</div>
+					</div>
+					<!-- Item 03 -->
+					<div
+						class="directions-item d-flex flex-column flex-md-row flex-xl-column justify-content-md-between text-center text-md-start mb-5 mb-md-0">
+						<div class="image-content ms-md-5 ps-md-5">
+							<img src="./assets/icons/ride.svg" alt="Locate icon" class="directions-icon">
+						</div>
+						<div class="text-content d-flex flex-column justify-content-evenly ms-md-5 px-md-5 ps-xl-0">
+							<h4 class="directions-heading heading-4 p-1">Enjoy the ride</h4>
+							<p class="paragraph directions-text">Scan the QR code and the bike will unlock. Retract the
+								cable
+								lock, put on a helmet, and you’re off! Always lock bikes away
+								from walkways and accessibility ramps.</p>
+						</div>
+					</div>
+				</article>
+				<!-- Directions Patterns -->
+				<div class="directions-patterns">
+					<div class="shape--line"></div>
+				</div>
+			</section><!-- End Directions Section -->
+
 			<section class="features-home container-fluid"></section><!-- End Features Section -->
 			<section class="cta container-fluid">
 
