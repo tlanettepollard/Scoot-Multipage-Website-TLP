@@ -173,7 +173,7 @@ Resources:
 
 ### 01/05/2023
 
-## Hi, I'm back. I worked on the Careers page features section. I can't understand why the bottom padding for the section is not working on this page, but it works on the About page. I'll check it tomorrow.
+Hi, I'm back. I worked on the Careers page features section. I can't understand why the bottom padding for the section is not working on this page, but it works on the About page. I'll check it tomorrow.
 
 ### 02/11/2023
 
@@ -181,6 +181,12 @@ Hi, I'm back. I have been working on Scoot. I just haven't been writing my notes
 
 Resources: -[How to change the accordion's color?](https://github.com/twbs/bootstrap/discussions/37229)
 
+### 08/04/2023
+
+
+
+
+----
 -space-s: 12rem;
 --space-m: 16rem;
 --space-l: 20rem;

@@ -1,409 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<!-- Bootstrap -->
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-			crossorigin="anonymous"
-		/>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<!-- My CSS -->
-		<link rel="stylesheet" type="text/css" href="/dist/css/main.css" />
+	<!-- Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
 
-		<link
-			rel="icon"
-			type="image/png"
-			sizes="32x32"
-			href="./images/favicon-32x32.png"
-		/>
+	<!-- My CSS -->
+	<link rel="stylesheet" type="text/css" href="/dist/css/main.css" />
 
-		<title>Scoot Home</title>
-	</head>
-	<body>
-		<div class="wrapper">
-			<!-- Header -->
-			<nav class="navbar bg-light navbar-expand-md">
-				<div class="container-fluid">
-					<button
-						class="navbar-toggler"
-						type="button"
-						data-bs-toggle="offcanvas"
-						data-bs-target="#offcanvasNavbar"
-						aria-controls="offcanvasNavbar"
-					>
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<a class="navbar-brand mx-auto" href="./index.html">
-						<img
-							src="./assets/logo.svg"
-							alt="Scoot logo"
-							class="nav-logo img-fluid position-absolute"
-						/>
-					</a>
-					<div
-						class="offcanvas offcanvas-start"
-						tabindex="-1"
-						id="offcanvasNavbar"
-						aria-labelledby="=offcanvasNavbarLabel"
-					>
-						<div class="offcanvas-header">
-							<div class="button-container">
-								<button
-									type="button"
-									class="btn-close"
-									data-bs-dismiss="offcanvas"
-									aria-label="Close"
-								></button>
-							</div>
-							<img
-								src="./assets/logo.svg"
-								alt="Scoot logo"
-								class="sidebar-logo position-absolute navbar-brand mx-auto"
-							/>
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+	<title>Scoot Home</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<!-- Header -->
+		<nav class="navbar bg-light navbar-expand-md">
+			<div class="container-fluid">
+				<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+					data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<a href="./index.html" class="navbar-brand mx-auto">
+					<img src="./assets/logo.svg" alt="Scoot logo" class="nav-logo img-fluid">
+				</a>
+				<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+					aria-labelledby="offcanvasNavbarLabel">
+					<div class="offcanvas-header">
+						<div class="button-container">
+							<button class="btn-close" type="button" data-bs-dismiss="offcanvas"
+								aria-lable="Close"></button>
 						</div>
-						<!-- offcanvas-header -->
-						<div
-							class="offcanvas-body d-flex flex-column flex-lg-row justify-content-between align-items-start"
-						>
-							<ul
-								class="navbar-nav position-absolute m-md-auto align-items-md-center"
-							>
-								<li class="nav-item m-md-2 m-xl-4">
-									<a class="nav-link" href="./about.html">About</a>
-								</li>
-								<li class="nav-item m-md-2 m-xl-4">
-									<a class="nav-link" href="./locations.html">Locations</a>
-								</li>
-								<li class="nav-item m-md-2 m-xl-4">
-									<a class="nav-link" href="./careers.html">Careers</a>
-								</li>
-								<div class="button-container">
-									<button
-										class="btn btn-lg btn-primary offcanvas-button d-block position-absolute"
-										type="button"
-									>
-										<a href="#scoot" class="fs-6">Get Scootin</a>
-									</button>
-								</div>
-							</ul>
+						<div class="logo-container mx-auto">
+							<img src="./assets/logo.svg" alt="Scoot logo" class=" navbar-brand">
+						</div>
+					</div><!-- Offcanvas Header -->
+					<div
+						class="offcanvas-body d-flex flex-column flex-md-row justify-content-between align-items-start">
+						<ul class="navbar-nav mt-5 ms-4">
+							<li class="nav-item py-2">
+								<a href="./about.html" class="nav-link text-light">About</a>
+							</li>
+							<li class="nav-item py-2">
+								<a href="./locations.html" class="nav-link text-light">Locations</a>
+							</li>
+							<li class="nav-item py-2">
+								<a href="./careers.html" class="nav-link text-light">Careers</a>
+							</li>
+						</ul>
+						<div class="button-container mb-4 ms-4">
+							<a href="#scoot" class="btn btn-primary fs-3 d-inline-block py-4" role="button">
+								Get Scootin</a>
 						</div>
 					</div>
 				</div>
-			</nav>
-			<!-- End Header -->
+			</div>
+		</nav>
+		<!-- End Header -->
 
-			<!-- Hero Section -->
-			<main class="main">
-				<section class="hero-home container-fluid">
-					<article
-						class="hero-content text-center text-xl-start container m-auto m-xl-0"
-					>
-						<div class="flex-column mt-5">
-							<div class="heading-container">
-								<h1 class="home-heading heading-1">
-									Scooter sharing made simple
-								</h1>
-							</div>
-							<div class="lead-container">
-								<p class="home-lead paragraph mt-xl-3">
-									Scoot takes the hassle out of urban mobility. Our bikes are
-									placed in convenient locations in each of our cities. Use our
-									app to locate the nearest bike, unlock it with a tap, and
-									you’re away!
-								</p>
-							</div>
-							<div class="button-container text-center text-xl-start mt-4">
-								<button
-									class="btn btn-lg btn-primary home-button"
-									type="button"
-								>
-									<a href="#scoot" class="fs-6">Get Scootin</a>
-								</button>
-							</div>
-						</div>
-					</article>
-					<!-- Hero Patterns -->
-					<div class="hero-patterns d-flex flex-row">
-						<div class="shape--line d-none d-xl-block"></div>
-						<div class="shape--arrow"></div>
-						<div class="shape--whitecircles d-none d-md-block"></div>
-					</div>
-				</section>
-				<!-- End Hero Section -->
+		<!-- Hero Section -->
 
-				<!-- Directions Section -->
-				<section class="directions container-fluid">
-					<article
-						class="directions-content d-flex flex-column flex-xl-row justify-content-evenly align-items-center mt-sm-5 mt-md-5 mt-xl-5"
-					>
-						<!-- Item 01 -->
-						<div
-							class="directions-item d-flex flex-column flex-md-row flex-xl-column justify-content-md-between text-center text-md-start"
-						>
-							<div class="image-content">
-								<img
-									src="./assets/icons/locate.svg"
-									alt="locate icon"
-									class="directions-icon ps-md-3"
-								/>
-							</div>
-							<div
-								class="text-content d-flex flex-column justify-content-evenly ps-xl-0"
-							>
-								<h4 class="directions-heading heading-4 p-1">
-									Locate with app
-								</h4>
-								<p class="paragraph directions-text">
-									Use the app to find the nearest scooter to you. We are
-									continuously placing scooters in the areas with most demand,
-									so one should never be too far away.
-								</p>
-							</div>
-						</div>
+	</div>
+	<!-- wrapper -->
 
-						<!-- Item 02 -->
-						<div
-							class="directions-item d-flex flex-column flex-md-row flex-xl-column justify-content-md-between text-center text-md-start"
-						>
-							<div class="image-content">
-								<img
-									src="./assets/icons/scooter.svg"
-									class="directions-icon ps-md-3"
-									alt="scooter icon"
-								/>
-							</div>
-							<div
-								class="text-content d-flex flex-column justify-content-evenly ps-xl-0"
-							>
-								<h4 class="directions-heading heading-4 p-1">
-									Pick your scooter
-								</h4>
-								<p class="paragraph directions-text">
-									We show the most important info for the scooters closest to
-									you. So you know how much charge they have left and can see
-									roughly how much it will cost.
-								</p>
-							</div>
-						</div>
+	<!-- JavaScript Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+		crossorigin="anonymous"></script>
+</body>
 
-						<!-- Item 03 -->
-						<div
-							class="directions-item d-flex flex-column flex-md-row flex-xl-column justify-content-evenly justify-content-md-between text-center text-md-start"
-						>
-							<div class="image-content">
-								<img
-									src="./assets/icons/ride.svg"
-									alt="ride icon"
-									class="directions-icon ps-md-3"
-								/>
-							</div>
-							<div
-								class="text-content d-flex flex-column justify-content-evenly"
-							>
-								<h4 class="directions-heading heading-4 p-1">Enjoy the ride</h4>
-								<p class="paragraph directions-text">
-									Scan the QR code and the bike will unlock. Retract the cable
-									lock, put on a helmet, and you’re off! Always lock bikes away
-									from walkways and accessibility ramps.
-								</p>
-							</div>
-						</div>
-					</article>
-
-					<!-- Directions Patterns -->
-					<div class="directions-patterns">
-						<div class="shape--line"></div>
-					</div>
-				</section>
-				<!-- End Directions Section-->
-
-				<!-- Features Section -->
-				<section
-					class="features-home container-fluid d-flex flex-column justify-content-evenly"
-				>
-					<article
-						class="feature-home container d-flex flex-column flex-xl-row-reverse justify-content-between justify-content-lg-between, align-items-center text-center text-xl-start"
-					>
-						<div class="feature-home--image">
-							<img
-								src="/assets/images/telemetry.jpg"
-								class="img-fluid img-round"
-								alt="easy to use image"
-							/>
-						</div>
-						<div class="feature-home--copy">
-							<h2 class="heading-2 feature-home--heading">
-								Easy to use riding telemetry
-							</h2>
-							<p class="paragraph feature-home--text">
-								The Scoot app is available with riding telemetry. This means it
-								can show you your average speed, how long you've been using the
-								scooter, your traveling distance, and many more things all in an
-								easy to use app.
-							</p>
-							<div class="button-container">
-								<button class="btn btn-lg btn-primary feature-button">
-									Learn More
-								</button>
-							</div>
-						</div>
-					</article>
-					<article
-						class="feature-home container d-flex flex-column flex-xl-row justify-content-lg-between align-items-center text-center text-xl-start"
-					>
-						<div class="feature-home--image">
-							<img
-								src="/assets/images/near-you.jpg"
-								class="img-fluid img-round"
-								alt="near you image"
-							/>
-						</div>
-						<div class="feature-home--copy">
-							<h2 class="heading-2 feature-home--heading">
-								Coming to a city near you
-							</h2>
-							<p class="paragraph feature-home--text">
-								Scoot is available in 4 major cities so far. We’re expanding
-								rapidly, so be sure to let us know if you want to see us in your
-								hometown. We’re aiming to let our scooters loose on 23 cities
-								over the coming year.
-							</p>
-							<div class="button-container">
-								<button class="btn btn-lg btn-primary feature-home--button">
-									Learn More
-								</button>
-							</div>
-						</div>
-					</article>
-					<article
-						class="feature-home container d-flex flex-column flex-xl-row-reverse justify-content-between justify-content-lg-between align-items-center text-center text-xl-start"
-					>
-						<div class="feature-home--image">
-							<img
-								src="/assets/images/payments.jpg"
-								class="img-fluid img-round"
-								alt="payments image"
-							/>
-						</div>
-						<div class="feature-home--copy">
-							<h2 class="heading-2 feature-home--heading">
-								Zero hassle payments
-							</h2>
-							<p class="paragraph feature-home--text">
-								Our payment is as easy as one two three. We accept most credit
-								cards and debit cards. You can also link your PayPal account
-								inside the app. Need to pay later? No worries! You can defer
-								payment for up to a month.
-							</p>
-							<div class="button-container">
-								<button class="btn btn-lg btn-primary feature-home--button">
-									Learn More
-								</button>
-							</div>
-						</div>
-					</article>
-
-					<!-- Features Patterns -->
-					<div class="features-patterns"></div>
-				</section>
-				<!-- End Features Section -->
-
-				<!-- Call-to-Action Section -->
-				<section class="cta container-fluid position-relative">
-					<div
-						class="cta-container container d-flex flex-column flex-xl-row justify-content-between align-items-center text-center text-md-center text-xl-start py-4 py-md-5 m-auto"
-					>
-						<h2 class="cta-heading heading-2 text-white">
-							Sign up and Scoot off today
-						</h2>
-						<div class="appstore-icons d-flex flex-row justify-content-between">
-							<div class="store-icon px-1 px-md-2">
-								<img src="./assets/icons/app-store.svg" alt="store icon" />
-							</div>
-							<div class="store-icon px-2 px-md-2">
-								<img src="./assets/icons/google-play.svg" alt="store icon" />
-							</div>
-						</div>
-					</div>
-				</section>
-				<!-- End Call-to-Action-->
-			</main>
-			<!-- End Main-->
-
-			<!-- Footer Section -->
-			<footer class="footer container-fluid">
-				<div
-					class="footer-container container d-flex flex-column flex-md-row justify-content-evenly justify-content-md-between align-items-center"
-				>
-					<div class="footer-logo text-center text-md-start mt-5 m-md-0">
-						<img
-							src="./assets/logo-white.svg"
-							alt="Scoot logo"
-							class="navbar-logo img-fluid text-center"
-						/>
-					</div>
-					<div
-						class="footer__nav d-md-flex flex-md-row justify-content-md-start text-center text-md-start"
-					>
-						<div class="footer__nav-item p-3">
-							<a class="footer__nav-link" href="./about.html">About</a>
-						</div>
-						<div class="footer__nav-item p-3">
-							<a class="footer__nav-link" href="./locations.html">Locations</a>
-						</div>
-						<div class="footer__nav-item p-3">
-							<a class="footer__nav-link" href="./careers.html">Careers</a>
-						</div>
-					</div>
-
-					<div class="footer-social-navbar">
-						<div class="social-nav d-flex flex-row justify-content-between">
-							<div class="social-link p-2">
-								<a href="https://www.facebook.com">
-									<img
-										src="./assets/icons/facebook.svg"
-										alt="facebook icon"
-										class="social-logo"
-									/>
-								</a>
-							</div>
-							<div class="social-link p-2">
-								<a href="https://www.twitter.com">
-									<img
-										src="./assets/icons/twitter.svg"
-										alt="twitter icon"
-										class="social-logo"
-									/>
-								</a>
-							</div>
-							<div class="social-link p-2">
-								<a href="https://www.facebook.com">
-									<img
-										src="./assets/icons/facebook.svg"
-										alt="facebook icon"
-										class="social-logo"
-									/>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- footer-container -->
-			</footer>
-			<!-- End Footer -->
-		</div>
-		<!-- wrapper -->
-
-		<!-- JavaScript Bundle with Popper -->
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-			crossorigin="anonymous"
-		></script>
-	</body>
 </html>
