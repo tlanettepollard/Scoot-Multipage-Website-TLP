@@ -114,6 +114,26 @@ h4 {
   line-height: 1.5625rem;
 }
 
+.btn-primary {
+  font-family: "Space Mono", monospace;
+  background-color: hsl(40, 97%, 58%);
+}
+.btn-primary:hover {
+  background-color: transparent;
+  border: 0.2rem solid hsl(40, 97%, 58%);
+  color: hsl(40, 97%, 58%);
+}
+
+a:hover {
+  color: hsl(40, 97%, 58%) !important;
+}
+
+a:link {
+  margin: auto;
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+
 .cta {
   width: 100%;
   height: 20rem;

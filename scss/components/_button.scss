@@ -1,0 +1,26 @@
+.btn {
+
+}
+
+.btn-primary {
+    font-family: $heading-font;
+    background-color: $button-bg;
+
+    &:hover {
+        background-color: transparent;
+        border: .2rem solid $button-hover-border; 
+        color: $button-hover-text;  
+        
+    }
+
+}
+
+a:hover {
+    color: $button-hover-text !important;
+}
+
+a:link {
+    margin: auto;
+    color: $button-text;
+    text-decoration: none;
+}
