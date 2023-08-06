@@ -31,7 +31,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  outline: 1px solid black;
 }
 
 html {
@@ -117,10 +116,8 @@ h4 {
 .cta {
   width: 100%;
   height: 20rem;
+  overflow: hidden;
   background-color: hsl(217, 18%, 35%);
-  background-image: url("../../assets/patterns/semi-circles.svg");
-  background-repeat: no-repeat;
-  background-position: bottom right;
 }
 @media screen and (min-width: 768px) {
   .cta {
@@ -158,6 +155,15 @@ h4 {
   .cta-container .appstore-icons .store-icon img {
     width: 95%;
   }
+}
+.cta-container .shape--halfcircles {
+  width: 1158px;
+  height: 158px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(../../assets/patterns/semi-circles.svg);
+  bottom: 0;
+  right: -163.00008px;
 }
 
 /* *****************
