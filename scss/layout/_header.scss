@@ -23,7 +23,19 @@
 			.offcanvas-header {
 				background-color: $white;
 			}
+
+			
+			.offcanvas-body {
+				.navbar-nav {
+				
+					.nav-link {
+						color: $nav-link-color;
+					}
+				}
+			}
 		}
+
+		
 	
 	}
 }

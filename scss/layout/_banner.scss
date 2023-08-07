@@ -1,1 +1,49 @@
 // About Banner Background
+.banner {
+    width: 100%;
+    height: 16rem;
+
+    @include bp-tablet-up {
+        height: 20rem;
+    }
+
+}
+
+.banner-about {
+    background-image: url('../../assets/images/about-hero-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: $hero-heading;
+
+    @include bp-xs-mobile {
+        background-position: bottom;
+    }
+
+    @include bp-tablet-up {
+        background-image: url('../../assets/images/about-hero-tablet.jpg');
+    }
+
+    @include bp-xl-up {
+        background-image: url('../../assets/images/about-hero-desktop.jpg');
+    }
+}
+
+// Career Banner Background
+.banner-careers {
+    background-image: url('../../assets/images/careers-location-hero-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: $hero-heading;
+}
+
+
+// Locations Banner Background
+.banner-locations {
+    background-image: url('../../assets/images/careers-location-hero-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: $hero-heading;
+}
