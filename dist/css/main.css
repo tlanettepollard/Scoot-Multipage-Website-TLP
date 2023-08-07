@@ -581,19 +581,27 @@ Home, About, and Careers section Styles
   height: 4rem;
   width: 100%;
 }
-.header nav .navbar-toggler-icon {
+.header nav .container {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .header nav .container {
+    width: 75%;
+  }
+}
+.header nav .container .navbar-toggler-icon {
   background-image: url("/assets/icons/hamburger.svg");
 }
-.header nav .btn-close {
+.header nav .container .btn-close {
   background-image: url("/assets/icons/close.svg");
 }
-.header nav .offcanvas {
+.header nav .container .offcanvas {
   background-color: hsl(215, 14%, 23%);
 }
-.header nav .offcanvas .offcanvas-header {
+.header nav .container .offcanvas .offcanvas-header {
   background-color: hsl(0, 0%, 100%);
 }
-.header nav .offcanvas .offcanvas-body .navbar-nav .nav-link {
+.header nav .container .offcanvas .offcanvas-body .navbar-nav .nav-link {
   color: hsl(217, 12%, 62%);
 }
 

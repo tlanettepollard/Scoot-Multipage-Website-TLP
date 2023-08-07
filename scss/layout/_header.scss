@@ -4,39 +4,45 @@
 		height: 4rem;
 		width: 100%;
 		
+		.container {
+			width: 100%;
 
-		.nav-logo {
-			
-		}
-
-		.navbar-toggler-icon {
-			background-image: url('/assets/icons/hamburger.svg');
-		}
-
-		.btn-close {
-			background-image: url('/assets/icons/close.svg');
-		}
-
-		.offcanvas {
-			background-color: $soft-black;
-
-			.offcanvas-header {
-				background-color: $white;
+			@include bp-tablet-up {
+				width: 75%;
+			}
+		
+			.nav-logo {
+				
 			}
 
-			
-			.offcanvas-body {
-				.navbar-nav {
+			.navbar-toggler-icon {
+				background-image: url('/assets/icons/hamburger.svg');
+			}
+
+			.btn-close {
+				background-image: url('/assets/icons/close.svg');
+			}
+
+			.offcanvas {
+				background-color: $soft-black;
+
+				.offcanvas-header {
+					background-color: $white;
+				}
+
 				
-					.nav-link {
-						color: $nav-link-color;
+				.offcanvas-body {
+					.navbar-nav {
+					
+						.nav-link {
+							color: $nav-link-color;
+						}
 					}
 				}
 			}
-		}
 
 		
-	
+		}
 	}
 }
 // Bootstrap Classes 
