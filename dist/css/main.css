@@ -653,9 +653,6 @@ Home, About, and Careers section Styles
     left: 24rem;
   }
 }
-.hero-home .hero-content .hero-patterns .pattern--line {
-  width: 30rem !important;
-}
 
 .pattern--arrow .top-50 {
   top: 70% !important;
@@ -687,6 +684,14 @@ Home, About, and Careers section Styles
 
 .pattern--line .top-50 {
   top: 54% !important;
+}
+
+.pattern--whitecircles .top-50 {
+  top: 85% !important;
+}
+
+.pattern--whitecircles .end-0 {
+  right: -4% !important;
 }
 
 .values {
