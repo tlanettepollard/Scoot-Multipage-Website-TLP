@@ -695,12 +695,14 @@ Home, About, and Careers section Styles
   }
 }
 
-.pattern--whitecircles .end-0 {
-  right: -6% !important;
+@media screen and (min-width: 768px) {
+  .pattern--whitecircles .end-0 {
+    right: -4% !important;
+  }
 }
 @media screen and (min-width: 1201px) {
   .pattern--whitecircles .end-0 {
-    right: -2% !important;
+    right: -2.5% !important;
   }
 }
 
