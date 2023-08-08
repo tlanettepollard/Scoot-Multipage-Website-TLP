@@ -96,8 +96,10 @@
 }
 
 .pattern--whitecircles .end-0 {
-	right: -6% !important;
+	@include bp-tablet-up {
+		right: -4% !important;
+	}
 	@include bp-xl-up {
-		right: -2%  !important;
+		right: -2.5%  !important;
 	}
 }
