@@ -52,12 +52,43 @@
 		}
 
 		.hero-patterns {
-			.pattern-line {
-				
+			.pattern--line {
+				width: 30rem !important;
+			
 			}		
 		}
 	}
 }
 
 // Bootstrap Classes 
+.pattern--arrow .end-0 {
+	
+}
 
+.pattern--arrow .top-50 {
+	top: 70% !important;
+
+	@include bp-tablet-up {
+		top: 72% !important;
+	}
+
+	@include bp-xl-up {
+		top: 54% !important;
+	}
+}
+
+.pattern--arrow .start-0 {
+	left: -73% !important;
+
+	@include bp-tablet-up {
+		left: -15% !important;
+	}
+
+	@include bp-xl-up {
+		left: 50% !important;
+	}
+}
+
+.pattern--line .top-50 {
+	top: 54% !important;
+}
