@@ -1,25 +1,26 @@
 .btn {
-	width: 12rem;
-	height: 3.3125rem;
-	border-radius: 0px;
-	color: $button-text;
+
 }
 
 .btn-primary {
-	font-family: $heading-font;
-	background-color: $button-bg;
+    font-family: $heading-font;
+    background-color: $button-bg;
 
-	&:hover {
-		background-color: transparent;
-		border: 2px solid $button-hover-border;
-		a:hover {
-			color: $button-hover-text;
-		}
-	}
+    &:hover {
+        background-color: transparent;
+        border: .2rem solid $button-hover-border; 
+        color: $button-hover-text;  
+        
+    }
 
-	a:link {
-		margin: auto;
-		color: $button-text;
-		text-decoration: none;
-	}
+}
+
+a:hover {
+    color: $button-hover-text !important;
+}
+
+a:link {
+    margin: auto;
+    color: $button-text;
+    text-decoration: none;
 }

@@ -1,415 +1,304 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<!-- Bootstrap -->
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-			crossorigin="anonymous"
-		/>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<!-- My CSS -->
-		<link rel="stylesheet" type="text/css" href="/dist/css/main.css" />
+	<!-- Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
-		<link
-			rel="icon"
-			type="image/png"
-			sizes="32x32"
-			href="./images/favicon-32x32.png"
-		/>
+	<!-- My CSS -->
+	<link rel="stylesheet" type="text/css" href="/dist/css/main.css">
 
-		<title>Scoot Careers</title>
-	</head>
-	<body>
-		<div class="wrapper">
-			<!-- Header -->
-			<nav class="navbar bg-light navbar-expand-md">
-				<div class="container-fluid">
-					<button
-						class="navbar-toggler"
-						type="button"
-						data-bs-toggle="offcanvas"
-						data-bs-target="#offcanvasNavbar"
-						aria-controls="offcanvasNavbar"
-					>
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<a class="navbar-brand mx-auto" href="./index.html">
-						<img
-							src="./assets/logo.svg"
-							alt="Scoot logo"
-							class="nav-logo img-fluid position-absolute"
-						/>
-					</a>
-					<div
-						class="offcanvas offcanvas-start"
-						tabindex="-1"
-						id="offcanvasNavbar"
-						aria-labelledby="=offcanvasNavbarLabel"
-					>
-						<div class="offcanvas-header">
-							<div class="button-container">
-								<button
-									type="button"
-									class="btn-close"
-									data-bs-dismiss="offcanvas"
-									aria-label="Close"
-								></button>
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+	<title>Scoot Careers</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header mb-2">
+			<div class="container-fluid">
+				<!-- Header -->
+				<nav class="navbar bg-light navbar-expand-md">
+					<div class="container">
+						<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+							data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<a href="./index.html" class="navbar-brand mx-auto">
+							<img src="./assets/logo.svg" alt="Scoot logo" class="img-fluid align-middle me-5">
+						</a>
+						<!-- Offcanvas Menu -->
+						<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+							aria-labelledby="offcanvasNavbarLabel">
+							<div class="offcanvas-header">
+								<button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+									aria-label="Close"></button>
+								<img src="./assets/logo.svg" class="sidebar-logo navbar-brand mx-auto d-md-none"
+									alt="Scoot logo">
+							</div> <!-- End Offcanvas Header -->
+							<div
+								class="offcanvas-body d-flex flex-column flex-md-row justify-content-between align-items-start">
+								<ul class="navbar-nav">
+									<li class="nav-item m-md-2 m-xl-4">
+										<a class="nav-link" href="./about.html">About</a>
+									</li>
+									<li class="nav-item m-md-2 m-xl-4">
+										<a class="nav-link" href="./locations.html">Locations</a>
+									</li>
+									<li class="nav-item m-md-2 m-xl-4">
+										<a class="nav-link" href="./careers.html">Careers</a>
+									</li>
+									<div class="button-container d-md-none">
+										<a href="#" class="btn btn-lg btn-primary d-md-none">Get Scootin</a>
+									</div>
+								</ul>
 							</div>
-							<img
-								src="./assets/logo.svg"
-								alt="Scoot logo"
-								class="sidebar-logo position-absolute navbar-brand mx-auto"
-							/>
-						</div>
-						<!-- offcanvas-header -->
-						<div
-							class="offcanvas-body d-flex flex-column flex-lg-row justify-content-between align-items-start"
-						>
-							<ul
-								class="navbar-nav position-absolute m-md-auto align-items-md-center"
-							>
-								<li class="nav-item m-md-2 m-xl-4">
-									<a class="nav-link" href="./about.html">About</a>
-								</li>
-								<li class="nav-item m-md-2 m-xl-4">
-									<a class="nav-link" href="./locations.html">Locations</a>
-								</li>
-								<li class="nav-item m-md-2 m-xl-4">
-									<a class="nav-link" href="./careers.html">Careers</a>
-								</li>
-								<div class="button-container">
-									<button
-										class="btn btn-lg btn-primary offcanvas-button d-block position-absolute"
-										type="button"
-									>
-										<a href="#scoot" class="fs-6">Get Scootin</a>
-									</button>
-								</div>
-							</ul>
 						</div>
 					</div>
+					<!-- CTA Button -->
+					<a href="#" class="btn btn-primary d-none d-md-block">Get Scootin</a>
+				</nav>
+			</div><!-- wrapper -->
+		</header><!-- End Header -->
+
+		<main>
+			<section class="banner-careers banner container-fluid">
+				<article
+					class="banner-careers--container container-fluid position-relative d-flex flex-column justify-content-center align-items-center align-items-xl-start h-100">
+					<h1 class="careers-heading banner-heading heading-1 text-center text-md-start w-100 ms-md-5">
+						Careers
+					</h1>
+				</article>
+				<div class="banner-patterns d-flex flex-row">
+					<div class="shape--whitecircles d-none d-md-block"></div>
 				</div>
-			</nav>
-			<!-- End Header Section -->
+			</section><!-- End Banner -->
 
-			<!-- Banner -->
-			<main class="main main-careers">
-				<section class="banner-careers container-fluid">
-					<article
-						class="banner-careers-content container-fluid position-relative"
-					>
-						<div class="careers-banner-container container position-relative">
-							<h1
-								class="careers-heading banner-heading heading-1 text-center text-md-start position-absolute"
-							>
-								Careers
-							</h1>
-						</div>
-					</article>
-					<div class="banner-patterns d-flex flex-row">
-						<div class="shape--whitecircles d-none d-md-block"></div>
+			<section class="features-careers container-fluid d-flex flex-column justify-content-evenly">
+				<article
+					class="feature-careers container-fluid d-flex flex-column flex-xl-row-reverse justify-content-between justify-content-lg-around align-items-center text-center text-xl-start mb-5 w-100">
+					<div class="feature-careers--image">
+						<img src="/assets/images/join-us.jpg" class="img-fluid img-round" alt="digital era image">
 					</div>
-				</section>
-				<!-- End Banner Section -->
-
-				<!-- Features Section -->
-				<section
-					class="features-careers container-fluid d-flex flex-column justify-content-evenly"
-				>
-					<article
-						class="feature-careers container d-flex flex-column flex-xl-row-reverse justify-content-between justify-content-lg-between align-items-center text-center text-xl-start"
-					>
-						<div class="feature-careers--image">
-							<img
-								src="/assets/images/join-us.jpg"
-								class="img-fluid img-round"
-								alt="digital era image"
-							/>
-						</div>
-						<div class="feature-careers--copy">
-							<h2 class="heading-2 feature-careers--heading m-auto m-xl-0 pb-4">
-								Care to join our mission?
-							</h2>
-							<p class="paragraph feature-careers--text">
-								We’re always looking for ambitious individuals to help us on our
-								journey. If you’re passionate about our mission to provide
-								clean, accessible transport to improve urban living we want to
-								hear from you!
-							</p>
-							<div class="button-container">
-								<button class="btn btn-lg btn-primary feature-careers--button">
-									Learn More
-								</button>
-							</div>
-						</div>
-					</article>
-
-					<!-- Features Patterns -->
-					<div class="features-patterns"></div>
-				</section>
-				<!-- End Features Section -->
-
-				<!-- Values Section -->
-				<section class="values container-fluid mb-5">
-					<h2 class="values__title heading-2 container text-center pb-5">
-						Our values
-					</h2>
-					<div
-						class="values-container container d-flex flex-column flex-xl-row justify-content-evenly align-items-center text-center"
-					>
-						<article
-							class="value position-relative d-flex flex-column justify-content-evenly"
-						>
-							<div class="value-image">
-								<img
-									src="/assets/images/our-tech.jpg"
-									class="img-round img-fluid"
-									alt="our tech image"
-								/>
-								<span
-									class="value-number position-absolute rounded-circle d-flex justify-content-center align-items-center text-center"
-									>01</span
-								>
-							</div>
-
-							<div class="value-copy pt-5">
-								<h4 class="value-title heading-4">Our tech</h4>
-								<p class="value-text paragraph">
-									We’re using cutting edge technology to drive accessible urban
-									transportation forward. Our fully electric scooters are a joy
-									to ride!
-								</p>
-							</div>
-						</article>
-						<article
-							class="value position-relative d-flex flex-column justify-content-evenly"
-						>
-							<div class="value-image">
-								<img
-									src="/assets/images/our-integrity.jpg"
-									class="img-round img-fluid"
-									alt="our integrity image"
-								/>
-								<span
-									class="value-number position-absolute rounded-circle d-flex justify-content-center align-items-center text-center"
-									>02</span
-								>
-							</div>
-
-							<div class="value-copy pt-5">
-								<h4 class="value-title heading-4">Our integrity</h4>
-								<p class="value-text paragraph">
-									We are fully committed to deliver a great yet safe,
-									sustainable micro-mobility experience in every city we serve.
-								</p>
-							</div>
-						</article>
-						<article
-							class="value position-relative d-flex flex-column justify-content-evenly"
-						>
-							<div class="value-image">
-								<img
-									src="/assets/images/our-community.jpg"
-									class="img-round img-fluid"
-									alt="our community image"
-								/>
-								<span
-									class="value-number position-absolute rounded-circle d-flex justify-content-center align-items-center text-center"
-									>03</span
-								>
-							</div>
-
-							<div class="value-copy pt-5">
-								<h4 class="value-title heading-4">Our community</h4>
-								<p class="value-text paragraph">
-									We support every community we serve. All workers are paid a
-									living wage based on their location and are Scoot employees.
-								</p>
-							</div>
-						</article>
-					</div>
-				</section>
-				<!-- End Values Section -->
-				<!-- Jobs section -->
-				<section class="jobs container-fluid mb-5 mt-4">
-					<ul class="jobs-container container  text-center text-md-start">
-						<li
-							class="position d-flex flex-column flex-md-row justify-content-evenly justify-content-md-between align-items-center p-4 mb-3"
-						>
-							<div
-								class="position-copy d-flex flex-column justify-content-evenly justify-content-md-between mb-1"
-							>
-								<h4 class="position-title">General Manager</h4>
-								<p class="paragraph position-location">Jakarta, Indonesia</p>
-							</div>
-							<button class="position-btn btn-primary btn btn-lg">
-								<a href="#" class="fs-4">Apply</a>
-							</button>
-						</li>
-						<li
-							class="position d-flex flex-column flex-md-row justify-content-evenly justify-content-md-between align-items-center p-4 mb-3"
-						>
-							<div
-								class="position-copy d-flex flex-column justify-content-evenly justify-content-md-between"
-							>
-								<h4 class="position-title">UI/UX Designer</h4>
-								<p class="paragraph position-location">Yokohama, Japan</p>
-							</div>
-							<button class="position-btn btn-primary btn btn-lg">
-								<a href="#" class="fs-4">Apply</a>
-							</button>
-						</li>
-						<li
-							class="position d-flex flex-column flex-md-row justify-content-evenly justify-content-md-between align-items-center p-4 mb-3"
-						>
-							<div
-								class="position-copy d-flex flex-column justify-content-evenly justify-content-md-between"
-							>
-								<h4 class="position-title">Blog Content Copywriter</h4>
-								<p class="paragraph position-location">New York, United States</p>
-							</div>
-							<button class="position-btn btn-primary btn btn-lg">
-								<a href="#" class="fs-4">Apply</a>
-							</button>
-						</li>
-						<li
-							class="position d-flex flex-column flex-md-row justify-content-evenly justify-content-md-between align-items-center p-4 mb-3"
-						>
-							<div
-								class="position-copy d-flex flex-column justify-content-evenly justify-content-md-between"
-							>
-								<h4 class="position-title">Graphic Designer</h4>
-								<p class="paragraph position-location">Jakarta, Indonesia</p>
-							</div>
-							<button class="position-btn btn-primary btn btn-lg">
-								<a href="#" class="fs-4">Apply</a>
-							</button>
-						</li>
-						<li
-							class="position d-flex flex-column flex-md-row justify-content-evenly justify-content-md-between align-items-center p-4 mb-3"
-						>
-							<div
-								class="position-copy d-flex flex-column justify-content-evenly justify-content-md-between"
-							>
-								<h4 class="position-title">Fleet Supervisor</h4>
-								<p class="paragraph position-location">New York, United States</p>
-							</div>
-							<button class="position-btn btn-primary btn btn-lg">
-								<a href="#" class="fs-4">Apply</a>
-							</button>
-						</li>
-						<li
-							class="position d-flex flex-column flex-md-row justify-content-evenly justify-content-md-between align-items-center p-4 mb-3"
-						>
-							<div
-								class="position-copy d-flex flex-column justify-content-evenly justify-content-md-between"
-							>
-								<h4 class="position-title">UX Analyst</h4>
-								<p class="paragraph position-location">London, United Kingdom</p>
-							</div>
-							<button class="position-btn btn-primary btn btn-lg">
-								<a href="#" class="fs-4">Apply</a>
-							</button>
-						</li>
-					</ul>
-				</section>
-				<!-- End Jobs Section -->
-
-				<!-- Call-to-Action Section -->
-				<section class="cta container-fluid position-relative">
-					<div
-						class="cta-container container d-flex flex-column flex-xl-row justify-content-between align-items-center text-center text-xl-start py-4 py-md-5 m-auto"
-					>
-						<h2 class="cta-heading heading-2 text-white">
-							Sign up and Scoot off today
+					<div class="feature-careers--copy">
+						<h2 class="heading-2 feature-careers--heading m-auto m-xl-0 pb-4">
+							Care to join our mission?
 						</h2>
-						<div class="appstore-icons d-flex flex-row justify-content-between">
-							<div class="store-icon px-1 px-md-2">
-								<img src="./assets/icons/app-store.svg" alt="store icon" />
-							</div>
-							<div class="store-icon px-2 px-md-2">
-								<img src="./assets/icons/google-play.svg" alt="store icon" />
-							</div>
+						<p class="paragraph feature-careers--text">
+							We’re always looking for ambitious individuals to help us on our
+							journey. If you’re passionate about our mission to provide
+							clean, accessible transport to improve urban living we want to
+							hear from you!
+						</p>
+						<div class="button-container">
+							<button class="btn btn-lg btn-primary feature-careers--button">
+								Learn More
+							</button>
 						</div>
 					</div>
-				</section>
-				<!-- End Call-to-Action-->
-			</main>
+				</article>
 
-			<!-- Footer Section -->
-			<footer class="footer container-fluid">
+				<!-- Features Patterns -->
+				<div class="features-patterns"></div>
+			</section><!-- End Features -->
+
+			<section class="values container-fluid mb-5">
+				<h2 class="values__title heading-2 container text-center pb-5">
+					Why join us?
+				</h2>
 				<div
-					class="footer-container container d-flex flex-column flex-md-row justify-content-evenly justify-content-md-between align-items-center"
-				>
-					<div class="footer-logo text-center text-md-start mt-5 m-md-0">
-						<img
-							src="./assets/logo-white.svg"
-							alt="Scoot logo"
-							class="navbar-logo img-fluid text-center"
-						/>
-					</div>
-					<div
-						class="footer__nav d-md-flex flex-md-row justify-content-md-start text-center text-md-start"
-					>
-						<div class="footer__nav-item p-3">
-							<a class="footer__nav-link" href="./about.html">About</a>
+					class="values-container container d-flex flex-column flex-xl-row justify-content-evenly align-items-center text-center">
+					<article class="value position-relative d-flex flex-column justify-content-evenly">
+						<div class="value-image">
+							<img src="/assets/images/our-tech.jpg" class="img-round img-fluid" alt="our tech image">
+							<span
+								class="value-number position-absolute rounded-circle d-flex justify-content-center align-items-center text-center">01</span>
 						</div>
-						<div class="footer__nav-item p-3">
-							<a class="footer__nav-link" href="./locations.html">Locations</a>
-						</div>
-						<div class="footer__nav-item p-3">
-							<a class="footer__nav-link" href="./careers.html">Careers</a>
-						</div>
-					</div>
 
-					<div class="footer-social-navbar">
-						<div class="social-nav d-flex flex-row justify-content-between">
-							<div class="social-link p-2">
-								<a href="https://www.facebook.com">
-									<img
-										src="./assets/icons/facebook.svg"
-										alt="facebook icon"
-										class="social-logo"
-									/>
-								</a>
-							</div>
-							<div class="social-link p-2">
-								<a href="https://www.twitter.com">
-									<img
-										src="./assets/icons/twitter.svg"
-										alt="twitter icon"
-										class="social-logo"
-									/>
-								</a>
-							</div>
-							<div class="social-link p-2">
-								<a href="https://www.facebook.com">
-									<img
-										src="./assets/icons/facebook.svg"
-										alt="facebook icon"
-										class="social-logo"
-									/>
-								</a>
-							</div>
+						<div class="value-copy pt-5">
+							<h4 class="value-title heading-4">Our tech</h4>
+							<p class="value-text paragraph">
+								We’re using cutting edge technology to drive accessible urban
+								transportation forward. Our fully electric scooters are a joy
+								to ride!
+							</p>
+						</div>
+					</article>
+					<article class="value position-relative d-flex flex-column justify-content-evenly">
+						<div class="value-image">
+							<img src="/assets/images/our-integrity.jpg" class="img-round img-fluid"
+								alt="our integrity image">
+							<span
+								class="value-number position-absolute rounded-circle d-flex justify-content-center align-items-center text-center">02</span>
+						</div>
+
+						<div class="value-copy pt-5">
+							<h4 class="value-title heading-4">Our integrity</h4>
+							<p class="value-text paragraph">
+								We are fully committed to deliver a great yet safe,
+								sustainable micro-mobility experience in every city we serve.
+							</p>
+						</div>
+					</article>
+					<article class="value position-relative d-flex flex-column justify-content-evenly">
+						<div class="value-image">
+							<img src="/assets/images/our-community.jpg" class="img-round img-fluid"
+								alt="our community image">
+							<span
+								class="value-number position-absolute rounded-circle d-flex justify-content-center align-items-center text-center">03</span>
+						</div>
+
+						<div class="value-copy pt-5">
+							<h4 class="value-title heading-4">Our community</h4>
+							<p class="value-text paragraph">
+								We support every community we serve. All workers are paid a
+								living wage based on their location and are Scoot employees.
+							</p>
+						</div>
+					</article>
+				</div>
+			</section>
+			<!-- End Values Section -->
+
+			<section class="jobs container-fluid mb-5 mt-4">
+				<ul class="jobs-container container  text-center text-md-start">
+					<li
+						class="position d-flex flex-column flex-md-row justify-content-evenly justify-content-md-between align-items-center p-4 mb-3">
+						<div
+							class="position-copy d-flex flex-column justify-content-evenly justify-content-md-between mb-1">
+							<h4 class="position-title">General Manager</h4>
+							<p class="paragraph position-location">Jakarta, Indonesia</p>
+						</div>
+						<button class="position-btn btn-primary btn btn-lg">
+							<a href="#" class="fs-4">Apply</a>
+						</button>
+					</li>
+					<li
+						class="position d-flex flex-column flex-md-row justify-content-evenly justify-content-md-between align-items-center p-4 mb-3">
+						<div class="position-copy d-flex flex-column justify-content-evenly justify-content-md-between">
+							<h4 class="position-title">UI/UX Designer</h4>
+							<p class="paragraph position-location">Yokohama, Japan</p>
+						</div>
+						<button class="position-btn btn-primary btn btn-lg">
+							<a href="#" class="fs-4">Apply</a>
+						</button>
+					</li>
+					<li
+						class="position d-flex flex-column flex-md-row justify-content-evenly justify-content-md-between align-items-center p-4 mb-3">
+						<div class="position-copy d-flex flex-column justify-content-evenly justify-content-md-between">
+							<h4 class="position-title">Blog Content Copywriter</h4>
+							<p class="paragraph position-location">New York, United States</p>
+						</div>
+						<button class="position-btn btn-primary btn btn-lg">
+							<a href="#" class="fs-4">Apply</a>
+						</button>
+					</li>
+					<li
+						class="position d-flex flex-column flex-md-row justify-content-evenly justify-content-md-between align-items-center p-4 mb-3">
+						<div class="position-copy d-flex flex-column justify-content-evenly justify-content-md-between">
+							<h4 class="position-title">Graphic Designer</h4>
+							<p class="paragraph position-location">Jakarta, Indonesia</p>
+						</div>
+						<button class="position-btn btn-primary btn btn-lg">
+							<a href="#" class="fs-4">Apply</a>
+						</button>
+					</li>
+					<li
+						class="position d-flex flex-column flex-md-row justify-content-evenly justify-content-md-between align-items-center p-4 mb-3">
+						<div class="position-copy d-flex flex-column justify-content-evenly justify-content-md-between">
+							<h4 class="position-title">Fleet Supervisor</h4>
+							<p class="paragraph position-location">New York, United States</p>
+						</div>
+						<button class="position-btn btn-primary btn btn-lg">
+							<a href="#" class="fs-4">Apply</a>
+						</button>
+					</li>
+					<li
+						class="position d-flex flex-column flex-md-row justify-content-evenly justify-content-md-between align-items-center p-4 mb-3">
+						<div class="position-copy d-flex flex-column justify-content-evenly justify-content-md-between">
+							<h4 class="position-title">UX Analyst</h4>
+							<p class="paragraph position-location">London, United Kingdom</p>
+						</div>
+						<button class="position-btn btn-primary btn btn-lg">
+							<a href="#" class="fs-4">Apply</a>
+						</button>
+					</li>
+				</ul>
+			</section>
+			<!-- End Jobs Section -->
+
+			<section class="cta container-fluid position-relative">
+				<div
+					class="cta-container container-fluid d-flex flex-column flex-xl-row justify-content-evenly justify-content-xl-around align-items-center text-center text-md-center text-xl-start">
+					<h2 class="cta-heading heading-2 text-white">
+						Sign Up and Scoot off Today
+					</h2>
+					<div class="appstore-icons d-flex flex-row justify content-between">
+						<div class="store-icon px-1 px-md-2">
+							<img src="./assets/icons/app-store.svg" alt="App store icon">
+						</div>
+						<div class="store-icon px-1 px-md-2">
+							<img src="./assets/icons/google-play.svg" alt="Google store icon">
+						</div>
+					</div>
+					<!-- Shapes: Half Circles -->
+					<div class="shape shape--halfcircles position-absolute bottom-0"></div>
+				</div>
+			</section><!-- End CTA Section -->
+		</main>
+		<footer class="footer container-fluid">
+			<div
+				class="footer-container container d-flex flex-column flex-md-row justify-content-evenly justify-content-md-between align-items-center">
+				<div class="footer-logo text-center text-md-start mt-5 m-md-0">
+					<a href="./index.html">
+						<img src="./assets/logo-white.svg" alt="Scoot logo"
+							class="navbar-logo img-fluid text-center"></a>
+				</div>
+				<div class="footer__nav d-md-flex flex-md-row justify-content-md-start text-center text-md-start">
+					<div class="footer__nav-item p-3">
+						<a class="footer__nav-link" href="./about.html">About</a>
+					</div>
+					<div class="footer__nav-item p-3">
+						<a class="footer__nav-link" href="./locations.html">Locations</a>
+					</div>
+					<div class="footer__nav-item p-3">
+						<a class="footer__nav-link" href="./careers.html">Careers</a>
+					</div>
+				</div>
+
+				<div class="footer-social-navbar">
+					<div class="social-nav d-flex flex-row justify-content-between">
+						<div class="social-link p-2">
+							<a href="https://www.facebook.com">
+								<img src="./assets/icons/facebook.svg" alt="facebook icon" class="social-logo">
+							</a>
+						</div>
+						<div class="social-link p-2">
+							<a href="https://www.twitter.com">
+								<img src="./assets/icons/twitter.svg" alt="twitter icon" class="social-logo">
+							</a>
+						</div>
+						<div class="social-link p-2">
+							<a href="https://www.facebook.com">
+								<img src="./assets/icons/facebook.svg" alt="facebook icon" class="social-logo">
+							</a>
 						</div>
 					</div>
 				</div>
-				<!-- footer-container -->
-			</footer>
-			<!-- End Footer -->
-		</div>
-		<!-- wrapper -->
+			</div>
+			<!-- footer-container -->
+		</footer><!-- End Footer -->
+	</div>
+	<!-- wrapper -->
 
-		<!-- JavaScript Bundle with Popper -->
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-			crossorigin="anonymous"
-		></script>
-	</body>
+	<!-- JavaScript Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+		crossorigin="anonymous"></script>
+</body>
+
 </html>

@@ -10,6 +10,8 @@ $soft-black: hsl(215, 14%, 23%);
 $white: hsl(0, 0%, 100%);
 $lighter-grey: hsl(0, 0%, 59%);
 $medium-grey: hsl(217, 18%, 35%);
+$offcanvas-nav-gray: hsl(213, 40%, 93%);
+
 
 // Typography
 
@@ -32,6 +34,7 @@ $accordion-button-hover: $lt-yellow;
 $jobs-bg: $snow-grey;
 $body-text: $dim-grey;
 $nav-text: $dim-grey;
+$offcanvas-nav-text: $offcanvas-nav-gray;
 $nav-text-hover: $yellow;
 $nav-link-color: $dim-grey;
 $sidenav-link-color: $lt-grey;
