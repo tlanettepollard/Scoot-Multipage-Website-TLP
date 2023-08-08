@@ -51,12 +51,7 @@
 			}
 		}
 
-		.hero-patterns {
-			.pattern--line {
-				width: 30rem !important;
-			
-			}		
-		}
+		
 	}
 }
 
@@ -91,4 +86,18 @@
 
 .pattern--line .top-50 {
 	top: 54% !important;
+}
+
+.pattern--whitecircles .top-50 {
+	top: 85% !important;
+	@include bp-xl-up {
+		top: 70% !important;
+	}
+}
+
+.pattern--whitecircles .end-0 {
+	right: -6% !important;
+	@include bp-xl-up {
+		right: -2%  !important;
+	}
 }
