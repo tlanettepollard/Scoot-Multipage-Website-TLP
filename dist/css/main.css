@@ -653,6 +653,42 @@ Home, About, and Careers section Styles
     left: 24rem;
   }
 }
+.hero-home .hero-content .hero-patterns .pattern--line {
+  width: 30rem !important;
+}
+
+.pattern--arrow .top-50 {
+  top: 70% !important;
+}
+@media screen and (min-width: 768px) {
+  .pattern--arrow .top-50 {
+    top: 72% !important;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .pattern--arrow .top-50 {
+    top: 54% !important;
+  }
+}
+
+.pattern--arrow .start-0 {
+  left: -73% !important;
+}
+@media screen and (min-width: 768px) {
+  .pattern--arrow .start-0 {
+    left: -15% !important;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .pattern--arrow .start-0 {
+    left: 50% !important;
+  }
+}
+
+.pattern--line .top-50 {
+  top: 54% !important;
+}
+
 .values {
   width: 100%;
 }
