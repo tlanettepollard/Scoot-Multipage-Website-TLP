@@ -3,20 +3,59 @@
 	overflow: hidden;
 	height: 40.625rem;
 	width: 100%;
-	background-image: url('../../assets/images/home-hero-mobile.jpg');
+	background-image: url(../../assets/images/home-hero-mobile.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 
 	@include bp-tablet-up {
-		background-image: url('../../assets/images/home-hero-tablet.jpg');
+		background-image: url(../../assets/images/home-hero-tablet.jpg);
 	}
 
 	@include bp-xl-up {
-		background-image: url('../../assets/images/home-hero-desktop.jpg');
+		background-image: url(../../assets/images/home-hero-desktop.jpg);
 	}
 
 	.hero-content {
-		
+		.heading-container {
+			.hero-heading {
+				 @include bp-xl-up {
+					width: 35rem;
+					height: 11.2rem;
+					position: absolute;
+					left: 18rem;
+					top: 5rem;
+				 }
+			}
+		}
+		.lead-container {
+			.hero-lead {
+				@include bp-xl-up {
+					width: 28rem;
+					height: 10rem;
+					position: absolute;
+					left: 20rem;
+					top: 18rem;
+				}
+				
+			}
+		}
+
+		.button-container {
+			.hero-button {
+				@include bp-xl-up {
+					position: absolute;
+					top: 28rem;
+					left: 24rem;
+				}
+			}
+		}
+
+		.hero-patterns {
+					
+		}
 	}
 }
+
+// Bootstrap Classes 
+
