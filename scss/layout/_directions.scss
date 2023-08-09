@@ -2,6 +2,37 @@
    Home Page Directions Styles
 ********************/
 .directions {
-   .directions-content 
-   width: 85%;
+   z-index: 3;
+   //height: 80rem;
+   .directions-content {
+      width: 85%;
+
+      .directions-item {
+         height: 23.4rem;
+
+         @include bp-tablet-up {
+            height: 13rem;
+         }
+      }
+   }
+   
+   .directions-patterns {
+      
+      .pattern--verticalline {
+         
+         .top-0 {
+            top: -11.5% !important;
+         }
+
+         .start-0 {
+            left: 20% !important;
+         }
+
+         .z-index {
+            z-index: -1;
+         }
+      }
+   }
 }
+
+// Bootstrap 
