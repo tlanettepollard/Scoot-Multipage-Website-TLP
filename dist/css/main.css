@@ -258,6 +258,15 @@ a:link {
     height: 28.3rem;
   }
 }
+.directions .directions-patterns .pattern--horizontalline .top-0 {
+  top: 24% !important;
+}
+.directions .directions-patterns .pattern--horizontalline .start-0 {
+  left: -10% !important;
+}
+.directions .directions-patterns .pattern--horizontalline .z-index {
+  z-index: -1;
+}
 .directions .directions-patterns .pattern--verticalline .top-0 {
   top: -11.5% !important;
 }
@@ -662,8 +671,9 @@ Home, About, and Careers section Styles
     width: 35rem;
     height: 11.2rem;
     position: absolute;
-    left: 18rem;
+    left: 15rem;
     top: 5rem;
+    letter-spacing: 0.125rem;
   }
 }
 @media screen and (min-width: 1201px) {
