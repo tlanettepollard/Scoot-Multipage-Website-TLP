@@ -15,7 +15,7 @@
          }
 
          @include bp-xl-up {
-            width: 35rem;
+
             height: 28.3rem;
          }
 
@@ -33,7 +33,7 @@
          }
 
          .start-0 {
-            left: -10% !important;
+            left: -10.5% !important;
          }
 
          .z-index {
@@ -56,6 +56,10 @@
          }
       }
    }
+
+   .ms-xl-0 {
+      //margin-left: -1rem !important;
+   }
 }
 
-// Bootstrap 
+
