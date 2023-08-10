@@ -31,7 +31,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  outline: 1px solid black;
 }
 
 html {
@@ -251,6 +250,12 @@ a:link {
 @media screen and (min-width: 768px) {
   .directions .directions-content .directions-item {
     height: 13rem;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .directions .directions-content .directions-item {
+    width: 35rem;
+    height: 28.3rem;
   }
 }
 .directions .directions-patterns .pattern--verticalline .top-0 {
