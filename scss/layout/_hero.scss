@@ -19,50 +19,80 @@
 	.hero-content {
 		.heading-container {
 			.hero-heading {
-				 @include bp-xl-up {
-					width: 35rem;
-					height: 11.2rem;
-					position: absolute;
-					left: 15.5rem;
-					top: 5rem;
-					letter-spacing: .125rem;
-				 }
+				width: 35rem;
+				height: 11.2rem;
+				letter-spacing: .125rem; 
+			}
+
+			.top-0 {
+				@include bp-xl-up {
+					top: 15% !important;
+				}
+			}
+
+			.start-0 {
+				@include bp-xl-up {
+					left: 13% !important;
+				}
 			}
 		}
 		.lead-container {
-			.hero-lead {
-				@include bp-xl-up {
+				.hero-lead {
 					width: 28rem;
 					height: 10rem;
-					position: absolute;
-					left: 20rem;
-					top: 18rem;
+					font-size: 15px;
 				}
 				
-			}
+				.top-50 {
+					@include bp-xl-up {
+						top: 18rem !important;
+					}
+				}
+				
+				.start-0 {
+					@include bp-xl-up {
+						left: 18% !important;
+					}
+				}
+
+				
+			
+
 		}
 
 		.button-container {
 			.hero-button {
+				width: 18rem;
+				height: 5.3rem;
+			}
+			.top-50 {
 				@include bp-xl-up {
-					position: absolute;
-					top: 28rem;
-					left: 24rem;
+					top: 70% !important;
+				}
+			}
+
+			.start-0 {
+				@include bp-xl-up {
+					left: 21% !important;
 				}
 			}
 		}
-
-		
 	}
 }
 
-// Bootstrap Classes 
+// Patterns 
+
+
 .pattern--arrow .end-0 {
 	
 }
 
 .pattern--arrow .top-50 {
-	top: 70% !important;
+	top: 74% !important;
+
+	@media screen and (max-width: 374px) {
+		display: none;
+	}
 
 	@include bp-tablet-up {
 		top: 72% !important;
@@ -74,7 +104,7 @@
 }
 
 .pattern--arrow .start-0 {
-	left: -73% !important;
+	left: -75% !important;
 
 	@include bp-tablet-up {
 		left: -15% !important;
@@ -87,6 +117,10 @@
 
 .pattern--line .top-50 {
 	top: 54% !important;
+}
+
+.pattern--line .start-0 {
+	left: -1rem !important;
 }
 
 .pattern--whitecircles .top-50 {

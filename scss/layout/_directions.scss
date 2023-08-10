@@ -48,7 +48,11 @@
          }
 
          .start-0 {
-            left: 20% !important;
+            left: 22% !important;
+
+            @media screen and (min-width: $bp-desktop-start){
+               left: 18% !important;
+            }
          }
 
          .z-index {
