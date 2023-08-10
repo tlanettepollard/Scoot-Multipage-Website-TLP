@@ -13,6 +13,15 @@
          @include bp-tablet-up {
             height: 13rem;
          }
+
+         @include bp-xl-up {
+            width: 35rem;
+            height: 28.3rem;
+         }
+
+         
+
+         
       }
    }
    
