@@ -2,6 +2,8 @@
 .banner {
     width: 100%;
     height: 16rem;
+    overflow: hidden;
+    
 
     @include bp-tablet-up {
         height: 20rem;
@@ -13,7 +15,7 @@
     background-image: url('../../assets/images/about-hero-mobile.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    //background-position: center center;
     color: $hero-heading;
 
     @include bp-xs-mobile {
@@ -26,6 +28,12 @@
 
     @include bp-xl-up {
         background-image: url('../../assets/images/about-hero-desktop.jpg');
+    }
+
+    //Bootstrap Classes
+
+    .ms-xl-5 {
+        margin-left: 5rem !important;
     }
 }
 
@@ -47,3 +55,4 @@
     background-position: center;
     color: $hero-heading;
 }
+
