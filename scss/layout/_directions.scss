@@ -19,13 +19,27 @@
             height: 28.3rem;
          }
 
-         
+
 
          
       }
    }
    
    .directions-patterns {
+      .pattern--horizontalline {
+         
+         .top-0 {
+            top: 24% !important;
+         }
+
+         .start-0 {
+            left: -10% !important;
+         }
+
+         .z-index {
+            z-index: -1;
+         }
+      }
       
       .pattern--verticalline {
          
