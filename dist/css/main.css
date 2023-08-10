@@ -258,7 +258,6 @@ a:link {
 }
 @media screen and (min-width: 1201px) {
   .directions .directions-content .directions-item {
-    width: 35rem;
     height: 28.3rem;
   }
 }
@@ -266,7 +265,7 @@ a:link {
   top: 24% !important;
 }
 .directions .directions-patterns .pattern--horizontalline .start-0 {
-  left: -10% !important;
+  left: -10.5% !important;
 }
 .directions .directions-patterns .pattern--horizontalline .z-index {
   z-index: -1;
@@ -280,7 +279,6 @@ a:link {
 .directions .directions-patterns .pattern--verticalline .z-index {
   z-index: -1;
 }
-
 /*************************************
 Home, About, and Careers section Styles
 *************************************/
@@ -675,7 +673,7 @@ Home, About, and Careers section Styles
     width: 35rem;
     height: 11.2rem;
     position: absolute;
-    left: 15rem;
+    left: 15.5rem;
     top: 5rem;
     letter-spacing: 0.125rem;
   }
