@@ -31,7 +31,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  outline: 1px solid black;
 }
 
 html {
@@ -114,11 +113,11 @@ h4 {
   line-height: 1.5625rem;
 }
 
-.btn-primary {
+.btn {
   font-family: "Space Mono", monospace;
   background-color: hsl(40, 97%, 58%);
 }
-.btn-primary:hover {
+.btn:hover {
   background-color: transparent;
   border: 0.2rem solid hsl(40, 97%, 58%);
   color: hsl(40, 97%, 58%);
@@ -274,7 +273,12 @@ a:link {
   top: -11.5% !important;
 }
 .directions .directions-patterns .pattern--verticalline .start-0 {
-  left: 20% !important;
+  left: 22% !important;
+}
+@media screen and (min-width: 1024px) {
+  .directions .directions-patterns .pattern--verticalline .start-0 {
+    left: 18% !important;
+  }
 }
 .directions .directions-patterns .pattern--verticalline .z-index {
   z-index: -1;
@@ -552,6 +556,11 @@ Home, About, and Careers section Styles
   }
 }
 
+.feature-button {
+  width: 18rem;
+  height: 5.3rem;
+}
+
 .footer {
   width: 100%;
   height: 34.375rem;
@@ -668,35 +677,58 @@ Home, About, and Careers section Styles
     background-image: url(../../assets/images/home-hero-desktop.jpg);
   }
 }
+.hero-home .hero-content .heading-container .hero-heading {
+  width: 35rem;
+  height: 11.2rem;
+  letter-spacing: 0.125rem;
+}
 @media screen and (min-width: 1201px) {
-  .hero-home .hero-content .heading-container .hero-heading {
-    width: 35rem;
-    height: 11.2rem;
-    position: absolute;
-    left: 15.5rem;
-    top: 5rem;
-    letter-spacing: 0.125rem;
+  .hero-home .hero-content .heading-container .top-0 {
+    top: 15% !important;
   }
 }
 @media screen and (min-width: 1201px) {
-  .hero-home .hero-content .lead-container .hero-lead {
-    width: 28rem;
-    height: 10rem;
-    position: absolute;
-    left: 20rem;
-    top: 18rem;
+  .hero-home .hero-content .heading-container .start-0 {
+    left: 13% !important;
+  }
+}
+.hero-home .hero-content .lead-container .hero-lead {
+  width: 28rem;
+  height: 10rem;
+  font-size: 15px;
+}
+@media screen and (min-width: 1201px) {
+  .hero-home .hero-content .lead-container .top-50 {
+    top: 18rem !important;
   }
 }
 @media screen and (min-width: 1201px) {
-  .hero-home .hero-content .button-container .hero-button {
-    position: absolute;
-    top: 28rem;
-    left: 24rem;
+  .hero-home .hero-content .lead-container .start-0 {
+    left: 18% !important;
+  }
+}
+.hero-home .hero-content .button-container .hero-button {
+  width: 18rem;
+  height: 5.3rem;
+}
+@media screen and (min-width: 1201px) {
+  .hero-home .hero-content .button-container .top-50 {
+    top: 70% !important;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .hero-home .hero-content .button-container .start-0 {
+    left: 21% !important;
   }
 }
 
 .pattern--arrow .top-50 {
-  top: 70% !important;
+  top: 74% !important;
+}
+@media screen and (max-width: 374px) {
+  .pattern--arrow .top-50 {
+    display: none;
+  }
 }
 @media screen and (min-width: 768px) {
   .pattern--arrow .top-50 {
@@ -710,7 +742,7 @@ Home, About, and Careers section Styles
 }
 
 .pattern--arrow .start-0 {
-  left: -73% !important;
+  left: -75% !important;
 }
 @media screen and (min-width: 768px) {
   .pattern--arrow .start-0 {
@@ -725,6 +757,10 @@ Home, About, and Careers section Styles
 
 .pattern--line .top-50 {
   top: 54% !important;
+}
+
+.pattern--line .start-0 {
+  left: -1rem !important;
 }
 
 .pattern--whitecircles .top-50 {
