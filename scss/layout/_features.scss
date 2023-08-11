@@ -8,6 +8,10 @@ Home, About, and Careers section Styles
 	height: 154.5rem;
 	margin-top: 7.5rem;
 
+	@media screen and (max-width: $bp-mobile-start){
+		height: 160rem;
+	}
+
 	@include bp-tablet-up {
 		height: 176.1875rem;
 	}
@@ -55,6 +59,7 @@ Home, About, and Careers section Styles
 			.feature-home--heading {
 				width: 100%;
 				margin-bottom: 2rem;
+
 
 				@include bp-tablet-up {
 					margin-bottom: 2.875rem;
@@ -202,6 +207,9 @@ Home, About, and Careers section Styles
 		&--image {
 			width: 19.4375rem;
 			margin-bottom: 3.5rem;
+			@media screen and (max-width: $bp-mobile-start){
+				width: 90%;
+			}
 
 			@include bp-tablet-up {
 				width: 27.8125rem;
@@ -219,6 +227,7 @@ Home, About, and Careers section Styles
 			.feature-careers--heading {
 				width: 100%;
 				margin-bottom: 2rem;
+				
 
 				@include bp-tablet-up {
 					margin-bottom: 2.875rem;
@@ -250,9 +259,11 @@ Home, About, and Careers section Styles
 	}
 }
 
-.feature-button {
-	width: 18rem;
-	height: 5.3rem;
-}
 
+.features {
+	.feature-button {
+		width: 18rem;
+		height: 5.3rem;
+	}
+}
 // Bootstrap Classes
