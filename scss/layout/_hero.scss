@@ -19,31 +19,31 @@
 	.hero-content {
 		.heading-container {
 			.hero-heading {
-				width: 35rem;
-				height: 11.2rem;
-				letter-spacing: .125rem; 
-			}
-
-			.top-0 {
+				
 				@include bp-xl-up {
-					top: 15% !important;
+					width: 35rem;
+					height: 11.2rem;
+					letter-spacing: .125rem; 
+					position: absolute !important;
+					top: 15%;
+					left: 13%;
 				}
 			}
 
-			.start-0 {
-				@include bp-xl-up {
-					left: 13% !important;
-				}
-			}
+			
 		}
 		.lead-container {
 				.hero-lead {
-					width: 28rem;
-					height: 10rem;
-					font-size: 15px;
+					@include bp-xl-up {
+						width: 28rem;
+						height: 10rem;
+						font-size: 15px;
+					}
+					
 				}
 				
-				.top-50 {
+				/*.top-50 {
+
 					@include bp-xl-up {
 						top: 18rem !important;
 					}
@@ -53,7 +53,7 @@
 					@include bp-xl-up {
 						left: 18% !important;
 					}
-				}
+				}*/
 
 				
 			
@@ -62,10 +62,10 @@
 
 		.button-container {
 			.hero-button {
-				width: 18rem;
+				width: 15rem;
 				height: 5.3rem;
 			}
-			.top-50 {
+			/*.top-50 {
 				@include bp-xl-up {
 					top: 70% !important;
 				}
@@ -75,7 +75,7 @@
 				@include bp-xl-up {
 					left: 21% !important;
 				}
-			}
+			}*/
 		}
 	}
 }

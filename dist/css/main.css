@@ -31,6 +31,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  outline: 1px solid black;
 }
 
 html {
@@ -677,49 +678,53 @@ Home, About, and Careers section Styles
     background-image: url(../../assets/images/home-hero-desktop.jpg);
   }
 }
-.hero-home .hero-content .heading-container .hero-heading {
-  width: 35rem;
-  height: 11.2rem;
-  letter-spacing: 0.125rem;
-}
 @media screen and (min-width: 1201px) {
-  .hero-home .hero-content .heading-container .top-0 {
-    top: 15% !important;
+  .hero-home .hero-content .heading-container .hero-heading {
+    width: 35rem;
+    height: 11.2rem;
+    letter-spacing: 0.125rem;
+    position: absolute !important;
+    top: 15%;
+    left: 13%;
   }
 }
+.hero-home .hero-content .lead-container {
+  /*.top-50 {
+
+  	@include bp-xl-up {
+  		top: 18rem !important;
+  	}
+  }
+
+  .start-0 {
+  	@include bp-xl-up {
+  		left: 18% !important;
+  	}
+  }*/
+}
 @media screen and (min-width: 1201px) {
-  .hero-home .hero-content .heading-container .start-0 {
-    left: 13% !important;
+  .hero-home .hero-content .lead-container .hero-lead {
+    width: 28rem;
+    height: 10rem;
+    font-size: 15px;
   }
 }
-.hero-home .hero-content .lead-container .hero-lead {
-  width: 28rem;
-  height: 10rem;
-  font-size: 15px;
-}
-@media screen and (min-width: 1201px) {
-  .hero-home .hero-content .lead-container .top-50 {
-    top: 18rem !important;
+.hero-home .hero-content .button-container {
+  /*.top-50 {
+  	@include bp-xl-up {
+  		top: 70% !important;
+  	}
   }
-}
-@media screen and (min-width: 1201px) {
-  .hero-home .hero-content .lead-container .start-0 {
-    left: 18% !important;
-  }
+
+  .start-0 {
+  	@include bp-xl-up {
+  		left: 21% !important;
+  	}
+  }*/
 }
 .hero-home .hero-content .button-container .hero-button {
-  width: 18rem;
+  width: 15rem;
   height: 5.3rem;
-}
-@media screen and (min-width: 1201px) {
-  .hero-home .hero-content .button-container .top-50 {
-    top: 70% !important;
-  }
-}
-@media screen and (min-width: 1201px) {
-  .hero-home .hero-content .button-container .start-0 {
-    left: 21% !important;
-  }
 }
 
 .pattern--arrow .top-50 {
