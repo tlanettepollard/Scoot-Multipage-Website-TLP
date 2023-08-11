@@ -28,7 +28,13 @@
             height: 28.3rem;
          }
 
-
+         .text-content {
+            .directions-text {
+               @include bp-xxxl-up {
+                  font-size: 16px;
+               }
+            }
+         }
 
          
       }

@@ -10,9 +10,22 @@
 		margin-bottom: 16rem;
 	}
 
+	@include bp-xxxl-up {
+			width: 80%;
+		}
+
+	.container-xxl {
+      @include bp-xxxl-up {
+         max-width: 180rem !important;
+      }
+   }
+
 	.faqs-container {
 		height: 100%;
+		
+		
 		.faq {
+			
 			.faq-title {
 				width: 100%;
 				
