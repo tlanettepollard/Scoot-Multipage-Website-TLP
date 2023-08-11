@@ -4,7 +4,15 @@
 }
 
 .jobs {
+    .container-xxl {
+      @include bp-xxxl-up {
+         max-width: 180rem !important;
+      }
+   }
     &-container {
+        @include bp-xxxl-up {
+            width: 77%;
+        }
        .position {
         background-color: $jobs-bg;
 

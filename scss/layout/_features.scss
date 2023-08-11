@@ -111,6 +111,12 @@ Home, About, and Careers section Styles
 		height: 81.25rem;
 	}
 
+	.container-xxl {
+      @include bp-xxxl-up {
+         max-width: 180rem !important;
+      }
+   }
+
 	.feature-about {
 		@include bp-tablet-up {
 			width: 35.8125rem;
@@ -192,6 +198,12 @@ Home, About, and Careers section Styles
 	@include bp-xl-up {
 		height: 27.8125rem;
 	}
+
+	.container-xxl {
+      @include bp-xxxl-up {
+         max-width: 180rem !important;
+      }
+   }
 
 	.feature-careers {
 		@include bp-tablet-up {

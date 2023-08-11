@@ -281,6 +281,11 @@ a:link {
     height: 28.3rem;
   }
 }
+@media screen and (min-width: 1920px) {
+  .directions .directions-content .directions-item .text-content .directions-text {
+    font-size: 16px;
+  }
+}
 .directions .directions-patterns .pattern--horizontalline .top-0 {
   top: 24% !important;
 }
@@ -428,6 +433,11 @@ Home, About, and Careers section Styles
     height: 81.25rem;
   }
 }
+@media screen and (min-width: 1920px) {
+  .features-about .container-xxl {
+    max-width: 180rem !important;
+  }
+}
 @media screen and (min-width: 768px) {
   .features-about .feature-about {
     width: 35.8125rem;
@@ -516,6 +526,11 @@ Home, About, and Careers section Styles
 @media screen and (min-width: 1201px) {
   .features-careers {
     height: 27.8125rem;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .features-careers .container-xxl {
+    max-width: 180rem !important;
   }
 }
 @media screen and (min-width: 768px) {
@@ -835,6 +850,11 @@ Home, About, and Careers section Styles
 .values {
   width: 100%;
 }
+@media screen and (min-width: 1920px) {
+  .values .container-xxl {
+    max-width: 180rem !important;
+  }
+}
 .values-container {
   width: 100%;
   height: 100%;
@@ -925,6 +945,16 @@ Home, About, and Careers section Styles
     margin-bottom: 16rem;
   }
 }
+@media screen and (min-width: 1920px) {
+  .faqs {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .faqs .container-xxl {
+    max-width: 180rem !important;
+  }
+}
 .faqs .faqs-container {
   height: 100%;
 }
@@ -973,6 +1003,16 @@ Home, About, and Careers section Styles
   margin: 6.25rem 0;
 }
 
+@media screen and (min-width: 1920px) {
+  .jobs .container-xxl {
+    max-width: 180rem !important;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .jobs-container {
+    width: 77%;
+  }
+}
 .jobs-container .position {
   background-color: hsl(214, 37%, 96%);
 }
