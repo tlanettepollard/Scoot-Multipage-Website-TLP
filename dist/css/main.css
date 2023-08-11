@@ -522,6 +522,11 @@ Home, About, and Careers section Styles
   width: 19.4375rem;
   margin-bottom: 3.5rem;
 }
+@media screen and (max-width: 320px) {
+  .features-careers .feature-careers--image {
+    width: 90%;
+  }
+}
 @media screen and (min-width: 768px) {
   .features-careers .feature-careers--image {
     width: 27.8125rem;
@@ -656,7 +661,7 @@ Home, About, and Careers section Styles
 }
 @media screen and (max-width: 320px) {
   .header nav .container .nav-logo {
-    width: 5rem;
+    width: 5.5rem;
   }
 }
 .header nav .container .navbar-toggler-icon {

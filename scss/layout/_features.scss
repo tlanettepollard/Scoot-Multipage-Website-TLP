@@ -207,6 +207,9 @@ Home, About, and Careers section Styles
 		&--image {
 			width: 19.4375rem;
 			margin-bottom: 3.5rem;
+			@media screen and (max-width: $bp-mobile-start){
+				width: 90%;
+			}
 
 			@include bp-tablet-up {
 				width: 27.8125rem;
