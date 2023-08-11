@@ -32,7 +32,7 @@ h4 {
 	font-size: 3rem;
 	line-height: 3rem;
 	letter-spacing: -2.14;
-	@include bp-sm-mobile {
+	@media screen and (max-width: $bp-mobile-start) {
 		font-size: 1.65em;
 	}
 }
