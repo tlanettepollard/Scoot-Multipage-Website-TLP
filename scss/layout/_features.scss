@@ -21,6 +21,12 @@ Home, About, and Careers section Styles
 		//margin-top: -6.25rem;
 	}
 
+	.container-xxl {
+      @include bp-xxxl-up {
+         max-width: 180rem !important;
+      }
+   }
+
 	.feature-home {
 		@include bp-tablet-up {
 			width: 35.8125rem;
