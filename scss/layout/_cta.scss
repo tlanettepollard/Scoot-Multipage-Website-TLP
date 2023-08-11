@@ -39,6 +39,10 @@
 				@include bp-sm-mobile {
 					width: 95%;
 				}
+
+				@media screen and (max-width: $bp-mobile-start){
+					width: 80%;
+				}
 			}
 		}
 

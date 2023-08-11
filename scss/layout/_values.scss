@@ -26,6 +26,10 @@
 		width: 100%;
 		height: 28.6875rem;
 
+		@media screen and (max-width: $bp-mobile-start) {
+			margin: 2rem 0;
+		}
+
 		@include bp-xl-up {
 			width: 21.875rem;
 		}
@@ -42,6 +46,18 @@
 				left: 50%;
 				top: 32%;
 				transform: translate(-50%, 59%);
+
+				@media screen and (max-width: $bp-mobile-start){
+					top: 28%;
+				}
+			}
+		}
+
+		&-copy {
+			.value-title {
+				@media screen and (max-width: $bp-mobile-start) {
+					margin-top: 2rem;
+				}
 			}
 		}
 	}

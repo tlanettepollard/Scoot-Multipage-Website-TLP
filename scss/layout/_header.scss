@@ -3,7 +3,10 @@
 	nav {
 		height: 4rem;
 		width: 100%;
-		
+		@media screen and (max-width: $bp-mobile-start) {
+				//height: 2rem;
+			}
+
 		.container {
 			width: 100%;
 
@@ -12,6 +15,9 @@
 			}
 		
 			.nav-logo {
+				@media screen and (max-width: $bp-mobile-start) {
+					width: 5rem;
+				}
 				
 			}
 
