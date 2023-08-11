@@ -772,7 +772,7 @@ Home, About, and Careers section Styles
 }
 
 .pattern--arrow .start-0 {
-  left: -75% !important;
+  left: -80% !important;
 }
 @media screen and (min-width: 768px) {
   .pattern--arrow .start-0 {
