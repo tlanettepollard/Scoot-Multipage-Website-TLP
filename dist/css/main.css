@@ -118,6 +118,11 @@ h4 {
   font-family: "Space Mono", monospace;
   background-color: hsl(40, 97%, 58%);
 }
+@media screen and (max-width: 320px) {
+  .btn {
+    width: 10rem !important;
+  }
+}
 .btn:hover {
   background-color: transparent;
   border: 0.2rem solid hsl(40, 97%, 58%);
@@ -227,6 +232,11 @@ a:link {
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .cta-container .appstore-icons .store-icon img {
     width: 95%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .cta-container .appstore-icons .store-icon img {
+    width: 80%;
   }
 }
 .cta-container .shape--halfcircles {
@@ -639,6 +649,11 @@ Home, About, and Careers section Styles
     width: 75%;
   }
 }
+@media screen and (max-width: 320px) {
+  .header nav .container .nav-logo {
+    width: 5rem;
+  }
+}
 .header nav .container .navbar-toggler-icon {
   background-image: url("/assets/icons/hamburger.svg");
 }
@@ -819,6 +834,11 @@ Home, About, and Careers section Styles
   width: 100%;
   height: 28.6875rem;
 }
+@media screen and (max-width: 320px) {
+  .values .value {
+    margin: 2rem 0;
+  }
+}
 @media screen and (min-width: 1201px) {
   .values .value {
     width: 21.875rem;
@@ -835,6 +855,16 @@ Home, About, and Careers section Styles
   left: 50%;
   top: 32%;
   transform: translate(-50%, 59%);
+}
+@media screen and (max-width: 320px) {
+  .values .value-image .value-number {
+    top: 28%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .values .value-copy .value-title {
+    margin-top: 2rem;
+  }
 }
 
 .wrapper {

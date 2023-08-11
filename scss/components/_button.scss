@@ -2,6 +2,10 @@
     font-family: $heading-font;
     background-color: $button-bg;
 
+    @media screen and (max-width: $bp-mobile-start) {
+		width: 10rem !important;
+	}
+
     &:hover {
         background-color: transparent;
         border: .2rem solid $button-hover-border; 
