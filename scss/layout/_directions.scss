@@ -4,8 +4,18 @@
 .directions {
    z-index: 3;
    //height: 80rem;
+
+   .container-xxl {
+      @include bp-xxxl-up {
+         max-width: 180rem !important;
+      }
+   }
    .directions-content {
       width: 85%;
+
+      @include bp-xxxl-up {
+         width: 75%;
+      }
 
       .directions-item {
          height: 23.4rem;
@@ -15,7 +25,6 @@
          }
 
          @include bp-xl-up {
-
             height: 28.3rem;
          }
 
@@ -27,18 +36,23 @@
    
    .directions-patterns {
       .pattern--horizontalline {
-         
+      
          .top-0 {
             top: 24% !important;
          }
 
          .start-0 {
             left: -10.5% !important;
+            @include bp-xxxl-up {
+               left: -5% !important;
+            }
          }
 
          .z-index {
             z-index: -1;
          }
+
+         
       }
       
       .pattern--verticalline {
@@ -53,7 +67,9 @@
             @media screen and (min-width: $bp-desktop-start){
                left: 18% !important;
             }
+
          }
+
 
          .z-index {
             z-index: -1;

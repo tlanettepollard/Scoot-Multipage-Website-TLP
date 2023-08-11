@@ -255,8 +255,18 @@ a:link {
 .directions {
   z-index: 3;
 }
+@media screen and (min-width: 1920px) {
+  .directions .container-xxl {
+    max-width: 180rem !important;
+  }
+}
 .directions .directions-content {
   width: 85%;
+}
+@media screen and (min-width: 1920px) {
+  .directions .directions-content {
+    width: 75%;
+  }
 }
 .directions .directions-content .directions-item {
   height: 23.4rem;
@@ -276,6 +286,11 @@ a:link {
 }
 .directions .directions-patterns .pattern--horizontalline .start-0 {
   left: -10.5% !important;
+}
+@media screen and (min-width: 1920px) {
+  .directions .directions-patterns .pattern--horizontalline .start-0 {
+    left: -5% !important;
+  }
 }
 .directions .directions-patterns .pattern--horizontalline .z-index {
   z-index: -1;
@@ -316,6 +331,11 @@ Home, About, and Careers section Styles
 @media screen and (min-width: 1201px) {
   .features-home {
     height: 115.625rem;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .features-home .container-xxl {
+    max-width: 180rem !important;
   }
 }
 @media screen and (min-width: 768px) {
@@ -713,43 +733,42 @@ Home, About, and Careers section Styles
     left: 13%;
   }
 }
-.hero-home .hero-content .lead-container {
-  /*.top-50 {
-
-  	@include bp-xl-up {
-  		top: 18rem !important;
-  	}
+@media screen and (min-width: 1920px) {
+  .hero-home .hero-content .heading-container .hero-heading {
+    width: 40rem;
+    font-size: 4rem;
   }
-
-  .start-0 {
-  	@include bp-xl-up {
-  		left: 18% !important;
-  	}
-  }*/
 }
 @media screen and (min-width: 1201px) {
   .hero-home .hero-content .lead-container .hero-lead {
     width: 28rem;
     height: 10rem;
     font-size: 15px;
+    position: absolute;
+    top: 48%;
+    left: 18%;
   }
 }
-.hero-home .hero-content .button-container {
-  /*.top-50 {
-  	@include bp-xl-up {
-  		top: 70% !important;
-  	}
+@media screen and (min-width: 1920px) {
+  .hero-home .hero-content .lead-container .hero-lead {
+    font-size: 18px;
   }
-
-  .start-0 {
-  	@include bp-xl-up {
-  		left: 21% !important;
-  	}
-  }*/
 }
 .hero-home .hero-content .button-container .hero-button {
   width: 15rem;
   height: 5.3rem;
+}
+@media screen and (min-width: 1201px) {
+  .hero-home .hero-content .button-container .hero-button {
+    position: absolute;
+    top: 70%;
+    left: 19%;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .hero-home .hero-content .button-container .hero-button {
+    top: 74%;
+  }
 }
 
 .pattern--arrow .top-50 {

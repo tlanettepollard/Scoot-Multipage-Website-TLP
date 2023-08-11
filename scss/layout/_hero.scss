@@ -28,6 +28,11 @@
 					top: 15%;
 					left: 13%;
 				}
+
+				@include bp-xxxl-up {
+					width: 40rem;
+					font-size: 4rem;
+				}
 			}
 
 			
@@ -38,55 +43,41 @@
 						width: 28rem;
 						height: 10rem;
 						font-size: 15px;
+						position: absolute;
+						top: 48%;
+						left: 18%;
+					}
+
+					@include bp-xxxl-up {
+						font-size: 18px;
 					}
 					
 				}
-				
-				/*.top-50 {
-
-					@include bp-xl-up {
-						top: 18rem !important;
-					}
-				}
-				
-				.start-0 {
-					@include bp-xl-up {
-						left: 18% !important;
-					}
-				}*/
-
-				
 			
-
 		}
 
 		.button-container {
 			.hero-button {
 				width: 15rem;
 				height: 5.3rem;
+				@include bp-xl-up {
+					position: absolute;
+					top: 70%;
+					left: 19%;
+				}
+
+				@include bp-xxxl-up {
+					top: 74%;
+				}
 
 			}
-			/*.top-50 {
-				@include bp-xl-up {
-					top: 70% !important;
-				}
-			}
-
-			.start-0 {
-				@include bp-xl-up {
-					left: 21% !important;
-				}
-			}*/
+			
 		}
 	}
 }
 
 // Patterns 
 
-
-.pattern--arrow .end-0 {
-	
-}
 
 .pattern--arrow .top-50 {
 	top: 74% !important;
