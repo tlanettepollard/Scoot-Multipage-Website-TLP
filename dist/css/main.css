@@ -419,14 +419,65 @@ Home, About, and Careers section Styles
 .features-home .feature-home--copy .pattern--leftdwarrow1 .end-0 {
   right: -120% !important;
 }
+@media screen and (min-width: 768px) {
+  .features-home .feature-home--copy .pattern--leftdwarrow1 .end-0 {
+    right: -10% !important;
+  }
+}
 .features-home .feature-home--copy .pattern--leftdwarrow1 .top-0 {
   top: 22% !important;
+}
+@media screen and (min-width: 768px) {
+  .features-home .feature-home--copy .pattern--leftdwarrow1 .top-0 {
+    top: 34% !important;
+  }
+}
+.features-home .feature-home--copy .pattern--leftdwarrow1 .z-index {
+  z-index: 1;
+}
+@media screen and (min-width: 768px) {
+  .features-home .feature-home--copy .pattern--rightarrow .top-0 {
+    top: -5% !important;
+  }
 }
 .features-home .feature-home--copy .pattern--rightarrow .start-0 {
   left: -50% !important;
 }
+@media screen and (min-width: 768px) {
+  .features-home .feature-home--copy .pattern--rightarrow .start-0 {
+    left: -18% !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  .features-home .feature-home--copy .pattern--leftdwarrow2 .top-0 {
+    top: 10% !important;
+  }
+}
 .features-home .feature-home--copy .pattern--leftdwarrow2 .end-0 {
   right: -160% !important;
+}
+@media screen and (min-width: 768px) {
+  .features-home .feature-home--copy .pattern--leftdwarrow2 .end-0 {
+    right: -57% !important;
+  }
+}
+.features-home .feature-home--copy .pattern--circle1 .end-0 {
+  right: -50% !important;
+}
+.features-home .feature-home--copy .pattern--circle1 .z-index {
+  z-index: -1;
+}
+.features-home .feature-home--copy .pattern--circle2 .start-0 {
+  left: -50% !important;
+}
+.features-home .feature-home--copy .pattern--circle2 .z-index {
+  z-index: -1;
+}
+.features-home .feature-home--copy .pattern--circle3 .end-0 {
+  right: -50% !important;
+}
+.features-home .feature-home--copy .pattern--circle3 .z-index {
+  z-index: -1;
 }
 
 /* About Style */
