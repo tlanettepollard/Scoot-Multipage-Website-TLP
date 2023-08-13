@@ -93,7 +93,32 @@ Home, About, and Careers section Styles
 					font-size: 1.125rem;
 				}
 			}
+
+			.pattern--leftdwarrow1 {
+				.end-0 {
+					right: -120% !important;
+				}
+
+				.top-0 {
+					top: 22% !important;
+				}
+				
+			}
+
+			.pattern--rightarrow {
+				.start-0 {
+					left: -50% !important;
+				}
+			}
+
+			.pattern--leftdwarrow2 {
+				.end-0 {
+					right: -160% !important;
+				}
+			}
 		}
+
+		
 	}
 
 	
@@ -299,3 +324,4 @@ Home, About, and Careers section Styles
 	}
 }
 // Bootstrap Classes
+
