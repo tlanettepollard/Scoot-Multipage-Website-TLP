@@ -320,7 +320,7 @@ Home, About, and Careers section Styles
 /* Home Style */
 .features-home {
   width: 100%;
-  height: 154.5rem;
+  height: 160rem;
   margin-top: 7.5rem;
 }
 @media screen and (max-width: 320px) {
@@ -615,6 +615,16 @@ Home, About, and Careers section Styles
 .features .feature-button {
   width: 18rem;
   height: 5.3rem;
+}
+@media screen and (max-width: 320px) {
+  .features .pattern--leftdwarrow {
+    display: none;
+  }
+}
+@media screen and (max-width: 320px) {
+  .features .pattern--rightarrow {
+    display: none;
+  }
 }
 
 .footer {
