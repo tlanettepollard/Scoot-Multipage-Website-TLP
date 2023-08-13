@@ -416,6 +416,18 @@ Home, About, and Careers section Styles
     font-size: 1.125rem;
   }
 }
+.features-home .feature-home--copy .pattern--leftdwarrow1 .end-0 {
+  right: -120% !important;
+}
+.features-home .feature-home--copy .pattern--leftdwarrow1 .top-0 {
+  top: 22% !important;
+}
+.features-home .feature-home--copy .pattern--rightarrow .start-0 {
+  left: -50% !important;
+}
+.features-home .feature-home--copy .pattern--leftdwarrow2 .end-0 {
+  right: -160% !important;
+}
 
 /* About Style */
 .features-about {
