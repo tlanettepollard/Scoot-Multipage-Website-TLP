@@ -13,7 +13,7 @@
 		background-image: url(../../assets/images/home-hero-tablet.jpg);
 	}
 
-	@include bp-xl-up {
+	@include bp-xxl-up {
 		background-image: url(../../assets/images/home-hero-desktop.jpg);
 	}
 
@@ -21,7 +21,7 @@
 		.heading-container {
 			.hero-heading {
 				
-				@include bp-xl-up {
+				@include bp-xxl-up {
 					width: 35rem;
 					height: 11.2rem;
 					letter-spacing: .125rem; 
@@ -40,7 +40,7 @@
 		}
 		.lead-container {
 				.hero-lead {
-					@include bp-xl-up {
+					@include bp-xxl-up {
 						width: 28rem;
 						height: 10rem;
 						font-size: 15px;
@@ -61,7 +61,7 @@
 			.hero-button {
 				width: 15rem;
 				height: 5.3rem;
-				@include bp-xl-up {
+				@include bp-xxl-up {
 					position: absolute;
 					top: 70%;
 					left: 19%;

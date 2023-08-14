@@ -14,7 +14,7 @@
 }
 
 .city-listing {
-	@include bp-xl-up {
+	@include bp-xxl-up {
 		min-width: 69.4375rem;
 	}
 
@@ -23,16 +23,16 @@
 			width: 35.8125rem;
 		}
 
-		@include bp-xl-up {
+		@include bp-xxl-up {
 			width: 100%;
 		}
 		.city-heading {
-			@include bp-xl-up {
+			@include bp-xxl-up {
 				width: 21.9375rem;
 			}
 		}
 		.city-text {
-			@include bp-xl-up {
+			@include bp-xxl-up {
 				width: 27.8125rem;
 			}
 		}
