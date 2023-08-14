@@ -94,96 +94,7 @@ Home, About, and Careers section Styles
 				}
 			}
 
-			.pattern--leftdwarrow1 {
-				.end-0 {
-					right: -120% !important;
-
-					@include bp-tablet-up {
-						right: -10% !important;
-					}
-					
-					@include bp-xl-up {
-						right: -45% !important;
-					}
-				}
-
-				.top-0 {
-					top: 22% !important;
-					@include bp-tablet-up {
-						top: 34% !important;
-					}
-					@include bp-xl-up {
-						top: 65% !important;
-					}
-				}
-				.z-index {
-					z-index: 1;
-				}
-				
-			}
-
-			.pattern--rightdwarrow {
-				.top-0 {
-					@include bp-tablet-up {
-						top: -5% !important;
-					}
-
-					
-				}
-				.start-0 {
-					left: -50% !important;
-					@include bp-tablet-up {
-						left: -18% !important;
-					}
-				}
-
-				
-			}
-
-			.pattern--leftdwarrow2 {
-				.top-0 {
-					@include bp-tablet-up {
-						top: 10% !important;
-					}
-				}
-				.end-0 {
-					right: -160% !important;
-
-					@include bp-tablet-up {
-						right: -57% !important;
-					}
-				}
-			}
-
-			.pattern--circle1 {
-				.end-0 {
-					right: -50% !important;
-					@include bp-xl-up {
-						right: -40% !important;
-					}
-				}
-				.z-index {
-					z-index: -1;
-				}
-			}
-
-			.pattern--circle2 {
-				.start-0 {
-					left: -50% !important;
-				}
-				.z-index {
-					z-index: -1;
-				}
-			}
-
-			.pattern--circle3 {
-				.end-0 {
-					right: -50% !important;
-				}
-				.z-index {
-					z-index: -1;
-				}
-			}
+			
 		}
 
 		
@@ -379,25 +290,9 @@ Home, About, and Careers section Styles
 		height: 5.3rem;
 	}
 
-	.pattern--leftdwarrow {
-		@media screen and (max-width: $bp-mobile-start) {
-			display: none;
-		}
-	}
+	
 
-	.pattern--rightdwarrow {
-		@media screen and (max-width: $bp-mobile-start) {
-			display: none;
-		}
-	}
-
-	.leftdwarrow {
-		
-	}
-
-	.rightdwarrow {
-		
-	}
+	
 }
 
 
