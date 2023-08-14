@@ -31,7 +31,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  outline: 1px solid black;
 }
 
 html {
@@ -416,84 +415,6 @@ Home, About, and Careers section Styles
     font-size: 1.125rem;
   }
 }
-.features-home .feature-home--copy .pattern--leftdwarrow1 .end-0 {
-  right: -120% !important;
-}
-@media screen and (min-width: 768px) {
-  .features-home .feature-home--copy .pattern--leftdwarrow1 .end-0 {
-    right: -10% !important;
-  }
-}
-@media screen and (min-width: 1201px) {
-  .features-home .feature-home--copy .pattern--leftdwarrow1 .end-0 {
-    right: -45% !important;
-  }
-}
-.features-home .feature-home--copy .pattern--leftdwarrow1 .top-0 {
-  top: 22% !important;
-}
-@media screen and (min-width: 768px) {
-  .features-home .feature-home--copy .pattern--leftdwarrow1 .top-0 {
-    top: 34% !important;
-  }
-}
-@media screen and (min-width: 1201px) {
-  .features-home .feature-home--copy .pattern--leftdwarrow1 .top-0 {
-    top: 65% !important;
-  }
-}
-.features-home .feature-home--copy .pattern--leftdwarrow1 .z-index {
-  z-index: 1;
-}
-@media screen and (min-width: 768px) {
-  .features-home .feature-home--copy .pattern--rightdwarrow .top-0 {
-    top: -5% !important;
-  }
-}
-.features-home .feature-home--copy .pattern--rightdwarrow .start-0 {
-  left: -50% !important;
-}
-@media screen and (min-width: 768px) {
-  .features-home .feature-home--copy .pattern--rightdwarrow .start-0 {
-    left: -18% !important;
-  }
-}
-@media screen and (min-width: 768px) {
-  .features-home .feature-home--copy .pattern--leftdwarrow2 .top-0 {
-    top: 10% !important;
-  }
-}
-.features-home .feature-home--copy .pattern--leftdwarrow2 .end-0 {
-  right: -160% !important;
-}
-@media screen and (min-width: 768px) {
-  .features-home .feature-home--copy .pattern--leftdwarrow2 .end-0 {
-    right: -57% !important;
-  }
-}
-.features-home .feature-home--copy .pattern--circle1 .end-0 {
-  right: -50% !important;
-}
-@media screen and (min-width: 1201px) {
-  .features-home .feature-home--copy .pattern--circle1 .end-0 {
-    right: -40% !important;
-  }
-}
-.features-home .feature-home--copy .pattern--circle1 .z-index {
-  z-index: -1;
-}
-.features-home .feature-home--copy .pattern--circle2 .start-0 {
-  left: -50% !important;
-}
-.features-home .feature-home--copy .pattern--circle2 .z-index {
-  z-index: -1;
-}
-.features-home .feature-home--copy .pattern--circle3 .end-0 {
-  right: -50% !important;
-}
-.features-home .feature-home--copy .pattern--circle3 .z-index {
-  z-index: -1;
-}
 
 /* About Style */
 .features-about {
@@ -694,16 +615,7 @@ Home, About, and Careers section Styles
   width: 18rem;
   height: 5.3rem;
 }
-@media screen and (max-width: 320px) {
-  .features .pattern--leftdwarrow {
-    display: none;
-  }
-}
-@media screen and (max-width: 320px) {
-  .features .pattern--rightdwarrow {
-    display: none;
-  }
-}
+
 .footer {
   width: 100%;
   height: 34.375rem;
@@ -808,7 +720,7 @@ Home, About, and Careers section Styles
 
 .hero-home {
   overflow: hidden;
-  height: 40.625rem;
+  height: 40.6rem;
   width: 100%;
   background-image: url(../../assets/images/home-hero-mobile.jpg);
   background-repeat: no-repeat;
@@ -872,65 +784,51 @@ Home, About, and Careers section Styles
     top: 74%;
   }
 }
-
-.pattern--arrow .top-50 {
-  top: 74% !important;
+.hero-home .hero-patterns .pattern {
+  background-size: contain;
+  background-repeat: no-repeat;
 }
-@media screen and (max-width: 374px) {
-  .pattern--arrow .top-50 {
-    display: none;
+.hero-home .hero-patterns .pattern--line {
+  width: 20.3rem;
+  height: 1.5rem;
+  background-image: url(../../assets/patterns/line.svg);
+  left: 0;
+  top: 54.4615%;
+}
+@media screen and (min-width: 1440px) {
+  .hero-home .hero-patterns .pattern--line {
+    left: -4rem;
   }
+}
+.hero-home .hero-patterns .pattern--arrow {
+  width: 46.6rem;
+  height: 10rem;
+  background-image: url(../../assets/patterns/right-arrow.svg);
+  left: -20rem;
+  bottom: 2.5rem;
 }
 @media screen and (min-width: 768px) {
-  .pattern--arrow .top-50 {
-    top: 72% !important;
+  .hero-home .hero-patterns .pattern--arrow {
+    left: -11rem;
   }
 }
-@media screen and (min-width: 1201px) {
-  .pattern--arrow .top-50 {
-    top: 54% !important;
+@media screen and (min-width: 1440px) {
+  .hero-home .hero-patterns .pattern--arrow {
+    height: 13.8rem;
+    top: 54.4615%;
+    left: 50rem;
   }
 }
-
-.pattern--arrow .start-0 {
-  left: -80% !important;
+.hero-home .hero-patterns .pattern--whitecircles {
+  width: 23.4rem;
+  height: 5.3rem;
+  background-image: url(../../assets/patterns/white-circles.svg);
+  right: -7rem;
+  bottom: 2.5rem;
 }
-@media screen and (min-width: 768px) {
-  .pattern--arrow .start-0 {
-    left: -15% !important;
-  }
-}
-@media screen and (min-width: 1201px) {
-  .pattern--arrow .start-0 {
-    left: 50% !important;
-  }
-}
-
-.pattern--line .top-50 {
-  top: 54% !important;
-}
-
-.pattern--line .start-0 {
-  left: -1rem !important;
-}
-
-.pattern--whitecircles .top-50 {
-  top: 85% !important;
-}
-@media screen and (min-width: 1201px) {
-  .pattern--whitecircles .top-50 {
-    top: 70% !important;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .pattern--whitecircles .end-0 {
-    right: -4% !important;
-  }
-}
-@media screen and (min-width: 1201px) {
-  .pattern--whitecircles .end-0 {
-    right: -2.5% !important;
+@media screen and (min-width: 1440px) {
+  .hero-home .hero-patterns .pattern--whitecircles {
+    bottom: 6rem;
   }
 }
 
