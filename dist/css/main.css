@@ -31,6 +31,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  outline: 1px solid black;
 }
 
 html {
@@ -165,7 +166,7 @@ a:link {
     background-image: url("../../assets/images/about-hero-tablet.jpg");
   }
 }
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1440px) {
   .banner-about {
     background-image: url("../../assets/images/about-hero-desktop.jpg");
   }
@@ -275,7 +276,7 @@ a:link {
     height: 13rem;
   }
 }
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1440px) {
   .directions .directions-content .directions-item {
     height: 28.3rem;
   }
@@ -732,12 +733,12 @@ Home, About, and Careers section Styles
     background-image: url(../../assets/images/home-hero-tablet.jpg);
   }
 }
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1440px) {
   .hero-home {
     background-image: url(../../assets/images/home-hero-desktop.jpg);
   }
 }
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1440px) {
   .hero-home .hero-content .heading-container .hero-heading {
     width: 35rem;
     height: 11.2rem;
@@ -753,7 +754,7 @@ Home, About, and Careers section Styles
     font-size: 4rem;
   }
 }
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1440px) {
   .hero-home .hero-content .lead-container .hero-lead {
     width: 28rem;
     height: 10rem;
@@ -772,7 +773,7 @@ Home, About, and Careers section Styles
   width: 15rem;
   height: 5.3rem;
 }
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1440px) {
   .hero-home .hero-content .button-container .hero-button {
     position: absolute;
     top: 70%;
@@ -873,7 +874,7 @@ Home, About, and Careers section Styles
     margin: 2rem 0;
   }
 }
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1440px) {
   .values .value {
     width: 21.875rem;
   }
@@ -946,7 +947,7 @@ Home, About, and Careers section Styles
 .faqs .faqs-container .faq .faq-title {
   width: 100%;
 }
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1440px) {
   .faqs .faqs-container .faq .faq-title {
     width: 21.875rem;
     height: 3rem;
@@ -1027,7 +1028,7 @@ Home, About, and Careers section Styles
   background-color: hsl(39, 100%, 94%);
 }
 
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1440px) {
   .city-listing {
     min-width: 69.4375rem;
   }
@@ -1037,17 +1038,17 @@ Home, About, and Careers section Styles
     width: 35.8125rem;
   }
 }
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1440px) {
   .city-listing .city-copy {
     width: 100%;
   }
 }
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1440px) {
   .city-listing .city-copy .city-heading {
     width: 21.9375rem;
   }
 }
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1440px) {
   .city-listing .city-copy .city-text {
     width: 27.8125rem;
   }
