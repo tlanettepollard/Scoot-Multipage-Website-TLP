@@ -320,7 +320,7 @@ Home, About, and Careers section Styles
 /* Home Style */
 .features-home {
   width: 100%;
-  height: 160rem;
+  height: 170rem;
   margin-top: 7.5rem;
 }
 @media screen and (max-width: 320px) {
@@ -424,6 +424,11 @@ Home, About, and Careers section Styles
     right: -10% !important;
   }
 }
+@media screen and (min-width: 1201px) {
+  .features-home .feature-home--copy .pattern--leftdwarrow1 .end-0 {
+    right: -45% !important;
+  }
+}
 .features-home .feature-home--copy .pattern--leftdwarrow1 .top-0 {
   top: 22% !important;
 }
@@ -432,19 +437,24 @@ Home, About, and Careers section Styles
     top: 34% !important;
   }
 }
+@media screen and (min-width: 1201px) {
+  .features-home .feature-home--copy .pattern--leftdwarrow1 .top-0 {
+    top: 65% !important;
+  }
+}
 .features-home .feature-home--copy .pattern--leftdwarrow1 .z-index {
   z-index: 1;
 }
 @media screen and (min-width: 768px) {
-  .features-home .feature-home--copy .pattern--rightarrow .top-0 {
+  .features-home .feature-home--copy .pattern--rightdwarrow .top-0 {
     top: -5% !important;
   }
 }
-.features-home .feature-home--copy .pattern--rightarrow .start-0 {
+.features-home .feature-home--copy .pattern--rightdwarrow .start-0 {
   left: -50% !important;
 }
 @media screen and (min-width: 768px) {
-  .features-home .feature-home--copy .pattern--rightarrow .start-0 {
+  .features-home .feature-home--copy .pattern--rightdwarrow .start-0 {
     left: -18% !important;
   }
 }
@@ -463,6 +473,11 @@ Home, About, and Careers section Styles
 }
 .features-home .feature-home--copy .pattern--circle1 .end-0 {
   right: -50% !important;
+}
+@media screen and (min-width: 1201px) {
+  .features-home .feature-home--copy .pattern--circle1 .end-0 {
+    right: -40% !important;
+  }
 }
 .features-home .feature-home--copy .pattern--circle1 .z-index {
   z-index: -1;
@@ -685,11 +700,10 @@ Home, About, and Careers section Styles
   }
 }
 @media screen and (max-width: 320px) {
-  .features .pattern--rightarrow {
+  .features .pattern--rightdwarrow {
     display: none;
   }
 }
-
 .footer {
   width: 100%;
   height: 34.375rem;
