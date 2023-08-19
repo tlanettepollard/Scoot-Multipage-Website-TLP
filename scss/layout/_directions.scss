@@ -3,88 +3,35 @@
 ********************/
 .directions {
    z-index: 3;
-   //height: 80rem;
-
-   .container-xxl {
-      @include bp-xxxl-up {
-         max-width: 180rem !important;
-      }
-   }
-   .directions-content {
-      width: 85%;
-
-      @include bp-xxxl-up {
-         width: 75%;
-      }
-
+   
+   &-content {
       .directions-item {
-         height: 23.4rem;
+         .image-content {
 
-         @include bp-tablet-up {
-            height: 13rem;
-         }
-
-         @include bp-xxl-up {
-            height: 28.3rem;
          }
 
          .text-content {
+         
+            .directions-heading {
+               margin-bottom: 1.5rem;
+               @include bp-tablet-up {
+                  
+                  margin-bottom: 1.75rem;
+               }
+            }
+
             .directions-text {
-               @include bp-xxxl-up {
-                  font-size: 16px;
+
+               @include bp-tablet-up {
+                  max-width:25rem;  
+               }
+
+               @include bp-desktop {
+                  max-width: 30rem;
                }
             }
          }
-
-         
       }
-   }
-   
-   .directions-patterns {
-      .pattern--horizontalline {
-      
-         .top-0 {
-            top: 24% !important;
-         }
-
-         .start-0 {
-            left: -10.5% !important;
-            @include bp-xxxl-up {
-               left: -5% !important;
-            }
-         }
-
-         .z-index {
-            z-index: -1;
-         }
-
-         
-      }
-      
-      .pattern--verticalline {
-         
-         .top-0 {
-            top: -11.5% !important;
-         }
-
-         .start-0 {
-            left: 22% !important;
-
-            @media screen and (min-width: $bp-desktop-start){
-               left: 18% !important;
-            }
-
-         }
-
-
-         .z-index {
-            z-index: -1;
-         }
-      }
-   }
-
-   .ms-xl-0 {
-      //margin-left: -1rem !important;
    }
 }
 

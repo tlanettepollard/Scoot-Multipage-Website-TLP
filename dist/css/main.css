@@ -49,6 +49,11 @@ ul {
   list-style-type: none;
 }
 
+.section {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
 /* Main Styling */
 .img-round {
   border-radius: 50%;
@@ -255,65 +260,25 @@ a:link {
 .directions {
   z-index: 3;
 }
-@media screen and (min-width: 1920px) {
-  .directions .container-xxl {
-    max-width: 180rem !important;
-  }
-}
-.directions .directions-content {
-  width: 85%;
-}
-@media screen and (min-width: 1920px) {
-  .directions .directions-content {
-    width: 75%;
-  }
-}
-.directions .directions-content .directions-item {
-  height: 23.4rem;
+.directions-content .directions-item .text-content .directions-heading {
+  margin-bottom: 1.5rem;
 }
 @media screen and (min-width: 768px) {
-  .directions .directions-content .directions-item {
-    height: 13rem;
+  .directions-content .directions-item .text-content .directions-heading {
+    margin-bottom: 1.75rem;
   }
 }
-@media screen and (min-width: 1440px) {
-  .directions .directions-content .directions-item {
-    height: 28.3rem;
+@media screen and (min-width: 768px) {
+  .directions-content .directions-item .text-content .directions-text {
+    max-width: 25rem;
   }
 }
-@media screen and (min-width: 1920px) {
-  .directions .directions-content .directions-item .text-content .directions-text {
-    font-size: 16px;
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .directions-content .directions-item .text-content .directions-text {
+    max-width: 30rem;
   }
 }
-.directions .directions-patterns .pattern--horizontalline .top-0 {
-  top: 24% !important;
-}
-.directions .directions-patterns .pattern--horizontalline .start-0 {
-  left: -10.5% !important;
-}
-@media screen and (min-width: 1920px) {
-  .directions .directions-patterns .pattern--horizontalline .start-0 {
-    left: -5% !important;
-  }
-}
-.directions .directions-patterns .pattern--horizontalline .z-index {
-  z-index: -1;
-}
-.directions .directions-patterns .pattern--verticalline .top-0 {
-  top: -11.5% !important;
-}
-.directions .directions-patterns .pattern--verticalline .start-0 {
-  left: 22% !important;
-}
-@media screen and (min-width: 1024px) {
-  .directions .directions-patterns .pattern--verticalline .start-0 {
-    left: 18% !important;
-  }
-}
-.directions .directions-patterns .pattern--verticalline .z-index {
-  z-index: -1;
-}
+
 /*************************************
 Home, About, and Careers section Styles
 *************************************/
@@ -727,6 +692,7 @@ Home, About, and Careers section Styles
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  z-index: 3;
 }
 @media screen and (min-width: 768px) {
   .hero-home {
@@ -752,6 +718,11 @@ Home, About, and Careers section Styles
   .hero-home .hero-content .heading-container .hero-heading {
     width: 40rem;
     font-size: 4rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero-home .hero-content .lead-container .hero-lead {
+    width: 80%;
   }
 }
 @media screen and (min-width: 1440px) {

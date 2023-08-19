@@ -8,6 +8,7 @@
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
+	z-index: 3;
 
 	@include bp-tablet-up {
 		background-image: url(../../assets/images/home-hero-tablet.jpg);
@@ -40,6 +41,9 @@
 		}
 		.lead-container {
 				.hero-lead {
+					@include bp-tablet-up {
+						width: 80%;
+					}
 					@include bp-xxl-up {
 						width: 28rem;
 						height: 10rem;
