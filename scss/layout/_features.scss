@@ -100,7 +100,56 @@ Home, About, and Careers section Styles
 
 
 /* Careers Style */
+.features-careers {
+	height: 45rem;
 
+	@include bp-tablet-up {
+		height: 50rem;
+	}
+
+	@include bp-xl-up {
+		height: 40rem;
+	}
+	.feature-careers {
+		&--image {
+			padding-top: 1.6rem;
+			padding-bottom: 1.6rem;
+
+			img {
+			width: 31.1rem;
+			height: auto;
+			}
+		}
+
+		&--copy {
+			max-width: 100%;
+			margin-bottom: 1.6rem;
+			@include bp-tablet-up {
+			max-width: 70%;
+			}
+			@include bp-desktop-up {
+				max-width: 45%;
+			}
+
+			@include bp-xl-up {
+				max-width: 40%;
+			}
+
+			@include bp-xxl-up {
+				max-width: 35%;
+			}
+
+
+			.feature-about--heading {
+				padding-bottom: 1.6rem;
+			}
+
+			.feature-about--text {
+				padding-bottom: .8rem;
+			}
+		}
+	}
+}
 
 
 
