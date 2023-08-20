@@ -301,36 +301,83 @@ Home, About, and Careers section Styles
     height: 120rem;
   }
 }
-.features-home .feature-home--image {
+.features .feature-home--image {
   padding-top: 1.6rem;
   padding-bottom: 1.6rem;
 }
-.features-home .feature-home--image img {
+.features .feature-home--image img {
   width: 31.1rem;
   height: auto;
 }
-.features-home .feature-home--copy {
+.features .feature-home--copy {
   max-width: 100%;
   margin-bottom: 1.6rem;
 }
 @media screen and (min-width: 768px) {
-  .features-home .feature-home--copy {
+  .features .feature-home--copy {
     max-width: 70%;
   }
 }
 @media screen and (min-width: 1024px) {
-  .features-home .feature-home--copy {
+  .features .feature-home--copy {
     max-width: 45%;
   }
 }
-.features-home .feature-home--copy .feature-home--heading {
+.features .feature-home--copy .feature-home--heading {
   padding-bottom: 1.6rem;
 }
-.features-home .feature-home--copy .feature-home--text {
+.features .feature-home--copy .feature-home--text {
   padding-bottom: 1.6rem;
 }
 
 /* About Style */
+.features-about {
+  height: 110rem;
+}
+@media screen and (min-width: 768px) {
+  .features-about {
+    height: 120rem;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .features-about {
+    height: 90rem;
+  }
+}
+.features-about .feature-about--image {
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
+}
+.features-about .feature-about--image img {
+  width: 31.1rem;
+  height: auto;
+}
+.features-about .feature-about--copy {
+  max-width: 100%;
+  margin-bottom: 1.6rem;
+}
+@media screen and (min-width: 768px) {
+  .features-about .feature-about--copy {
+    max-width: 70%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .features-about .feature-about--copy {
+    max-width: 45%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .features-about .feature-about--copy {
+    max-width: 35%;
+  }
+}
+.features-about .feature-about--copy .feature-about--heading {
+  padding-bottom: 1.6rem;
+}
+.features-about .feature-about--copy .feature-about--text {
+  padding-bottom: 0.8rem;
+}
+
 /* Careers Style */
 .feature-button {
   width: 18rem;

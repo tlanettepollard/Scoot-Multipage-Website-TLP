@@ -13,8 +13,8 @@ Home, About, and Careers section Styles
 	@include bp-xl-up {
 		height: 120rem;
 	}
-	&-home {
-		.feature-home--image {
+	.feature-home {
+		&--image {
 			padding-top: 1.6rem;
 			padding-bottom: 1.6rem;
 		img {
@@ -24,7 +24,7 @@ Home, About, and Careers section Styles
 		}
 	}
 
-		.feature-home--copy {
+		&--copy {
 			max-width: 100%;
 			margin-bottom: 1.6rem;
 			@include bp-tablet-up {
@@ -43,11 +43,59 @@ Home, About, and Careers section Styles
 			}
 		}
 	}
+
 	
 }
 
-
 /* About Style */
+.features-about {
+	height: 110rem;
+
+	@include bp-tablet-up {
+		height: 120rem;
+	}
+
+	@include bp-xl-up {
+		height: 90rem;
+	}
+
+	.feature-about {
+		&--image {
+			padding-top: 1.6rem;
+			padding-bottom: 1.6rem;
+
+			img {
+			width: 31.1rem;
+			height: auto;
+			}
+		}
+
+		&--copy {
+			max-width: 100%;
+			margin-bottom: 1.6rem;
+			@include bp-tablet-up {
+			max-width: 70%;
+			}
+			@include bp-desktop-up {
+				max-width: 45%;
+			}
+
+			@include bp-xxl-up {
+				max-width: 35%;
+			}
+
+
+			.feature-about--heading {
+				padding-bottom: 1.6rem;
+			}
+
+			.feature-about--text {
+				padding-bottom: .8rem;
+			}
+		}
+	}
+}
+
 
 
 /* Careers Style */
