@@ -3,6 +3,48 @@ Home, About, and Careers section Styles
 *************************************/
 
 /* Home Style */
+.features {
+	height: 165rem;
+
+	@include bp-tablet-up {
+		height: 190rem;
+	}
+
+	@include bp-xl-up {
+		height: 120rem;
+	}
+	&-home {
+		.feature-home--image {
+			padding-top: 1.6rem;
+			padding-bottom: 1.6rem;
+		img {
+			width: 31.1rem;
+			height: auto;
+
+		}
+	}
+
+		.feature-home--copy {
+			max-width: 100%;
+			margin-bottom: 1.6rem;
+			@include bp-tablet-up {
+			max-width: 70%;
+			}
+			@include bp-desktop-up {
+				max-width: 45%;
+			}
+
+			.feature-home--heading {
+				padding-bottom: 1.6rem;
+			}
+
+			.feature-home--text {
+				padding-bottom: 1.6rem;
+			}
+		}
+	}
+	
+}
 
 
 /* About Style */
@@ -12,3 +54,8 @@ Home, About, and Careers section Styles
 
 
 
+
+.feature-button {
+	width: 18rem;
+	height: 5.3rem;
+}
