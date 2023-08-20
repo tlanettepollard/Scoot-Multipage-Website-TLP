@@ -8,6 +8,7 @@
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
+	z-index: 3;
 
 	@include bp-tablet-up {
 		background-image: url(../../assets/images/home-hero-tablet.jpg);
@@ -20,6 +21,10 @@
 	.hero-content {
 		.heading-container {
 			.hero-heading {
+
+				@include bp-xl-up {
+					width: 35rem;
+				}
 				
 				@include bp-xxl-up {
 					width: 35rem;
@@ -40,11 +45,19 @@
 		}
 		.lead-container {
 				.hero-lead {
+					@include bp-tablet-up {
+						width: 80%;
+					}
+
+					@include  bp-xl-up {
+						position: absolute;
+						width: 28rem;
+						left: 15%;
+					}
 					@include bp-xxl-up {
 						width: 28rem;
 						height: 10rem;
 						font-size: 15px;
-						position: absolute;
 						top: 48%;
 						left: 18%;
 					}
@@ -61,8 +74,13 @@
 			.hero-button {
 				width: 15rem;
 				height: 5.3rem;
-				@include bp-xxl-up {
+				@include bp-xl-up {
 					position: absolute;
+					top: 60%;
+					left: 16%;
+				}
+				@include bp-xxl-up {
+					
 					top: 70%;
 					left: 19%;
 				}
@@ -86,6 +104,11 @@
 				background-image: url(../../assets/patterns/line.svg);
 				left: 0;
 				top: 54.4615%;
+
+				@include bp-xl-up {
+					top: 45%;
+					left: -12%;
+				}
 
 				@include bp-xxl-up {
 					left: -4rem;
