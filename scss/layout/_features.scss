@@ -4,7 +4,7 @@ Home, About, and Careers section Styles
 
 /* Home Style */
 .features {
-	height: 165rem;
+	height: 180rem;
 
 	@include bp-tablet-up {
 		height: 190rem;
@@ -25,8 +25,9 @@ Home, About, and Careers section Styles
 	}
 
 		&--copy {
-			max-width: 100%;
+			max-width: 90%;
 			margin-bottom: 1.6rem;
+
 			@include bp-tablet-up {
 			max-width: 70%;
 			}
