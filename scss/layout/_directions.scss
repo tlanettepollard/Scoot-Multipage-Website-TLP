@@ -11,8 +11,19 @@
          }
 
          .text-content {
-         
-            .directions-heading {
+             @include bp-tablet-up {
+                  max-width:25rem;  
+               }
+
+            @include bp-desktop {
+                  max-width: 30rem !important;
+               }
+
+            @include bp-xxl-up {
+                  max-width: 35rem;
+               }
+            
+             .directions-heading {
                margin-bottom: 1.5rem;
                @include bp-tablet-up {
                   
@@ -20,16 +31,8 @@
                }
             }
 
-            .directions-text {
-
-               @include bp-tablet-up {
-                  max-width:25rem;  
-               }
-
-               @include bp-desktop {
-                  max-width: 30rem;
-               }
-            }
+               
+            
          }
       }
    }

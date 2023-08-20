@@ -260,22 +260,27 @@ a:link {
 .directions {
   z-index: 3;
 }
+@media screen and (min-width: 768px) {
+  .directions-content .directions-item .text-content {
+    max-width: 25rem;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .directions-content .directions-item .text-content {
+    max-width: 30rem !important;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .directions-content .directions-item .text-content {
+    max-width: 35rem;
+  }
+}
 .directions-content .directions-item .text-content .directions-heading {
   margin-bottom: 1.5rem;
 }
 @media screen and (min-width: 768px) {
   .directions-content .directions-item .text-content .directions-heading {
     margin-bottom: 1.75rem;
-  }
-}
-@media screen and (min-width: 768px) {
-  .directions-content .directions-item .text-content .directions-text {
-    max-width: 25rem;
-  }
-}
-@media screen and (min-width: 1024px) and (max-width: 1200px) {
-  .directions-content .directions-item .text-content .directions-text {
-    max-width: 30rem;
   }
 }
 
