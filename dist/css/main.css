@@ -683,71 +683,21 @@ Home, About, and Careers section Styles
 
 .values {
   width: 100%;
-}
-@media screen and (min-width: 1920px) {
-  .values .container-xxl {
-    max-width: 180rem !important;
-  }
-}
-.values-container {
-  width: 100%;
-  height: 100%;
-}
-@media screen and (min-width: 768px) {
-  .values-container {
-    width: 28.5625rem;
-  }
+  height: 120rem;
 }
 @media screen and (min-width: 1201px) {
-  .values-container {
-    width: 69.375rem;
+  .values {
+    height: 50rem;
   }
 }
 @media screen and (min-width: 1440px) {
-  .values-container {
-    width: 71.875rem;
+  .values {
+    height: 45rem;
   }
 }
-@media screen and (min-width: 1920px) {
-  .values-container {
-    width: 84.375rem;
-  }
-}
-.values .value {
-  width: 100%;
-  height: 28.6875rem;
-}
-@media screen and (max-width: 320px) {
-  .values .value {
-    margin: 2rem 0;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .values .value {
-    width: 21.875rem;
-  }
-}
-.values .value-image img {
-  width: 15rem;
+.values .value-image {
+  width: 24rem;
   height: auto;
-}
-.values .value-image .value-number {
-  width: 6rem;
-  height: 6rem;
-  background-color: hsl(40, 97%, 58%);
-  left: 50%;
-  top: 32%;
-  transform: translate(-50%, 59%);
-}
-@media screen and (max-width: 320px) {
-  .values .value-image .value-number {
-    top: 28%;
-  }
-}
-@media screen and (max-width: 320px) {
-  .values .value-copy .value-title {
-    margin-top: 2rem;
-  }
 }
 
 .wrapper {
