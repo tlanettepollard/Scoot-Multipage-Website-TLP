@@ -31,6 +31,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  outline: 1px solid black;
 }
 
 html {
@@ -694,11 +695,24 @@ Home, About, and Careers section Styles
     height: 45rem;
   }
 }
-.values .value-image {
+@media screen and (min-width: 1440px) {
+  .values .container-xxl {
+    height: 55rem;
+  }
+}
+.values .container-xxl .value {
+  height: 43rem;
+}
+@media screen and (min-width: 1440px) {
+  .values .container-xxl .value {
+    height: 40rem;
+  }
+}
+.values .container-xxl .value-image {
   width: 24rem;
   height: auto;
 }
-.values .value-image .value-number {
+.values .container-xxl .value-image .value-number {
   width: 6rem;
   height: 6rem;
   background-color: hsl(40, 97%, 58%);

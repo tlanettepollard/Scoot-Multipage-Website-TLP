@@ -10,22 +10,36 @@
 		height: 45rem;
 	}
 
-	&-title {
+	&-title {}
 
-	}
-	
-	.value {
-		&-image {
-			width: 24rem;
-			height: auto;
+	.container-xxl {
 
-			.value-number {
-				width: 6rem;
-				height: 6rem;
-				background-color: $yellow;
-				left: 50%;
-				top: 32%;
-				transform: translate(-50%, 59%);
+		@include bp-xxl-up {
+			height: 55rem;
+		}
+
+		.value {
+			height: 43rem;
+
+			@include bp-tablet-up {
+				
+			}
+			@include bp-xxl-up {
+				height: 40rem;
+			}
+
+			&-image {
+				width: 24rem;
+				height: auto;
+
+				.value-number {
+					width: 6rem;
+					height: 6rem;
+					background-color: $yellow;
+					left: 50%;
+					top: 32%;
+					transform: translate(-50%, 59%);
+				}
 			}
 		}
 	}
