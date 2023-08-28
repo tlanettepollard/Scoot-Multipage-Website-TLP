@@ -18,6 +18,15 @@
 		&-image {
 			width: 24rem;
 			height: auto;
+
+			.value-number {
+				width: 6rem;
+				height: 6rem;
+				background-color: $yellow;
+				left: 50%;
+				top: 32%;
+				transform: translate(-50%, 59%);
+			}
 		}
 	}
 }

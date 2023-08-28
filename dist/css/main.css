@@ -31,7 +31,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  outline: 1px solid black;
 }
 
 html {
@@ -698,6 +697,14 @@ Home, About, and Careers section Styles
 .values .value-image {
   width: 24rem;
   height: auto;
+}
+.values .value-image .value-number {
+  width: 6rem;
+  height: 6rem;
+  background-color: hsl(40, 97%, 58%);
+  left: 50%;
+  top: 32%;
+  transform: translate(-50%, 59%);
 }
 
 .wrapper {
