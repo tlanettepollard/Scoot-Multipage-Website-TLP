@@ -1,19 +1,11 @@
 .values {
 	.container {
 		.value {
-			max-width: 100%;
 
-			@include bp-tablet-up {
-				max-width: 100%;
-			}
-
-			@include bp-xl-up {
-				max-width: 33%;
-			}
-
-			&-image {
-				width: 24rem;
-				height: auto;
+			.value-image {
+				img {
+					max-width: 15rem;
+				}
 			}
 
 			.value-number {
@@ -22,8 +14,9 @@
 				background-color: $yellow;
 				left: 50%;
 				top: 32%;
-				transform: translate(-50%, 40%);
+				transform: translate(-50%, 130%);
 			}
+
 		}
 	}
 }

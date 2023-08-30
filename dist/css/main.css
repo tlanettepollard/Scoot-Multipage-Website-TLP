@@ -677,22 +677,8 @@ Home, About, and Careers section Styles
   }
 }
 
-.values .container .value {
-  max-width: 100%;
-}
-@media screen and (min-width: 768px) {
-  .values .container .value {
-    max-width: 100%;
-  }
-}
-@media screen and (min-width: 1201px) {
-  .values .container .value {
-    max-width: 33%;
-  }
-}
-.values .container .value-image {
-  width: 24rem;
-  height: auto;
+.values .container .value .value-image img {
+  max-width: 15rem;
 }
 .values .container .value .value-number {
   width: 6rem;
@@ -700,7 +686,7 @@ Home, About, and Careers section Styles
   background-color: hsl(40, 97%, 58%);
   left: 50%;
   top: 32%;
-  transform: translate(-50%, 40%);
+  transform: translate(-50%, 130%);
 }
 
 .wrapper {
