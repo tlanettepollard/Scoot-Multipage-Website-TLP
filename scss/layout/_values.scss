@@ -1,45 +1,28 @@
 .values {
-	width: 100%;
-	height: 120rem;
-
-	@include bp-xl-up {
-		height: 50rem;
-	}
-
-	@include bp-xxl-up {
-		height: 45rem;
-	}
-
-	&-title {}
-
-	.container-xxl {
-
-		@include bp-xxl-up {
-			height: 55rem;
-		}
-
+	.container {
 		.value {
-			height: 43rem;
+			max-width: 100%;
 
 			@include bp-tablet-up {
-				
+				max-width: 100%;
 			}
-			@include bp-xxl-up {
-				height: 40rem;
+
+			@include bp-xl-up {
+				max-width: 33%;
 			}
 
 			&-image {
 				width: 24rem;
 				height: auto;
+			}
 
-				.value-number {
-					width: 6rem;
-					height: 6rem;
-					background-color: $yellow;
-					left: 50%;
-					top: 32%;
-					transform: translate(-50%, 59%);
-				}
+			.value-number {
+				width: 6rem;
+				height: 6rem;
+				background-color: $yellow;
+				left: 50%;
+				top: 32%;
+				transform: translate(-50%, 40%);
 			}
 		}
 	}
