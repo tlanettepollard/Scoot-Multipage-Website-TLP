@@ -82,20 +82,35 @@ Home, About, and Careers section Styles
 		height: 10rem;
 		top: 4%;
 		left: 35%;
+		z-index: 2;
+
+		@include bp-tablet-up {
+			top: 13%;
+			left: 55%;
+		}
 	}
 
 	.pattern--circleleft1 {
 		background-image: url('../../assets/patterns/circle.svg');
 		background-size: contain;
 		background-repeat: no-repeat;
-		width: 27.8125rem;
-		height: 27.8125rem;
+		width: 31rem;
+		height: 31rem;
 		top: 5%;
-		right: -50%;
+		right: -60%;
 		z-index: 1;
 
 	}
 
+	.pattern--circleleft2 {
+		background-image: url('../../assets/patterns/circle.svg');
+		background-size: contain;
+		background-repeat: no-repeat;
+		width: 31rem;
+		height: 31rem;
+		top: 3%;
+		right: -60%;
+	}
 }
 
 /* About Style */
