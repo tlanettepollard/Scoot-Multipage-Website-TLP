@@ -329,6 +329,23 @@ Home, About, and Careers section Styles
 .features .feature-home--copy .feature-home--text {
   padding-bottom: 1.6rem;
 }
+.features .pattern--leftdwarrow1 {
+  background-image: url("../../assets/patterns/left-downward-arrow.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 45.9375rem;
+  height: 8.625rem;
+  top: 22%;
+}
+.features .pattern--rightarrow {
+  background-image: url("../../assets/patterns/right-arrow.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 45.9375rem;
+  height: 8.625rem;
+  top: 5%;
+  left: -55%;
+}
 
 /* About Style */
 .features-about {

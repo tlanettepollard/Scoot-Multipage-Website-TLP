@@ -49,6 +49,26 @@ Home, About, and Careers section Styles
 		}
 	}
 
+	.pattern--leftdwarrow1 {
+		background-image: url('../../assets/patterns/left-downward-arrow.svg');
+		background-size: contain;
+		background-repeat: no-repeat;
+		width: 45.9375rem;
+		height: 8.625rem;
+		top: 22%;
+	}
+
+	.pattern--rightarrow {
+		background-image: url('../../assets/patterns/right-arrow.svg');
+		background-size: contain;
+		background-repeat: no-repeat;
+		width: 45.9375rem;
+		height: 8.625rem;
+		top: 5%;
+		left: -55%;
+	}
+
+
 
 }
 
