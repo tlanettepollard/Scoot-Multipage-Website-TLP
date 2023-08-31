@@ -329,6 +329,49 @@ Home, About, and Careers section Styles
 .features .feature-home--copy .feature-home--text {
   padding-bottom: 1.6rem;
 }
+.features .pattern--leftdwarrow1 {
+  background-image: url("../../assets/patterns/left-downward-arrow.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 46rem;
+  height: 10rem;
+  top: 22%;
+  z-index: 2;
+}
+@media screen and (min-width: 768px) {
+  .features .pattern--leftdwarrow1 {
+    top: 35%;
+    left: 5%;
+  }
+}
+.features .pattern--rightarrow {
+  background-image: url("../../assets/patterns/right-arrow.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 46rem;
+  height: 10rem;
+  top: 5%;
+  left: -55%;
+}
+.features .pattern--leftdwarrow2 {
+  background-image: url("../../assets/patterns/left-downward-arrow.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 46rem;
+  height: 10rem;
+  top: 4%;
+  left: 35%;
+}
+.features .pattern--circleleft1 {
+  background-image: url("../../assets/patterns/circle.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 27.8125rem;
+  height: 27.8125rem;
+  top: 5%;
+  right: -50%;
+  z-index: 1;
+}
 
 /* About Style */
 .features-about {
