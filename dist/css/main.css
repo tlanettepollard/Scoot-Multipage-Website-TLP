@@ -352,6 +352,13 @@ Home, About, and Careers section Styles
   height: 10rem;
   top: 5%;
   left: -55%;
+  z-index: 2;
+}
+@media screen and (min-width: 768px) {
+  .features .pattern--rightarrow {
+    top: 2%;
+    left: -22%;
+  }
 }
 .features .pattern--leftdwarrow2 {
   background-image: url("../../assets/patterns/left-downward-arrow.svg");
@@ -387,6 +394,15 @@ Home, About, and Careers section Styles
   height: 31rem;
   top: 3%;
   right: -60%;
+}
+.features .pattern--circleright {
+  background-image: url("../../assets/patterns/circle.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 31rem;
+  height: 31rem;
+  top: 0%;
+  left: -60%;
 }
 
 /* About Style */
