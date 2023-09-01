@@ -367,7 +367,7 @@ Home, About, and Careers section Styles
 }
 @media screen and (min-width: 1440px) {
   .features .pattern--leftdwarrow1 {
-    left: 55%;
+    left: 60%;
   }
 }
 .features .pattern--rightarrow {
