@@ -260,6 +260,11 @@ a:link {
 .directions {
   z-index: 3;
 }
+@media screen and (min-width: 1440px) {
+  .directions .container {
+    max-width: 90%;
+  }
+}
 @media screen and (min-width: 768px) {
   .directions-content .directions-item .text-content {
     max-width: 25rem;
@@ -301,6 +306,11 @@ Home, About, and Careers section Styles
     height: 120rem;
   }
 }
+@media screen and (min-width: 1440px) {
+  .features .container {
+    max-width: 90%;
+  }
+}
 .features .feature-home--image {
   padding-top: 1.6rem;
   padding-bottom: 1.6rem;
@@ -338,10 +348,26 @@ Home, About, and Careers section Styles
   top: 22%;
   z-index: 2;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .features .pattern--leftdwarrow1 {
-    top: 35%;
+    top: 40%;
     left: 5%;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .features .pattern--leftdwarrow1 {
+    top: 28%;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .features .pattern--leftdwarrow1 {
+    top: 65%;
+    left: 45%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .features .pattern--leftdwarrow1 {
+    left: 55%;
   }
 }
 .features .pattern--rightarrow {
@@ -352,6 +378,25 @@ Home, About, and Careers section Styles
   height: 10rem;
   top: 5%;
   left: -55%;
+  z-index: 2;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .features .pattern--rightarrow {
+    top: 2%;
+    left: -5%;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .features .pattern--rightarrow {
+    top: 0%;
+    left: -2%;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .features .pattern--rightarrow {
+    top: 10%;
+    left: -22%;
+  }
 }
 .features .pattern--leftdwarrow2 {
   background-image: url("../../assets/patterns/left-downward-arrow.svg");
@@ -363,10 +408,22 @@ Home, About, and Careers section Styles
   left: 35%;
   z-index: 2;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .features .pattern--leftdwarrow2 {
-    top: 13%;
+    top: 12%;
     left: 55%;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .features .pattern--leftdwarrow2 {
+    top: 12%;
+    left: 55%;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .features .pattern--leftdwarrow2 {
+    top: 25%;
+    left: 80%;
   }
 }
 .features .pattern--circleleft1 {
@@ -379,6 +436,16 @@ Home, About, and Careers section Styles
   right: -60%;
   z-index: 1;
 }
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .features .pattern--circleleft1 {
+    right: -40%;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .features .pattern--circleleft1 {
+    right: -45%;
+  }
+}
 .features .pattern--circleleft2 {
   background-image: url("../../assets/patterns/circle.svg");
   background-size: contain;
@@ -387,6 +454,36 @@ Home, About, and Careers section Styles
   height: 31rem;
   top: 3%;
   right: -60%;
+}
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .features .pattern--circleleft2 {
+    right: -40%;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .features .pattern--circleleft2 {
+    right: -45%;
+  }
+}
+.features .pattern--circleright {
+  background-image: url("../../assets/patterns/circle.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 31rem;
+  height: 31rem;
+  top: 0%;
+  left: -60%;
+}
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .features .pattern--circleright {
+    left: -40%;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .features .pattern--circleright {
+    top: 5%;
+    left: -45%;
+  }
 }
 
 /* About Style */

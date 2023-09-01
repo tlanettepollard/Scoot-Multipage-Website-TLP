@@ -3,39 +3,42 @@
 ********************/
 .directions {
    z-index: 3;
-   
+
+   .container {
+      @include bp-xxl-up {
+         max-width: 90%;
+      }
+   }
+
    &-content {
       .directions-item {
-         .image-content {
-
-         }
+         .image-content {}
 
          .text-content {
-             @include bp-tablet-up {
-                  max-width:25rem;  
-               }
+            @include bp-tablet-up {
+               max-width: 25rem;
+            }
 
             @include bp-desktop {
-                  max-width: 30rem !important;
-               }
+               max-width: 30rem !important;
+            }
 
             @include bp-xxl-up {
-                  max-width: 35rem;
-               }
-            
-             .directions-heading {
+               max-width: 35rem;
+            }
+
+            .directions-heading {
                margin-bottom: 1.5rem;
+
                @include bp-tablet-up {
-                  
+
                   margin-bottom: 1.75rem;
                }
             }
 
-               
-            
+
+
          }
       }
    }
 }
-
-
