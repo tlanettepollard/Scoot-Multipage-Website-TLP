@@ -14,6 +14,11 @@ Home, About, and Careers section Styles
 
 		height: 120rem;
 	}
+	.container {
+		@include bp-xxl-up {
+			max-width: 90%;
+		}
+	}
 
 	.feature-home {
 		&--image {
@@ -58,9 +63,23 @@ Home, About, and Careers section Styles
 		top: 22%;
 		z-index: 2;
 
-		@include bp-tablet-up {
-			top: 35%;
+		@include bp-small-screen {
+			top: 40%;
 			left: 5%;
+		}
+
+		@include bp-desktop {
+			top: 28%;
+		}
+
+		@include bp-xl-up {
+			top: 65%;
+			left: 45%;
+		}
+
+		@include bp-xxl-up {
+			
+			left: 55%;
 		}
 	}
 
@@ -74,8 +93,18 @@ Home, About, and Careers section Styles
 		left: -55%;
 		z-index: 2;
 
-		@include bp-tablet-up {
+		@include bp-small-screen {
 			top: 2%;
+			left: -5%;
+		}
+
+		@include bp-desktop {
+			top: 0%;
+			left: -2%;
+		}
+
+		@include bp-xl-up {
+			top: 10%;
 			left: -22%;
 		}
 	}
@@ -90,9 +119,19 @@ Home, About, and Careers section Styles
 		left: 35%;
 		z-index: 2;
 
-		@include bp-tablet-up {
-			top: 13%;
+		@include bp-small-screen {
+			top: 12%;
 			left: 55%;
+		}
+
+		@include bp-desktop {
+			top: 12%;
+			left: 55%;
+		}
+
+		@include bp-xl-up {
+			top: 25%;
+			left: 80%;
 		}
 	}
 
@@ -106,6 +145,14 @@ Home, About, and Careers section Styles
 		right: -60%;
 		z-index: 1;
 
+		@include bp-desktop {
+			right: -40%;
+		}
+
+		@include bp-xl-up {
+			right: -45%;
+		}
+
 	}
 
 	.pattern--circleleft2 {
@@ -116,6 +163,14 @@ Home, About, and Careers section Styles
 		height: 31rem;
 		top: 3%;
 		right: -60%;
+
+		@include bp-desktop {
+			right: -40%;
+		}
+
+		@include bp-xl-up {
+			right: -45%;
+		}
 	}
 
 	.pattern--circleright {
@@ -126,6 +181,17 @@ Home, About, and Careers section Styles
 		height: 31rem;
 		top: 0%;
 		left: -60%;
+
+		@include bp-desktop {
+			left: -40%;
+		}
+
+		@include bp-xl-up {
+			top: 5%;
+			left: -45%;
+		}
+
+
 	}
 }
 
