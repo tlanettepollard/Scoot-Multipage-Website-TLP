@@ -349,6 +349,12 @@ Home, About, and Careers section Styles
   bottom: 0%;
   z-index: 2;
 }
+@media screen and (min-width: 768px) {
+  .features .pattern--leftdwarrow1 {
+    width: 50rem;
+    left: -20%;
+  }
+}
 .features .pattern--rightarrow {
   background-image: url("../../assets/patterns/right-arrow.svg");
   background-size: contain;
@@ -369,64 +375,33 @@ Home, About, and Careers section Styles
   left: 40%;
   z-index: 2;
 }
-.features .pattern--circleleft1 {
+.features .pattern--circleright1 {
   background-image: url("../../assets/patterns/circle.svg");
   background-size: contain;
   background-repeat: no-repeat;
-  width: 31rem;
-  height: 31rem;
-  top: 5%;
-  right: -60%;
+  width: 31.1rem;
+  height: 31.1rem;
+  top: 4.5%;
+  right: -32.966rem;
   z-index: 1;
 }
-@media screen and (min-width: 1024px) and (max-width: 1200px) {
-  .features .pattern--circleleft1 {
-    right: -40%;
-  }
-}
-@media screen and (min-width: 1201px) {
-  .features .pattern--circleleft1 {
-    right: -33%;
-  }
-}
-.features .pattern--circleleft2 {
+.features .pattern--circleright2 {
   background-image: url("../../assets/patterns/circle.svg");
   background-size: contain;
   background-repeat: no-repeat;
-  width: 31rem;
-  height: 31rem;
-  top: 3%;
-  right: -60%;
+  width: 31.1rem;
+  height: 31.1rem;
+  top: 4.5%;
+  right: -32.966rem;
 }
-@media screen and (min-width: 1024px) and (max-width: 1200px) {
-  .features .pattern--circleleft2 {
-    right: -40%;
-  }
-}
-@media screen and (min-width: 1201px) {
-  .features .pattern--circleleft2 {
-    right: -33%;
-  }
-}
-.features .pattern--circleright {
+.features .pattern--circleleft {
   background-image: url("../../assets/patterns/circle.svg");
   background-size: contain;
   background-repeat: no-repeat;
-  width: 31rem;
-  height: 31rem;
-  top: 0%;
-  left: -60%;
-}
-@media screen and (min-width: 1024px) and (max-width: 1200px) {
-  .features .pattern--circleright {
-    left: -40%;
-  }
-}
-@media screen and (min-width: 1201px) {
-  .features .pattern--circleright {
-    top: 5%;
-    left: -33%;
-  }
+  width: 31.1rem;
+  height: 31.1rem;
+  top: 4.5%;
+  left: -32.966rem;
 }
 
 /* About Style */
@@ -502,8 +477,7 @@ Home, About, and Careers section Styles
   background-repeat: no-repeat;
   width: 31rem;
   height: 31rem;
-  top: 3%;
-  right: -60%;
+  top: 0%;
 }
 .features-about .pattern--circle2 {
   background-image: url("../../assets/patterns/circle.svg");
@@ -511,6 +485,7 @@ Home, About, and Careers section Styles
   background-repeat: no-repeat;
   width: 31rem;
   height: 31rem;
+  top: 0%;
 }
 
 /* Careers Style */
