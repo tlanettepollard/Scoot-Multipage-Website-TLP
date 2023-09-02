@@ -69,7 +69,8 @@ Home, About, and Careers section Styles
 
 		@include bp-tablet-up {
 			width: 50rem;
-			left: -20%;
+			left: -25%;
+			bottom: 2%;
 		}
 
 
@@ -85,6 +86,10 @@ Home, About, and Careers section Styles
 		top: 20%;
 		z-index: 2;
 
+		@include bp-tablet-up {
+			left: -50%;
+			top: 5%;
+		}
 
 	}
 
@@ -98,7 +103,10 @@ Home, About, and Careers section Styles
 		left: 40%;
 		z-index: 2;
 
-
+		@include bp-tablet-up {
+			top: 20%;
+			left: 60%;
+		}
 	}
 
 	.pattern--circleright1 {

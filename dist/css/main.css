@@ -352,7 +352,8 @@ Home, About, and Careers section Styles
 @media screen and (min-width: 768px) {
   .features .pattern--leftdwarrow1 {
     width: 50rem;
-    left: -20%;
+    left: -25%;
+    bottom: 2%;
   }
 }
 .features .pattern--rightarrow {
@@ -365,6 +366,12 @@ Home, About, and Careers section Styles
   top: 20%;
   z-index: 2;
 }
+@media screen and (min-width: 768px) {
+  .features .pattern--rightarrow {
+    left: -50%;
+    top: 5%;
+  }
+}
 .features .pattern--leftdwarrow2 {
   background-image: url("../../assets/patterns/left-downward-arrow.svg");
   background-size: contain;
@@ -374,6 +381,12 @@ Home, About, and Careers section Styles
   top: 4%;
   left: 40%;
   z-index: 2;
+}
+@media screen and (min-width: 768px) {
+  .features .pattern--leftdwarrow2 {
+    top: 20%;
+    left: 60%;
+  }
 }
 .features .pattern--circleright1 {
   background-image: url("../../assets/patterns/circle.svg");
