@@ -16,12 +16,14 @@ Home, About, and Careers section Styles
 	}
 
 	.container {
+
 		@include bp-xxl-up {
 			max-width: 90%;
 		}
 	}
 
 	.feature-home {
+
 		&--image {
 			padding-top: 1.6rem;
 			padding-bottom: 1.6rem;
@@ -65,6 +67,11 @@ Home, About, and Careers section Styles
 		bottom: 0%;
 		z-index: 2;
 
+		@include bp-tablet-up {
+			width: 50rem;
+			left: -20%;
+		}
+
 
 	}
 
@@ -94,61 +101,39 @@ Home, About, and Careers section Styles
 
 	}
 
-	.pattern--circleleft1 {
+	.pattern--circleright1 {
 		background-image: url('../../assets/patterns/circle.svg');
 		background-size: contain;
 		background-repeat: no-repeat;
-		width: 31rem;
-		height: 31rem;
-		top: 5%;
-		right: -60%;
+		width: 31.1rem;
+		height: 31.1rem;
+		top: 4.5%;
+		right: calc((31.1rem * 1.06) * -1);
 		z-index: 1;
 
-		@include bp-desktop {
-			right: -40%;
-		}
 
-		@include bp-xl-up {
-			right: -33%;
-		}
 
 	}
 
-	.pattern--circleleft2 {
+	.pattern--circleright2 {
 		background-image: url('../../assets/patterns/circle.svg');
 		background-size: contain;
 		background-repeat: no-repeat;
-		width: 31rem;
-		height: 31rem;
-		top: 3%;
-		right: -60%;
+		width: 31.1rem;
+		height: 31.1rem;
+		top: 4.5%;
+		right: calc((31.1rem * 1.06) * -1);
 
-		@include bp-desktop {
-			right: -40%;
-		}
-
-		@include bp-xl-up {
-			right: -33%;
-		}
 	}
 
-	.pattern--circleright {
+	.pattern--circleleft {
 		background-image: url('../../assets/patterns/circle.svg');
 		background-size: contain;
 		background-repeat: no-repeat;
-		width: 31rem;
-		height: 31rem;
-		top: 0%;
-		left: -60%;
-
-		@include bp-desktop {
-			left: -40%;
-		}
-
-		@include bp-xl-up {
-			top: 5%;
-			left: -33%;
-		}
+		width: 31.1rem;
+		height: 31.1rem;
+		top: 4.5%;
+		left: calc((31.1rem * 1.06) * -1);
 
 
 	}
@@ -214,7 +199,7 @@ Home, About, and Careers section Styles
 		left: 8%;
 		z-index: 2;
 
-		
+
 
 	}
 
@@ -235,8 +220,7 @@ Home, About, and Careers section Styles
 		background-repeat: no-repeat;
 		width: 31rem;
 		height: 31rem;
-		top: 3%;
-		right: -60%;
+		top: 0%;
 	}
 
 	.pattern--circle2 {
@@ -245,6 +229,7 @@ Home, About, and Careers section Styles
 		background-repeat: no-repeat;
 		width: 31rem;
 		height: 31rem;
+		top: 0%;
 	}
 }
 
