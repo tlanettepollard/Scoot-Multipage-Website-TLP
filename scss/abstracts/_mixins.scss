@@ -71,7 +71,7 @@
 	}
 }
 
-// Desktops 1025px up
+// Desktops 1024px up
 @mixin bp-desktop-up {
 	@media screen and (min-width: $bp-desktop-start) {
 		@content;

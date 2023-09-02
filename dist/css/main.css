@@ -294,7 +294,12 @@ Home, About, and Careers section Styles
 *************************************/
 /* Home Style */
 .features {
-  height: 180rem;
+  height: 190rem;
+}
+@media screen and (max-width: 319px) {
+  .features {
+    height: 190rem;
+  }
 }
 @media screen and (min-width: 768px) {
   .features {
@@ -349,11 +354,24 @@ Home, About, and Careers section Styles
   bottom: 0%;
   z-index: 2;
 }
+@media screen and (max-width: 319px) {
+  .features .pattern--leftdwarrow1 {
+    display: none;
+  }
+}
 @media screen and (min-width: 768px) {
   .features .pattern--leftdwarrow1 {
     width: 50rem;
     left: -25%;
-    bottom: 2%;
+    bottom: 0%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .features .pattern--leftdwarrow1 {
+    width: 60rem;
+    height: 12rem;
+    bottom: 0%;
+    left: -35%;
   }
 }
 .features .pattern--rightarrow {
@@ -366,10 +384,23 @@ Home, About, and Careers section Styles
   top: 20%;
   z-index: 2;
 }
+@media screen and (max-width: 319px) {
+  .features .pattern--rightarrow {
+    display: none;
+  }
+}
 @media screen and (min-width: 768px) {
   .features .pattern--rightarrow {
     left: -50%;
     top: 5%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .features .pattern--rightarrow {
+    width: 60rem;
+    height: 12rem;
+    top: 2%;
+    left: -75%;
   }
 }
 .features .pattern--leftdwarrow2 {
@@ -382,10 +413,23 @@ Home, About, and Careers section Styles
   left: 40%;
   z-index: 2;
 }
+@media screen and (max-width: 319px) {
+  .features .pattern--leftdwarrow2 {
+    display: none;
+  }
+}
 @media screen and (min-width: 768px) {
   .features .pattern--leftdwarrow2 {
     top: 20%;
     left: 60%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .features .pattern--leftdwarrow2 {
+    width: 60rem;
+    height: 12rem;
+    top: 15%;
+    left: 55%;
   }
 }
 .features .pattern--circleright1 {
@@ -420,6 +464,22 @@ Home, About, and Careers section Styles
 /* About Style */
 .features-about {
   height: 110rem;
+  /*.pattern--circle1 {
+  	background-image: url('../../assets/patterns/circle.svg');
+  	background-size: contain;
+  	background-repeat: no-repeat;
+  	width: 31rem;
+  	height: 31rem;
+  	top: 0%;
+  }*/
+  /*.pattern--circle2 {
+  	background-image: url('../../assets/patterns/circle.svg');
+  	background-size: contain;
+  	background-repeat: no-repeat;
+  	width: 31rem;
+  	height: 31rem;
+  	top: 0%;
+  }*/
 }
 @media screen and (min-width: 768px) {
   .features-about {
@@ -468,11 +528,24 @@ Home, About, and Careers section Styles
   background-image: url("../../assets/patterns/left-upward-arrow.svg");
   background-size: contain;
   background-repeat: no-repeat;
-  width: 46rem;
+  width: 48rem;
   height: 10rem;
-  top: 22%;
-  left: 8%;
+  left: 5%;
+  bottom: 15%;
   z-index: 2;
+}
+@media screen and (min-width: 768px) {
+  .features-about .pattern--leftuparrow1 {
+    left: -24%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .features-about .pattern--leftuparrow1 {
+    width: 60rem;
+    height: 12rem;
+    bottom: 8%;
+    left: -30%;
+  }
 }
 .features-about .pattern--rightwarrow1 {
   background-image: url("../../assets/patterns/right-arrow.svg");
@@ -481,24 +554,22 @@ Home, About, and Careers section Styles
   width: 46rem;
   height: 10rem;
   top: 3%;
-  left: -35%;
+  left: -36%;
   z-index: 2;
 }
-.features-about .pattern--circle1 {
-  background-image: url("../../assets/patterns/circle.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 31rem;
-  height: 31rem;
-  top: 0%;
+@media screen and (min-width: 768px) {
+  .features-about .pattern--rightwarrow1 {
+    top: 5%;
+    left: -55%;
+  }
 }
-.features-about .pattern--circle2 {
-  background-image: url("../../assets/patterns/circle.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 31rem;
-  height: 31rem;
-  top: 0%;
+@media screen and (min-width: 1024px) {
+  .features-about .pattern--rightwarrow1 {
+    width: 60rem;
+    height: 12rem;
+    top: 0%;
+    left: -75%;
+  }
 }
 
 /* Careers Style */
@@ -543,16 +614,47 @@ Home, About, and Careers section Styles
     max-width: 45%;
   }
 }
-.features-careers .feature-careers--copy .feature-about--heading {
+.features-careers .feature-careers--copy .feature-careers--heading {
   padding-bottom: 1.6rem;
 }
-.features-careers .feature-careers--copy .feature-about--text {
+.features-careers .feature-careers--copy .feature-careers--text {
   padding-bottom: 0.8rem;
+}
+.features-careers .pattern--leftdwarrow1 {
+  background-image: url("../../assets/patterns/left-downward-arrow.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 46rem;
+  height: 10rem;
+  left: 0;
+  bottom: 0%;
+  z-index: 2;
+}
+@media screen and (max-width: 319px) {
+  .features-careers .pattern--leftdwarrow1 {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .features-careers .pattern--leftdwarrow1 {
+    width: 50rem;
+    left: -25%;
+    bottom: 0%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .features-careers .pattern--leftdwarrow1 {
+    width: 60rem;
+    height: 12rem;
+    bottom: 0%;
+    left: -35%;
+  }
 }
 
 .feature-button {
   width: 18rem;
   height: 5.3rem;
+  margin-top: 1.6rem;
 }
 
 .footer {
@@ -667,6 +769,11 @@ Home, About, and Careers section Styles
   background-size: cover;
   z-index: 3;
 }
+@media screen and (max-width: 319px) {
+  .hero-home {
+    height: 42rem;
+  }
+}
 @media screen and (min-width: 768px) {
   .hero-home {
     background-image: url(../../assets/images/home-hero-tablet.jpg);
@@ -773,7 +880,12 @@ Home, About, and Careers section Styles
   height: 10rem;
   background-image: url(../../assets/patterns/right-arrow.svg);
   left: -20rem;
-  bottom: 2.5rem;
+  bottom: 1.5rem;
+}
+@media screen and (max-width: 319px) {
+  .hero-home .hero-patterns .pattern--arrow {
+    display: none;
+  }
 }
 @media screen and (min-width: 768px) {
   .hero-home .hero-patterns .pattern--arrow {
