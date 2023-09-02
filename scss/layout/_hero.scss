@@ -9,6 +9,9 @@
 	background-position: center center;
 	background-size: cover;
 	z-index: 3;
+	@media screen and (max-width: 319px) {
+			height: 42rem;
+		}
 
 	@include bp-tablet-up {
 		background-image: url(../../assets/images/home-hero-tablet.jpg);
@@ -121,7 +124,11 @@
 				height: 10rem;
 				background-image: url(../../assets/patterns/right-arrow.svg);
 				left: -20rem;
-				bottom: 2.5rem; 
+				bottom: 1.5rem; 
+
+				@media screen and (max-width: 319px) {
+						display: none;
+					}
 
 				@include bp-tablet-up {
 					left: -11rem;
