@@ -61,27 +61,11 @@ Home, About, and Careers section Styles
 		background-repeat: no-repeat;
 		width: 46rem;
 		height: 10rem;
-		top: 22%;
+		left: 0;
+		bottom: 0%;
 		z-index: 2;
 
-		@include bp-small-screen {
-			top: 40%;
-			left: 5%;
-		}
 
-		@include bp-desktop {
-			top: 28%;
-		}
-
-		@include bp-xl-up {
-			top: 65%;
-			left: 45%;
-		}
-
-		@include bp-xxl-up {
-
-			left: 60%;
-		}
 	}
 
 	.pattern--rightarrow {
@@ -90,24 +74,11 @@ Home, About, and Careers section Styles
 		background-repeat: no-repeat;
 		width: 46rem;
 		height: 10rem;
-		top: 5%;
-		left: -55%;
+		left: -80%;
+		top: 20%;
 		z-index: 2;
 
-		@include bp-small-screen {
-			top: 2%;
-			left: -5%;
-		}
 
-		@include bp-desktop {
-			top: 0%;
-			left: -2%;
-		}
-
-		@include bp-xl-up {
-			top: 10%;
-			left: -15%;
-		}
 	}
 
 	.pattern--leftdwarrow2 {
@@ -117,23 +88,10 @@ Home, About, and Careers section Styles
 		width: 46rem;
 		height: 10rem;
 		top: 4%;
-		left: 35%;
+		left: 40%;
 		z-index: 2;
 
-		@include bp-small-screen {
-			top: 12%;
-			left: 55%;
-		}
 
-		@include bp-desktop {
-			top: 12%;
-			left: 55%;
-		}
-
-		@include bp-xl-up {
-			top: 23%;
-			left: 85%;
-		}
 	}
 
 	.pattern--circleleft1 {
@@ -254,6 +212,9 @@ Home, About, and Careers section Styles
 		height: 10rem;
 		top: 22%;
 		left: 8%;
+		z-index: 2;
+
+		
 
 	}
 
@@ -265,11 +226,26 @@ Home, About, and Careers section Styles
 		height: 10rem;
 		top: 3%;
 		left: -35%;
+		z-index: 2;
 	}
 
-	.pattern--circle1 {}
+	.pattern--circle1 {
+		background-image: url('../../assets/patterns/circle.svg');
+		background-size: contain;
+		background-repeat: no-repeat;
+		width: 31rem;
+		height: 31rem;
+		top: 3%;
+		right: -60%;
+	}
 
-	.pattern--circle2 {}
+	.pattern--circle2 {
+		background-image: url('../../assets/patterns/circle.svg');
+		background-size: contain;
+		background-repeat: no-repeat;
+		width: 31rem;
+		height: 31rem;
+	}
 }
 
 

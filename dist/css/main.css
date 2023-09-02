@@ -345,30 +345,9 @@ Home, About, and Careers section Styles
   background-repeat: no-repeat;
   width: 46rem;
   height: 10rem;
-  top: 22%;
+  left: 0;
+  bottom: 0%;
   z-index: 2;
-}
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .features .pattern--leftdwarrow1 {
-    top: 40%;
-    left: 5%;
-  }
-}
-@media screen and (min-width: 1024px) and (max-width: 1200px) {
-  .features .pattern--leftdwarrow1 {
-    top: 28%;
-  }
-}
-@media screen and (min-width: 1201px) {
-  .features .pattern--leftdwarrow1 {
-    top: 65%;
-    left: 45%;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .features .pattern--leftdwarrow1 {
-    left: 60%;
-  }
 }
 .features .pattern--rightarrow {
   background-image: url("../../assets/patterns/right-arrow.svg");
@@ -376,27 +355,9 @@ Home, About, and Careers section Styles
   background-repeat: no-repeat;
   width: 46rem;
   height: 10rem;
-  top: 5%;
-  left: -55%;
+  left: -80%;
+  top: 20%;
   z-index: 2;
-}
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .features .pattern--rightarrow {
-    top: 2%;
-    left: -5%;
-  }
-}
-@media screen and (min-width: 1024px) and (max-width: 1200px) {
-  .features .pattern--rightarrow {
-    top: 0%;
-    left: -2%;
-  }
-}
-@media screen and (min-width: 1201px) {
-  .features .pattern--rightarrow {
-    top: 10%;
-    left: -15%;
-  }
 }
 .features .pattern--leftdwarrow2 {
   background-image: url("../../assets/patterns/left-downward-arrow.svg");
@@ -405,26 +366,8 @@ Home, About, and Careers section Styles
   width: 46rem;
   height: 10rem;
   top: 4%;
-  left: 35%;
+  left: 40%;
   z-index: 2;
-}
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .features .pattern--leftdwarrow2 {
-    top: 12%;
-    left: 55%;
-  }
-}
-@media screen and (min-width: 1024px) and (max-width: 1200px) {
-  .features .pattern--leftdwarrow2 {
-    top: 12%;
-    left: 55%;
-  }
-}
-@media screen and (min-width: 1201px) {
-  .features .pattern--leftdwarrow2 {
-    top: 23%;
-    left: 85%;
-  }
 }
 .features .pattern--circleleft1 {
   background-image: url("../../assets/patterns/circle.svg");
@@ -541,6 +484,7 @@ Home, About, and Careers section Styles
   height: 10rem;
   top: 22%;
   left: 8%;
+  z-index: 2;
 }
 .features-about .pattern--rightwarrow1 {
   background-image: url("../../assets/patterns/right-arrow.svg");
@@ -550,7 +494,25 @@ Home, About, and Careers section Styles
   height: 10rem;
   top: 3%;
   left: -35%;
+  z-index: 2;
 }
+.features-about .pattern--circle1 {
+  background-image: url("../../assets/patterns/circle.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 31rem;
+  height: 31rem;
+  top: 3%;
+  right: -60%;
+}
+.features-about .pattern--circle2 {
+  background-image: url("../../assets/patterns/circle.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 31rem;
+  height: 31rem;
+}
+
 /* Careers Style */
 .features-careers {
   width: 100%;
