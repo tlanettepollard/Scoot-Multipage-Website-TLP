@@ -14,6 +14,7 @@ Home, About, and Careers section Styles
 
 		height: 120rem;
 	}
+
 	.container {
 		@include bp-xxl-up {
 			max-width: 90%;
@@ -78,7 +79,7 @@ Home, About, and Careers section Styles
 		}
 
 		@include bp-xxl-up {
-			
+
 			left: 60%;
 		}
 	}
@@ -244,6 +245,31 @@ Home, About, and Careers section Styles
 			}
 		}
 	}
+
+	.pattern--leftuparrow1 {
+		background-image: url('../../assets/patterns/left-upward-arrow.svg');
+		background-size: contain;
+		background-repeat: no-repeat;
+		width: 46rem;
+		height: 10rem;
+		top: 22%;
+		left: 8%;
+
+	}
+
+	.pattern--rightwarrow1 {
+		background-image: url('../../assets/patterns/right-arrow.svg');
+		background-size: contain;
+		background-repeat: no-repeat;
+		width: 46rem;
+		height: 10rem;
+		top: 3%;
+		left: -35%;
+	}
+
+	.pattern--circle1 {}
+
+	.pattern--circle2 {}
 }
 
 
