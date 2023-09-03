@@ -1,6 +1,12 @@
 .world-map {
-	&--container {
+	.container {
+		@include bp-xxl-up {
+			max-width: 90%;
+
+		}
+
 	}
+
 	.locations {
 		height: 28.125rem;
 
@@ -14,6 +20,11 @@
 }
 
 .city-listing {
+	.container {
+		@include bp-xxl-up {
+			max-width: 90%;
+		}
+	}
 	@include bp-xxl-up {
 		min-width: 69.4375rem;
 	}
@@ -26,11 +37,13 @@
 		@include bp-xxl-up {
 			width: 100%;
 		}
+
 		.city-heading {
 			@include bp-xxl-up {
 				width: 21.9375rem;
 			}
 		}
+
 		.city-text {
 			@include bp-xxl-up {
 				width: 27.8125rem;
@@ -42,6 +55,7 @@
 .mb-5 {
 	margin-bottom: 4.5rem !important;
 }
+
 .my-5 {
 	margin-top: 4.5rem !important;
 }

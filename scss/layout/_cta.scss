@@ -3,9 +3,9 @@
 	height: 20rem;
 	overflow: hidden;
 	background-color: $signup-bg;
-	
-    
-	
+
+
+
 
 	@include bp-tablet-up {
 		height: 18.75rem;
@@ -20,8 +20,16 @@
 		}
 
 		@include bp-desktop {
-			width: 69.375rem;
+			max-width: 90%;
 		}
+
+		@include bp-xxl-up {
+			max-width: 90%;
+
+		}
+
+
+
 		.cta-heading {
 			width: 100%;
 
@@ -40,7 +48,7 @@
 					width: 95%;
 				}
 
-				@media screen and (max-width: $bp-mobile-start){
+				@media screen and (max-width: $bp-mobile-start) {
 					width: 80%;
 				}
 			}
@@ -57,9 +65,9 @@
 				right: calc((1158px * .14076) * -1);
 			}
 		}
-		
+
 	}
 
-    
-    
+
+
 }
