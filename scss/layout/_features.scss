@@ -4,14 +4,14 @@ Home, About, and Careers section Styles
 
 /* Home Style */
 .features {
-	height: 190rem;
+	height: 195rem;
 
 	@media screen and (max-width: 319px) {
 		height: 190rem;
 	}
 
 	@include bp-tablet-up {
-		height: 190rem;
+		height: 200rem;
 	}
 
 	@include bp-xl-up {
@@ -279,7 +279,7 @@ Home, About, and Careers section Styles
 		}
 	}
 
-	
+
 }
 
 

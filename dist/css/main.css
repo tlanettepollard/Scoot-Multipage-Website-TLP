@@ -31,6 +31,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  outline: 1px solid black;
 }
 
 html {
@@ -308,7 +309,7 @@ Home, About, and Careers section Styles
 *************************************/
 /* Home Style */
 .features {
-  height: 190rem;
+  height: 195rem;
 }
 @media screen and (max-width: 319px) {
   .features {
@@ -317,7 +318,7 @@ Home, About, and Careers section Styles
 }
 @media screen and (min-width: 768px) {
   .features {
-    height: 190rem;
+    height: 200rem;
   }
 }
 @media screen and (min-width: 1201px) {
@@ -981,26 +982,19 @@ Home, About, and Careers section Styles
 .faqs .faqs-container {
   height: 100%;
 }
-.faqs .faqs-container .faq .faq-title {
-  width: 100%;
-}
-@media screen and (min-width: 1440px) {
-  .faqs .faqs-container .faq .faq-title {
-    width: 21.875rem;
-    height: 3rem;
-  }
-}
 .faqs .faqs-container .faq .accordion {
   width: 100%;
   --bs-accordion-color: hsl(217, 18%, 35%);
   --bs-accordion-active-color: hsla(40, 88%, 44%, 0.865);
-  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem
-  	rgb(252, 183, 43, 100%);
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgb(252, 183, 43, 100%);
 }
 @media screen and (min-width: 1201px) {
   .faqs .faqs-container .faq .accordion {
-    width: 80%;
+    width: 60%;
   }
+}
+.faqs .faqs-container .faq .accordion-item {
+  width: 100%;
 }
 .faqs .faqs-container .faq .accordion-item .accordion-button.collapsed {
   background-color: hsl(214, 37%, 96%);

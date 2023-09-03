@@ -11,37 +11,33 @@
 	}
 
 	@include bp-xxxl-up {
-			width: 80%;
-		}
+		width: 80%;
+	}
 
 	.container {
-      @include bp-xxl-up {
-         max-width: 80%;
-      }
-   }
+		@include bp-xxl-up {
+			max-width: 80%;
+		}
+	}
 
 	.faqs-container {
 		height: 100%;
-		
-		
-		.faq {
-			
-			.faq-title {
-				width: 100%;
-				
 
-				@include bp-xxl-up {
-					width: 21.875rem;
-					height: 3rem;
-				}
-			}
+
+		.faq {
+
+			.faq-title {}
+
 			.accordion {
 				width: 100%;
+
 				@include bp-xl-up {
-					width: 80%;
+					width: 60%;
 				}
 
 				&-item {
+					width: 100%;
+
 					.accordion-button.collapsed {
 						background-color: $faq-bg;
 					}
@@ -66,10 +62,10 @@
 						color: $faq-answer-text;
 					}
 				}
+
 				--bs-accordion-color: hsl(217, 18%, 35%);
 				--bs-accordion-active-color: hsla(40, 88%, 44%, 0.865);
-				--bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem
-					rgb(252, 183, 43, 100%);
+				--bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgb(252, 183, 43, 100%);
 			}
 		}
 	}
