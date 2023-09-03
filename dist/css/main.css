@@ -1117,6 +1117,10 @@ Home, About, and Careers section Styles
     width: 27.8125rem;
   }
 }
+.city-listing .city-copy .city-btn {
+  width: 18rem;
+  height: 5.3rem;
+}
 
 .mb-5 {
   margin-bottom: 4.5rem !important;
