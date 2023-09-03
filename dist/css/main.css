@@ -768,6 +768,14 @@ Home, About, and Careers section Styles
 .header nav .container .offcanvas .offcanvas-body .navbar-nav .nav-link {
   color: hsl(217, 12%, 62%);
 }
+.header nav .container .offcanvas .offcanvas-body .button-container {
+  top: 40rem;
+  left: 2.5rem;
+}
+.header nav .container .offcanvas .offcanvas-body .button-container .nav-mobile-btn {
+  width: 19.2rem;
+  height: 5.3rem;
+}
 
 .bg-light {
   background-color: hsl(0, 0%, 100%) !important;
