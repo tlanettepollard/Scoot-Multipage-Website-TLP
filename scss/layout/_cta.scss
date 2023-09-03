@@ -4,9 +4,6 @@
 	overflow: hidden;
 	background-color: $signup-bg;
 
-
-
-
 	@include bp-tablet-up {
 		height: 18.75rem;
 	}
@@ -20,13 +17,14 @@
 		}
 
 		@include bp-desktop {
-			max-width: 90%;
+			width: 90%;
 		}
 
 		@include bp-xxl-up {
-			max-width: 80%;
-
+			width: 80%;
+			
 		}
+		
 
 
 
@@ -40,6 +38,12 @@
 			@include bp-desktop-up {
 				width: 28.5625rem;
 			}
+
+			@include bp-xxl-up {
+				width: 35%;
+				//margin-left: -2rem;
+			}
+
 		}
 
 		.appstore-icons {
@@ -50,6 +54,11 @@
 
 				@media screen and (max-width: $bp-mobile-start) {
 					width: 80%;
+				}
+
+				@include bp-xxl-up {
+					width: 100%;
+					//margin-left: 2rem;
 				}
 			}
 		}
