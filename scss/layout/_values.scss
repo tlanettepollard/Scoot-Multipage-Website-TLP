@@ -1,5 +1,8 @@
 .values {
 	.container {
+		@include bp-xxl-up {
+			max-width: 80%;
+		}
 		.value {
 
 			.value-image {
@@ -15,6 +18,21 @@
 				left: 50%;
 				top: 32%;
 				transform: translate(-50%, 130%);
+
+				@include bp-xxl-up {
+					width: 7rem;
+					height: 7rem;
+					top: 20%;
+					font-size: 2.2rem;
+				}
+			}
+
+			&-copy {
+				.card-title {
+					@include bp-xxl-up {
+						font-size: 2.4rem;
+					}
+				}
 			}
 
 		}

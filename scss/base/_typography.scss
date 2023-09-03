@@ -53,4 +53,8 @@ h4 {
 	color: $body-text;
 	font-size: 1.2rem;
 	line-height: 1.5625rem;
+
+	@include bp-xxl-up {
+		font-size: 1.6rem;
+	}
 }
