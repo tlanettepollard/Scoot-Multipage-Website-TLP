@@ -31,7 +31,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  outline: 1px solid black;
 }
 
 html {
@@ -120,7 +119,7 @@ h4 {
 }
 @media screen and (min-width: 1440px) {
   .paragraph {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 }
 
@@ -818,11 +817,10 @@ Home, About, and Careers section Styles
 }
 @media screen and (min-width: 1440px) {
   .hero-home .hero-content .lead-container .hero-lead {
-    width: 28rem;
+    width: 40rem;
     height: 10rem;
-    font-size: 15px;
     top: 48%;
-    left: 18%;
+    left: 16%;
   }
 }
 @media screen and (min-width: 1920px) {
@@ -858,7 +856,7 @@ Home, About, and Careers section Styles
 }
 .hero-home .hero-patterns .pattern--line {
   width: 20.3rem;
-  height: 1.5rem;
+  height: 1rem;
   background-image: url(../../assets/patterns/line.svg);
   left: 0;
   top: 54.4615%;
@@ -871,15 +869,18 @@ Home, About, and Careers section Styles
 }
 @media screen and (min-width: 1440px) {
   .hero-home .hero-patterns .pattern--line {
-    left: -4rem;
+    width: 22rem;
+    height: 1.2rem;
+    top: 55%;
+    left: -1rem;
   }
 }
 .hero-home .hero-patterns .pattern--arrow {
-  width: 46.6rem;
+  width: 48rem;
   height: 10rem;
   background-image: url(../../assets/patterns/right-arrow.svg);
   left: -20rem;
-  bottom: 1.5rem;
+  bottom: 1.6rem;
 }
 @media screen and (max-width: 319px) {
   .hero-home .hero-patterns .pattern--arrow {
@@ -893,9 +894,8 @@ Home, About, and Careers section Styles
 }
 @media screen and (min-width: 1440px) {
   .hero-home .hero-patterns .pattern--arrow {
-    height: 13.8rem;
     top: 54.4615%;
-    left: 50rem;
+    left: 60rem;
   }
 }
 .hero-home .hero-patterns .pattern--whitecircles {
