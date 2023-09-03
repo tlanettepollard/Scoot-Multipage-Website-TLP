@@ -154,6 +154,11 @@ a:link {
     height: 20rem;
   }
 }
+@media screen and (min-width: 1440px) {
+  .banner .container {
+    max-width: 90%;
+  }
+}
 
 .banner-about {
   background-image: url("../../assets/images/about-hero-mobile.jpg");
@@ -218,7 +223,12 @@ a:link {
 }
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
   .cta-container {
-    width: 69.375rem;
+    max-width: 90%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .cta-container {
+    max-width: 90%;
   }
 }
 .cta-container .cta-heading {
@@ -1024,6 +1034,11 @@ Home, About, and Careers section Styles
   margin-bottom: 10rem !important;
 }
 
+@media screen and (min-width: 1440px) {
+  .world-map .container {
+    max-width: 90%;
+  }
+}
 .world-map .locations {
   height: 28.125rem;
 }
@@ -1032,6 +1047,11 @@ Home, About, and Careers section Styles
   background-color: hsl(39, 100%, 94%);
 }
 
+@media screen and (min-width: 1440px) {
+  .city-listing .container {
+    max-width: 90%;
+  }
+}
 @media screen and (min-width: 1440px) {
   .city-listing {
     min-width: 69.4375rem;
