@@ -1,7 +1,7 @@
 .world-map {
 	.container {
 		@include bp-xxl-up {
-			max-width: 90%;
+			max-width: 80%;
 
 		}
 
@@ -22,7 +22,7 @@
 .city-listing {
 	.container {
 		@include bp-xxl-up {
-			max-width: 90%;
+			max-width: 80%;
 		}
 	}
 	@include bp-xxl-up {

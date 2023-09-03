@@ -4,9 +4,9 @@
 }
 
 .jobs {
-    .container-xxl {
-      @include bp-xxxl-up {
-         max-width: 180rem !important;
+    .container {
+      @include bp-xxl-up {
+         max-width: 80%;
       }
    }
     &-container {

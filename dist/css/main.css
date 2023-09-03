@@ -118,6 +118,11 @@ h4 {
   font-size: 1.2rem;
   line-height: 1.5625rem;
 }
+@media screen and (min-width: 1440px) {
+  .paragraph {
+    font-size: 1.6rem;
+  }
+}
 
 .btn {
   font-family: "Space Mono", monospace;
@@ -156,7 +161,7 @@ a:link {
 }
 @media screen and (min-width: 1440px) {
   .banner .container {
-    max-width: 90%;
+    max-width: 80%;
   }
 }
 
@@ -228,7 +233,7 @@ a:link {
 }
 @media screen and (min-width: 1440px) {
   .cta-container {
-    max-width: 90%;
+    max-width: 80%;
   }
 }
 .cta-container .cta-heading {
@@ -272,7 +277,7 @@ a:link {
 }
 @media screen and (min-width: 1440px) {
   .directions .container {
-    max-width: 90%;
+    max-width: 80%;
   }
 }
 @media screen and (min-width: 768px) {
@@ -323,7 +328,7 @@ Home, About, and Careers section Styles
 }
 @media screen and (min-width: 1440px) {
   .features .container {
-    max-width: 90%;
+    max-width: 80%;
   }
 }
 .features .feature-home--image {
@@ -906,6 +911,11 @@ Home, About, and Careers section Styles
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .values .container {
+    max-width: 80%;
+  }
+}
 .values .container .value .value-image img {
   max-width: 15rem;
 }
@@ -916,6 +926,19 @@ Home, About, and Careers section Styles
   left: 50%;
   top: 32%;
   transform: translate(-50%, 130%);
+}
+@media screen and (min-width: 1440px) {
+  .values .container .value .value-number {
+    width: 7rem;
+    height: 7rem;
+    top: 20%;
+    font-size: 2.2rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .values .container .value-copy .card-title {
+    font-size: 2.4rem;
+  }
 }
 
 .wrapper {
@@ -950,9 +973,9 @@ Home, About, and Careers section Styles
     width: 80%;
   }
 }
-@media screen and (min-width: 1920px) {
-  .faqs .container-xxl {
-    max-width: 180rem !important;
+@media screen and (min-width: 1440px) {
+  .faqs .container {
+    max-width: 80%;
   }
 }
 .faqs .faqs-container {
@@ -1003,9 +1026,9 @@ Home, About, and Careers section Styles
   margin: 6.25rem 0;
 }
 
-@media screen and (min-width: 1920px) {
-  .jobs .container-xxl {
-    max-width: 180rem !important;
+@media screen and (min-width: 1440px) {
+  .jobs .container {
+    max-width: 80%;
   }
 }
 @media screen and (min-width: 1920px) {
@@ -1036,7 +1059,7 @@ Home, About, and Careers section Styles
 
 @media screen and (min-width: 1440px) {
   .world-map .container {
-    max-width: 90%;
+    max-width: 80%;
   }
 }
 .world-map .locations {
@@ -1049,7 +1072,7 @@ Home, About, and Careers section Styles
 
 @media screen and (min-width: 1440px) {
   .city-listing .container {
-    max-width: 90%;
+    max-width: 80%;
   }
 }
 @media screen and (min-width: 1440px) {
