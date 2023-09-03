@@ -1,11 +1,12 @@
 .header {
-	
+
 	nav {
 		height: 4rem;
 		width: 100%;
+
 		@media screen and (max-width: $bp-mobile-start) {
-				//height: 2rem;
-			}
+			//height: 2rem;
+		}
 
 		.container {
 			width: 100%;
@@ -13,13 +14,13 @@
 			@include bp-tablet-up {
 				width: 75%;
 			}
-			
-		
+
+
 			.nav-logo {
 				@media screen and (max-width: $bp-mobile-start) {
 					width: 5.5rem;
 				}
-				
+
 			}
 
 			.navbar-toggler-icon {
@@ -37,7 +38,7 @@
 					background-color: $white;
 				}
 
-				
+
 				.offcanvas-body {
 					.navbar-nav {
 					
@@ -45,15 +46,26 @@
 							color: $nav-link-color;
 						}
 					}
+
+					.button-container {
+						top: 40rem;
+						left: 2.5rem;
+
+						.nav-mobile-btn {
+							width: 19.2rem;
+							height: 5.3rem;
+							
+						}
+					}
 				}
 			}
 
-		
+
 		}
 	}
 }
+
 // Bootstrap Classes 
 .bg-light {
 	background-color: $white !important;
 }
-
