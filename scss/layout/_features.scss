@@ -371,4 +371,10 @@ Home, About, and Careers section Styles
 	width: 18rem;
 	height: 5.3rem;
 	margin-top: 1.6rem;
+
+	@media screen and (max-width: 389px) {
+		width: 15rem;
+	}
+
+
 }
