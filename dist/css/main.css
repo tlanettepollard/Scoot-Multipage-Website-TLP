@@ -734,6 +734,9 @@ Home, About, and Careers section Styles
 .footer-container .social-nav .social-link {
   width: 100%;
 }
+.footer-container .social-nav svg path {
+  fill: #fff;
+}
 .footer .attribution p {
   color: hsl(217, 12%, 62%);
   font-size: 0.625rem;
