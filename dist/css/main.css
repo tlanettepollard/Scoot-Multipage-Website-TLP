@@ -251,7 +251,7 @@ a:link {
 }
 @media screen and (min-width: 1440px) {
   .cta-container .cta-heading {
-    width: 35%;
+    width: 37%;
     margin-left: -1rem;
   }
 }
@@ -706,11 +706,6 @@ Home, About, and Careers section Styles
   height: 2.5rem;
 }
 @media screen and (min-width: 768px) {
-  .footer-container .footer-logo {
-    margin-left: 1rem;
-  }
-}
-@media screen and (min-width: 768px) {
   .footer-container .footer__nav {
     width: 50%;
   }
@@ -829,7 +824,7 @@ Home, About, and Careers section Styles
     letter-spacing: 0.125rem;
     position: absolute !important;
     top: 15%;
-    left: 13%;
+    left: 12%;
   }
 }
 @media screen and (min-width: 1920px) {
@@ -1066,6 +1061,11 @@ Home, About, and Careers section Styles
 }
 .jobs-container .position {
   background-color: hsl(214, 37%, 96%);
+}
+@media screen and (min-width: 768px) {
+  .jobs-container .position-copy {
+    width: 75%;
+  }
 }
 .jobs-container .position-btn {
   width: 15.4375rem;
