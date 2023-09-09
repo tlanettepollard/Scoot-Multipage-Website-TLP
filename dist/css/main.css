@@ -840,7 +840,7 @@ Home, About, and Careers section Styles
 }
 @media screen and (min-width: 1201px) {
   .hero-home .hero-content .lead-container .hero-lead {
-    width: 28rem;
+    width: 50rem;
     left: 15%;
     font-size: 1.2rem;
   }
