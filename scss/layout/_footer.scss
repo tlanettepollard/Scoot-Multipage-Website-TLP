@@ -14,6 +14,7 @@
 		@include bp-tablet-up {
 			height: 6rem;
 		}
+
 		@include bp-xxl-up {
 			width: 80%;
 		}
@@ -27,12 +28,17 @@
 				width: 7.5rem;
 				height: 2.5rem;
 			}
+
+			@include bp-tablet-up {
+				margin-left: 1rem;
+			}
 		}
 
 		.footer__nav {
 			@include bp-tablet-up {
 				width: 50%;
 			}
+
 			.footer__nav-item {
 				.footer__nav-link {
 					color: $footer-nav-links;
@@ -52,7 +58,7 @@
 			}
 		}
 
-	
+
 		.social-nav {
 			width: 7.5rem;
 

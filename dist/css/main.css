@@ -252,6 +252,7 @@ a:link {
 @media screen and (min-width: 1440px) {
   .cta-container .cta-heading {
     width: 35%;
+    margin-left: -1rem;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 480px) {
@@ -665,6 +666,11 @@ Home, About, and Careers section Styles
   height: 5.3rem;
   margin-top: 1.6rem;
 }
+@media screen and (max-width: 389px) {
+  .feature-button {
+    width: 15rem;
+  }
+}
 
 .footer {
   width: 100%;
@@ -698,6 +704,11 @@ Home, About, and Careers section Styles
   border: none;
   width: 7.5rem;
   height: 2.5rem;
+}
+@media screen and (min-width: 768px) {
+  .footer-container .footer-logo {
+    margin-left: 1rem;
+  }
 }
 @media screen and (min-width: 768px) {
   .footer-container .footer__nav {
@@ -841,7 +852,7 @@ Home, About, and Careers section Styles
 }
 @media screen and (min-width: 1440px) {
   .hero-home .hero-content .lead-container .hero-lead {
-    width: 40rem;
+    width: 32rem;
     height: 10rem;
     top: 48%;
     left: 16%;
@@ -865,8 +876,8 @@ Home, About, and Careers section Styles
 }
 @media screen and (min-width: 1440px) {
   .hero-home .hero-content .button-container .hero-button {
-    top: 70%;
-    left: 19%;
+    top: 72%;
+    left: 17%;
   }
 }
 @media screen and (min-width: 1920px) {
@@ -896,11 +907,11 @@ Home, About, and Careers section Styles
     width: 22rem;
     height: 1.2rem;
     top: 55%;
-    left: -1rem;
+    left: -2rem;
   }
 }
 .hero-home .hero-patterns .pattern--arrow {
-  width: 48rem;
+  width: 44rem;
   height: 10rem;
   background-image: url(../../assets/patterns/right-arrow.svg);
   left: -20rem;
@@ -919,7 +930,7 @@ Home, About, and Careers section Styles
 @media screen and (min-width: 1440px) {
   .hero-home .hero-patterns .pattern--arrow {
     top: 54.4615%;
-    left: 60rem;
+    left: 55rem;
   }
 }
 .hero-home .hero-patterns .pattern--whitecircles {

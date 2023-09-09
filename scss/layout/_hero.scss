@@ -61,7 +61,7 @@
 				}
 
 				@include bp-xxl-up {
-					width: 40rem;
+					width: 32rem;
 					height: 10rem;
 					top: 48%;
 					left: 16%;
@@ -88,8 +88,8 @@
 
 				@include bp-xxl-up {
 
-					top: 70%;
-					left: 19%;
+					top: 72%;
+					left: 17%;
 				}
 
 				@include bp-xxxl-up {
@@ -122,13 +122,13 @@
 					width: 22rem;
 					height: 1.2rem;
 					top: 55%;
-					left: -1rem;
+					left: -2rem;
 				}
 
 			}
 
 			&--arrow {
-				width: 48rem;
+				width: 44rem;
 				height: 10rem;
 				background-image: url(../../assets/patterns/right-arrow.svg);
 				left: -20rem;
@@ -145,7 +145,7 @@
 				@include bp-xxl-up {
 					//height: 13.8rem;
 					top: 54.4615%;
-					left: 60rem;
+					left: 55rem;
 				}
 			}
 
