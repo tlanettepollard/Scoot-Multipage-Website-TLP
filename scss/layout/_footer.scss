@@ -62,6 +62,7 @@
 
 			.social-link {
 				width: 100%;
+
 			}
 
 
@@ -80,3 +81,10 @@
 			}
 		}
 	}
+
+	a svg:hover #facebook,
+	a svg:hover #twitter,
+	a svg:hover #instagram {
+		fill: #fff;
+	}
+}
