@@ -812,17 +812,12 @@ Home, About, and Careers section Styles
     background-image: url(../../assets/images/home-hero-desktop.jpg);
   }
 }
-@media screen and (min-width: 1201px) {
-  .hero-home .hero-content .heading-container .hero-heading {
-    width: 35rem;
-  }
-}
 @media screen and (min-width: 1440px) {
   .hero-home .hero-content .heading-container .hero-heading {
     width: 35rem;
     height: 11.2rem;
     letter-spacing: 0.125rem;
-    position: absolute !important;
+    position: absolute;
     top: 20%;
     left: 12%;
   }
@@ -840,7 +835,6 @@ Home, About, and Careers section Styles
 }
 @media screen and (min-width: 1201px) {
   .hero-home .hero-content .lead-container .hero-lead {
-    position: absolute;
     width: 28rem;
     left: 15%;
     font-size: 1.2rem;
@@ -848,6 +842,7 @@ Home, About, and Careers section Styles
 }
 @media screen and (min-width: 1440px) {
   .hero-home .hero-content .lead-container .hero-lead {
+    position: absolute;
     width: 35rem;
     height: 10rem;
     top: 48%;
@@ -859,25 +854,25 @@ Home, About, and Careers section Styles
     font-size: 18px;
   }
 }
-.hero-home .hero-content .button-container .hero-button {
+.hero-home .hero-content .lead-container .button-container .hero-button {
   width: 15rem;
   height: 5.3rem;
 }
-@media screen and (min-width: 1201px) {
-  .hero-home .hero-content .button-container .hero-button {
+@media screen and (min-width: 1440px) {
+  .hero-home .hero-content .lead-container .button-container .hero-button {
     position: absolute;
     top: 60%;
     left: 16%;
   }
 }
 @media screen and (min-width: 1440px) {
-  .hero-home .hero-content .button-container .hero-button {
+  .hero-home .hero-content .lead-container .button-container .hero-button {
     top: 72%;
     left: 17%;
   }
 }
 @media screen and (min-width: 1920px) {
-  .hero-home .hero-content .button-container .hero-button {
+  .hero-home .hero-content .lead-container .button-container .hero-button {
     top: 74%;
   }
 }
@@ -926,9 +921,10 @@ Home, About, and Careers section Styles
 }
 @media screen and (min-width: 1440px) {
   .hero-home .hero-patterns .pattern--arrow {
-    width: 42rem;
-    top: 54.4615%;
-    left: 55rem;
+    width: 44rem;
+    height: 8rem;
+    top: 57%;
+    left: 55%;
   }
 }
 .hero-home .hero-patterns .pattern--whitecircles {
@@ -940,7 +936,9 @@ Home, About, and Careers section Styles
 }
 @media screen and (min-width: 1440px) {
   .hero-home .hero-patterns .pattern--whitecircles {
-    bottom: 6rem;
+    width: 20rem;
+    height: 4rem;
+    bottom: 24%;
   }
 }
 

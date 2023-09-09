@@ -27,14 +27,14 @@
 			.hero-heading {
 
 				@include bp-xl-up {
-					width: 35rem;
+					//width: 35rem;
 				}
 
 				@include bp-xxl-up {
 					width: 35rem;
 					height: 11.2rem;
 					letter-spacing: .125rem;
-					position: absolute !important;
+					position: absolute;
 					top: 20%;
 					left: 12%;
 				}
@@ -55,13 +55,13 @@
 				}
 
 				@include bp-xl-up {
-					position: absolute;
 					width: 28rem;
 					left: 15%;
 					font-size: 1.2rem;
 				}
 
 				@include bp-xxl-up {
+					position: absolute;
 					width: 35rem;
 					height: 10rem;
 					top: 48%;
@@ -74,32 +74,34 @@
 
 			}
 
-		}
+			.button-container {
+				.hero-button {
+					width: 15rem;
+					height: 5.3rem;
 
-		.button-container {
-			.hero-button {
-				width: 15rem;
-				height: 5.3rem;
+					@include bp-xxl-up {
+						position: absolute;
+						top: 60%;
+						left: 16%;
+					}
 
-				@include bp-xl-up {
-					position: absolute;
-					top: 60%;
-					left: 16%;
-				}
+					@include bp-xxl-up {
 
-				@include bp-xxl-up {
+						top: 72%;
+						left: 17%;
+					}
 
-					top: 72%;
-					left: 17%;
-				}
+					@include bp-xxxl-up {
+						top: 74%;
+					}
 
-				@include bp-xxxl-up {
-					top: 74%;
 				}
 
 			}
 
 		}
+
+
 	}
 
 	.hero-patterns {
@@ -145,9 +147,10 @@
 				}
 
 				@include bp-xxl-up {
-					width: 42rem;
-					top: 54.4615%;
-					left: 55rem;
+					width: 44rem;
+					height: 8rem;
+					top: 57%;
+					left: 55%;
 				}
 			}
 
@@ -159,7 +162,9 @@
 				bottom: 2.5rem;
 
 				@include bp-xxl-up {
-					bottom: 6rem;
+					width: 20rem;
+					height: 4rem;
+					bottom: 24%;
 				}
 			}
 		}
