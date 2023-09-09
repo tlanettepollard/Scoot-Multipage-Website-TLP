@@ -18,6 +18,10 @@
 		@include bp-xxl-up {
 			max-width: 80%;
 		}
+
+		.ms-xxl-0 {
+			margin-left: -1rem !important;
+		}
 	}
 
 	.faqs-container {

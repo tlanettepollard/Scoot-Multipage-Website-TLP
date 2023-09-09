@@ -164,6 +164,9 @@ a:link {
     max-width: 80%;
   }
 }
+.banner .container .ms-xxl-0 {
+  margin-left: -1rem !important;
+}
 
 .banner-about {
   background-image: url("../../assets/images/about-hero-mobile.jpg");
@@ -840,7 +843,7 @@ Home, About, and Careers section Styles
 }
 @media screen and (min-width: 1201px) {
   .hero-home .hero-content .lead-container .hero-lead {
-    width: 28rem;
+    width: 50rem;
     left: 15%;
     font-size: 1.2rem;
   }
@@ -1014,6 +1017,9 @@ Home, About, and Careers section Styles
     max-width: 80%;
   }
 }
+.faqs .container .ms-xxl-0 {
+  margin-left: -1rem !important;
+}
 .faqs .faqs-container {
   height: 100%;
 }
@@ -1095,6 +1101,9 @@ Home, About, and Careers section Styles
   .world-map .container {
     max-width: 80%;
   }
+}
+.world-map .container .ms-xxl-0 {
+  margin-left: -1rem !important;
 }
 .world-map .locations {
   height: 28.125rem;
