@@ -29,7 +29,7 @@
 				height: 2.5rem;
 			}
 
-			
+
 		}
 
 		.footer__nav {
@@ -62,18 +62,29 @@
 
 			.social-link {
 				width: 100%;
+
+			}
+
+
+
+
+		}
+
+		.attribution {
+			p {
+				color: $dim-grey;
+				font-size: 0.625rem;
+			}
+
+			p a {
+				color: $dim-grey;
 			}
 		}
 	}
 
-	.attribution {
-		p {
-			color: $dim-grey;
-			font-size: 0.625rem;
-		}
-
-		p a {
-			color: $dim-grey;
-		}
+	a svg:hover #facebook,
+	a svg:hover #twitter,
+	a svg:hover #instagram {
+		fill: #E5ECF4;
 	}
 }

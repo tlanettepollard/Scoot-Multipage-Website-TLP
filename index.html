@@ -69,37 +69,40 @@
 
 		<main class="main main-home">
 			<section class="hero-home container-fluid position-relative">
-				<article class="hero-content text-center text-xl-start container">
+				<article class="hero-content text-center text-xxl-start container mt-xl-5">
 					<div class="d-flex flex-column justify-content-evenly h-100">
 						<div class="heading-container mt-5 pt-3 px-md-5">
 							<h2 class="hero-heading heading-1 text-white">
 								Scooter sharing made simple
 							</h2>
 						</div>
-						<div class="lead-container">
-							<p class="hero-lead paragraph text-white mx-auto px-md-5 px-xl-3">
+						<div
+							class="lead-container d-flex flex-column justify-content-center align-items-center mt-xl-5">
+							<p class="hero-lead paragraph text-white mx-auto mt-md-2 px-xl-3">
 								Scoot takes the hassle out of urban mobility. Our bikes are
 								placed in convenient locations in each of our cities. Use our
 								app to locate the nearest bike, unlock it with a tap, and
 								you’re away!
 							</p>
+							<div class="button-container text-center text-xl-start mt-4">
+								<a class="btn btn-lg d-flex text-white justify-content-center align-items-center hero-button fs-5"
+									type="button">
+									Get Scootin
+								</a>
+							</div>
 						</div>
-						<div class="button-container text-center text-xl-start mt-4">
-							<button class="btn btn-lg btn-primary hero-button fs-5" type="button">
-								Get Scootin
-							</button>
+						<!-- Hero Patterns -->
+						<div class="hero-patterns">
+							<div class="pattern pattern--line position-absolute d-none d-xxl-block">
+							</div>
+							<div class="pattern pattern--arrow position-absolute">
+							</div>
+							<div class="pattern pattern--whitecircles position-absolute d-none d-md-block">
+							</div>
 						</div>
 					</div>
 				</article>
-				<!-- Hero Patterns -->
-				<div class="hero-patterns">
-					<div class="pattern pattern--line position-absolute d-none d-xl-block">
-					</div>
-					<div class="pattern pattern--arrow position-absolute">
-					</div>
-					<div class="pattern pattern--whitecircles position-absolute d-none d-md-block">
-					</div>
-				</div>
+
 			</section><!-- End Hero Section -->
 
 			<section class="section directions container-fluid position-relative">
@@ -235,7 +238,7 @@
 
 			<section class="cta container-fluid position-relative">
 				<div
-					class="cta-container container-fluid d-flex flex-column flex-xl-row justify-content-evenly justify-content-xl-around justify-content-xxl-between align-items-center text-center text-md-center text-xl-start">
+					class="cta-container container-fluid d-flex flex-column flex-xxl-row justify-content-evenly justify-content-xl-around justify-content-xxl-between align-items-center text-center  text-xxl-start">
 					<h2 class="cta-heading heading-2 text-white">
 						Sign Up and Scoot off Today
 					</h2>
@@ -276,18 +279,27 @@
 				<div class="footer-social-navbar">
 					<div class="social-nav d-flex flex-row justify-content-between">
 						<div class="social-link p-2">
-							<a href="https://www.facebook.com">
-								<img src="./assets/icons/facebook.svg" alt="facebook icon" class="social-logo">
+							<a href="https://www.facebook.com" class="social-link--icon">
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+									<path id="facebook" fill="#FCB72B"
+										d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0z" />
+								</svg>
 							</a>
 						</div>
 						<div class="social-link p-2">
 							<a href="https://www.twitter.com">
-								<img src="./assets/icons/twitter.svg" alt="twitter icon" class="social-logo">
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="20">
+									<path id="twitter" fill="#FCB72B"
+										d="M24 2.557a9.83 9.83 0 01-2.828.775A4.932 4.932 0 0023.337.608a9.864 9.864 0 01-3.127 1.195A4.916 4.916 0 0016.616.248c-3.179 0-5.515 2.966-4.797 6.045A13.978 13.978 0 011.671 1.149a4.93 4.93 0 001.523 6.574 4.903 4.903 0 01-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 01-2.224.084 4.928 4.928 0 004.6 3.419A9.9 9.9 0 010 17.54a13.94 13.94 0 007.548 2.212c9.142 0 14.307-7.721 13.995-14.646A10.025 10.025 0 0024 2.557z" />
+								</svg>
 							</a>
 						</div>
 						<div class="social-link p-2">
-							<a href="https://www.facebook.com">
-								<img src="./assets/icons/facebook.svg" alt="facebook icon" class="social-logo">
+							<a href="https://www.instagram.com">
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+									<path id="instagram" fill="#FCB72B"
+										d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+								</svg>
 							</a>
 						</div>
 					</div>

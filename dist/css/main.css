@@ -734,12 +734,17 @@ Home, About, and Careers section Styles
 .footer-container .social-nav .social-link {
   width: 100%;
 }
-.footer .attribution p {
+.footer-container .attribution p {
   color: hsl(217, 12%, 62%);
   font-size: 0.625rem;
 }
-.footer .attribution p a {
+.footer-container .attribution p a {
   color: hsl(217, 12%, 62%);
+}
+.footer a svg:hover #facebook,
+.footer a svg:hover #twitter,
+.footer a svg:hover #instagram {
+  fill: #E5ECF4;
 }
 
 .header nav {
@@ -812,18 +817,13 @@ Home, About, and Careers section Styles
     background-image: url(../../assets/images/home-hero-desktop.jpg);
   }
 }
-@media screen and (min-width: 1201px) {
-  .hero-home .hero-content .heading-container .hero-heading {
-    width: 35rem;
-  }
-}
 @media screen and (min-width: 1440px) {
   .hero-home .hero-content .heading-container .hero-heading {
     width: 35rem;
     height: 11.2rem;
     letter-spacing: 0.125rem;
-    position: absolute !important;
-    top: 15%;
+    position: absolute;
+    top: 20%;
     left: 12%;
   }
 }
@@ -840,14 +840,15 @@ Home, About, and Careers section Styles
 }
 @media screen and (min-width: 1201px) {
   .hero-home .hero-content .lead-container .hero-lead {
-    position: absolute;
     width: 28rem;
     left: 15%;
+    font-size: 1.2rem;
   }
 }
 @media screen and (min-width: 1440px) {
   .hero-home .hero-content .lead-container .hero-lead {
-    width: 32rem;
+    position: absolute;
+    width: 35rem;
     height: 10rem;
     top: 48%;
     left: 16%;
@@ -858,25 +859,25 @@ Home, About, and Careers section Styles
     font-size: 18px;
   }
 }
-.hero-home .hero-content .button-container .hero-button {
+.hero-home .hero-content .lead-container .button-container .hero-button {
   width: 15rem;
   height: 5.3rem;
 }
-@media screen and (min-width: 1201px) {
-  .hero-home .hero-content .button-container .hero-button {
+@media screen and (min-width: 1440px) {
+  .hero-home .hero-content .lead-container .button-container .hero-button {
     position: absolute;
     top: 60%;
     left: 16%;
   }
 }
 @media screen and (min-width: 1440px) {
-  .hero-home .hero-content .button-container .hero-button {
+  .hero-home .hero-content .lead-container .button-container .hero-button {
     top: 72%;
     left: 17%;
   }
 }
 @media screen and (min-width: 1920px) {
-  .hero-home .hero-content .button-container .hero-button {
+  .hero-home .hero-content .lead-container .button-container .hero-button {
     top: 74%;
   }
 }
@@ -911,6 +912,7 @@ Home, About, and Careers section Styles
   background-image: url(../../assets/patterns/right-arrow.svg);
   left: -20rem;
   bottom: 1.6rem;
+  z-index: 2;
 }
 @media screen and (max-width: 319px) {
   .hero-home .hero-patterns .pattern--arrow {
@@ -924,8 +926,10 @@ Home, About, and Careers section Styles
 }
 @media screen and (min-width: 1440px) {
   .hero-home .hero-patterns .pattern--arrow {
-    top: 54.4615%;
-    left: 55rem;
+    width: 44rem;
+    height: 8rem;
+    top: 57%;
+    left: 55%;
   }
 }
 .hero-home .hero-patterns .pattern--whitecircles {
@@ -937,7 +941,9 @@ Home, About, and Careers section Styles
 }
 @media screen and (min-width: 1440px) {
   .hero-home .hero-patterns .pattern--whitecircles {
-    bottom: 6rem;
+    width: 20rem;
+    height: 4rem;
+    bottom: 24%;
   }
 }
 
