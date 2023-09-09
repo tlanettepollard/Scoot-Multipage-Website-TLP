@@ -35,7 +35,7 @@
 					height: 11.2rem;
 					letter-spacing: .125rem;
 					position: absolute !important;
-					top: 15%;
+					top: 20%;
 					left: 12%;
 				}
 
@@ -58,10 +58,11 @@
 					position: absolute;
 					width: 28rem;
 					left: 15%;
+					font-size: 1.2rem;
 				}
 
 				@include bp-xxl-up {
-					width: 32rem;
+					width: 35rem;
 					height: 10rem;
 					top: 48%;
 					left: 16%;
@@ -133,6 +134,7 @@
 				background-image: url(../../assets/patterns/right-arrow.svg);
 				left: -20rem;
 				bottom: 1.6rem;
+				z-index: 2;
 
 				@media screen and (max-width: 319px) {
 					display: none;
@@ -143,7 +145,7 @@
 				}
 
 				@include bp-xxl-up {
-					//height: 13.8rem;
+					width: 42rem;
 					top: 54.4615%;
 					left: 55rem;
 				}

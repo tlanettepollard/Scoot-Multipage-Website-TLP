@@ -823,7 +823,7 @@ Home, About, and Careers section Styles
     height: 11.2rem;
     letter-spacing: 0.125rem;
     position: absolute !important;
-    top: 15%;
+    top: 20%;
     left: 12%;
   }
 }
@@ -843,11 +843,12 @@ Home, About, and Careers section Styles
     position: absolute;
     width: 28rem;
     left: 15%;
+    font-size: 1.2rem;
   }
 }
 @media screen and (min-width: 1440px) {
   .hero-home .hero-content .lead-container .hero-lead {
-    width: 32rem;
+    width: 35rem;
     height: 10rem;
     top: 48%;
     left: 16%;
@@ -911,6 +912,7 @@ Home, About, and Careers section Styles
   background-image: url(../../assets/patterns/right-arrow.svg);
   left: -20rem;
   bottom: 1.6rem;
+  z-index: 2;
 }
 @media screen and (max-width: 319px) {
   .hero-home .hero-patterns .pattern--arrow {
@@ -924,6 +926,7 @@ Home, About, and Careers section Styles
 }
 @media screen and (min-width: 1440px) {
   .hero-home .hero-patterns .pattern--arrow {
+    width: 42rem;
     top: 54.4615%;
     left: 55rem;
   }
