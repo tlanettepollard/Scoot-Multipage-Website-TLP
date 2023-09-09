@@ -28,8 +28,14 @@ Users should be able to:
 - See hover states for all interactive elements throughout the site
 
 ### Screenshot
-
-![](./screenshot.jpg)
+#### Mobile View
+![iPhone XR](./screenshots/iPhone%20XR-1694303370347.jpeg)
+---
+#### Tablet View
+![iPad](./screenshots/iPad-1694303331389.jpeg)
+---
+#### Laptop View
+![Macbook Pro](./screenshots/Macbook%20Pro-1694303357468.jpeg)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
