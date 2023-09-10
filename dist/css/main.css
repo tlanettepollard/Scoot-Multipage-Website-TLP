@@ -234,9 +234,9 @@ a:link {
     width: 90%;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1201px) {
   .cta-container {
-    width: 80%;
+    max-width: 90%;
   }
 }
 .cta-container .cta-heading {
@@ -250,12 +250,18 @@ a:link {
 @media screen and (min-width: 1024px) {
   .cta-container .cta-heading {
     width: 28.5625rem;
+    margin-left: -5rem;
   }
 }
 @media screen and (min-width: 1440px) {
   .cta-container .cta-heading {
     width: 37%;
-    margin-left: -1rem;
+    margin-left: 5rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .cta-container .appstore-icons {
+    margin-right: 5rem;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 480px) {
@@ -1012,7 +1018,7 @@ Home, About, and Careers section Styles
     width: 80%;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1201px) {
   .faqs .container {
     max-width: 80%;
   }
