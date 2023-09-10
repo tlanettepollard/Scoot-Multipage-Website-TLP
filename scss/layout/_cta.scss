@@ -20,8 +20,8 @@
 			width: 90%;
 		}
 
-		@include bp-xxl-up {
-			width: 80%;
+		@include bp-xl-up {
+			max-width: 90%;
 
 		}
 
@@ -37,16 +37,21 @@
 
 			@include bp-desktop-up {
 				width: 28.5625rem;
+				margin-left: -5rem;
 			}
 
 			@include bp-xxl-up {
 				width: 37%;
-				margin-left: -1rem;
+				margin-left: 5rem;
 			}
 
 		}
 
 		.appstore-icons {
+			@include bp-xxl-up {
+				margin-right: 5rem;
+			}
+
 			.store-icon img {
 				@include bp-sm-mobile {
 					width: 95%;
@@ -58,7 +63,7 @@
 
 				@include bp-xxl-up {
 					width: 100%;
-					//margin-left: 2rem;
+
 				}
 			}
 		}

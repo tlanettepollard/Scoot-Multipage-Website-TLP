@@ -15,7 +15,7 @@
 	}
 
 	.container {
-		@include bp-xxl-up {
+		@include bp-xl-up {
 			max-width: 80%;
 		}
 
