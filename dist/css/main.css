@@ -31,6 +31,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  outline: 1px solid black;
 }
 
 html {
@@ -826,7 +827,7 @@ Home, About, and Careers section Styles
     letter-spacing: 0.125rem;
     position: absolute;
     top: 20%;
-    left: 12%;
+    left: 11%;
   }
 }
 @media screen and (min-width: 1920px) {
@@ -1134,12 +1135,12 @@ Home, About, and Careers section Styles
 }
 @media screen and (min-width: 1440px) {
   .city-listing .city-copy .city-heading {
-    width: 21.9375rem;
+    width: 33%;
   }
 }
 @media screen and (min-width: 1440px) {
   .city-listing .city-copy .city-text {
-    width: 27.8125rem;
+    width: 33%;
   }
 }
 .city-listing .city-copy .city-btn {
