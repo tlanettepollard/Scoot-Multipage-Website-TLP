@@ -1113,6 +1113,11 @@ Home, About, and Careers section Styles
   background-color: hsl(39, 100%, 94%);
 }
 
+@media screen and (min-width: 1201px) {
+  .city-listing .container {
+    max-width: 90%;
+  }
+}
 @media screen and (min-width: 1440px) {
   .city-listing .container {
     max-width: 80%;
@@ -1128,17 +1133,17 @@ Home, About, and Careers section Styles
     width: 35.8125rem;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1201px) {
   .city-listing .city-copy {
     width: 100%;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1201px) {
   .city-listing .city-copy .city-heading {
     width: 33%;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1201px) {
   .city-listing .city-copy .city-text {
     width: 33%;
   }
