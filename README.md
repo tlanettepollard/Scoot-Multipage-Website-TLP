@@ -57,41 +57,73 @@ Users should be able to:
 
 ### What I learned
 
-Background elements: I have worked on webpages with background elements and accent images before. I realized that it was better to place them as a background image instead of adding the image within my HTML. I also used percentages instead of 
+Background elements: I have worked on webpages with background elements and accent images before. I realized that it was better to place them as a background image instead of adding the image within my HTML. I also used percentages to help position the images. That kept the images placed consistently across different screen sizes. 
 
 
-To see how you can add code snippets, see below:
+Code Snippet below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+.pattern--leftuparrow1 {
+		background-image: url('../../assets/patterns/left-upward-arrow.svg');
+		background-size: contain;
+		background-repeat: no-repeat;
+		width: 48rem;
+		height: 10rem;
+		left: 5%;
+		bottom: 15%;
+		z-index: 2;
+
+		@include bp-tablet-up {
+			left: -24%;
+		}
+
+		@include bp-desktop-up {
+			width: 60rem;
+			height: 12rem;
+			bottom: 8%;
+			left: -30%;
+		}
+
+	}
+
+  .pattern--rightwarrow1 {
+		background-image: url('../../assets/patterns/right-arrow.svg');
+		background-size: contain;
+		background-repeat: no-repeat;
+		width: 46rem;
+		height: 10rem;
+		top: 3%;
+		left: -36%;
+		z-index: 2;
+
+		@include bp-tablet-up {
+			top: 5%;
+			left: -55%;
+		}
+
+		@include bp-desktop-up {
+			width: 60rem;
+			height: 12rem;
+			top: 0%;
+			left: -75%;
+		}
+	}
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+My goal is to continue to improve my coding skills with HTML, CSS, and JS. 
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [5 Steps to Implement Maintainable and Scalable Sass Theming in Complex Projects](https://medium.com/javascript-in-plain-english/5-steps-to-implement-maintainable-and-scalable-sass-theming-in-complex-projects-76bb6da0a8e6) - This was a very good article about how to organize your folder structure for Sass.
+- [How to Use Floating Elements to Improve Your Web Design](https://adwebstudiouae015.medium.com/how-to-use-floating-elements-to-improve-your-web-design-2393d1d4fd66)
+- [Creating Accordion with Javascript](https://medium.com/@vikash20186/creating-accordion-with-javascript-a33743655474)
+- [How to change color of SVG](https://qawithexperts.com/article/html/how-to-change-color-of-svg-various-ways-using-css/414)
+- [Change arrow Color in Bootstrap](https://stackoverflow.com/questions/66335238/changing-the-color-arrow-in-bootstrap)
+- [How to change the accordion's color?](https://github.com/twbs/bootstrap/discussions/37229)
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
@@ -102,6 +134,5 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+- [Simon Hernandez](https://github.com/simonhernandez/scootMultiPage): I like how he structured his HTML code.
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
