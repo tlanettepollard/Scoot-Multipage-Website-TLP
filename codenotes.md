@@ -101,7 +101,8 @@ Hi. I feel like I've lost my way with this project. I feel as if I need to start
 
 Resources:
 
-- Down Arrow Icon, <a href="https://www.flaticon.com/free-icons/arrow" title="arrow icons">Arrow icons created by th studio - Flaticon</a> -[Creating Accordion with Javascript](https://medium.com/@vikash20186/creating-accordion-with-javascript-a33743655474)
+- Down Arrow Icon, <a href="https://www.flaticon.com/free-icons/arrow" title="arrow icons">Arrow icons created by th studio - Flaticon</a> 
+-[Creating Accordion with Javascript](https://medium.com/@vikash20186/creating-accordion-with-javascript-a33743655474)
 
 ### 08/18/2022
 
@@ -179,7 +180,8 @@ Hi, I'm back. I worked on the Careers page features section. I can't understand 
 
 Hi, I'm back. I have been working on Scoot. I just haven't been writing my notes. Today I got stuck on how to change my Bootstrap accordion's default active text color. After searching (Thank you Google), I found the answer. It was more simple than I thought it was. I thought it would be more complicated based on reading the Bootstrap documents on their site. Glad that Google had a more simple fix. I got a reminder of how to use the Bootstrap Sass variables to change the color.
 
-Resources: -[How to change the accordion's color?](https://github.com/twbs/bootstrap/discussions/37229)
+Resources: 
+-[How to change the accordion's color?](https://github.com/twbs/bootstrap/discussions/37229)
 
 ### 08/05/2023
 Hi, I'm really back. I've been working at school and on other projects. Today I decided to start recoding from the beginning again because I didn't let Bootstrap5 do the work that it needed to do. I'm saving to GitHub but not merging the commits. I need to understand the calc() feature. I used it on the CTA background pattern after seeing it on Simon Hernandez's repository. 
