@@ -181,12 +181,11 @@ Hi, I'm back. I have been working on Scoot. I just haven't been writing my notes
 
 Resources: -[How to change the accordion's color?](https://github.com/twbs/bootstrap/discussions/37229)
 
-### 08/04/2023
+### 08/05/2023
+Hi, I'm really back. I've been working at school and on other projects. Today I decided to start recoding from the beginning again because I didn't let Bootstrap5 do the work that it needed to do. I'm saving to GitHub but not merging the commits. I need to understand the calc() feature. I used it on the CTA background pattern after seeing it on Simon Hernandez's repository. 
 
+### 08/19/2023
+Hi. I was working on a tutorial for a Bootstrap web page. I'm back now. The last time I was here, I realized that it was better to put the accent pictures as backgrounds with absolute position. Once I position them they move better on the screen. I ended up redesigning the Directions section because I wasn't letting flexbox and max-width work for me. 
 
-
-
-----
--space-s: 12rem;
---space-m: 16rem;
---space-l: 20rem;
+### 09/06/2023
+Hi. I’ve finished the page and went through validation. I just need to write the README and look over it again. 
