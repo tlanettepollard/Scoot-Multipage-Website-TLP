@@ -57,8 +57,8 @@ Users should be able to:
 
 ### What I learned
 
-Background elements:
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Background elements: I have worked on webpages with background elements and accent images before. I realized that it was better to place them as a background image instead of adding the image within my HTML. I also used percentages instead of 
+
 
 To see how you can add code snippets, see below:
 
